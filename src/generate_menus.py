@@ -51,7 +51,7 @@ DATA_DIR = REPO_ROOT / 'data'
 DIST_DIR = REPO_ROOT / 'dist'
 DIST_DIR.mkdir(exist_ok=True)
 
-RECORD_LEN = 58    # 57 data chars + CR
+RECORD_LEN = 55    # 54 data chars + CR; year stored as year-1984 (0-8)
 PAGE_SIZE = 19     # entries per page
 
 # Data file names on ProDOS (must not conflict with BASIC program names BY.YEAR, BY.NAME, BY.TOPIC)
@@ -476,7 +476,7 @@ def make_record(year, prodos_name, display_name, flags, pc, L=RECORD_LEN):
     FLAGS: 0=basic,1=basic+instr,2=binary,3=binary+instr,4=standalone pic
     PC: 0=no pic, 1=one pic (LEFT$(PN$,11)+".PIC"), 2+=multi-pic
     """
-    data = f"{year},{prodos_name},{display_name},{flags},{pc},"
+    data = f"{year - 1983},{prodos_name},{display_name},{flags},{pc},"
     if len(data) > L - 1:
         raise ValueError(f"Record too long ({len(data)} > {L-1}): {data!r}")
     # Pad to L-1 chars, then add CR
@@ -810,7 +810,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2040, 'IF FL(SN)<>1 AND FL(SN)<>3 THEN GOTO 2200'))
     L.append((2050, 'REM SHOW INLINE INSTRUCTIONS'))
     L.append((2060, 'IT$=LEFT$(PN$(SN),13)+".T"'))
-    L.append((2080, 'IT$="Y"+STR$(YR(SN))+"/"+IT$'))
+    L.append((2080, 'IT$="Y"+STR$(YR(SN)+1983)+"/"+IT$'))
     L.append((2090, 'PRINT D$"OPEN ";IT$'))
     L.append((2100, 'PRINT D$"READ ";IT$'))
     L.append((2110, 'ONERR GOTO 2180'))
@@ -846,7 +846,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
 
     # Run program
     L.append((2300, 'REM RUN PROGRAM'))
-    L.append((2310, 'PY$="Y"+STR$(YR(SN))+"/"+PN$(SN)'))
+    L.append((2310, 'PY$="Y"+STR$(YR(SN)+1983)+"/"+PN$(SN)'))
     L.append((2320, 'IF FL(SN)=2 OR FL(SN)=3 THEN PRINT D$"BRUN ";PY$: END'))
     L.append((2330, 'PRINT D$"RUN ";PY$: END'))
 
@@ -857,7 +857,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2410, 'IF FL(SN)=4 THEN T$=PN$(SN): GOTO 2430'))
     L.append((2415, 'IF NP=1 THEN T$=LEFT$(PN$(SN),11)+".PIC": GOTO 2430'))
     L.append((2420, 'T$=LEFT$(PN$(SN),11)+".P"+STR$(PI)'))
-    L.append((2430, 'PY$="Y"+STR$(YR(SN))+"/"+T$'))
+    L.append((2430, 'PY$="Y"+STR$(YR(SN)+1983)+"/"+T$'))
     L.append((2440, 'PRINT D$"BLOAD ";PY$;",A$4000"'))
     L.append((2450, 'HGR2'))
     L.append((2460, 'GET K$'))
