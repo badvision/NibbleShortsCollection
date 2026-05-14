@@ -202,9 +202,9 @@
     "original_name": "CIRCULAR RIPPLES.PIC",
     "prodos_name": "CIRCULAR.2",
     "year": 1984,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Circular Ripples Pic: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -415,9 +415,9 @@
     "original_name": "PATTERN GENERATOR.PIC",
     "prodos_name": "PATTERN.2",
     "year": 1984,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Pattern Generator Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -439,9 +439,9 @@
     "original_name": "PATTERN GENERATOR .7.PIC",
     "prodos_name": "PATTERN.4",
     "year": 1984,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Pattern Generator 7 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -538,8 +538,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Amper Hex Converter Instr: Teddy Pan",
     "graphics_mode": "TEXT.MODE"
@@ -586,10 +585,9 @@
     "original_name": "DRAGON 7.PIC",
     "prodos_name": "DRAGON.7.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "GAMES",
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Dragon 7 Pic: interactive game program for Apple II",
     "graphics_mode": "HI.RES"
@@ -613,8 +611,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT"
+      "DOCS"
     ],
     "description": "Expression Evaluator Instr: IT SOLVES ANY EXPRESSION TYPED IN; TRY:",
     "graphics_mode": "TEXT.MODE"
@@ -1026,9 +1023,9 @@
     "original_name": "HAT.PIC",
     "prodos_name": "HAT.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Hat Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -1052,9 +1049,9 @@
     "original_name": "ROLLING X.PIC",
     "prodos_name": "ROLLING.X.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Rolling X Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -1105,9 +1102,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Notepad Instructions: Michael Decker",
     "graphics_mode": "TEXT.MODE"
@@ -1189,9 +1184,9 @@
     "original_name": "BUMP.PIC",
     "prodos_name": "BUMP.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Bump Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -1328,8 +1323,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Blackjack Instructions: a fully functioning Blackjack game",
     "graphics_mode": "TEXT.MODE"
@@ -1391,9 +1385,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Screen Editor Instructions: Ripples",
     "graphics_mode": "TEXT.MODE"
@@ -1417,8 +1409,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Whoop Instructions: Nibble Races Ahead",
     "graphics_mode": "TEXT.MODE"
@@ -1478,9 +1469,9 @@
     "original_name": "RIPPLES.PIC",
     "prodos_name": "RIPPLES.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Ripples Pic: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -1638,8 +1629,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Home Delete Instructions: Daniel Spielman",
     "graphics_mode": "TEXT.MODE"
@@ -1959,9 +1949,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "EDUCATION",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Wallpaper Instructions: Alternate Patterns Kevin Ediger",
     "graphics_mode": "TEXT.MODE"
@@ -2010,9 +1998,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "EDUCATION",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Hex Dump Instructions: Alternate Patterns Kevin Ediger",
     "graphics_mode": "TEXT.MODE"
@@ -2120,9 +2106,9 @@
     "original_name": "MANDELBROT.PIC",
     "prodos_name": "MANDELBROT.PIC",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Mandelbrot Pic: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -2134,8 +2120,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "ANIMATION"
+      "DOCS"
     ],
     "description": "Mandelbrot Instructions: THE IMAGE IS A REPRESENTATION OF THE    MANDELBROT SET OF COMPLEX NUMBERS.  YOU CAN MAGNIFY PORTIONS OF THE IMAGE TO    REVEAL MORE DETAIL BY ADJUSTING THE     LOOPS.  TRY DECREASING THE INCREMENTS",
     "graphics_mode": "TEXT.MODE"
@@ -2172,8 +2157,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Sketch Pad Instructions: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
     "graphics_mode": "TEXT.MODE"
@@ -2222,8 +2206,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Loan Calculator Instructions: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
     "graphics_mode": "TEXT.MODE"
@@ -2247,8 +2230,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Auto Number Instructions: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
     "graphics_mode": "TEXT.MODE"
@@ -2309,9 +2291,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "GAMES"
+      "DOCS"
     ],
     "description": "Dec-Hex Instructions: Maze Generator Patrick Shea",
     "graphics_mode": "TEXT.MODE"
@@ -2333,9 +2313,9 @@
     "original_name": "HARMONICS 199.PIC",
     "prodos_name": "HARMONICS.199",
     "year": 1985,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Harmonics 199 Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -2347,8 +2327,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Harmonics Instructions: ACCORDING TO FOURIER'S THEORY, ANY SOUNDCAN BE DUPLICATED BY ADDING THE RIGHT   HARMONICS OF SINE WAVES TOGETHER.",
     "graphics_mode": "TEXT.MODE"
@@ -2619,8 +2598,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Maze Instructions: THE 'MAZE' GAMES REQUIRE YOU TO NAVIGATEAROUND THE HI-RES SCREEN WITH THE       JOYSTICK AND AVOID ALL THE OBSTACLES.",
     "graphics_mode": "TEXT.MODE"
@@ -2860,9 +2838,9 @@
     "original_name": "TRIANGLES.PIC",
     "prodos_name": "TRIANGLES.PIC",
     "year": 1986,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Triangles Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -2888,9 +2866,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Snake Instructions: USE THE LEFT AND RIGHT ARROW KEYS TO    CONTROL THE SNAKE.",
     "graphics_mode": "TEXT.MODE"
@@ -2954,8 +2930,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Keyboard Organ Instructions: lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
     "graphics_mode": "TEXT.MODE"
@@ -2992,8 +2967,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Lower To Upper Instructions: lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
     "graphics_mode": "TEXT.MODE"
@@ -3043,8 +3017,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Dos Prodos Catalog Instr: Conway's Game of Life Gene Masse",
     "graphics_mode": "TEXT.MODE"
@@ -3168,8 +3141,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Halley'S Comet Instructions: Base Converter Eric Holmen",
     "graphics_mode": "TEXT.MODE"
@@ -3193,8 +3165,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "ANIMATION"
+      "DOCS"
     ],
     "description": "Bowtie Drawer Instructions: USE THE JOYSTICK TO DRAW BOWTIES OF     DIFFERENT SHAPES.  USE BUTTON 0 TO      CHANGE COLORS AND BUTTON 1 TO CLEAR THE SCREEN.",
     "graphics_mode": "TEXT.MODE"
@@ -3390,9 +3361,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Print Shop Hgr Converter Instr: THIS UTILITY LOADS A PRINT SHOP GRAPHIC FILE (OR COMPATIBLE FORMAT FILE),       CONVERTS IT, AND DISPLAYS IT ON HI-RES  PAGE 1.",
     "graphics_mode": "TEXT.MODE"
@@ -3417,8 +3386,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT"
+      "DOCS"
     ],
     "description": "Character Designer Instr: THIS IS A TWO-LINE HI-RES CHARACTER     GENERATOR PROGRAM.  THE CURSOR STARTS INTHE UPPER-LEFT CORNER OF A 7x8 MATRIX.  IF YOU WANT THE DOT FILLED, PRESS 'F';  ANY OTHER KEY ADVANCES THE CURSOR TO THE",
     "graphics_mode": "TEXT.MODE"
@@ -3568,8 +3536,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DOCS",
-      "MATH"
+      "DOCS"
     ],
     "description": "Checkbook Instructions: ENTER YOUR STARTING CHECKING ACCOUNT    BALANCE FIRST.  THEN ENTER THE NUMBER OFCHECKS YOU HAVE WRITTEN, FOLLOWED BY THEAMOUNT OF EACH ONE.  (IF NONE, ENTER 1  FOR THE NUMBER AND 0 FOR THE AMOUNT.)",
     "graphics_mode": "TEXT.MODE"
@@ -3604,9 +3571,9 @@
     "original_name": "SATURN.PIC",
     "prodos_name": "SATURN.PIC",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Saturn Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -3667,9 +3634,9 @@
     "original_name": "DIAMOND.PIC",
     "prodos_name": "DIAMOND.PIC",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Diamond Pic: hi-res graphics picture file",
     "graphics_mode": "HI.RES"
@@ -3766,8 +3733,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Hi-Res Reverse Instructions: TO REVERSE THE COLORS OF A HI-RES       DISPLAY, 'BLOAD HI-RES REVERSE' AND THENDO 'CALL 781' TO REVERSE PAGE 1 OR      'CALL 768' TO REVERSE PAGE 2.",
     "graphics_mode": "TEXT.MODE"
@@ -3791,8 +3757,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Morse Code Instructions: 'BRUN MORSE CODE' AND TYPE IN A         CHARACTER.  THE MORSE CODE EQUIVALENT   FOR THAT CHARACTER WILL BE HEARD.",
     "graphics_mode": "TEXT.MODE"
@@ -3968,9 +3933,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Mouse Finder Instructions: 'MOUSE FINDER' DOES A SLOT SEARCH FOR   AN APPLEMOUSE II CARD.  IT WILL ALSO    LOCATE IIc AND IIGS MICE.  IF A MOUSE   IS PRESENT, THE SLOT NUMBER IS",
     "graphics_mode": "TEXT.MODE"
@@ -4030,9 +3993,9 @@
     "original_name": "THREE-D DRAPE.PIC",
     "prodos_name": "THREE.D.DRAPE.2",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Three D Drape Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4157,8 +4120,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Munch Instructions: USE THE A, Z, LEFT ARROW, AND RIGHT     ARROW KEYS TO MOVE.  EAT AS MANY DOTS ASYOU CAN IN EACH OF FIVE LEVELS.  YOU    PROGRESS TO THE NEXT LEVEL AFTER YOU    GET EATEN -- IF YOU CLEAR A LEVEL, RUN",
     "graphics_mode": "TEXT.MODE"
@@ -4182,8 +4144,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Var Swap Instructions: 'VAR SWAP' SWAPS THE CONTENTS OF TWO    DIFFERENT VARIABLES.  THE VARIABLES MAY EVEN BE ARRAY ELEMENTS, ALTHOUGH MIXING TYPES WILL CAUSE UNPREDICTABLE RESULTS.",
     "graphics_mode": "TEXT.MODE"
@@ -4209,8 +4170,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Ml To Data Instructions: 'ML TO DATA' CONVERTS DATA IN MEMORY TO APPLESOFT DATA STATEMENTS.  IN RESPONSE TO THE PROMPT, ENTER THE STARTING       ADDRESS (IN DECIMAL), THE ENDING        ADDRESS, THE STARTING APPLESOFT LINE",
     "graphics_mode": "TEXT.MODE"
@@ -4329,9 +4289,9 @@
     "original_name": "THREE-D PLOT 1.PIC",
     "prodos_name": "THREE.D.PLOT..2",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Three D Plot 1 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4353,9 +4313,9 @@
     "original_name": "THREE-D PLOT 2.PIC",
     "prodos_name": "THREE.D.PLOT..3",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Three D Plot 2 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4377,9 +4337,9 @@
     "original_name": "THREE-D PLOT 3.PIC",
     "prodos_name": "THREE.D.PLOT..4",
     "year": 1987,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Three D Plot 3 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4405,10 +4365,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "MATH",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Grapher Instructions: 'GRAPHER' GRAPHS THE TWO-DIMENSIONAL    MATHEMATICAL FUNCTION DEFINED IN LINE   10.  WHEN YOU RUN THE PROGRAM, INPUT THELENGTHS OF THE X- AND Y-AXES.  (500,2 ISGOOD FOR THE DEFAULT FUNCTION.)",
     "graphics_mode": "TEXT.MODE"
@@ -4446,8 +4403,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Apple.Mac.Instr: AFTER 'BRUN APPLE.MACROS', THE FOLLOWINGKEYBOARD SHORTCUTS WILL BECOME ACTIVE:",
     "graphics_mode": "TEXT.MODE"
@@ -4569,8 +4525,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Yes No Instructions: 'YES NO' GETS A YES OR NO RESPONSE FROM THE USER, ACCEPTING Y, y, N, OR n AND   IGNORING ALL OTHER KEYS EXCEPT RETURN,  WHICH ACCEPTS THE DEFAULT RESPONSE.",
     "graphics_mode": "TEXT.MODE"
@@ -4595,8 +4550,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES"
+      "DOCS"
     ],
     "description": "Hanoi Towers Instructions: AT THE PROMPT, ENTER a,b WHERE a IS THE TOWER TO MOVE A DISK FROM, AND b IS THE TOWER TO MOVE A DISK TO.",
     "graphics_mode": "TEXT.MODE"
@@ -4672,9 +4626,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Puzzle Instructions: 'PUZZLE' IS A VERSION OF THE CLASSIC    SLIDER PUZZLE.",
     "graphics_mode": "TEXT.MODE"
@@ -4699,9 +4651,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Quick Keys Instructions: AFTER 'BRUN QUICK KEYS', THE FOLLOWING  SHORTCUTS BECOME ACTIVE:",
     "graphics_mode": "TEXT.MODE"
@@ -4728,9 +4678,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Tab Converter Instructions: ENTER SCREEN COORDINATES, AS YOU WOULD  FOR HTAB AND VTAB COMMANDS.  THEN, YOU  WILL BE SHOWN THE MEMORY ADDRESS        CORRESPONDING TO THAT SCREEN LOCATION.",
     "graphics_mode": "TEXT.MODE"
@@ -4782,9 +4730,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Catalog Memo Instructions: 'CATALOG MEMO' SAVES A PERSONAL MEMO    WITHIN THE DOS 3.3 CATALOG.  USE A      FILE SYSTEM UTILITY, LIKE COPY II PLUS, TO DELETE THE MEMOS. [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -4809,10 +4755,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Superfinder Instructions: 'SUPERFINDER' FINDS ALL OCCURRENCES OF APARTICULAR BYTE VALUE WITHIN A SPECIFIEDMEMORY RANGE.",
     "graphics_mode": "TEXT.MODE"
@@ -4836,8 +4779,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "MATH"
+      "DOCS"
     ],
     "description": "F Format Instructions: 'F FORMAT' IS A BASIC SUBROUTINE THAT   DISPLAYS A FLOATING POINT NUMBER        ACCORDING TO A SPECIFIED FORMAT.",
     "graphics_mode": "TEXT.MODE"
@@ -4875,9 +4817,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Print Shop Invert Instr: 'PRINT SHOP INVERT' LOADS A PRINT SHOP  GRAPHIC, INVERTS IT, AND SAVES IT WITH  THE SUFFIX '.REV' APPENDED.",
     "graphics_mode": "TEXT.MODE"
@@ -4902,9 +4842,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Alphasort Instructions: 'ALPHASORT' IS A TWO-LINE BUBBLE SORT   IMPLEMENTATION.  ENTER THE NUMBER OF    ITEMS TO SORT, THEN A 0 TO SEND THE     OUTPUT TO THE SCREEN OR A 1 TO SEND IT  TO THE PRINTER.  THEN ENTER THE VALUES  TO SORT.",
     "graphics_mode": "TEXT.MODE"
@@ -4930,10 +4868,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Bars Instructions: LOAD A PICTURE ON HI-RES PAGE 1 BEFORE  RUNNING.",
     "graphics_mode": "TEXT.MODE"
@@ -5043,9 +4978,9 @@
     "original_name": "MANDELBROT 2.PIC",
     "prodos_name": "MANDELBROT.2.2",
     "year": 1988,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Mandelbrot 2 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5069,8 +5004,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Mini-Breakout Instructions: CLEAR THE SCREEN BEFORE STARTING.",
     "graphics_mode": "TEXT.MODE"
@@ -5096,8 +5030,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Maze Instructions: USE THE JOYSTICK TO MOVE THE SQUARE TO  THE LOWER-RIGHT CORNER OF THE SCREEN    WITHOUT BUMPING INTO THE WALLS OR ANY   OF THE OBSTACLES.",
     "graphics_mode": "TEXT.MODE"
@@ -5121,8 +5054,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES"
+      "DOCS"
     ],
     "description": "Roter Instructions: 'ROTER' DISPLAYS A ROTATING THREE       DIMENSIONAL FIGURE.",
     "graphics_mode": "TEXT.MODE"
@@ -5159,8 +5091,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Dos Lower Case Instructions: RAM",
     "graphics_mode": "TEXT.MODE"
@@ -5299,9 +5230,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Free.Space.Inst: NOTE: THE FOR LOOP IN LINE 10 MUST GO   HIGHER THAN THE NUMBER OF FILES IN THE  CURRENT SUBDIRECTORY FOR THIS PROGRAM TOWORK.",
     "graphics_mode": "TEXT.MODE"
@@ -5337,8 +5266,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Ram.Extend.Inst: 'RAM.EXTEND.B', WHEN RUN, WILL CREATE   A FILE CALLED 'RAM.EXTEND'.  BRUN THIS  FILE TO MODIFY /RAM SO IT CAN HOLD 51   FILES IN ITS VOLUME DIRECTORY INSTEAD",
     "graphics_mode": "TEXT.MODE"
@@ -5362,8 +5290,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Listvols.Instr: 'LISTVOLS' WILL SEARCH EACH MOUNTED     DRIVE FOR A PRODOS VOLUME NAME.",
     "graphics_mode": "TEXT.MODE"
@@ -5388,9 +5315,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Big Apple Instructions: 'BIG APPLE' DRAWS THE SKYLINE OF NEW    YORK CITY, COMPLETE WITH SKYSCRAPERS,   CLOUDS, STARS, TRAFFIC, AND HUDSON BAY. IF YOU LOOK CLOSELY, YOU WILL EVEN SEE  A POLICE CAR RUSHING OFF TO AN",
     "graphics_mode": "TEXT.MODE"
@@ -5414,9 +5339,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "GRAPHICS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Wipe Instructions: LOAD AN IMAGE ON HI-RES PAGE 2, THEN    VIEW HI-RES PAGE 1.  'BRUN WIPE', OR    BLOAD IT FIRST AND 'CALL 768'.  THE     CONTENTS OF PAGE 2 WILL BE DISPLAYED ON PAGE 1 WITH A LEFT-TO-RIGHT WIPE.",
     "graphics_mode": "TEXT.MODE"
@@ -5441,10 +5364,9 @@
     "original_name": "DIFFRACTION.PIC",
     "prodos_name": "DIFFRACTION.PIC",
     "year": 1989,
-    "best": true,
+    "best": false,
     "topics": [
-      "MATH",
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Diffraction Pic: math and calculation program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5508,10 +5430,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT",
-      "GRAPHICS",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Unjumbler Instructions: AT THE PROMPT, ENTER A STRING UP TO 9   CHARACTERS IN LENGTH.  ALL PERMUTATIONS OF THE STRING WILL BE DISPLAYED.",
     "graphics_mode": "TEXT.MODE"
@@ -5722,9 +5641,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "SCIENCE"
+      "DOCS"
     ],
     "description": "Chaos Instructions: ENTER THREE TRIANGLE VERTICES, IN THE   RANGE OF (0,0) TO (279,159).  THEN ENTERSTARTING COORDINATES FOR A TRAVELLER.",
     "graphics_mode": "TEXT.MODE"
@@ -5776,9 +5693,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Printshop Viewer Instructions: BLOAD A PRINTSHOP GRAPHIC AT $5800, THEN'RUN PRINTSHOP VIEWER' TO GET A NORMAL  AND INVERSE VIEW OF THE GRAPHIC ON THE  HI-RES SCREEN.",
     "graphics_mode": "TEXT.MODE"
@@ -5804,9 +5719,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Micro Tv Instructions: PRESS THE NUMBERS 1-8 TO CHANGE THE     CHANNEL.  THE PROGRAM SCHEDULE IS AS    FOLLOWS:",
     "graphics_mode": "TEXT.MODE"
@@ -5885,9 +5798,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Return Address Instructions: 'RETURN ADDRESS' PRINTS OUT RETURN      ADDRESS LABELS.  THE PRINTER CODES ARE  FOR THE IMAGEWRITER PRINTER.  FOR OTHER PRINTERS, CHANGE U$ TO THE CODES FOR    ULTRA-CONDENSED TYPE AND S$ TO THE CODES",
     "graphics_mode": "TEXT.MODE"
@@ -5913,9 +5824,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "SIMULATION",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Get Plus Instructions: 'GET PLUS' IS AN ALTERNATIVE TO THE     APPLESOFT 'GET' COMMAND.  IT DISPLAYS   ANIMATED SYMBOLS WHILE WAITING FOR      INPUT.",
     "graphics_mode": "TEXT.MODE"
@@ -5939,8 +5848,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Quick Cat Instructions: 'BRUN QUICK CAT' TO CAUSE BOTH THE      'CATALOG' AND '&' COMMANDS TO DISPLAY A CATALOG CONTAINING ONLY THE DISK VOLUME AND FILENAMES. [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6088,8 +5996,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Procom.Instr: AT THE PROMPT, ENTER ONE OF:",
     "graphics_mode": "TEXT.MODE"
@@ -6151,9 +6058,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Awp.Reader.Inst: 'AWP.READER' WILL DISPLAY A LIST OF ALL THE APPLEWORKS WORD PROCESSOR FILES ON  THE CURRENT DISK.  AFTERWARDS, YOU MAY  ENTER THE NAME OF ONE AND VIEW IT ON    THE SCREEN.",
     "graphics_mode": "TEXT.MODE"
@@ -6179,9 +6084,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Cat.Dater.Instr: 'RUN CAT.DATER' TO MODIFY PRODOS SO THATTHE CURRENT DATE AND TIME WILL APPEAR TOTHE RIGHT OF THE VOLUME NAME WHEN A     'CAT' OR 'CATALOG' COMMAND IS ISSUED.",
     "graphics_mode": "TEXT.MODE"
@@ -6205,8 +6108,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Type.Ahead.Inst: 'BRUN TYPE.AHEAD' TO EXPAND THE KEYBOARDINPUT BUFFER FROM ONE CHARACTER TO 32   CHARACTERS.  A SOUND WILL PLAY IF A     CHARACTER IS TYPED WHEN THE KEYBOARD    BUFFER IS FULL.",
     "graphics_mode": "TEXT.MODE"
@@ -6257,9 +6159,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Pyramid Instructions: watch slaves create the Great Pyramid",
     "graphics_mode": "TEXT.MODE"
@@ -6283,9 +6183,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Negascreen Instructions: watch slaves create the Great Pyramid",
     "graphics_mode": "TEXT.MODE"
@@ -6469,8 +6367,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT"
+      "DOCS"
     ],
     "description": "Marquee Instructions: AT THE PROMPT, EITHER THE NUMBER OF TEXTLINES TO DISPLAY (1-10).  THEN YOU WILL BE PROMPTED FOR EACH LINE OF TEXT, WHICHSHOULD BE NOT MORE THAN 37 CHARACTERS   LONG.",
     "graphics_mode": "TEXT.MODE"
@@ -6494,8 +6391,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Memory Peeker Instructions: 'MEMORY PEEKER' LETS YOU VIEW SECTIONS  OF THE APPLE'S MEMORY.  ENTER STARTING  AND ENDING ADDRESSES (IN DECIMAL!) AND  THEN HIT A KEY TO VIEW EACH SUCCESSIVE  BYTE IN BOTH DECIMAL AND HEXADECIMAL.",
     "graphics_mode": "TEXT.MODE"
@@ -6532,8 +6428,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Run Instructions: merge two hi-res screens into a Double Hi-Res screen",
     "graphics_mode": "TEXT.MODE"
@@ -6558,8 +6453,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Strike Instructions: merge two hi-res screens into a Double Hi-Res screen",
     "graphics_mode": "TEXT.MODE"
@@ -6584,9 +6478,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "TEXT",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Apple Sign Instructions: ENTER THREE LINES OF TEXT, EACH OF      WHICH CAN BE UP TO 38 CHARACTERS IN     LENGTH.",
     "graphics_mode": "TEXT.MODE"
@@ -6611,8 +6503,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Snowflakes Instructions: PRESS THE NUMBERS 1-9 DURING THE DISPLAYTO ALTER THE SNOWFLAKE PATTERNS THAT    GET GENERATED.",
     "graphics_mode": "TEXT.MODE"
@@ -6674,10 +6565,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "GRAPHICS",
-      "DEMOS"
+      "DOCS"
     ],
     "description": "Melbourne Oz Instructions: 'MELBOURNE OZ' GRAPHICALLY DISPLAYS THE ACTIVITY IN MELBOURNE IN ITS BID TO HOSTTHE 1996 OLYMPIC GAMES.  WATCH AS THE   NEW CONSTRUCTION TAKES PLACE AND ATHETESTRAIN, BOTH DAY AND NIGHT.",
     "graphics_mode": "TEXT.MODE"
@@ -6700,10 +6588,9 @@
     "original_name": "MISSILE HEAD 1.PIC",
     "prodos_name": "MISSILE.HEAD..2",
     "year": 1990,
-    "best": true,
+    "best": false,
     "topics": [
-      "GAMES",
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Missile Head 1 Pic: interactive game program for Apple II [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6726,10 +6613,9 @@
     "original_name": "MISSILE HEAD 2.PIC",
     "prodos_name": "MISSILE.HEAD..3",
     "year": 1990,
-    "best": true,
+    "best": false,
     "topics": [
-      "GAMES",
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Missile Head 2 Pic: interactive game program for Apple II [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6782,8 +6668,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Mini-Paint Instructions: MINI-PAINT ALLOWS YOU TO DRAW ON THE    HI-RES SCREEN.  USE THE I-J-K-M KEYS TO MOVE.  'P' TOGGLES WHETHER THE PEN IS UPOR DOWN.  USE THE 0-7 KEYS TO CHANGE THECOLOR.  PRESS 'Q' TO QUIT.",
     "graphics_mode": "TEXT.MODE"
@@ -6807,8 +6692,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Basic Fix It Instructions: resurrect Applesoft program",
     "graphics_mode": "TEXT.MODE"
@@ -6832,8 +6716,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "ANIMATION"
+      "DOCS"
     ],
     "description": "Iigs Effect Maker Instr: 'EFFECT MAKER' IS A SUPER HI-RES        GRAPHICS DEMO.  IT REQUIRES AN          APPLE IIGS MACHINE AND HAS NO EFFECT ON OTHER APPLE II SYSTEMS.",
     "graphics_mode": "TEXT.MODE"
@@ -6870,8 +6753,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Lightbar Instructions: 'LIGHTBAR' IS MENU ROUTINE THAT MAY BE  ADAPTED AS A SUBROUTINE IN LARGER       PROGRAMS.  TO USE THE PROGRAM AS-IS,    ENTER THE NUMBER OF MENU ITEMS, THEN",
     "graphics_mode": "TEXT.MODE"
@@ -6896,8 +6778,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Surround Instructions: 'SURROUND' IS A GAME YOU CAN PLAY       AGAINST THE APPLE.  YOU EACH SPEED      AROUND THE LO-RES GRAPHICS SCREEN, THE  APPLE STARTING ON THE LEFT AND YOU      STARTING ON THE RIGHT.  THE OBJECT IS",
     "graphics_mode": "TEXT.MODE"
@@ -6945,9 +6826,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Apple.Out.Instr: direct output to the print with the OA-key find free space on disk",
     "graphics_mode": "TEXT.MODE"
@@ -6983,9 +6862,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Blocks.Instr: direct output to the print with the OA-key find free space on disk",
     "graphics_mode": "TEXT.MODE"
@@ -7010,8 +6887,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Hr.Merge.Instr: merge two hi-res screens into a Double Hi-Res screen",
     "graphics_mode": "TEXT.MODE"
@@ -7035,8 +6911,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Boot.Slot.Instr: EXECUTE BOOT SLOT BY SELECTING IT FROM  THE IIGS FINDER OR BY A '- BOOT.SLOT'   COMMAND.  PRESS AND HOLD DOWN THE KEY   THAT CORRESPONDS WITH THE SLOT NUMBER   TO BOOT.  WHEN IT STARTS BOOTING, YOU   MAY RELEASE THE KEY.",
     "graphics_mode": "TEXT.MODE"
@@ -7060,8 +6935,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Basic.Copy.Inst: copy disks",
     "graphics_mode": "TEXT.MODE"
@@ -7160,10 +7034,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "DEMOS",
-      "UTILITIES",
-      "GRAPHICS"
+      "DOCS"
     ],
     "description": "Shrinker Instructions: letters tumble down send text screen to printer generates shrunken hi-res version of a lo-res drawing",
     "graphics_mode": "TEXT.MODE"
@@ -7236,8 +7107,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Iigs Color Instructions: travel through space back out of a subdirectory change background, border, and text color on GS",
     "graphics_mode": "TEXT.MODE"
@@ -7360,9 +7230,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Oh Fudge Instructions: that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
     "graphics_mode": "TEXT.MODE"
@@ -7399,9 +7267,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Ml String Instructions: that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
     "graphics_mode": "TEXT.MODE"
@@ -7426,8 +7292,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Addresser Instructions: printer return address labels custom text screen borders a tribute to the Patriot missle system",
     "graphics_mode": "TEXT.MODE"
@@ -7475,9 +7340,9 @@
     "original_name": "FRACTALS 1.PIC",
     "prodos_name": "FRACTALS.1.PIC",
     "year": 1991,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Fractals 1 Pic: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -7499,9 +7364,9 @@
     "original_name": "FRACTALS 2.PIC",
     "prodos_name": "FRACTALS.2.PIC",
     "year": 1991,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Fractals 2 Pic: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -7601,8 +7466,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Aux Copy Instructions: machine language routine to access the auxiliary bank of memory",
     "graphics_mode": "TEXT.MODE"
@@ -7628,9 +7492,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "ANIMATION",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Hi Wheeler Instructions: depicts a man riding an old-fashioned bicycle",
     "graphics_mode": "TEXT.MODE"
@@ -7707,9 +7569,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Back.Instr: travel through space back out of a subdirectory change background, border, and text color on GS",
     "graphics_mode": "TEXT.MODE"
@@ -7855,8 +7715,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Binary Convert Instructions: fill your screen with rotating colors convert binary numbers into decimal",
     "graphics_mode": "TEXT.MODE"
@@ -7894,8 +7753,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "DOCS",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Inside Dos Instructions: display RWTS call (DOS 3.3) information",
     "graphics_mode": "TEXT.MODE"
@@ -7921,9 +7779,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "DOCS",
-      "GAMES",
-      "UTILITIES"
+      "DOCS"
     ],
     "description": "Snake Instructions: USE THE A-Z-,-. KEYS TO MOVE.",
     "graphics_mode": "TEXT.MODE"
@@ -7981,9 +7837,9 @@
     "original_name": "MANDELBROT 3.PIC",
     "prodos_name": "MANDELBROT.3.2",
     "year": 1992,
-    "best": true,
+    "best": false,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Mandelbrot 3 Pic: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -8009,9 +7865,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "DOCS",
-      "ANIMATION",
-      "MATH"
+      "DOCS"
     ],
     "description": "Julia Fractals Instructions: develops fractal images based on the iteration of the X -> X^2 + C",
     "graphics_mode": "TEXT.MODE"
