@@ -80,10 +80,10 @@ def safe_filename(name: str) -> str:
 # ─── Task 1: Create 2MB ProDOS Image ─────────────────────────────────────────
 
 def create_image() -> None:
-    print("Creating 2MB ProDOS image…")
+    print("Creating 800KB ProDOS image…")
     if OUTPUT_IMAGE.exists():
         OUTPUT_IMAGE.unlink()
-    rc, _, err = run([CP2, "create-disk-image", str(OUTPUT_IMAGE), "2mb", "prodos"])
+    rc, _, err = run([CP2, "create-disk-image", str(OUTPUT_IMAGE), "800kb", "prodos"])
     if rc != 0 or not OUTPUT_IMAGE.exists():
         print(f"  cp2 create-disk-image failed: {err}")
         print("  Falling back to AppleCommander pro800…")
@@ -99,17 +99,15 @@ def create_image() -> None:
 
 def copy_system_files() -> None:
     print("Copying PRODOS and BASIC.SYSTEM from base image…")
-    for fname, addr in [("PRODOS", "0x0000"), ("BASIC.SYSTEM", "0x2000")]:
-        tmp = Path(f"/tmp/{fname.replace('.', '_')}_nibble")
-        rc, data, err = ac("-g", str(BASE_DISK), fname)
-        if rc != 0 or not data:
-            sys.exit(f"FATAL: Cannot extract {fname} from base disk: {err}")
-        tmp.write_bytes(data)
-        rc2, _, err2 = ac("-p", str(OUTPUT_IMAGE), fname, "SYS", addr,
-                          stdin_bytes=data)
-        if rc2 != 0:
-            sys.exit(f"FATAL: Cannot write {fname} to image: {err2}")
-        print(f"  Wrote {fname} ({len(data):,} bytes)")
+    # Use cp2 copy to preserve exact binary content — AppleCommander -p corrupts
+    # the first $200 bytes of SYS files (zeros them out), breaking ProDOS boot.
+    rc, _, err = run([CP2, "copy", str(BASE_DISK), "PRODOS", "BASIC.SYSTEM",
+                      str(OUTPUT_IMAGE)])
+    if rc != 0:
+        sys.exit(f"FATAL: Cannot copy system files: {err}")
+    for fname in ["PRODOS", "BASIC.SYSTEM"]:
+        rc2, data, err2 = ac("-g", str(OUTPUT_IMAGE), fname)
+        print(f"  Copied {fname} ({len(data):,} bytes)")
 
 
 # ─── Task 3: Build Load-Address Lookup ───────────────────────────────────────
@@ -211,6 +209,15 @@ def populate_programs(
         if not prog.get("best", True):
             skipped += 1
             continue
+
+        # Skip DOCS BASIC files — they're instruction text converted to .T files.
+        # DOCS BIN files (pics) are still needed for BLOAD by the parent program.
+        topics = prog.get("topics", [])
+        if topics and topics[0] == "DOCS":
+            file_type_check = get_file_type(disk_key, orig_name, manifest_by_disk)
+            if file_type_check == "A":
+                skipped += 1
+                continue
 
         src = find_source_file(disk_key, orig_name)
         if src is None:
