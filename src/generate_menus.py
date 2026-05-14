@@ -6,7 +6,7 @@ Nibble One & Two Liners disk image.
 Produces:
   STARTUP.bas   -- 1-liner boot chain (unchanged)
   MENU.bas      -- main selector (static, unchanged)
-  BY.NAME       -- fixed-record text data file, records x 88 bytes
+  BY.NAME       -- fixed-record text data file, records x 56 bytes
   BY.YEAR       -- fixed-record text data file, sorted by year then name
   BY.TOPIC      -- fixed-record text data file, sorted by topic then name
   BY.YEAR.bas   -- compact ~100-line BASIC shell (reads BY.YEAR data file)
@@ -14,10 +14,13 @@ Produces:
   BY.TOPIC.bas  -- compact ~100-line BASIC shell (reads BY.TOPIC data file)
   {PRODOS_NAME}.T -- instruction text files (one per program with instructions)
 
-Record format (L=88, fixed-length, Apple II CR-terminated):
-  YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,INSTR_NAME,PIC_NAME,{padding}\r
-  Exactly 88 bytes: 87 chars + CR ($0D)
-  Max field lengths: 4+1+15+1+30+1+1+1+15+1+15 = 85 chars + 2 padding + CR = 88
+Record format (L=56, fixed-length, Apple II CR-terminated):
+  YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,{padding}\r
+  Exactly 56 bytes: 55 chars + CR ($0D)
+  Max field lengths: 4+1+15+1+30+1+2 = 54 chars + 1 padding + CR = 56
+  BASIC derives filenames:
+    Instruction text: LEFT$(PN$(SN), 13) + ".T"
+    Picture:          LEFT$(PN$(SN), 11) + ".PIC"
 
 FLAGS encoding:
   0  = BASIC, no instructions
@@ -46,7 +49,7 @@ DATA_DIR = REPO_ROOT / 'data'
 DIST_DIR = REPO_ROOT / 'dist'
 DIST_DIR.mkdir(exist_ok=True)
 
-RECORD_LEN = 88    # 87 data chars + CR
+RECORD_LEN = 56    # 55 data chars + CR
 PAGE_SIZE = 19     # entries per page
 
 # Data file names on ProDOS (must not conflict with BASIC program names BY.YEAR, BY.NAME, BY.TOPIC)
@@ -208,8 +211,6 @@ for p in non_docs_entries:
     ftype, fsize = file_type_lookup.get((p['disk_key'], p['original_name']), ('A', 0))
     is_picture = (ftype == 'B' and fsize >= PICTURE_SIZE_MIN)
     flags = 0
-    instr_name = ''
-    pic_name = ''
     ikey = (p['disk_key'], p['prodos_name'])
 
     if is_picture:
@@ -228,22 +229,18 @@ for p in non_docs_entries:
         display_name = p['original_name'].upper()
         if ikey in has_instructions:
             flags |= 1
-            instr_name = txt_name_for(p['prodos_name'])
         if ftype == 'B':
             flags |= 2
         # Check if this program has a linked picture
         parent_key = (p['disk_key'], p['original_name'])
         if parent_key in parent_orig_to_pic:
             flags += 8
-            pic_name = parent_orig_to_pic[parent_key]
 
     programs.append({
         'year': p['year'],
         'prodos_name': p['prodos_name'],
         'display_name': display_name,
         'flags': flags,
-        'instr_name': instr_name,
-        'pic_name': pic_name,
         'topic': p['topics'][0],
     })
 
@@ -395,15 +392,16 @@ if txt_files_empty:
 # Fixed-record file generation
 # ---------------------------------------------------------------------------
 
-def make_record(year, prodos_name, display_name, flags, instr_name, pic_name='', L=RECORD_LEN):
+def make_record(year, prodos_name, display_name, flags, L=RECORD_LEN):
     """
     Build a fixed-length record:
-      YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,INSTR_NAME,PIC_NAME,{padding}\r
+      YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,{padding}\r
     Total = L bytes exactly (L-1 chars + CR).
-    The trailing comma + padding field ensures PIC_NAME has no trailing spaces
+    The trailing comma + padding ensures FLAGS has no trailing spaces
     when read by Applesoft INPUT (INPUT stops at comma, padding never read).
+    BASIC derives filenames: .T = LEFT$(PN$,13)+".T", .PIC = LEFT$(PN$,11)+".PIC"
     """
-    data = f"{year},{prodos_name},{display_name},{flags},{instr_name},{pic_name},"
+    data = f"{year},{prodos_name},{display_name},{flags},"
     if len(data) > L - 1:
         raise ValueError(f"Record too long ({len(data)} > {L-1}): {data!r}")
     # Pad to L-1 chars, then add CR
@@ -419,7 +417,7 @@ def write_data_file(path, records_bytes):
             f.write(rec)
     total = len(records_bytes)
     size = os.path.getsize(path)
-    print(f"Wrote {path} ({total} records, {size} bytes, {size // RECORD_LEN} x {RECORD_LEN} = L{RECORD_LEN})")
+    print(f"Wrote {path} ({total} records, {size} bytes, {size // RECORD_LEN} x {RECORD_LEN} bytes/rec = L{RECORD_LEN})")
     assert size == total * RECORD_LEN, f"Size mismatch: {size} != {total * RECORD_LEN}"
 
 
@@ -432,8 +430,7 @@ by_name_sorted = sorted(programs, key=lambda p: p['display_name'])
 by_name_records = []
 for p in by_name_sorted:
     by_name_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['instr_name'],
-        p.get('pic_name', '')
+        p['year'], p['prodos_name'], p['display_name'], p['flags']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_NAME), by_name_records)
@@ -459,8 +456,7 @@ for i, p in enumerate(by_year_sorted):
 by_year_records = []
 for p in by_year_sorted:
     by_year_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['instr_name'],
-        p.get('pic_name', '')
+        p['year'], p['prodos_name'], p['display_name'], p['flags']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_YEAR), by_year_records)
@@ -490,8 +486,7 @@ for i, p in enumerate(by_topic_sorted):
 by_topic_records = []
 for p in by_topic_sorted:
     by_topic_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['instr_name'],
-        p.get('pic_name', '')
+        p['year'], p['prodos_name'], p['display_name'], p['flags']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_TOPIC), by_topic_records)
@@ -606,13 +601,10 @@ write_bas(str(DIST_DIR / 'MENU.bas'), menu_lines)
 #   RY    = year of selected item
 #   PN$   = prodos name of selected item
 #   FL    = flags of selected item
-#   IN$   = instr name of selected item
 #   DN$   = display name (used in run dialog)
+#   IT$   = derived instruction text filename (LEFT$(PN$(SN),13)+".T")
 #
-# The browse loop stores page items as scalars:
-#   RY1..RY18, PN1$..PN18$, FL1..FL18, IN1$..IN18$, DN1$..DN18$
-# (Applesoft doesn't allow arrays indexed by expression easily in GET context,
-#  but we use arrays DIM'd to 18 and index with SN.)
+# The browse loop stores page items as arrays DIM'd to PAGE_SIZE and indexed with SN.
 #
 # Structure:
 #   10-199:   init + section picker
@@ -646,9 +638,9 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
       PN$(1..19) = prodos_name for each page item
       DN$(1..19) = display_name for each page item
       FL(1..19)  = flags for each page item
-      IN$(1..19) = instr_name for each page item
-      PC$(1..19) = pic_name for each page item
       HV         = 1 if selected item has linked picture, else 0
+      IT$        = derived instruction text filename (LEFT$(PN$(SN),13)+".T")
+      PY$        = full ProDOS path for run/picture (built at use time)
 
     Flags checked in BASIC (no bitwise AND in Applesoft):
       Has instructions: FL=1 OR FL=3 OR FL=9 OR FL=11
@@ -669,7 +661,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
 
     # 500-599: init -- dim arrays, fall into page display (file opened per page)
     L.append((500, 'D$=CHR$(4)'))
-    L.append((510, f'DIM YR({PAGE_SIZE}),PN$({PAGE_SIZE}),DN$({PAGE_SIZE}),FL({PAGE_SIZE}),IN$({PAGE_SIZE}),PC$({PAGE_SIZE})'))
+    L.append((510, f'DIM YR({PAGE_SIZE}),PN$({PAGE_SIZE}),DN$({PAGE_SIZE}),FL({PAGE_SIZE})'))
     L.append((520, 'GOTO 1000'))
 
     # 1000-1299: open file, seek to page, read records, close file
@@ -680,7 +672,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((1030, 'ONERR GOTO 1200'))
     L.append((1040, 'NC=0'))
     L.append((1050, f'FOR I=1 TO {PAGE_SIZE}'))
-    L.append((1060, '  INPUT YR(I),PN$(I),DN$(I),FL(I),IN$(I),PC$(I)'))
+    L.append((1060, '  INPUT YR(I),PN$(I),DN$(I),FL(I)'))
     L.append((1070, '  IF YR(I)=0 THEN I=99: GOTO 1090'))
     L.append((1080, '  NC=NC+1'))
     L.append((1090, 'NEXT I'))
@@ -737,9 +729,8 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     # Inline instruction display for FL=1,3,9,11
     L.append((2040, 'IF FL(SN)<>1 AND FL(SN)<>3 AND FL(SN)<>9 AND FL(SN)<>11 THEN GOTO 2200'))
     L.append((2050, 'REM SHOW INLINE INSTRUCTIONS'))
-    L.append((2060, 'T$=IN$(SN)'))
-    L.append((2070, 'IF RIGHT$(T$,1)=" " THEN T$=LEFT$(T$,LEN(T$)-1): GOTO 2070'))
-    L.append((2080, 'IT$="Y"+STR$(YR(SN))+"/"+T$'))
+    L.append((2060, 'IT$=LEFT$(PN$(SN),13)+".T"'))
+    L.append((2080, 'IT$="Y"+STR$(YR(SN))+"/"+IT$'))
     L.append((2090, 'PRINT D$"OPEN ";IT$'))
     L.append((2100, 'PRINT D$"READ ";IT$'))
     L.append((2110, 'ONERR GOTO 2180'))
@@ -779,10 +770,10 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2320, 'IF FL(SN)=2 OR FL(SN)=3 OR FL(SN)=10 OR FL(SN)=11 THEN PRINT D$"BRUN ";PY$: END'))
     L.append((2330, 'PRINT D$"RUN ";PY$: END'))
 
-    # Picture viewer: get filename (PC$ for linked, PN$ for standalone), BLOAD, HGR2
+    # Picture viewer: for standalone (FL=4) use PN$, for linked (FL=8/9/10/11) derive from PN$
     L.append((2400, 'REM VIEW PICTURE'))
-    L.append((2410, 'T$=PC$(SN): IF FL(SN)=4 THEN T$=PN$(SN)'))
-    L.append((2420, 'IF RIGHT$(T$,1)=" " THEN T$=LEFT$(T$,LEN(T$)-1): GOTO 2420'))
+    L.append((2410, 'IF FL(SN)=4 THEN T$=PN$(SN): GOTO 2430'))
+    L.append((2420, 'T$=LEFT$(PN$(SN),11)+".PIC"'))
     L.append((2430, 'PY$="Y"+STR$(YR(SN))+"/"+T$'))
     L.append((2440, 'PRINT D$"BLOAD ";PY$;",A$4000"'))
     L.append((2450, 'HGR2'))
