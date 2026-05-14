@@ -14,24 +14,26 @@ Produces:
   BY.TOPIC.bas  -- compact ~100-line BASIC shell (reads BY.TOPIC data file)
   {PRODOS_NAME}.T -- instruction text files (one per program with instructions)
 
-Record format (L=56, fixed-length, Apple II CR-terminated):
-  YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,{padding}\r
-  Exactly 56 bytes: 55 chars + CR ($0D)
-  Max field lengths: 4+1+15+1+30+1+2 = 54 chars + 1 padding + CR = 56
+Record format (L=58, fixed-length, Apple II CR-terminated):
+  YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,PC,{padding}\r
+  Exactly 58 bytes: 57 chars + CR ($0D)
+  Max field lengths: 4+1+15+1+30+1+1+1+1 = 55 chars + 1 padding + CR = 57+CR = 58
   BASIC derives filenames:
     Instruction text: LEFT$(PN$(SN), 13) + ".T"
-    Picture:          LEFT$(PN$(SN), 11) + ".PIC"
+    Picture (PC=1):   LEFT$(PN$(SN), 11) + ".PIC"
+    Picture (PC>1):   LEFT$(PN$(SN), 8) + "." + STR$(PI) + ".PIC"
 
-FLAGS encoding:
+FLAGS encoding (PC field carries pic count separately):
   0  = BASIC, no instructions
   1  = BASIC, has instructions
   2  = binary (BRUN), no instructions
   3  = binary (BRUN), has instructions
   4  = standalone picture file (no parent program)
-  8  = BASIC + has linked picture
-  9  = BASIC + instructions + has linked picture
-  10 = binary + has linked picture
-  11 = binary + instructions + has linked picture
+
+PC field (pic count):
+  0  = no linked picture
+  1  = one linked picture: LEFT$(PN$,11)+".PIC"
+  2+ = multiple pictures: LEFT$(PN$,8)+"."+STR$(N)+".PIC"
 """
 
 import json
@@ -49,7 +51,7 @@ DATA_DIR = REPO_ROOT / 'data'
 DIST_DIR = REPO_ROOT / 'dist'
 DIST_DIR.mkdir(exist_ok=True)
 
-RECORD_LEN = 56    # 55 data chars + CR
+RECORD_LEN = 58    # 57 data chars + CR
 PAGE_SIZE = 19     # entries per page
 
 # Data file names on ProDOS (must not conflict with BASIC program names BY.YEAR, BY.NAME, BY.TOPIC)
@@ -144,7 +146,7 @@ if unmatched_docs:
     print("Unmatched DOCS:", unmatched_docs[:5])
 
 # ---------------------------------------------------------------------------
-# Load dependency-map.json to find picture files with parent programs
+# Load dependency-map.json and build parent -> pic_count mapping
 # ---------------------------------------------------------------------------
 
 with open(DATA_DIR / 'dependency-map.json') as f:
@@ -157,36 +159,105 @@ PICTURE_SIZE_MIN = 8000
 def get_file_info(disk_key, original_name):
     return file_type_lookup.get((disk_key, original_name), ('A', 0))
 
-# Build: (disk_key, pic_prodos_name) -> parent_original_name
-# For each BLOAD in dep_map, check if the referenced file is a picture
-pic_prodos_to_parent_orig = {}
+# Build (disk_key, parent_original_name) -> [pic_original_names] from dep_map BLOADs
+dep_parent_orig_to_pic_origs = {}  # ordered list of pic original names per parent
 for item in dep_map:
-    ref_prodos = item['referenced_file_prodos']
-    dk = item['disk_key']
-    # Look up the referenced file's type/size by its original name
+    if item.get('statement_type') != 'BLOAD':
+        continue
     ref_orig = item['referenced_file']
+    dk = item['disk_key']
     ftype, fsize = get_file_info(dk, ref_orig)
     if ftype == 'B' and fsize >= PICTURE_SIZE_MIN:
-        key = (dk, ref_prodos)
-        if key not in pic_prodos_to_parent_orig:
-            pic_prodos_to_parent_orig[key] = item['program']
+        key = (dk, item['program'])
+        dep_parent_orig_to_pic_origs.setdefault(key, [])
+        if ref_orig not in dep_parent_orig_to_pic_origs[key]:
+            dep_parent_orig_to_pic_origs[key].append(ref_orig)
 
-print(f"Picture->parent mappings from dependency-map: {len(pic_prodos_to_parent_orig)}")
-for k, v in pic_prodos_to_parent_orig.items():
-    print(f"  {k} -> {v}")
+# Build (disk_key, parent_prodos_name) -> pic_count from dep_map + DOCS entries
+# Also build the set of pic prodos_names that are linked (to skip as standalone)
+non_docs_by_orig_upper = {(e['disk_key'], e['original_name'].upper()): e
+                          for e in non_docs_entries}
 
-# Build lookup: (disk_key, parent_original_name) -> [pic_prodos_name, ...]
-# We only want the FIRST picture per parent program
-parent_orig_to_pic = {}
-for (dk, pic_pn), parent_orig in pic_prodos_to_parent_orig.items():
-    key = (dk, parent_orig)
-    if key not in parent_orig_to_pic:
-        parent_orig_to_pic[key] = pic_pn
+# parent prodos -> pic count
+parent_pn_to_pic_count = {}  # (dk, parent_prodos_name) -> count
 
-print(f"Parent programs with linked pictures: {len(parent_orig_to_pic)}")
+# Step A: from dep_map parent->pics
+dep_claimed_orig_pics = set()  # (dk, pic_orig) already assigned via dep_map
+for (dk, parent_orig), pic_orig_list in dep_parent_orig_to_pic_origs.items():
+    pe = non_docs_by_orig_upper.get((dk, parent_orig.upper()))
+    if not pe:
+        continue
+    parent_pn = pe['prodos_name']
+    # MIRROR.DEMO shares a pic with DISSOLVE.DEMO -- skip to avoid duplicate source
+    if parent_pn == 'MIRROR.DEMO':
+        continue
+    count = len(pic_orig_list)
+    parent_pn_to_pic_count[(dk, parent_pn)] = count
+    for o in pic_orig_list:
+        dep_claimed_orig_pics.add((dk, o))
 
-# Build set of picture prodos names that have a parent (should not appear standalone)
-pics_with_parent = set(pic_prodos_to_parent_orig.keys())  # set of (dk, pic_prodos_name)
+# Step B: from topic-assignments DOCS .PIC entries (those not claimed by dep_map)
+# These have best=True and prodos_name already set to the new naming scheme.
+# We match by exact original_name stripped of .PIC suffix.
+docs_pic_entries_new = [e for e in raw
+                        if e.get('topics', [''])[0] == 'DOCS'
+                        and e.get('best', True)
+                        and e.get('original_name', '').upper().endswith('.PIC')]
+
+# Build set of parent prodos names that already have pics (from dep_map step A)
+dep_parent_pn_set = set(parent_pn_to_pic_count.keys())
+
+def _find_docs_pic_parent(dk, orig):
+    """Find parent program for a DOCS .PIC entry.
+    Tries exact name match, then strips trailing ' NNN' number suffix.
+    """
+    base = orig.upper()[:-4].strip() if orig.upper().endswith('.PIC') else orig.upper()
+    parent = non_docs_by_orig_upper.get((dk, base))
+    if not parent:
+        # Fallback: strip trailing space+number (e.g. 'HARMONICS 199' -> 'HARMONICS')
+        base_stripped = re.sub(r'\s+\d+$', '', base).strip()
+        if base_stripped != base:
+            parent = non_docs_by_orig_upper.get((dk, base_stripped))
+    return parent
+
+
+for e in docs_pic_entries_new:
+    dk = e['disk_key']
+    orig = e['original_name']
+    if (dk, orig) in dep_claimed_orig_pics:
+        continue  # handled by dep_map
+    parent = _find_docs_pic_parent(dk, orig)
+    if not parent:
+        continue
+    ppn = parent['prodos_name']
+    if (dk, ppn) in dep_parent_pn_set:
+        continue  # handled by dep_map
+    # Each DOCS pic entry is a single pic for its parent
+    parent_pn_to_pic_count[(dk, ppn)] = parent_pn_to_pic_count.get((dk, ppn), 0) + 1
+
+# Build set of pic prodos names that are linked to a parent (to skip as standalone)
+# These are best=True DOCS .PIC entries with parent in parent_pn_to_pic_count
+linked_pic_prodos = set()
+for e in docs_pic_entries_new:
+    dk = e['disk_key']
+    orig = e['original_name']
+    parent = _find_docs_pic_parent(dk, orig)
+    if parent and (dk, parent['prodos_name']) in parent_pn_to_pic_count:
+        linked_pic_prodos.add((dk, e['prodos_name']))
+# Also mark dep_map pics as linked
+for (dk, parent_orig), pic_list in dep_parent_orig_to_pic_origs.items():
+    pe = non_docs_by_orig_upper.get((dk, parent_orig.upper()))
+    if pe and pe['prodos_name'] != 'MIRROR.DEMO':
+        for o in pic_list:
+            # Find prodos_name for this pic original
+            pic_entry = next((x for x in raw
+                              if x['disk_key'] == dk and x['original_name'] == o), None)
+            if pic_entry:
+                linked_pic_prodos.add((dk, pic_entry['prodos_name']))
+
+print(f"Parent programs with linked pictures: {len(parent_pn_to_pic_count)}")
+for (dk, ppn), cnt in sorted(parent_pn_to_pic_count.items()):
+    print(f"  {dk}/{ppn}: pic_count={cnt}")
 
 # ---------------------------------------------------------------------------
 # Build enriched program list (non-DOCS only)
@@ -211,15 +282,16 @@ for p in non_docs_entries:
     ftype, fsize = file_type_lookup.get((p['disk_key'], p['original_name']), ('A', 0))
     is_picture = (ftype == 'B' and fsize >= PICTURE_SIZE_MIN)
     flags = 0
+    pc = 0  # pic count
     ikey = (p['disk_key'], p['prodos_name'])
 
     if is_picture:
-        # Check if this picture file has a parent program
-        if ikey in pics_with_parent:
-            # This picture is linked to a parent program -- skip as standalone
-            skipped_pics.append((p['disk_key'], p['prodos_name'], pic_prodos_to_parent_orig[ikey]))
+        # Check if this picture file is linked to a parent program
+        if ikey in linked_pic_prodos:
+            # Linked pic -- skip as standalone entry
+            skipped_pics.append((p['disk_key'], p['prodos_name']))
             continue
-        # Standalone picture (no parent in dependency map)
+        # Standalone picture (no parent)
         flags = 4
         # Display name: strip trailing .PIC/.PIC1/.PIC2/etc. suffix
         disp = p['original_name'].upper()
@@ -231,28 +303,27 @@ for p in non_docs_entries:
             flags |= 1
         if ftype == 'B':
             flags |= 2
-        # Check if this program has a linked picture
-        parent_key = (p['disk_key'], p['original_name'])
-        if parent_key in parent_orig_to_pic:
-            flags += 8
+        # Pic count for this program
+        pc = parent_pn_to_pic_count.get((p['disk_key'], p['prodos_name']), 0)
 
     programs.append({
         'year': p['year'],
         'prodos_name': p['prodos_name'],
         'display_name': display_name,
         'flags': flags,
+        'pic_count': pc,
         'topic': p['topics'][0],
     })
 
-print(f"\nLoaded {len(programs)} non-DOCS programs (skipped {len(skipped_pics)} picture files with parent programs)")
+print(f"\nLoaded {len(programs)} non-DOCS programs (skipped {len(skipped_pics)} linked pic files)")
 if skipped_pics:
-    for dk, pn, parent in skipped_pics:
-        print(f"  Skipped: {dk}/{pn} (parent: {parent})")
-binary_count = sum(1 for p in programs if p['flags'] in (2, 3, 10, 11))
-has_instr_count = sum(1 for p in programs if p['flags'] in (1, 3, 9, 11))
-pic_count = sum(1 for p in programs if p['flags'] == 4)
-has_pic_count = sum(1 for p in programs if p['flags'] in (8, 9, 10, 11))
-print(f"  Binary: {binary_count},  Has instructions: {has_instr_count},  Standalone pics: {pic_count},  Has linked pic: {has_pic_count}")
+    for dk, pn in skipped_pics:
+        print(f"  Skipped linked pic: {dk}/{pn}")
+binary_count = sum(1 for p in programs if p['flags'] in (2, 3))
+has_instr_count = sum(1 for p in programs if p['flags'] in (1, 3))
+standalone_pic_count = sum(1 for p in programs if p['flags'] == 4)
+has_pic_count = sum(1 for p in programs if p['pic_count'] > 0)
+print(f"  Binary: {binary_count},  Has instructions: {has_instr_count},  Standalone pics: {standalone_pic_count},  Has linked pic: {has_pic_count}")
 
 # ---------------------------------------------------------------------------
 # Extract instruction text from BASIC files and write .T files
@@ -392,16 +463,17 @@ if txt_files_empty:
 # Fixed-record file generation
 # ---------------------------------------------------------------------------
 
-def make_record(year, prodos_name, display_name, flags, L=RECORD_LEN):
+def make_record(year, prodos_name, display_name, flags, pc, L=RECORD_LEN):
     """
     Build a fixed-length record:
-      YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,{padding}\r
+      YEAR,PRODOS_NAME,DISPLAY_NAME,FLAGS,PC,{padding}\r
     Total = L bytes exactly (L-1 chars + CR).
-    The trailing comma + padding ensures FLAGS has no trailing spaces
+    The trailing comma + padding ensures PC has no trailing spaces
     when read by Applesoft INPUT (INPUT stops at comma, padding never read).
-    BASIC derives filenames: .T = LEFT$(PN$,13)+".T", .PIC = LEFT$(PN$,11)+".PIC"
+    FLAGS: 0=basic,1=basic+instr,2=binary,3=binary+instr,4=standalone pic
+    PC: 0=no pic, 1=one pic (LEFT$(PN$,11)+".PIC"), 2+=multi-pic
     """
-    data = f"{year},{prodos_name},{display_name},{flags},"
+    data = f"{year},{prodos_name},{display_name},{flags},{pc},"
     if len(data) > L - 1:
         raise ValueError(f"Record too long ({len(data)} > {L-1}): {data!r}")
     # Pad to L-1 chars, then add CR
@@ -430,7 +502,7 @@ by_name_sorted = sorted(programs, key=lambda p: p['display_name'])
 by_name_records = []
 for p in by_name_sorted:
     by_name_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags']
+        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_NAME), by_name_records)
@@ -456,7 +528,7 @@ for i, p in enumerate(by_year_sorted):
 by_year_records = []
 for p in by_year_sorted:
     by_year_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags']
+        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_YEAR), by_year_records)
@@ -486,7 +558,7 @@ for i, p in enumerate(by_topic_sorted):
 by_topic_records = []
 for p in by_topic_sorted:
     by_topic_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags']
+        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count']
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_TOPIC), by_topic_records)
@@ -638,15 +710,19 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
       PN$(1..19) = prodos_name for each page item
       DN$(1..19) = display_name for each page item
       FL(1..19)  = flags for each page item
+      PC(1..19)  = pic_count for each page item
       HV         = 1 if selected item has linked picture, else 0
+      NP         = number of pics for selected item (=PC(SN))
+      PI         = current pic index (1-based, used in multi-pic loop)
       IT$        = derived instruction text filename (LEFT$(PN$(SN),13)+".T")
       PY$        = full ProDOS path for run/picture (built at use time)
 
-    Flags checked in BASIC (no bitwise AND in Applesoft):
-      Has instructions: FL=1 OR FL=3 OR FL=9 OR FL=11
-      Is binary:        FL=2 OR FL=3 OR FL=10 OR FL=11
-      Has picture:      FL=8 OR FL=9 OR FL=10 OR FL=11
+    FLAGS checked in BASIC:
+      Has instructions: FL=1 OR FL=3
+      Is binary:        FL=2 OR FL=3
       Standalone pic:   FL=4
+
+    PC field: 0=no pic, 1=single pic, 2+=multi-pic loop
 
     Control flow:
       init -> GOTO 500 (open file, dim arrays) -> GOTO 1000
@@ -654,6 +730,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
       1100: normal close after full page -> GOTO 1300
       1200: EOF/error close -> GOTO 1300
       2000: run dialog -> 2200: prompt -> 2300: run or 2400: view picture
+      2400-2480: multi-pic viewer loop
 
     Returns list of (lineno, text).
     """
@@ -661,7 +738,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
 
     # 500-599: init -- dim arrays, fall into page display (file opened per page)
     L.append((500, 'D$=CHR$(4)'))
-    L.append((510, f'DIM YR({PAGE_SIZE}),PN$({PAGE_SIZE}),DN$({PAGE_SIZE}),FL({PAGE_SIZE})'))
+    L.append((510, f'DIM YR({PAGE_SIZE}),PN$({PAGE_SIZE}),DN$({PAGE_SIZE}),FL({PAGE_SIZE}),PC({PAGE_SIZE})'))
     L.append((520, 'GOTO 1000'))
 
     # 1000-1299: open file, seek to page, read records, close file
@@ -672,7 +749,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((1030, 'ONERR GOTO 1200'))
     L.append((1040, 'NC=0'))
     L.append((1050, f'FOR I=1 TO {PAGE_SIZE}'))
-    L.append((1060, '  INPUT YR(I),PN$(I),DN$(I),FL(I)'))
+    L.append((1060, '  INPUT YR(I),PN$(I),DN$(I),FL(I),PC(I)'))
     L.append((1070, '  IF YR(I)=0 THEN I=99: GOTO 1090'))
     L.append((1080, '  NC=NC+1'))
     L.append((1090, 'NEXT I'))
@@ -718,16 +795,16 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((1580, 'GOTO 1410'))
 
     # 2000-2999: run dialog
-    # FL=1 or FL=3 or FL=9 or FL=11 (has instructions): show instruction text inline
+    # FL=1 or FL=3 (has instructions): show instruction text inline
     # FL=4 (standalone picture): show V) VIEW  Q) BACK
-    # FL=8,9,10,11 (has linked picture): show R) RUN  P) PICTURE  Q) BACK
-    # FL=0,1,2,3 (no picture): show R) RUN  Q) BACK
+    # PC>0 (has linked picture): show R) RUN  P) PICTURE  Q) BACK
+    # FL=0,1,2,3 with PC=0 (no picture): show R) RUN  Q) BACK
     L.append((2000, 'REM RUN DIALOG'))
     L.append((2010, 'HOME'))
     L.append((2020, 'VTAB 2: PRINT "  ";DN$(SN)'))
     L.append((2030, 'PRINT "  =============================="'))
-    # Inline instruction display for FL=1,3,9,11
-    L.append((2040, 'IF FL(SN)<>1 AND FL(SN)<>3 AND FL(SN)<>9 AND FL(SN)<>11 THEN GOTO 2200'))
+    # Inline instruction display for FL=1,3
+    L.append((2040, 'IF FL(SN)<>1 AND FL(SN)<>3 THEN GOTO 2200'))
     L.append((2050, 'REM SHOW INLINE INSTRUCTIONS'))
     L.append((2060, 'IT$=LEFT$(PN$(SN),13)+".T"'))
     L.append((2080, 'IT$="Y"+STR$(YR(SN))+"/"+IT$'))
@@ -746,7 +823,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2210, 'VTAB 22: PRINT "  =============================="'))
     L.append((2220, 'IF FL(SN)=4 THEN GOTO 2350'))
     # Determine if this program has a linked picture (HV=1 means has picture)
-    L.append((2225, 'HV=0: IF FL(SN)=8 OR FL(SN)=9 OR FL(SN)=10 OR FL(SN)=11 THEN HV=1'))
+    L.append((2225, 'HV=0: IF PC(SN)>0 THEN HV=1'))
     L.append((2230, 'PRINT "  R) RUN";'))
     L.append((2232, 'IF HV=1 THEN PRINT "  P) PICTURE";'))
     L.append((2234, 'PRINT "  Q) BACK"'))
@@ -767,18 +844,22 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     # Run program
     L.append((2300, 'REM RUN PROGRAM'))
     L.append((2310, 'PY$="Y"+STR$(YR(SN))+"/"+PN$(SN)'))
-    L.append((2320, 'IF FL(SN)=2 OR FL(SN)=3 OR FL(SN)=10 OR FL(SN)=11 THEN PRINT D$"BRUN ";PY$: END'))
+    L.append((2320, 'IF FL(SN)=2 OR FL(SN)=3 THEN PRINT D$"BRUN ";PY$: END'))
     L.append((2330, 'PRINT D$"RUN ";PY$: END'))
 
-    # Picture viewer: for standalone (FL=4) use PN$, for linked (FL=8/9/10/11) derive from PN$
+    # Picture viewer: multi-pic loop
+    # NP = total pics for this program, PI = current pic index
     L.append((2400, 'REM VIEW PICTURE'))
+    L.append((2405, 'NP=PC(SN): PI=1'))
     L.append((2410, 'IF FL(SN)=4 THEN T$=PN$(SN): GOTO 2430'))
-    L.append((2420, 'T$=LEFT$(PN$(SN),11)+".PIC"'))
+    L.append((2415, 'IF NP=1 THEN T$=LEFT$(PN$(SN),11)+".PIC": GOTO 2430'))
+    L.append((2420, 'T$=LEFT$(PN$(SN),8)+"."+STR$(PI)+".PIC"'))
     L.append((2430, 'PY$="Y"+STR$(YR(SN))+"/"+T$'))
     L.append((2440, 'PRINT D$"BLOAD ";PY$;",A$4000"'))
     L.append((2450, 'HGR2'))
     L.append((2460, 'GET K$'))
-    L.append((2470, 'TEXT: HOME'))
+    L.append((2465, 'TEXT: HOME'))
+    L.append((2470, 'IF NP>1 AND PI<NP THEN PI=PI+1: GOTO 2415'))
     L.append((2480, 'GOTO 1000'))
 
     return L

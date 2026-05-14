@@ -200,9 +200,9 @@
   {
     "disk_key": "1984_PT1",
     "original_name": "CIRCULAR RIPPLES.PIC",
-    "prodos_name": "CIRCULAR.2",
+    "prodos_name": "CIRCULAR.PIC",
     "year": 1984,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -413,9 +413,9 @@
   {
     "disk_key": "1984_PT1",
     "original_name": "PATTERN GENERATOR.PIC",
-    "prodos_name": "PATTERN.2",
+    "prodos_name": "PATTERN.PIC",
     "year": 1984,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -437,9 +437,9 @@
   {
     "disk_key": "1984_PT1",
     "original_name": "PATTERN GENERATOR .7.PIC",
-    "prodos_name": "PATTERN.4",
+    "prodos_name": "PATTERN.3.PIC",
     "year": 1984,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -583,9 +583,9 @@
   {
     "disk_key": "1985_PT1",
     "original_name": "DRAGON 7.PIC",
-    "prodos_name": "DISSOLVE.DE.PIC",
+    "prodos_name": "DISSOLVE.1.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -1023,7 +1023,7 @@
     "original_name": "HAT.PIC",
     "prodos_name": "HAT.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -1047,9 +1047,9 @@
   {
     "disk_key": "1985_PT1",
     "original_name": "ROLLING X.PIC",
-    "prodos_name": "ROLLING.X.PIC",
+    "prodos_name": "DISSOLVE.2.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -1184,7 +1184,7 @@
     "original_name": "BUMP.PIC",
     "prodos_name": "BUMP.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -1469,7 +1469,7 @@
     "original_name": "RIPPLES.PIC",
     "prodos_name": "VIDEO.DEMO.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -2106,7 +2106,7 @@
     "original_name": "MANDELBROT.PIC",
     "prodos_name": "MANDELBROT.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -2311,9 +2311,9 @@
   {
     "disk_key": "1985_PT2",
     "original_name": "HARMONICS 199.PIC",
-    "prodos_name": "HARMONICS.199",
+    "prodos_name": "HARMONICS.PIC",
     "year": 1985,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -2838,7 +2838,7 @@
     "original_name": "TRIANGLES.PIC",
     "prodos_name": "TRIANGLES.PIC",
     "year": 1986,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -3571,7 +3571,7 @@
     "original_name": "SATURN.PIC",
     "prodos_name": "SATURN.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -3634,7 +3634,7 @@
     "original_name": "DIAMOND.PIC",
     "prodos_name": "DIAMOND.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -3991,9 +3991,9 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D DRAPE.PIC",
-    "prodos_name": "THREE.D.DRAPE.2",
+    "prodos_name": "THREE.D.DRA.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -4976,9 +4976,9 @@
   {
     "disk_key": "1988_PT1",
     "original_name": "MANDELBROT 2.PIC",
-    "prodos_name": "MANDELBROT.2.2",
+    "prodos_name": "MANDELBROT..PIC",
     "year": 1988,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -5364,7 +5364,7 @@
     "original_name": "DIFFRACTION.PIC",
     "prodos_name": "DIFFRACTION.PIC",
     "year": 1989,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -7340,7 +7340,7 @@
     "original_name": "FRACTALS 1.PIC",
     "prodos_name": "FRACTALS.1.PIC",
     "year": 1991,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -7364,7 +7364,7 @@
     "original_name": "FRACTALS 2.PIC",
     "prodos_name": "FRACTALS.2.PIC",
     "year": 1991,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -7835,9 +7835,9 @@
   {
     "disk_key": "1992_PT1",
     "original_name": "MANDELBROT 3.PIC",
-    "prodos_name": "MANDELBROT.3.2",
+    "prodos_name": "MANDELBROT..PIC",
     "year": 1992,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
