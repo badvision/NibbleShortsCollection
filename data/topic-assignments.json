@@ -4275,7 +4275,7 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 1",
-    "prodos_name": "THREE.D.PLOT.1",
+    "prodos_name": "THREED.PLT1",
     "year": 1987,
     "best": true,
     "topics": [
@@ -4287,9 +4287,9 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 1.PIC",
-    "prodos_name": "THREE.D.PLOT..2",
+    "prodos_name": "THREED.PLT1.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -4299,7 +4299,7 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 2",
-    "prodos_name": "THREE.D.PLOT.2",
+    "prodos_name": "THREED.PLT2",
     "year": 1987,
     "best": true,
     "topics": [
@@ -4311,9 +4311,9 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 2.PIC",
-    "prodos_name": "THREE.D.PLOT..3",
+    "prodos_name": "THREED.PLT2.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -4323,7 +4323,7 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 3",
-    "prodos_name": "THREE.D.PLOT.3",
+    "prodos_name": "THREED.PLT3",
     "year": 1987,
     "best": true,
     "topics": [
@@ -4335,9 +4335,9 @@
   {
     "disk_key": "1987_PT1",
     "original_name": "THREE-D PLOT 3.PIC",
-    "prodos_name": "THREE.D.PLOT..4",
+    "prodos_name": "THREED.PLT3.PIC",
     "year": 1987,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -6573,7 +6573,7 @@
   {
     "disk_key": "1990_PT1",
     "original_name": "MISSILE HEAD 1",
-    "prodos_name": "MISSILE.HEAD.1",
+    "prodos_name": "MISSILE.HD1",
     "year": 1990,
     "best": true,
     "topics": [
@@ -6586,9 +6586,9 @@
   {
     "disk_key": "1990_PT1",
     "original_name": "MISSILE HEAD 1.PIC",
-    "prodos_name": "MISSILE.HEAD..2",
+    "prodos_name": "MISSILE.HD1.PIC",
     "year": 1990,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -6598,7 +6598,7 @@
   {
     "disk_key": "1990_PT1",
     "original_name": "MISSILE HEAD 2",
-    "prodos_name": "MISSILE.HEAD.2",
+    "prodos_name": "MISSILE.HD2",
     "year": 1990,
     "best": true,
     "topics": [
@@ -6611,9 +6611,9 @@
   {
     "disk_key": "1990_PT1",
     "original_name": "MISSILE HEAD 2.PIC",
-    "prodos_name": "MISSILE.HEAD..3",
+    "prodos_name": "MISSILE.HD2.PIC",
     "year": 1990,
-    "best": false,
+    "best": true,
     "topics": [
       "DOCS"
     ],
@@ -7873,11 +7873,11 @@
   {
     "disk_key": "1992_PT1",
     "original_name": "JULIA FRACTAL.PIC1",
-    "prodos_name": "JULIA.FRACTAL",
+    "prodos_name": "JULIA.FRACT.P1",
     "year": 1992,
     "best": true,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Julia Fractal.Pic1: TO START, ENTER A COMPLEX NUMBER, FIRST ITS REAL PART AND THEN ITS IMAGINARY    PART, BOTH OF WHICH SHOULD LIE BETWEEN  -2 AND +2.  AVOID ZERO, SINCE IT WILL   PRODUCE A 'DIVISION BY ZERO' ERROR.",
     "graphics_mode": "HI.RES"
@@ -7885,11 +7885,11 @@
   {
     "disk_key": "1992_PT1",
     "original_name": "JULIA FRACTAL.PIC2",
-    "prodos_name": "JULIA.FRACTAL.2",
+    "prodos_name": "JULIA.FRACT.P2",
     "year": 1992,
     "best": true,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Julia Fractal.Pic2: TO START, ENTER A COMPLEX NUMBER, FIRST ITS REAL PART AND THEN ITS IMAGINARY    PART, BOTH OF WHICH SHOULD LIE BETWEEN  -2 AND +2.  AVOID ZERO, SINCE IT WILL   PRODUCE A 'DIVISION BY ZERO' ERROR.",
     "graphics_mode": "HI.RES"
@@ -7897,11 +7897,11 @@
   {
     "disk_key": "1992_PT1",
     "original_name": "JULIA FRACTAL.PIC3",
-    "prodos_name": "JULIA.FRACTAL.3",
+    "prodos_name": "JULIA.FRACT.P3",
     "year": 1992,
     "best": true,
     "topics": [
-      "HI.RES"
+      "DOCS"
     ],
     "description": "Julia Fractal.Pic3: TO START, ENTER A COMPLEX NUMBER, FIRST ITS REAL PART AND THEN ITS IMAGINARY    PART, BOTH OF WHICH SHOULD LIE BETWEEN  -2 AND +2.  AVOID ZERO, SINCE IT WILL   PRODUCE A 'DIVISION BY ZERO' ERROR.",
     "graphics_mode": "HI.RES"

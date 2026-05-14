@@ -21,7 +21,7 @@ Record format (L=58, fixed-length, Apple II CR-terminated):
   BASIC derives filenames:
     Instruction text: LEFT$(PN$(SN), 13) + ".T"
     Picture (PC=1):   LEFT$(PN$(SN), 11) + ".PIC"
-    Picture (PC>1):   LEFT$(PN$(SN), 8) + "." + STR$(PI) + ".PIC"
+    Picture (PC>1):   LEFT$(PN$(SN), 11) + ".P" + STR$(PI)
 
 FLAGS encoding (PC field carries pic count separately):
   0  = BASIC, no instructions
@@ -33,7 +33,7 @@ FLAGS encoding (PC field carries pic count separately):
 PC field (pic count):
   0  = no linked picture
   1  = one linked picture: LEFT$(PN$,11)+".PIC"
-  2+ = multiple pictures: LEFT$(PN$,8)+"."+STR$(N)+".PIC"
+  2+ = multiple pictures: LEFT$(PN$,11)+".P"+STR$(N)
 """
 
 import json
@@ -199,19 +199,22 @@ for (dk, parent_orig), pic_orig_list in dep_parent_orig_to_pic_origs.items():
 # Step B: from topic-assignments DOCS .PIC entries (those not claimed by dep_map)
 # These have best=True and prodos_name already set to the new naming scheme.
 # We match by exact original_name stripped of .PIC suffix.
+# Accepts names ending in .PIC or .PIC1/.PIC2/... (numbered pic files).
+_PIC_SUFFIX_RE = re.compile(r'\.PIC\d*$', re.IGNORECASE)
 docs_pic_entries_new = [e for e in raw
                         if e.get('topics', [''])[0] == 'DOCS'
                         and e.get('best', True)
-                        and e.get('original_name', '').upper().endswith('.PIC')]
+                        and bool(_PIC_SUFFIX_RE.search(e.get('original_name', '').upper()))]
 
 # Build set of parent prodos names that already have pics (from dep_map step A)
 dep_parent_pn_set = set(parent_pn_to_pic_count.keys())
 
 def _find_docs_pic_parent(dk, orig):
     """Find parent program for a DOCS .PIC entry.
-    Tries exact name match, then strips trailing ' NNN' number suffix.
+    Strips .PIC or .PICn suffix, then tries exact name match.
+    Falls back to stripping trailing space+number (e.g. 'HARMONICS 199' -> 'HARMONICS').
     """
-    base = orig.upper()[:-4].strip() if orig.upper().endswith('.PIC') else orig.upper()
+    base = _PIC_SUFFIX_RE.sub('', orig.upper()).strip()
     parent = non_docs_by_orig_upper.get((dk, base))
     if not parent:
         # Fallback: strip trailing space+number (e.g. 'HARMONICS 199' -> 'HARMONICS')
@@ -853,7 +856,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2405, 'NP=PC(SN): PI=1'))
     L.append((2410, 'IF FL(SN)=4 THEN T$=PN$(SN): GOTO 2430'))
     L.append((2415, 'IF NP=1 THEN T$=LEFT$(PN$(SN),11)+".PIC": GOTO 2430'))
-    L.append((2420, 'T$=LEFT$(PN$(SN),8)+"."+STR$(PI)+".PIC"'))
+    L.append((2420, 'T$=LEFT$(PN$(SN),11)+".P"+STR$(PI)'))
     L.append((2430, 'PY$="Y"+STR$(YR(SN))+"/"+T$'))
     L.append((2440, 'PRINT D$"BLOAD ";PY$;",A$4000"'))
     L.append((2450, 'HGR2'))

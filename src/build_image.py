@@ -225,8 +225,9 @@ def populate_programs(
         elif file_type == "B":
             ac_type = "BIN"
             raw_addr = load_addr_table.get((disk_key, orig_name), 0)
-            # .PIC files always load at $4000
-            if orig_name.upper().endswith(".PIC") or prodos_name.upper().endswith(".PIC"):
+            # .PIC and .PICn files always load at $4000
+            if (re.search(r'\.PIC\d*$', orig_name.upper()) or
+                    re.search(r'\.PIC\d*$', prodos_name.upper())):
                 raw_addr = 0x4000
             load_addr = hex(raw_addr) if raw_addr else "0x2000"
         else:

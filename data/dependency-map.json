@@ -160,5 +160,32 @@
     "referenced_file_prodos": "BUTTON.USR",
     "needs_patch": true,
     "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1992_PT1",
+    "program": "JULIA FRACTALS",
+    "statement_type": "BLOAD",
+    "referenced_file": "JULIA FRACTAL.PIC1",
+    "referenced_file_prodos": "JULIA.FRACT.P1",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1992_PT1",
+    "program": "JULIA FRACTALS",
+    "statement_type": "BLOAD",
+    "referenced_file": "JULIA FRACTAL.PIC2",
+    "referenced_file_prodos": "JULIA.FRACT.P2",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1992_PT1",
+    "program": "JULIA FRACTALS",
+    "statement_type": "BLOAD",
+    "referenced_file": "JULIA FRACTAL.PIC3",
+    "referenced_file_prodos": "JULIA.FRACT.P3",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
   }
 ]
