@@ -863,7 +863,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2460, 'GET K$'))
     L.append((2465, 'TEXT: HOME'))
     L.append((2470, 'IF NP>1 AND PI<NP THEN PI=PI+1: GOTO 2415'))
-    L.append((2480, 'GOTO 1000'))
+    L.append((2480, 'GOTO 2000'))
 
     return L
 
