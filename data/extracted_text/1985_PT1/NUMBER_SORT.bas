@@ -1,0 +1,1 @@
+1  DIM A(10): FOR X = 1 TO 10: PRINT X"..";: INPUT "";A(X): NEXT : PRINT : PRINT : FOR I = 1 TO 10: FOR J = I TO 10:B = (A(I) > A(J)) * A(I) + A(J) * (A(I) <  = A(J)):A(I) = (A(I) > A(J)) * A(J) + A(I) * (B <  = A(J)):A(J) = B * (B > A(J)) + A(J) * (B <  = A(J)): NEXT J,I: FOR X = 1 TO 10: PRINT X".."A(X): NEXT 

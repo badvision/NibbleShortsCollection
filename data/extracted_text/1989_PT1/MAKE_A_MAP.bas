@@ -1,0 +1,2 @@
+10 L = 0:L$ = " ------- ":V$ = "|       |": PRINT  CHR$(4)"PR#1": PRINT :L = L + 1: FOR P = 1 TO 4: FOR S = 1 TO 6: FOR I = 1 TO 6: PRINT L$;: PRINT  SPC( 5 * (I < 6));: NEXT : PRINT :L = L + 1: FOR I = 1 TO 6:L = L + 1: FOR J = 1 TO 6: PRINT V$;
+20  PRINT  SPC( 5 * (J < 6));: NEXT : PRINT : NEXT : FOR I = 1 TO 6: PRINT L$;: PRINT  SPC( 5 * (I < 6));: NEXT : FOR I = 1 TO 3:L = L + 1: PRINT : NEXT : PRINT  CHR$(12 * (L > 57)):L = L * (L < 56): NEXT S: NEXT P: PRINT  CHR$(4)"PR#0"

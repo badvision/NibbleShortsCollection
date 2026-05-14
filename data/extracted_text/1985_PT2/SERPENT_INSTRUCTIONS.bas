@@ -1,0 +1,2 @@
+1  REM  5/1/08
+10  PRINT "USE THE 'I', 'J', 'K', AND 'M' KEYS TO  MOVE."

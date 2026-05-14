@@ -1,0 +1,1 @@
+10 NO =  RND(1) * 10 ^ ( RND(1) * 50 - 25):HT = 15:LG =  INT( LOG( ABS(NO)) /  LOG(10)):HT = HT - (NO < 0) - LG * (LG >  - 3) * (LG < 9) - (LG =  - 2): HTAB HT: PRINT NO: GOTO 10

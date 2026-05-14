@@ -1,0 +1,1 @@
+1  TEXT : HOME : INPUT A$:J = 0:T = 1: FOR I = 1 TO  LEN(A$):A(J) =  INT( VAL( MID$ (A$,I))):J = J + T * (J < 3):T = ( MID$ (A$,I,1) = "."): NEXT :M = A(0):D = A(1):Y = A(2): IF (M < 1) + (M > 12) + (D < 1) + (D > 31) + (Y > 99) + (M = 2) * (D > 28 + (Y / 4 -  INT(Y / 4) = 0)) + (D > 30) * ((M = 4) + (M = 6) + (M = 9) + (M = 11)) GOTO 1

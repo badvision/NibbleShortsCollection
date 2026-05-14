@@ -1,0 +1,1 @@
+1  PRINT :B$ = "": FOR A = 1 TO 2: GET A$:B$ = B$ + A$:L =  LEN(B$): ON (A$ =  CHR$(13)) OR (L = 38) GOTO 1: CALL  - 998: HTAB  INT((40 - L) / 2): PRINT B$:A = A - 1: NEXT 

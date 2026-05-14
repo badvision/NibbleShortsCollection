@@ -1,0 +1,2 @@
+1  TEXT : INPUT "R= ";CX: INPUT "i= ";CY: HGR2 : FOR I = 1 TO 5000:WX = X - CX:WY = Y - CY:TH =  ATN(WY / WX):MM = 3.141592658 * (WX < 0):TH = (TH + MM) / 2:R =  ABS( SQR(WX * WX + WY * WY)):S =  INT( RND(1) * 2): IF S = 0 THEN S =  - 1
+2 R =  ABS( SQR(R)) * S:X = R *  COS(TH):Y = R *  SIN(TH): HCOLOR= 3 * (I > 20): HPLOT 140 + (70 * X),96 + (48 *  - Y): HPLOT 140 - (70 * X),96 - (48 *  - Y): NEXT I

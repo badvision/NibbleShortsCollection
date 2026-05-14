@@ -1,0 +1,1 @@
+2  HGR : FOR T = 1 TO 6: HCOLOR= T: FOR I = 1 TO 14 STEP .1:X = 10 * I:Y = 20 *  SIN(I) + 50: HPLOT X,Y TO Y,X: NEXT : NEXT : GOTO 2

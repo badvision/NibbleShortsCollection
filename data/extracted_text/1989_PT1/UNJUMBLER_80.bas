@@ -1,0 +1,2 @@
+1  FOR I = L TO 1 STEP  - 1: PRINT B$(I);: NEXT : PRINT  SPC( 10 - L):P = 1: FOR I = 1 TO L:P = P + (I = P(I)) * (P(I - 1) = 0):P(I) = P(I) - P(I) * (P(I) = I) * (P(I - 1) = 0): NEXT : IF  NOT P(L) THEN  PRINT : PRINT : INPUT A$: PRINT :L =  LEN(A$):W$(L) = A$:P = L:C = 0: IF  NOT L THEN  END 
+2 B$(P) =  MID$ (W$(P),P(P) + 1,1):W$(P - 1) = "": FOR I = 1 TO P:T$(I) =  MID$ (W$(P),I,1):W$(P - 1) = W$(P - 1) + T$(I - I * (I = (P(P) + 1))): NEXT :P(P) = P(P) + 1:P = P - 1: ON P > 0 GOTO 2:W = 80:C = C + 1: ON C < (W * 2 + 1) GOTO 1: PRINT  CHR$(7): GET C$:C = 1: PRINT : GOTO 1

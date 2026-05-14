@@ -1,0 +1,2 @@
+1 G = 140:H = 80: HGR2 : HCOLOR= 3: FOR C = 4.7 TO 7.8 STEP .02:X =  SIN(C) * 50 + G:Y =  COS(C) * 45 + H: HPLOT G,H TO X,Y: NEXT :B = 3: FOR L = 75 TO 119 STEP 2:B = B + .5:A = 140:D = 80 + B: HCOLOR= (L - 75) / 8 + 1: FOR C = 0 TO 6.3 STEP .1:X =  SIN(C) * L + G:Y =  COS(C) * B + H
+2  HPLOT A,D TO X,Y:A = X:D = Y: NEXT C,L: HCOLOR= 3: FOR C = 1.5 TO 4.7 STEP .02:X =  SIN(C) * 50 + G:Y =  COS(C) * 45 + H: HPLOT G,H TO X,Y: NEXT : FOR C = 1 TO 50:X =  RND(1) * 280:Y =  RND(1) * 192: HPLOT X,Y: NEXT 

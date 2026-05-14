@@ -1,0 +1,1 @@
+10  HGR2 : DIM R(193):A = 1: FOR E = 0 TO 127: FOR N = 1 TO E + 1:T = R(N):R(N) =  ABS(A - R(N)): HCOLOR= 3 *  NOT R(N): HPLOT 2 * N - E + 138,E + 31:A = T: NEXT : NEXT 

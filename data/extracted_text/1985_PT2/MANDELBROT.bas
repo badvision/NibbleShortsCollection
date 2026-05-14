@@ -1,0 +1,2 @@
+10 J = 4:D = 2:G = 256:L = 1:S = 16: HGR2 : FOR R =  - 2.04 TO .76 STEP .02:Y = 0: FOR I =  - 1.2 TO 1.175 STEP .025:A = R:B = I: FOR C = L TO G:Q = A * A:Z = B * B:F = Q + R - Z:B = D * A * B + I:A = F:T = C: IF Q + Z >  = J THEN C = G
+20  NEXT :T = S -  INT( SQR(T)):K =  INT(T / J): HCOLOR= T - K * J: HPLOT X,Y TO X + L,Y: HCOLOR= K + J: HPLOT X,Y + L TO X + L,Y + L:Y = Y + D: NEXT :X = X + D: NEXT : POKE 49168,0: GET G$: PRINT : TEXT : HOME : LIST 

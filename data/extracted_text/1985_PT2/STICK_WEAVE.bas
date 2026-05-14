@@ -1,0 +1,1 @@
+1  TEXT : INPUT "ANY NO.<279";X: HGR2 :C = 0: HCOLOR= 3: FOR A = 1 TO ((279 - X) * X) STEP X:B =  INT(96 * ( COS(A))) + 96:D =  INT(96 * ( COS(A + 1))) + 96:C = C + 1: HPLOT C,B TO C + X,D: NEXT A: RUN 

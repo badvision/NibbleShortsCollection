@@ -1,0 +1,2 @@
+1 Y$ = "AY": INPUT W$: FOR I =  LEN(W$) TO 1 STEP  - 1:Z$ =  LEFT$(W$,I):D =  ASC( RIGHT$(Z$,1)):B = ((D = 89 AND I > 1) OR D = 65 OR D = 69 OR D = 73 OR D = 79 OR D = 85):C = A:A = I * (B > 0):A = A + C * (A = 0): NEXT :X = 72 * (A = 1):F$ =  LEFT$(W$,A - (A > 1)):G$ =  RIGHT$(W$, LEN(W$) - A + 1): IF A = 1 THEN  PRINT G$ CHR$(X)Y$: GOTO 1
+2  PRINT G$;F$; CHR$(X);Y$: GOTO 1

@@ -1,0 +1,1 @@
+10  HOME : HGR : POKE  - 16302,0: DIM R(279),C(279): FOR I = 1 TO 279:R(I) =  LOG(I):C(I) =  LOG(I): NEXT : FOR R = 1 TO 191: FOR C = 1 TO 279:X = C * R(C) + R * C(R):X = X / 5:Y =  INT(X):Z = X - Y:Z =  INT(Z * 5): HCOLOR= Z + 1: HPLOT C,R: NEXT : NEXT 

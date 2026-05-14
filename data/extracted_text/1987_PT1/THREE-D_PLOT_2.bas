@@ -1,0 +1,1 @@
+10  HGR2 :B =  - 40: FOR Z =  - 100 TO 100 STEP 10:A =  - 40: FOR X =  - 100 TO 99.99 STEP 2:Y =  SIN(X / 10) * Z / 10:D = 140 + X + B:G = 140 + A + Z:C = 96 - Y - B:H = 96 - Y - A:C = C * (C < 192):H = H * (H < 192): HCOLOR= 3 * (C > 0) * (H > 0): HPLOT D,C: HPLOT G,H:A = A + .8: NEXT :B = B + 4: NEXT 

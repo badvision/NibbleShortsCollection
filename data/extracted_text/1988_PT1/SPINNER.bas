@@ -1,0 +1,2 @@
+10  DIM A(3,62): HGR2 : HCOLOR= 3:D =  RND(1) * 18:E =  RND(1) * 120 + 20:F =  RND(1) * 120 + 20: FOR C = .1 TO 6.3 STEP .1:H = C * 10 - .9:A(0,H) =  SIN(C) * E + 140:A(1,H) =  COS(C) * D + 100:A(2,H) =  SIN(C) * F + 140:A(3,H) =  COS(C) * D + 50: NEXT 
+20  FOR I = 0 TO 62: HPLOT 140,75 TO A(0,I),A(1,I) TO A(2,I),A(3,I) TO 140,75: HCOLOR= 0: HPLOT 140,75 TO A(0,I),A(1,I) TO A(2,I),A(3,I) TO 140,75: HCOLOR= 3: NEXT : GOTO 20

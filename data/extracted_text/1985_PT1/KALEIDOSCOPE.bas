@@ -1,0 +1,1 @@
+1 T = 2:A = 140:B = 95: HGR2 :N = 80:C = A:D = 94: HCOLOR= 4:M = 130: FOR K = 1 TO 100:X =  INT( RND(1) * M + A):Y =  INT( RND(1) * N + B): FOR I = 1 TO N STEP T:X = X - T:Y = Y - T:E = T * B - Y:F = T * A - X: HPLOT C,D TO X,Y: HPLOT G,D TO F,Y: HPLOT G,H TO F,E: HPLOT C,H TO X,E: NEXT : HCOLOR= 7 *  RND(1):C = X:D = Y:H = E:G = F: NEXT 

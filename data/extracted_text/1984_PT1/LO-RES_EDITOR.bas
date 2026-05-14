@@ -1,0 +1,1 @@
+1 :: POKE 2053,58: VTAB 21: CALL  - 868: INPUT "COLOR=";C: ON (C < 0 OR C > 15) GOTO 1: COLOR= C: FOR Z = 0 TO 1: GET A$:Z = (A$ = "C" OR A$ = "Q"):X = X + (A$ = "K") * (X < 39) - (A$ = "J") * (X > 0):Y = Y + (A$ = "M") * (Y < 39) - (A$ = "I") * (Y > 0): PLOT X,Y: NEXT Z: ON (A$ = "C") GOTO 1: POKE 2053,136: PRINT "THE END"

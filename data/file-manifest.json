@@ -1,0 +1,4186 @@
+{
+  "disks": [
+    {
+      "filename": "Nibble One and Two Liners (1984).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1984).dsk",
+      "format": "dos33",
+      "year": 1984,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 701,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE",
+          "type": "A",
+          "size": 123,
+          "locked": true
+        },
+        {
+          "name": "GRAPH PAPER",
+          "type": "A",
+          "size": 110,
+          "locked": true
+        },
+        {
+          "name": "NEW CURSOR",
+          "type": "B",
+          "size": 42,
+          "locked": true
+        },
+        {
+          "name": "CLIMB A MOUNTAIN",
+          "type": "A",
+          "size": 180,
+          "locked": true
+        },
+        {
+          "name": "COLOR SINE",
+          "type": "A",
+          "size": 128,
+          "locked": true
+        },
+        {
+          "name": "INPUT ANYTHING ROUTINE",
+          "type": "A",
+          "size": 195,
+          "locked": true
+        },
+        {
+          "name": "WIDENING COLUMN",
+          "type": "A",
+          "size": 139,
+          "locked": true
+        },
+        {
+          "name": "WALK",
+          "type": "A",
+          "size": 158,
+          "locked": true
+        },
+        {
+          "name": "COLOR FLIPPING",
+          "type": "A",
+          "size": 177,
+          "locked": true
+        },
+        {
+          "name": "KALEIDOSTAR",
+          "type": "A",
+          "size": 159,
+          "locked": true
+        },
+        {
+          "name": "ALTERNATE FLASHING",
+          "type": "A",
+          "size": 96,
+          "locked": true
+        },
+        {
+          "name": "MUSICAL SCALE",
+          "type": "A",
+          "size": 209,
+          "locked": true
+        },
+        {
+          "name": "BASE CONVERTER",
+          "type": "A",
+          "size": 211,
+          "locked": true
+        },
+        {
+          "name": "WORD BOUNCER",
+          "type": "A",
+          "size": 130,
+          "locked": true
+        },
+        {
+          "name": "ROTATING SQUARE",
+          "type": "A",
+          "size": 237,
+          "locked": true
+        },
+        {
+          "name": "CIRCULAR RIPPLES",
+          "type": "A",
+          "size": 100,
+          "locked": true
+        },
+        {
+          "name": "CIRCULAR RIPPLES.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "FAST COUNTER",
+          "type": "B",
+          "size": 140,
+          "locked": true
+        },
+        {
+          "name": "MELTDOWN",
+          "type": "B",
+          "size": 50,
+          "locked": true
+        },
+        {
+          "name": "FAST FLASH",
+          "type": "A",
+          "size": 105,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE DISPLAY",
+          "type": "A",
+          "size": 130,
+          "locked": true
+        },
+        {
+          "name": "HEX CONVERTER",
+          "type": "A",
+          "size": 139,
+          "locked": true
+        },
+        {
+          "name": "TONE GENERATOR",
+          "type": "A",
+          "size": 164,
+          "locked": true
+        },
+        {
+          "name": "UNNEW",
+          "type": "B",
+          "size": 64,
+          "locked": true
+        },
+        {
+          "name": "PAGE FLIP FLICKER",
+          "type": "A",
+          "size": 42,
+          "locked": true
+        },
+        {
+          "name": "LO-RES EDITOR",
+          "type": "A",
+          "size": 197,
+          "locked": true
+        },
+        {
+          "name": "MINI-INDI",
+          "type": "A",
+          "size": 385,
+          "locked": true
+        },
+        {
+          "name": "LASER SOUNDS",
+          "type": "A",
+          "size": 149,
+          "locked": true
+        },
+        {
+          "name": "HI-RES INVERTER",
+          "type": "B",
+          "size": 77,
+          "locked": true
+        },
+        {
+          "name": "INPUT ANYTHING ROUTINE 2",
+          "type": "A",
+          "size": 44,
+          "locked": true
+        },
+        {
+          "name": "SQUARE SPIN",
+          "type": "A",
+          "size": 162,
+          "locked": true
+        },
+        {
+          "name": "BOUNCING BALL",
+          "type": "A",
+          "size": 154,
+          "locked": true
+        },
+        {
+          "name": "PATTERN GENERATOR",
+          "type": "A",
+          "size": 142,
+          "locked": true
+        },
+        {
+          "name": "PATTERN GENERATOR.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "PATTERN GENERATOR .7",
+          "type": "A",
+          "size": 142,
+          "locked": true
+        },
+        {
+          "name": "PATTERN GENERATOR .7.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "DRAW REDRAW",
+          "type": "A",
+          "size": 145,
+          "locked": true
+        },
+        {
+          "name": "WORD GUESSING GAME",
+          "type": "A",
+          "size": 169,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE IS AWESOME",
+          "type": "A",
+          "size": 102,
+          "locked": true
+        },
+        {
+          "name": "MUSIC STRINGS",
+          "type": "A",
+          "size": 173,
+          "locked": true
+        },
+        {
+          "name": "WHIRLY SQUARES",
+          "type": "A",
+          "size": 143,
+          "locked": true
+        },
+        {
+          "name": "TRIP CALCULATOR",
+          "type": "A",
+          "size": 181,
+          "locked": true
+        },
+        {
+          "name": "AMPER HEX CONVERTER",
+          "type": "A",
+          "size": 242,
+          "locked": true
+        },
+        {
+          "name": "AMPER HEX CONVERTER INSTR",
+          "type": "A",
+          "size": 310,
+          "locked": true
+        },
+        {
+          "name": "KEYBOARD MUSIC",
+          "type": "B",
+          "size": 31,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1985, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1985, Part 1).dsk",
+      "format": "dos33",
+      "year": 1985,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 493,
+          "locked": true
+        },
+        {
+          "name": "DRAGON",
+          "type": "A",
+          "size": 191,
+          "locked": true
+        },
+        {
+          "name": "DRAGON INSTRUCTIONS",
+          "type": "A",
+          "size": 83,
+          "locked": true
+        },
+        {
+          "name": "DRAGON 7.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "EXPRESSION EVALUATOR",
+          "type": "A",
+          "size": 186,
+          "locked": true
+        },
+        {
+          "name": "EXPRESSION EVALUATOR INSTR",
+          "type": "A",
+          "size": 107,
+          "locked": true
+        },
+        {
+          "name": "TEXT MIRRORING",
+          "type": "A",
+          "size": 157,
+          "locked": true
+        },
+        {
+          "name": "CIRCLE POINTS",
+          "type": "A",
+          "size": 183,
+          "locked": true
+        },
+        {
+          "name": "PRINT SCREEN",
+          "type": "A",
+          "size": 191,
+          "locked": true
+        },
+        {
+          "name": "BLOCK WEAVE",
+          "type": "A",
+          "size": 156,
+          "locked": true
+        },
+        {
+          "name": "EMPTY GLASS",
+          "type": "A",
+          "size": 66,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE RUN",
+          "type": "A",
+          "size": 174,
+          "locked": true
+        },
+        {
+          "name": "ONE-LINER MENU",
+          "type": "A",
+          "size": 152,
+          "locked": true
+        },
+        {
+          "name": "BOUNCE",
+          "type": "B",
+          "size": 82,
+          "locked": true
+        },
+        {
+          "name": "BOUNCE INSTRUCTIONS",
+          "type": "A",
+          "size": 312,
+          "locked": true
+        },
+        {
+          "name": "ROM HEX-DEC CONVERTER",
+          "type": "A",
+          "size": 123,
+          "locked": true
+        },
+        {
+          "name": "SLIDE SHOW",
+          "type": "A",
+          "size": 172,
+          "locked": true
+        },
+        {
+          "name": "FIX DELETE KEY",
+          "type": "B",
+          "size": 32,
+          "locked": true
+        },
+        {
+          "name": "METEORITE NAVIGATOR",
+          "type": "A",
+          "size": 176,
+          "locked": true
+        },
+        {
+          "name": "LO-RES MAZE GENERATOR",
+          "type": "A",
+          "size": 197,
+          "locked": true
+        },
+        {
+          "name": "SWITCH",
+          "type": "B",
+          "size": 82,
+          "locked": true
+        },
+        {
+          "name": "SWITCH INSTRUCTIONS",
+          "type": "A",
+          "size": 292,
+          "locked": true
+        },
+        {
+          "name": "MUSICAL MONITOR",
+          "type": "B",
+          "size": 68,
+          "locked": true
+        },
+        {
+          "name": "KALEIDOSCOPE",
+          "type": "A",
+          "size": 185,
+          "locked": true
+        },
+        {
+          "name": "NUMBER SORT",
+          "type": "A",
+          "size": 192,
+          "locked": true
+        },
+        {
+          "name": "APPLESOFT KEYWORD CODES",
+          "type": "A",
+          "size": 206,
+          "locked": true
+        },
+        {
+          "name": "APPLESOFT KEYWORD CODES INSTR",
+          "type": "A",
+          "size": 436,
+          "locked": true
+        },
+        {
+          "name": "TEXT CENTERER",
+          "type": "A",
+          "size": 95,
+          "locked": true
+        },
+        {
+          "name": "PI CALCULATOR",
+          "type": "A",
+          "size": 126,
+          "locked": true
+        },
+        {
+          "name": "PI CALCULATOR MONOCHROME",
+          "type": "A",
+          "size": 121,
+          "locked": true
+        },
+        {
+          "name": "STAR BOUNCE",
+          "type": "A",
+          "size": 205,
+          "locked": true
+        },
+        {
+          "name": "ONE-LINER EDITING",
+          "type": "A",
+          "size": 82,
+          "locked": true
+        },
+        {
+          "name": "ONE-LINER EDITING INSTRUCTIONS",
+          "type": "A",
+          "size": 248,
+          "locked": true
+        },
+        {
+          "name": "TEXT WINDOW",
+          "type": "A",
+          "size": 187,
+          "locked": true
+        },
+        {
+          "name": "SLALOM SKIER",
+          "type": "A",
+          "size": 185,
+          "locked": true
+        },
+        {
+          "name": "COIN FLIP AVERAGE",
+          "type": "A",
+          "size": 169,
+          "locked": true
+        },
+        {
+          "name": "CTRL-RESET 80 COLUMNS",
+          "type": "B",
+          "size": 35,
+          "locked": true
+        },
+        {
+          "name": "HAT",
+          "type": "A",
+          "size": 152,
+          "locked": true
+        },
+        {
+          "name": "HAT.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "ROLLING X",
+          "type": "A",
+          "size": 286,
+          "locked": true
+        },
+        {
+          "name": "ROLLING X.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "KEY BEEP",
+          "type": "A",
+          "size": 181,
+          "locked": true
+        },
+        {
+          "name": "KEY BEEP INSTRUCTIONS",
+          "type": "A",
+          "size": 275,
+          "locked": true
+        },
+        {
+          "name": "NOTEPAD",
+          "type": "A",
+          "size": 156,
+          "locked": true
+        },
+        {
+          "name": "NOTEPAD INSTRUCTIONS",
+          "type": "A",
+          "size": 412,
+          "locked": true
+        },
+        {
+          "name": "JOYTONE",
+          "type": "A",
+          "size": 105,
+          "locked": true
+        },
+        {
+          "name": "NEWUNDO.CREATE",
+          "type": "A",
+          "size": 158,
+          "locked": true
+        },
+        {
+          "name": "NEWUNDO",
+          "type": "T",
+          "size": 256,
+          "locked": true
+        },
+        {
+          "name": "NEWUNDO INSTRUCTIONS",
+          "type": "A",
+          "size": 360,
+          "locked": true
+        },
+        {
+          "name": "APPLE LOGO",
+          "type": "A",
+          "size": 220,
+          "locked": true
+        },
+        {
+          "name": "BUMP",
+          "type": "A",
+          "size": 194,
+          "locked": true
+        },
+        {
+          "name": "BUMP.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "DRIVE",
+          "type": "A",
+          "size": 203,
+          "locked": true
+        },
+        {
+          "name": "BURST",
+          "type": "A",
+          "size": 144,
+          "locked": true
+        },
+        {
+          "name": "ROM KEYWORD DUMP",
+          "type": "A",
+          "size": 101,
+          "locked": true
+        },
+        {
+          "name": "ALARM TIMER",
+          "type": "A",
+          "size": 171,
+          "locked": true
+        },
+        {
+          "name": "ROM PATCHER",
+          "type": "A",
+          "size": 179,
+          "locked": true
+        },
+        {
+          "name": "ROM PATCHER INSTRUCTIONS",
+          "type": "A",
+          "size": 816,
+          "locked": true
+        },
+        {
+          "name": "TYPING QUIZ",
+          "type": "A",
+          "size": 172,
+          "locked": true
+        },
+        {
+          "name": "TINIER TIC-TAC-TOE",
+          "type": "A",
+          "size": 396,
+          "locked": true
+        },
+        {
+          "name": "ROTATING GLOBE",
+          "type": "A",
+          "size": 299,
+          "locked": true
+        },
+        {
+          "name": "BLACKJACK",
+          "type": "A",
+          "size": 415,
+          "locked": true
+        },
+        {
+          "name": "BLACKJACK INSTRUCTIONS",
+          "type": "A",
+          "size": 104,
+          "locked": true
+        },
+        {
+          "name": "MENU DEMO",
+          "type": "A",
+          "size": 302,
+          "locked": true
+        },
+        {
+          "name": "JOYSTICK DRAW",
+          "type": "A",
+          "size": 378,
+          "locked": true
+        },
+        {
+          "name": "JOYSTICK DRAW INSTRUCTIONS",
+          "type": "A",
+          "size": 450,
+          "locked": true
+        },
+        {
+          "name": "SCREEN EDITOR",
+          "type": "A",
+          "size": 152,
+          "locked": true
+        },
+        {
+          "name": "SCREEN EDITOR INSTRUCTIONS",
+          "type": "A",
+          "size": 465,
+          "locked": true
+        },
+        {
+          "name": "WHOOP",
+          "type": "B",
+          "size": 31,
+          "locked": true
+        },
+        {
+          "name": "WHOOP INSTRUCTIONS",
+          "type": "A",
+          "size": 94,
+          "locked": true
+        },
+        {
+          "name": "ENHANCE",
+          "type": "B",
+          "size": 92,
+          "locked": true
+        },
+        {
+          "name": "ENHANCE INSTRUCTIONS",
+          "type": "A",
+          "size": 276,
+          "locked": true
+        },
+        {
+          "name": "FLICKER",
+          "type": "A",
+          "size": 171,
+          "locked": true
+        },
+        {
+          "name": "RIPPLES",
+          "type": "A",
+          "size": 143,
+          "locked": true
+        },
+        {
+          "name": "RIPPLES.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "RUNNER",
+          "type": "A",
+          "size": 87,
+          "locked": true
+        },
+        {
+          "name": "DISSOLVE",
+          "type": "B",
+          "size": 72,
+          "locked": true
+        },
+        {
+          "name": "DISSOLVE DEMO",
+          "type": "A",
+          "size": 136,
+          "locked": true
+        },
+        {
+          "name": "THE MOUSE AND THE CHEESE",
+          "type": "A",
+          "size": 388,
+          "locked": true
+        },
+        {
+          "name": "DATA STATEMENT MAKER",
+          "type": "A",
+          "size": 240,
+          "locked": true
+        },
+        {
+          "name": "DATA STATEMENT MAKER INSTR",
+          "type": "A",
+          "size": 430,
+          "locked": true
+        },
+        {
+          "name": "VIDEO",
+          "type": "B",
+          "size": 165,
+          "locked": true
+        },
+        {
+          "name": "VIDEO DEMO",
+          "type": "A",
+          "size": 158,
+          "locked": true
+        },
+        {
+          "name": "QUILT",
+          "type": "A",
+          "size": 125,
+          "locked": true
+        },
+        {
+          "name": "FREE SECTORS",
+          "type": "A",
+          "size": 169,
+          "locked": true
+        },
+        {
+          "name": "ON THE ROAD",
+          "type": "A",
+          "size": 179,
+          "locked": true
+        },
+        {
+          "name": "HOME DELETE",
+          "type": "B",
+          "size": 22,
+          "locked": true
+        },
+        {
+          "name": "HOME DELETE INSTRUCTIONS",
+          "type": "A",
+          "size": 112,
+          "locked": true
+        },
+        {
+          "name": "ROTATING GEM",
+          "type": "A",
+          "size": 200,
+          "locked": true
+        },
+        {
+          "name": "MIRROR",
+          "type": "B",
+          "size": 84,
+          "locked": true
+        },
+        {
+          "name": "MIRROR DEMO",
+          "type": "A",
+          "size": 74,
+          "locked": true
+        },
+        {
+          "name": "LOCATOR",
+          "type": "B",
+          "size": 56,
+          "locked": true
+        },
+        {
+          "name": "LOCATOR INSTRUCTIONS",
+          "type": "A",
+          "size": 223,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1985, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1985, Part 2).dsk",
+      "format": "dos33",
+      "year": 1985,
+      "part": 2,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 672,
+          "locked": true
+        },
+        {
+          "name": "BIN-DEC-HEX",
+          "type": "A",
+          "size": 329,
+          "locked": true
+        },
+        {
+          "name": "SINE PLOTTER",
+          "type": "A",
+          "size": 257,
+          "locked": true
+        },
+        {
+          "name": "SECTOR VIEWER",
+          "type": "A",
+          "size": 371,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE REFERENCE",
+          "type": "A",
+          "size": 396,
+          "locked": true
+        },
+        {
+          "name": "GUN TURRET",
+          "type": "A",
+          "size": 333,
+          "locked": true
+        },
+        {
+          "name": "CIRCUITRY",
+          "type": "B",
+          "size": 66,
+          "locked": true
+        },
+        {
+          "name": "LIFE",
+          "type": "A",
+          "size": 189,
+          "locked": true
+        },
+        {
+          "name": "LIFE INSTRUCTIONS",
+          "type": "A",
+          "size": 583,
+          "locked": true
+        },
+        {
+          "name": "LANDSCAPE AT SUNSET",
+          "type": "A",
+          "size": 184,
+          "locked": true
+        },
+        {
+          "name": "LINE COUNT",
+          "type": "B",
+          "size": 81,
+          "locked": true
+        },
+        {
+          "name": "LINE COUNT INSTRUCTIONS",
+          "type": "A",
+          "size": 138,
+          "locked": true
+        },
+        {
+          "name": "NUMBER ROUNDER",
+          "type": "A",
+          "size": 160,
+          "locked": true
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "B",
+          "size": 54,
+          "locked": true
+        },
+        {
+          "name": "DISK MAP",
+          "type": "A",
+          "size": 283,
+          "locked": true
+        },
+        {
+          "name": "DISK COPY",
+          "type": "A",
+          "size": 361,
+          "locked": true
+        },
+        {
+          "name": "BAR GRAPH 3D",
+          "type": "A",
+          "size": 293,
+          "locked": true
+        },
+        {
+          "name": "HYPNOSIS",
+          "type": "A",
+          "size": 355,
+          "locked": true
+        },
+        {
+          "name": "WAIT TIMES",
+          "type": "A",
+          "size": 225,
+          "locked": true
+        },
+        {
+          "name": "WAIT TIMES INSTRUCTIONS",
+          "type": "A",
+          "size": 338,
+          "locked": true
+        },
+        {
+          "name": "WALLPAPER",
+          "type": "A",
+          "size": 132,
+          "locked": true
+        },
+        {
+          "name": "WALLPAPER INSTRUCTIONS",
+          "type": "A",
+          "size": 80,
+          "locked": true
+        },
+        {
+          "name": "NUMBER MEMORY",
+          "type": "A",
+          "size": 171,
+          "locked": true
+        },
+        {
+          "name": "CIRCLES",
+          "type": "A",
+          "size": 144,
+          "locked": true
+        },
+        {
+          "name": "HEX DUMP",
+          "type": "B",
+          "size": 111,
+          "locked": true
+        },
+        {
+          "name": "HEX DUMP INSTRUCTIONS",
+          "type": "A",
+          "size": 652,
+          "locked": true
+        },
+        {
+          "name": "SINE RIPPLES",
+          "type": "A",
+          "size": 196,
+          "locked": true
+        },
+        {
+          "name": "LINE EXPLOSION",
+          "type": "A",
+          "size": 287,
+          "locked": true
+        },
+        {
+          "name": "BLOAD PARAMS",
+          "type": "B",
+          "size": 81,
+          "locked": true
+        },
+        {
+          "name": "BLOAD PARAMS INSTRUCTIONS",
+          "type": "A",
+          "size": 212,
+          "locked": true
+        },
+        {
+          "name": "UNNEW 2",
+          "type": "B",
+          "size": 104,
+          "locked": true
+        },
+        {
+          "name": "UNNEW 2 INSTRUCTIONS",
+          "type": "A",
+          "size": 278,
+          "locked": true
+        },
+        {
+          "name": "THREE-D SQUARE",
+          "type": "A",
+          "size": 610,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT",
+          "type": "A",
+          "size": 239,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT INSTRUCTIONS",
+          "type": "A",
+          "size": 348,
+          "locked": true
+        },
+        {
+          "name": "ALPHABETIZER",
+          "type": "A",
+          "size": 206,
+          "locked": true
+        },
+        {
+          "name": "SKETCH PAD",
+          "type": "A",
+          "size": 197,
+          "locked": true
+        },
+        {
+          "name": "SKETCH PAD INSTRUCTIONS",
+          "type": "A",
+          "size": 197,
+          "locked": true
+        },
+        {
+          "name": "DYNAMIC FUNCTION",
+          "type": "A",
+          "size": 224,
+          "locked": true
+        },
+        {
+          "name": "DYNAMIC FUNCTION INSTRUCTIONS",
+          "type": "A",
+          "size": 486,
+          "locked": true
+        },
+        {
+          "name": "LOAN CALCULATOR",
+          "type": "A",
+          "size": 225,
+          "locked": true
+        },
+        {
+          "name": "LOAN CALCULATOR INSTRUCTIONS",
+          "type": "A",
+          "size": 316,
+          "locked": true
+        },
+        {
+          "name": "AUTO NUMBER",
+          "type": "B",
+          "size": 89,
+          "locked": true
+        },
+        {
+          "name": "AUTO NUMBER INSTRUCTIONS",
+          "type": "A",
+          "size": 635,
+          "locked": true
+        },
+        {
+          "name": "SINGLE STEP",
+          "type": "B",
+          "size": 87,
+          "locked": true
+        },
+        {
+          "name": "SINGLE STEP INSTRUCTIONS",
+          "type": "A",
+          "size": 375,
+          "locked": true
+        },
+        {
+          "name": "STOP SIGN",
+          "type": "A",
+          "size": 179,
+          "locked": true
+        },
+        {
+          "name": "DEC-HEX",
+          "type": "A",
+          "size": 200,
+          "locked": true
+        },
+        {
+          "name": "DEC-HEX INSTRUCTIONS",
+          "type": "A",
+          "size": 100,
+          "locked": true
+        },
+        {
+          "name": "HARMONICS",
+          "type": "A",
+          "size": 186,
+          "locked": true
+        },
+        {
+          "name": "HARMONICS 199.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "HARMONICS INSTRUCTIONS",
+          "type": "A",
+          "size": 259,
+          "locked": true
+        },
+        {
+          "name": "STICK WEAVE",
+          "type": "A",
+          "size": 114,
+          "locked": true
+        },
+        {
+          "name": "SNOWFLAKE",
+          "type": "A",
+          "size": 134,
+          "locked": true
+        },
+        {
+          "name": "READY SET GO",
+          "type": "A",
+          "size": 148,
+          "locked": true
+        },
+        {
+          "name": "READY SET GO INSTRUCTIONS",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "SQUARE SPIN",
+          "type": "A",
+          "size": 146,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL 1",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL 2",
+          "type": "A",
+          "size": 325,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL 3",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL 4",
+          "type": "A",
+          "size": 344,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL 5",
+          "type": "A",
+          "size": 344,
+          "locked": true
+        },
+        {
+          "name": "DODGEBALL INSTRUCTIONS",
+          "type": "A",
+          "size": 58,
+          "locked": true
+        },
+        {
+          "name": "SERPENT",
+          "type": "A",
+          "size": 328,
+          "locked": true
+        },
+        {
+          "name": "SERPENT INSTRUCTIONS",
+          "type": "A",
+          "size": 69,
+          "locked": true
+        },
+        {
+          "name": "FIND 1",
+          "type": "A",
+          "size": 354,
+          "locked": true
+        },
+        {
+          "name": "FIND 2",
+          "type": "A",
+          "size": 315,
+          "locked": true
+        },
+        {
+          "name": "FIND 3",
+          "type": "A",
+          "size": 340,
+          "locked": true
+        },
+        {
+          "name": "FIND INSTRUCTIONS",
+          "type": "A",
+          "size": 395,
+          "locked": true
+        },
+        {
+          "name": "MAZE 1",
+          "type": "A",
+          "size": 344,
+          "locked": true
+        },
+        {
+          "name": "MAZE 2",
+          "type": "A",
+          "size": 318,
+          "locked": true
+        },
+        {
+          "name": "MAZE 3",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "MAZE 4",
+          "type": "A",
+          "size": 323,
+          "locked": true
+        },
+        {
+          "name": "MAZE INSTRUCTIONS",
+          "type": "A",
+          "size": 307,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1986).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1986).dsk",
+      "format": "dos33",
+      "year": 1986,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 323,
+          "locked": true
+        },
+        {
+          "name": "MESSAGE SPELLER",
+          "type": "A",
+          "size": 213,
+          "locked": true
+        },
+        {
+          "name": "DOS COMMANDS",
+          "type": "A",
+          "size": 196,
+          "locked": true
+        },
+        {
+          "name": "CATALOG BY TYPE",
+          "type": "A",
+          "size": 304,
+          "locked": true
+        },
+        {
+          "name": "BOUNCING BALL",
+          "type": "A",
+          "size": 170,
+          "locked": true
+        },
+        {
+          "name": "LIFE 2",
+          "type": "B",
+          "size": 176,
+          "locked": true
+        },
+        {
+          "name": "LIFE 2 INSTRUCTIONS",
+          "type": "A",
+          "size": 688,
+          "locked": true
+        },
+        {
+          "name": "LIFE 2 RANDOM",
+          "type": "A",
+          "size": 104,
+          "locked": true
+        },
+        {
+          "name": "PREMIUM GAS COST",
+          "type": "A",
+          "size": 198,
+          "locked": true
+        },
+        {
+          "name": "ROAD TO THE STARS",
+          "type": "A",
+          "size": 144,
+          "locked": true
+        },
+        {
+          "name": "LEAP YEAR",
+          "type": "A",
+          "size": 141,
+          "locked": true
+        },
+        {
+          "name": "TEXT EDITOR",
+          "type": "A",
+          "size": 383,
+          "locked": true
+        },
+        {
+          "name": "TEXT EDITOR INSTRUCTIONS",
+          "type": "A",
+          "size": 403,
+          "locked": true
+        },
+        {
+          "name": "WATER TORTURE",
+          "type": "A",
+          "size": 302,
+          "locked": true
+        },
+        {
+          "name": "CURTAIN",
+          "type": "B",
+          "size": 81,
+          "locked": true
+        },
+        {
+          "name": "CURTAIN INSTRUCTIONS",
+          "type": "A",
+          "size": 313,
+          "locked": true
+        },
+        {
+          "name": "HYPOTENUSE FRACTION",
+          "type": "A",
+          "size": 218,
+          "locked": true
+        },
+        {
+          "name": "HYPOTENUSE FRACTION INSTR",
+          "type": "A",
+          "size": 488,
+          "locked": true
+        },
+        {
+          "name": "TRIANGLES",
+          "type": "A",
+          "size": 94,
+          "locked": true
+        },
+        {
+          "name": "TRIANGLES.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "SNAKE",
+          "type": "A",
+          "size": 389,
+          "locked": true
+        },
+        {
+          "name": "SNAKE INSTRUCTIONS",
+          "type": "A",
+          "size": 82,
+          "locked": true
+        },
+        {
+          "name": "ANGLE GUESSER",
+          "type": "A",
+          "size": 318,
+          "locked": true
+        },
+        {
+          "name": "LIFE 3",
+          "type": "A",
+          "size": 436,
+          "locked": true
+        },
+        {
+          "name": "LIFE 3 INSTRUCTIONS",
+          "type": "A",
+          "size": 217,
+          "locked": true
+        },
+        {
+          "name": "KEYBOARD ORGAN",
+          "type": "A",
+          "size": 274,
+          "locked": true
+        },
+        {
+          "name": "KEYBOARD ORGAN INSTRUCTIONS",
+          "type": "A",
+          "size": 252,
+          "locked": true
+        },
+        {
+          "name": "PRINT AN ENVELOPE",
+          "type": "A",
+          "size": 338,
+          "locked": true
+        },
+        {
+          "name": "LOWER TO UPPER",
+          "type": "B",
+          "size": 50,
+          "locked": true
+        },
+        {
+          "name": "LOWER TO UPPER INSTRUCTIONS",
+          "type": "A",
+          "size": 183,
+          "locked": true
+        },
+        {
+          "name": "LETTER FREQUENCY",
+          "type": "A",
+          "size": 182,
+          "locked": true
+        },
+        {
+          "name": "PRINT SCREEN",
+          "type": "A",
+          "size": 183,
+          "locked": true
+        },
+        {
+          "name": "DOS PRODOS CATALOG",
+          "type": "A",
+          "size": 43,
+          "locked": true
+        },
+        {
+          "name": "DOS PRODOS CATALOG INSTR",
+          "type": "A",
+          "size": 97,
+          "locked": true
+        },
+        {
+          "name": "APPLE IDENTIFIER",
+          "type": "A",
+          "size": 111,
+          "locked": true
+        },
+        {
+          "name": "DOS PRODOS FILENAME VALIDATOR",
+          "type": "A",
+          "size": 160,
+          "locked": true
+        },
+        {
+          "name": "JUMPING JACKS",
+          "type": "A",
+          "size": 183,
+          "locked": true
+        },
+        {
+          "name": "TOWERS OF HANOI",
+          "type": "A",
+          "size": 327,
+          "locked": true
+        },
+        {
+          "name": "TYPING BOMBS",
+          "type": "A",
+          "size": 296,
+          "locked": true
+        },
+        {
+          "name": "HI-RES WRITER",
+          "type": "A",
+          "size": 410,
+          "locked": true
+        },
+        {
+          "name": "DATES",
+          "type": "A",
+          "size": 215,
+          "locked": true
+        },
+        {
+          "name": "DATES INSTRUCTIONS",
+          "type": "A",
+          "size": 166,
+          "locked": true
+        },
+        {
+          "name": "HALLEY'S COMET",
+          "type": "A",
+          "size": 169,
+          "locked": true
+        },
+        {
+          "name": "HALLEY'S COMET INSTRUCTIONS",
+          "type": "A",
+          "size": 101,
+          "locked": true
+        },
+        {
+          "name": "BOWTIE DRAWER",
+          "type": "A",
+          "size": 184,
+          "locked": true
+        },
+        {
+          "name": "BOWTIE DRAWER INSTRUCTIONS",
+          "type": "A",
+          "size": 151,
+          "locked": true
+        },
+        {
+          "name": "SPACE CROSS",
+          "type": "A",
+          "size": 92,
+          "locked": true
+        },
+        {
+          "name": "BASE CONVERTER",
+          "type": "A",
+          "size": 205,
+          "locked": true
+        },
+        {
+          "name": "FULL-STOP SHOP",
+          "type": "A",
+          "size": 272,
+          "locked": true
+        },
+        {
+          "name": "PROJECTILE",
+          "type": "A",
+          "size": 239,
+          "locked": true
+        },
+        {
+          "name": "CALENDAR",
+          "type": "A",
+          "size": 401,
+          "locked": true
+        },
+        {
+          "name": "CUBE ROTATOR",
+          "type": "A",
+          "size": 404,
+          "locked": true
+        },
+        {
+          "name": "STRING FIND",
+          "type": "B",
+          "size": 94,
+          "locked": true
+        },
+        {
+          "name": "STRING FIND INSTRUCTIONS",
+          "type": "A",
+          "size": 486,
+          "locked": true
+        },
+        {
+          "name": "TANTALUS",
+          "type": "A",
+          "size": 298,
+          "locked": true
+        },
+        {
+          "name": "STARS AND STRIPES",
+          "type": "A",
+          "size": 272,
+          "locked": true
+        },
+        {
+          "name": "PASCAL CARDS",
+          "type": "A",
+          "size": 204,
+          "locked": true
+        },
+        {
+          "name": "DAISIES",
+          "type": "A",
+          "size": 177,
+          "locked": true
+        },
+        {
+          "name": "DATE VALIDATOR",
+          "type": "A",
+          "size": 236,
+          "locked": true
+        },
+        {
+          "name": "PRINT SHOP HGR CONVERTER",
+          "type": "A",
+          "size": 207,
+          "locked": true
+        },
+        {
+          "name": "PRINT SHOP HGR CONVERTER INSTR",
+          "type": "A",
+          "size": 152,
+          "locked": true
+        },
+        {
+          "name": "CHARACTER DESIGNER",
+          "type": "A",
+          "size": 361,
+          "locked": true
+        },
+        {
+          "name": "CHARACTER DESIGNER INSTR",
+          "type": "A",
+          "size": 1010,
+          "locked": true
+        },
+        {
+          "name": "PRINT SCRN CAT",
+          "type": "B",
+          "size": 172,
+          "locked": true
+        },
+        {
+          "name": "PRINT SCRN CAT INSTRUCTIONS",
+          "type": "A",
+          "size": 542,
+          "locked": true
+        },
+        {
+          "name": "DATE VALIDATOR 2",
+          "type": "A",
+          "size": 204,
+          "locked": true
+        },
+        {
+          "name": "DATE VALIDATOR 2 INSTRUCTIONS",
+          "type": "A",
+          "size": 163,
+          "locked": true
+        },
+        {
+          "name": "KEYBOARD BUFFER",
+          "type": "B",
+          "size": 124,
+          "locked": true
+        },
+        {
+          "name": "KEYBOARD BUFFER DEMO",
+          "type": "A",
+          "size": 246,
+          "locked": true
+        },
+        {
+          "name": "GRAPHS",
+          "type": "A",
+          "size": 373,
+          "locked": true
+        },
+        {
+          "name": "DRIVE CLEANER",
+          "type": "B",
+          "size": 81,
+          "locked": true
+        },
+        {
+          "name": "DRIVE CLEANER INSTRUCTIONS",
+          "type": "A",
+          "size": 421,
+          "locked": true
+        },
+        {
+          "name": "MULTIPLE WINDOWS",
+          "type": "A",
+          "size": 254,
+          "locked": true
+        },
+        {
+          "name": "CHECKBOOK",
+          "type": "A",
+          "size": 126,
+          "locked": true
+        },
+        {
+          "name": "CHECKBOOK INSTRUCTIONS",
+          "type": "A",
+          "size": 436,
+          "locked": true
+        },
+        {
+          "name": "QUILT",
+          "type": "A",
+          "size": 234,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1987, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1987, Part 1).dsk",
+      "format": "dos33",
+      "year": 1987,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 379,
+          "locked": true
+        },
+        {
+          "name": "SATURN",
+          "type": "A",
+          "size": 271,
+          "locked": true
+        },
+        {
+          "name": "SATURN.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "MARCHING SOLDIERS",
+          "type": "A",
+          "size": 196,
+          "locked": true
+        },
+        {
+          "name": "DOUBLE CATALOG",
+          "type": "A",
+          "size": 297,
+          "locked": false
+        },
+        {
+          "name": "FACTORS",
+          "type": "A",
+          "size": 148,
+          "locked": true
+        },
+        {
+          "name": "DIAMOND",
+          "type": "A",
+          "size": 114,
+          "locked": true
+        },
+        {
+          "name": "DIAMOND.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "PRINT ON",
+          "type": "B",
+          "size": 64,
+          "locked": true
+        },
+        {
+          "name": "PRINT ON INSTRUCTIONS",
+          "type": "A",
+          "size": 516,
+          "locked": true
+        },
+        {
+          "name": "AL",
+          "type": "B",
+          "size": 110,
+          "locked": true
+        },
+        {
+          "name": "AL INSTRUCTIONS",
+          "type": "A",
+          "size": 198,
+          "locked": true
+        },
+        {
+          "name": "CIRCLE PATTERNS",
+          "type": "A",
+          "size": 189,
+          "locked": true
+        },
+        {
+          "name": "BREAKOUT",
+          "type": "A",
+          "size": 380,
+          "locked": true
+        },
+        {
+          "name": "HI-RES REVERSE",
+          "type": "B",
+          "size": 57,
+          "locked": true
+        },
+        {
+          "name": "HI-RES REVERSE INSTRUCTIONS",
+          "type": "A",
+          "size": 243,
+          "locked": true
+        },
+        {
+          "name": "MORSE CODE",
+          "type": "B",
+          "size": 162,
+          "locked": true
+        },
+        {
+          "name": "MORSE CODE INSTRUCTIONS",
+          "type": "A",
+          "size": 255,
+          "locked": true
+        },
+        {
+          "name": "FADER",
+          "type": "B",
+          "size": 88,
+          "locked": true
+        },
+        {
+          "name": "FADER INSTRUCTIONS",
+          "type": "A",
+          "size": 277,
+          "locked": true
+        },
+        {
+          "name": "PONG",
+          "type": "A",
+          "size": 390,
+          "locked": true
+        },
+        {
+          "name": "TEXT INVADERS",
+          "type": "A",
+          "size": 400,
+          "locked": true
+        },
+        {
+          "name": "POTHOLES IN SPACE",
+          "type": "A",
+          "size": 174,
+          "locked": true
+        },
+        {
+          "name": "SCINTILLATING OVALS",
+          "type": "A",
+          "size": 309,
+          "locked": true
+        },
+        {
+          "name": "PHONE NUMBER WORDS",
+          "type": "A",
+          "size": 392,
+          "locked": true
+        },
+        {
+          "name": "CHOOSY LISTER",
+          "type": "A",
+          "size": 199,
+          "locked": true
+        },
+        {
+          "name": "CHOOSY LISTER INSTRUCTIONS",
+          "type": "A",
+          "size": 829,
+          "locked": true
+        },
+        {
+          "name": "DOS PRODOS CATALOG 2",
+          "type": "A",
+          "size": 56,
+          "locked": true
+        },
+        {
+          "name": "DOS PRODOS CATALOG 2 INSTR",
+          "type": "A",
+          "size": 532,
+          "locked": true
+        },
+        {
+          "name": "MINI-RACE",
+          "type": "A",
+          "size": 376,
+          "locked": true
+        },
+        {
+          "name": "MOUSE FINDER",
+          "type": "A",
+          "size": 73,
+          "locked": true
+        },
+        {
+          "name": "MOUSE FINDER INSTRUCTIONS",
+          "type": "A",
+          "size": 231,
+          "locked": true
+        },
+        {
+          "name": "PERMUTATIONS COMBINATIONS",
+          "type": "A",
+          "size": 395,
+          "locked": true
+        },
+        {
+          "name": "ROLLING SQUARE",
+          "type": "A",
+          "size": 255,
+          "locked": true
+        },
+        {
+          "name": "LETTER-GO",
+          "type": "A",
+          "size": 409,
+          "locked": true
+        },
+        {
+          "name": "THREE-D DRAPE",
+          "type": "A",
+          "size": 332,
+          "locked": true
+        },
+        {
+          "name": "THREE-D DRAPE.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "WATER FOUNTAIN",
+          "type": "A",
+          "size": 381,
+          "locked": true
+        },
+        {
+          "name": "QUOTE CONVERT",
+          "type": "A",
+          "size": 149,
+          "locked": true
+        },
+        {
+          "name": "QUOTE CONVERT INSTRUCTIONS",
+          "type": "A",
+          "size": 440,
+          "locked": true
+        },
+        {
+          "name": "POKER HAND DEALER",
+          "type": "A",
+          "size": 383,
+          "locked": true
+        },
+        {
+          "name": "AUTO MENU",
+          "type": "A",
+          "size": 357,
+          "locked": true
+        },
+        {
+          "name": "DISK COPY 2",
+          "type": "B",
+          "size": 165,
+          "locked": true
+        },
+        {
+          "name": "DISK COPY 2 INSTRUCTIONS",
+          "type": "A",
+          "size": 274,
+          "locked": true
+        },
+        {
+          "name": "DECIMAL ALIGN",
+          "type": "A",
+          "size": 109,
+          "locked": true
+        },
+        {
+          "name": "MUNCH",
+          "type": "A",
+          "size": 365,
+          "locked": true
+        },
+        {
+          "name": "MUNCH INSTRUCTIONS",
+          "type": "A",
+          "size": 302,
+          "locked": true
+        },
+        {
+          "name": "VAR SWAP",
+          "type": "B",
+          "size": 36,
+          "locked": true
+        },
+        {
+          "name": "VAR SWAP INSTRUCTIONS",
+          "type": "A",
+          "size": 352,
+          "locked": true
+        },
+        {
+          "name": "ML TO DATA",
+          "type": "A",
+          "size": 422,
+          "locked": true
+        },
+        {
+          "name": "ML TO DATA INSTRUCTIONS",
+          "type": "A",
+          "size": 442,
+          "locked": true
+        },
+        {
+          "name": "RESTORER.CREATE",
+          "type": "A",
+          "size": 361,
+          "locked": true
+        },
+        {
+          "name": "RESTORER",
+          "type": "B",
+          "size": 87,
+          "locked": true
+        },
+        {
+          "name": "RESTORER INSTRUCTIONS",
+          "type": "A",
+          "size": 244,
+          "locked": true
+        },
+        {
+          "name": "STARS",
+          "type": "B",
+          "size": 157,
+          "locked": true
+        },
+        {
+          "name": "STARS INSTRUCTIONS",
+          "type": "A",
+          "size": 349,
+          "locked": true
+        },
+        {
+          "name": "GO VAR",
+          "type": "A",
+          "size": 231,
+          "locked": true
+        },
+        {
+          "name": "GO VAR INSTRUCTIONS",
+          "type": "A",
+          "size": 503,
+          "locked": true
+        },
+        {
+          "name": "APPLE IDENTIFIER",
+          "type": "A",
+          "size": 234,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 1",
+          "type": "A",
+          "size": 185,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 1.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 2",
+          "type": "A",
+          "size": 171,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 2.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 3",
+          "type": "A",
+          "size": 167,
+          "locked": true
+        },
+        {
+          "name": "THREE-D PLOT 3.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "GRAPHER",
+          "type": "A",
+          "size": 198,
+          "locked": true
+        },
+        {
+          "name": "GRAPHER INSTRUCTIONS",
+          "type": "A",
+          "size": 318,
+          "locked": true
+        },
+        {
+          "name": "FACTORIALS",
+          "type": "A",
+          "size": 225,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1987, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1987, Part 2).dsk",
+      "format": "prodos",
+      "year": 1987,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 343,
+          "locked": true
+        },
+        {
+          "name": "APPLE.MACROS",
+          "type": "B",
+          "size": 144,
+          "locked": true
+        },
+        {
+          "name": "APPLE.MAC.INSTR",
+          "type": "A",
+          "size": 428,
+          "locked": true
+        },
+        {
+          "name": "DATESTAMPS",
+          "type": "A",
+          "size": 266,
+          "locked": true
+        },
+        {
+          "name": "DATESTAMPS.INST",
+          "type": "A",
+          "size": 293,
+          "locked": true
+        },
+        {
+          "name": "AMPERGONE",
+          "type": "B",
+          "size": 87,
+          "locked": true
+        },
+        {
+          "name": "AMPERGONE.INSTR",
+          "type": "A",
+          "size": 526,
+          "locked": true
+        },
+        {
+          "name": "STORAGE.DEVICES",
+          "type": "A",
+          "size": 145,
+          "locked": true
+        },
+        {
+          "name": "STORAGE.INSTR",
+          "type": "A",
+          "size": 491,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1988, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1988, Part 1).dsk",
+      "format": "dos33",
+      "year": 1988,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 579,
+          "locked": true
+        },
+        {
+          "name": "METEOROIDS",
+          "type": "A",
+          "size": 399,
+          "locked": true
+        },
+        {
+          "name": "YES NO",
+          "type": "B",
+          "size": 135,
+          "locked": true
+        },
+        {
+          "name": "YES NO DEMO",
+          "type": "A",
+          "size": 71,
+          "locked": true
+        },
+        {
+          "name": "YES NO INSTRUCTIONS",
+          "type": "A",
+          "size": 523,
+          "locked": true
+        },
+        {
+          "name": "HANOI TOWERS",
+          "type": "A",
+          "size": 373,
+          "locked": true
+        },
+        {
+          "name": "HANOI TOWERS INSTRUCTIONS",
+          "type": "A",
+          "size": 129,
+          "locked": true
+        },
+        {
+          "name": "MASTERMIND",
+          "type": "A",
+          "size": 404,
+          "locked": true
+        },
+        {
+          "name": "MASTERMIND INSTRUCTIONS",
+          "type": "A",
+          "size": 356,
+          "locked": true
+        },
+        {
+          "name": "JOYSTICK CUBE",
+          "type": "A",
+          "size": 392,
+          "locked": true
+        },
+        {
+          "name": "MELTDOWN",
+          "type": "B",
+          "size": 50,
+          "locked": true
+        },
+        {
+          "name": "STREET LIGHT",
+          "type": "A",
+          "size": 348,
+          "locked": true
+        },
+        {
+          "name": "PUZZLE",
+          "type": "A",
+          "size": 344,
+          "locked": true
+        },
+        {
+          "name": "PUZZLE INSTRUCTIONS",
+          "type": "A",
+          "size": 182,
+          "locked": true
+        },
+        {
+          "name": "QUICK KEYS",
+          "type": "B",
+          "size": 156,
+          "locked": true
+        },
+        {
+          "name": "QUICK KEYS INSTRUCTIONS",
+          "type": "A",
+          "size": 606,
+          "locked": true
+        },
+        {
+          "name": "TAB CONVERTER",
+          "type": "A",
+          "size": 174,
+          "locked": true
+        },
+        {
+          "name": "TAB CONVERTER INSTRUCTIONS",
+          "type": "A",
+          "size": 324,
+          "locked": true
+        },
+        {
+          "name": "WORM",
+          "type": "A",
+          "size": 380,
+          "locked": true
+        },
+        {
+          "name": "TWIRLER",
+          "type": "B",
+          "size": 65,
+          "locked": true
+        },
+        {
+          "name": "CATALOG MEMO",
+          "type": "A",
+          "size": 175,
+          "locked": true
+        },
+        {
+          "name": "CATALOG MEMO INSTRUCTIONS",
+          "type": "A",
+          "size": 165,
+          "locked": true
+        },
+        {
+          "name": "SUPERFINDER",
+          "type": "B",
+          "size": 142,
+          "locked": true
+        },
+        {
+          "name": "SUPERFINDER INSTRUCTIONS",
+          "type": "A",
+          "size": 340,
+          "locked": true
+        },
+        {
+          "name": "F FORMAT",
+          "type": "A",
+          "size": 201,
+          "locked": true
+        },
+        {
+          "name": "F FORMAT INSTRUCTIONS",
+          "type": "A",
+          "size": 469,
+          "locked": true
+        },
+        {
+          "name": "ROMAN NUMERAL CONVERT",
+          "type": "A",
+          "size": 384,
+          "locked": true
+        },
+        {
+          "name": "PRINT SHOP INVERT",
+          "type": "A",
+          "size": 162,
+          "locked": true
+        },
+        {
+          "name": "PRINT SHOP INVERT INSTR",
+          "type": "A",
+          "size": 132,
+          "locked": true
+        },
+        {
+          "name": "ALPHASORT",
+          "type": "A",
+          "size": 342,
+          "locked": true
+        },
+        {
+          "name": "ALPHASORT INSTRUCTIONS",
+          "type": "A",
+          "size": 233,
+          "locked": true
+        },
+        {
+          "name": "BARS",
+          "type": "A",
+          "size": 69,
+          "locked": true
+        },
+        {
+          "name": "BARS INSTRUCTIONS",
+          "type": "A",
+          "size": 73,
+          "locked": true
+        },
+        {
+          "name": "LENGTH MAKER",
+          "type": "A",
+          "size": 233,
+          "locked": true
+        },
+        {
+          "name": "LENGTH",
+          "type": "T",
+          "size": 256,
+          "locked": true
+        },
+        {
+          "name": "LENGTH INSTRUCTIONS",
+          "type": "A",
+          "size": 164,
+          "locked": true
+        },
+        {
+          "name": "LOSER TUNE",
+          "type": "A",
+          "size": 420,
+          "locked": true
+        },
+        {
+          "name": "EASTER",
+          "type": "A",
+          "size": 364,
+          "locked": true
+        },
+        {
+          "name": "CATALOG DRIVE SELECTION",
+          "type": "A",
+          "size": 388,
+          "locked": true
+        },
+        {
+          "name": "SPINNER",
+          "type": "A",
+          "size": 265,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT 2",
+          "type": "A",
+          "size": 151,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT 2.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "MINI-BREAKOUT",
+          "type": "A",
+          "size": 376,
+          "locked": true
+        },
+        {
+          "name": "MINI-BREAKOUT INSTRUCTIONS",
+          "type": "A",
+          "size": 100,
+          "locked": true
+        },
+        {
+          "name": "MAZE",
+          "type": "A",
+          "size": 331,
+          "locked": true
+        },
+        {
+          "name": "MAZE INSTRUCTIONS",
+          "type": "A",
+          "size": 162,
+          "locked": true
+        },
+        {
+          "name": "ROTER",
+          "type": "A",
+          "size": 341,
+          "locked": true
+        },
+        {
+          "name": "ROTER INSTRUCTIONS",
+          "type": "A",
+          "size": 277,
+          "locked": true
+        },
+        {
+          "name": "LO-RES TO HI-RES",
+          "type": "A",
+          "size": 153,
+          "locked": true
+        },
+        {
+          "name": "DOS LOWER CASE",
+          "type": "A",
+          "size": 129,
+          "locked": true
+        },
+        {
+          "name": "DOS LOWER CASE INSTRUCTIONS",
+          "type": "A",
+          "size": 209,
+          "locked": true
+        },
+        {
+          "name": "INPUT ANYTHING ROUTINE 3",
+          "type": "B",
+          "size": 88,
+          "locked": true
+        },
+        {
+          "name": "INPUT ANYTHING ROUTINE 3 DEMO",
+          "type": "A",
+          "size": 157,
+          "locked": true
+        },
+        {
+          "name": "MINI-DRAW",
+          "type": "A",
+          "size": 397,
+          "locked": true
+        },
+        {
+          "name": "MINI-DRAW INSTRUCTIONS",
+          "type": "A",
+          "size": 383,
+          "locked": true
+        },
+        {
+          "name": "MOIRE",
+          "type": "A",
+          "size": 93,
+          "locked": true
+        },
+        {
+          "name": "MOIRE 2",
+          "type": "A",
+          "size": 107,
+          "locked": true
+        },
+        {
+          "name": "IF THEN ELSE",
+          "type": "B",
+          "size": 77,
+          "locked": true
+        },
+        {
+          "name": "IF THEN ELSE DEMO 1",
+          "type": "A",
+          "size": 83,
+          "locked": true
+        },
+        {
+          "name": "IF THEN ELSE DEMO 2",
+          "type": "A",
+          "size": 197,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1988, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1988, Part 2).dsk",
+      "format": "prodos",
+      "year": 1988,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 343,
+          "locked": true
+        },
+        {
+          "name": "FREE.SPACE",
+          "type": "A",
+          "size": 136,
+          "locked": true
+        },
+        {
+          "name": "FREE.SPACE.INST",
+          "type": "A",
+          "size": 150,
+          "locked": true
+        },
+        {
+          "name": "RAM.EXTEND.B",
+          "type": "A",
+          "size": 454,
+          "locked": true
+        },
+        {
+          "name": "RAM.EXTEND",
+          "type": "B",
+          "size": 208,
+          "locked": true
+        },
+        {
+          "name": "RAM.EXTEND.INST",
+          "type": "A",
+          "size": 389,
+          "locked": true
+        },
+        {
+          "name": "LISTVOLS",
+          "type": "A",
+          "size": 360,
+          "locked": true
+        },
+        {
+          "name": "LISTVOLS.INSTR",
+          "type": "A",
+          "size": 96,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1989, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1989, Part 1).dsk",
+      "format": "dos33",
+      "year": 1989,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 537,
+          "locked": true
+        },
+        {
+          "name": "BIG APPLE",
+          "type": "A",
+          "size": 189,
+          "locked": true
+        },
+        {
+          "name": "BIG APPLE INSTRUCTIONS",
+          "type": "A",
+          "size": 229,
+          "locked": true
+        },
+        {
+          "name": "WIPE",
+          "type": "B",
+          "size": 112,
+          "locked": true
+        },
+        {
+          "name": "WIPE INSTRUCTIONS",
+          "type": "A",
+          "size": 218,
+          "locked": true
+        },
+        {
+          "name": "DIFFRACTION",
+          "type": "A",
+          "size": 199,
+          "locked": true
+        },
+        {
+          "name": "DIFFRACTION.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "PIE CHART",
+          "type": "A",
+          "size": 191,
+          "locked": true
+        },
+        {
+          "name": "PIE CHART INSTRUCTIONS",
+          "type": "A",
+          "size": 115,
+          "locked": true
+        },
+        {
+          "name": "UNJUMBLER 40",
+          "type": "A",
+          "size": 327,
+          "locked": true
+        },
+        {
+          "name": "UNJUMBLER 80",
+          "type": "A",
+          "size": 327,
+          "locked": true
+        },
+        {
+          "name": "UNJUMBLER INSTRUCTIONS",
+          "type": "A",
+          "size": 247,
+          "locked": true
+        },
+        {
+          "name": "CALENDAR YEAR",
+          "type": "A",
+          "size": 401,
+          "locked": true
+        },
+        {
+          "name": "DOSCAT",
+          "type": "A",
+          "size": 390,
+          "locked": true
+        },
+        {
+          "name": "DOSCAT INSTRUCTIONS",
+          "type": "A",
+          "size": 136,
+          "locked": true
+        },
+        {
+          "name": "MAKE A MAP",
+          "type": "A",
+          "size": 242,
+          "locked": true
+        },
+        {
+          "name": "MAKE A MAP INSTRUCTIONS",
+          "type": "A",
+          "size": 133,
+          "locked": true
+        },
+        {
+          "name": "SHAPE SELECT",
+          "type": "A",
+          "size": 328,
+          "locked": true
+        },
+        {
+          "name": "SHAPE SELECT INSTRUCTIONS",
+          "type": "A",
+          "size": 583,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE IS THE BEST",
+          "type": "A",
+          "size": 210,
+          "locked": true
+        },
+        {
+          "name": "ROUNDIT",
+          "type": "A",
+          "size": 291,
+          "locked": true
+        },
+        {
+          "name": "ROUNDIT DEMO",
+          "type": "A",
+          "size": 384,
+          "locked": true
+        },
+        {
+          "name": "SUPERGET",
+          "type": "B",
+          "size": 104,
+          "locked": false
+        },
+        {
+          "name": "SUPERGET DEMO",
+          "type": "A",
+          "size": 323,
+          "locked": false
+        },
+        {
+          "name": "LO-RES DRAW",
+          "type": "A",
+          "size": 304,
+          "locked": true
+        },
+        {
+          "name": "COMBINATIONS",
+          "type": "A",
+          "size": 280,
+          "locked": true
+        },
+        {
+          "name": "SCREEN FALL",
+          "type": "B",
+          "size": 147,
+          "locked": true
+        },
+        {
+          "name": "CHAOS",
+          "type": "A",
+          "size": 141,
+          "locked": true
+        },
+        {
+          "name": "CHAOS INSTRUCTIONS",
+          "type": "A",
+          "size": 664,
+          "locked": true
+        },
+        {
+          "name": "EXPLORER",
+          "type": "A",
+          "size": 347,
+          "locked": true
+        },
+        {
+          "name": "EXPLORER KEYBOARD",
+          "type": "A",
+          "size": 350,
+          "locked": true
+        },
+        {
+          "name": "PRINTSHOP VIEWER",
+          "type": "A",
+          "size": 134,
+          "locked": true
+        },
+        {
+          "name": "PRINTSHOP VIEWER INSTRUCTIONS",
+          "type": "A",
+          "size": 159,
+          "locked": true
+        },
+        {
+          "name": "MICRO TV",
+          "type": "A",
+          "size": 184,
+          "locked": true
+        },
+        {
+          "name": "MICRO TV INSTRUCTIONS",
+          "type": "A",
+          "size": 397,
+          "locked": true
+        },
+        {
+          "name": "COOL OFF",
+          "type": "A",
+          "size": 316,
+          "locked": true
+        },
+        {
+          "name": "SORT",
+          "type": "B",
+          "size": 154,
+          "locked": true
+        },
+        {
+          "name": "SORT DEMO",
+          "type": "A",
+          "size": 183,
+          "locked": true
+        },
+        {
+          "name": "JEWEL",
+          "type": "A",
+          "size": 151,
+          "locked": true
+        },
+        {
+          "name": "RETURN ADDRESS",
+          "type": "A",
+          "size": 255,
+          "locked": true
+        },
+        {
+          "name": "RETURN ADDRESS INSTRUCTIONS",
+          "type": "A",
+          "size": 445,
+          "locked": true
+        },
+        {
+          "name": "GET PLUS",
+          "type": "A",
+          "size": 385,
+          "locked": true
+        },
+        {
+          "name": "GET PLUS INSTRUCTIONS",
+          "type": "A",
+          "size": 386,
+          "locked": true
+        },
+        {
+          "name": "QUICK CAT",
+          "type": "B",
+          "size": 31,
+          "locked": true
+        },
+        {
+          "name": "QUICK CAT INSTRUCTIONS",
+          "type": "A",
+          "size": 158,
+          "locked": true
+        },
+        {
+          "name": "ROBOT CATCH",
+          "type": "A",
+          "size": 363,
+          "locked": false
+        },
+        {
+          "name": "ROBOT CATCH INSTRUCTIONS",
+          "type": "A",
+          "size": 71,
+          "locked": true
+        },
+        {
+          "name": "CHANNELS",
+          "type": "A",
+          "size": 175,
+          "locked": true
+        },
+        {
+          "name": "CHANNELS INSTRUCTIONS",
+          "type": "A",
+          "size": 119,
+          "locked": true
+        },
+        {
+          "name": "INERTIA",
+          "type": "A",
+          "size": 374,
+          "locked": true
+        },
+        {
+          "name": "INERTIA INSTRUCTIONS",
+          "type": "A",
+          "size": 254,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE EXPRESS",
+          "type": "A",
+          "size": 311,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE APPLES",
+          "type": "A",
+          "size": 313,
+          "locked": true
+        },
+        {
+          "name": "BASKET",
+          "type": "A",
+          "size": 338,
+          "locked": true
+        },
+        {
+          "name": "TL BOMBER",
+          "type": "A",
+          "size": 405,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1989, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1989, Part 2).dsk",
+      "format": "prodos",
+      "year": 1989,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 343,
+          "locked": true
+        },
+        {
+          "name": "PROCOM",
+          "type": "A",
+          "size": 280,
+          "locked": true
+        },
+        {
+          "name": "PROCOM.INSTR",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "PRODOS.PRINT.S",
+          "type": "A",
+          "size": 316,
+          "locked": true
+        },
+        {
+          "name": "PRODOS.PRINT",
+          "type": "B",
+          "size": 33,
+          "locked": true
+        },
+        {
+          "name": "PRODOS.PR.INSTR",
+          "type": "A",
+          "size": 714,
+          "locked": true
+        },
+        {
+          "name": "AWP.READER",
+          "type": "A",
+          "size": 397,
+          "locked": true
+        },
+        {
+          "name": "AWP.READER.INST",
+          "type": "A",
+          "size": 196,
+          "locked": true
+        },
+        {
+          "name": "CAT.DATER",
+          "type": "A",
+          "size": 193,
+          "locked": true
+        },
+        {
+          "name": "CAT.DATER.INSTR",
+          "type": "A",
+          "size": 284,
+          "locked": true
+        },
+        {
+          "name": "TYPE.AHEAD",
+          "type": "B",
+          "size": 161,
+          "locked": true
+        },
+        {
+          "name": "TYPE.AHEAD.INST",
+          "type": "A",
+          "size": 199,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1990, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1990, Part 1).dsk",
+      "format": "dos33",
+      "year": 1990,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 600,
+          "locked": true
+        },
+        {
+          "name": "UNDERSCORE CURSOR",
+          "type": "A",
+          "size": 196,
+          "locked": true
+        },
+        {
+          "name": "SLOGAN",
+          "type": "B",
+          "size": 184,
+          "locked": true
+        },
+        {
+          "name": "PYRAMID",
+          "type": "A",
+          "size": 190,
+          "locked": true
+        },
+        {
+          "name": "PYRAMID INSTRUCTIONS",
+          "type": "A",
+          "size": 229,
+          "locked": true
+        },
+        {
+          "name": "NEGASCREEN",
+          "type": "B",
+          "size": 28,
+          "locked": true
+        },
+        {
+          "name": "NEGASCREEN INSTRUCTIONS",
+          "type": "A",
+          "size": 133,
+          "locked": true
+        },
+        {
+          "name": "MENU SUBROUTINE",
+          "type": "A",
+          "size": 269,
+          "locked": true
+        },
+        {
+          "name": "MENU SUBROUTINE DEMO",
+          "type": "A",
+          "size": 376,
+          "locked": true
+        },
+        {
+          "name": "SCRN 80",
+          "type": "B",
+          "size": 76,
+          "locked": true
+        },
+        {
+          "name": "SCRN 80 DEMO",
+          "type": "A",
+          "size": 238,
+          "locked": true
+        },
+        {
+          "name": "SPACE WEIGHTS",
+          "type": "A",
+          "size": 329,
+          "locked": true
+        },
+        {
+          "name": "FRAMER",
+          "type": "A",
+          "size": 282,
+          "locked": true
+        },
+        {
+          "name": "MIXED TO UPPER CASE",
+          "type": "A",
+          "size": 97,
+          "locked": true
+        },
+        {
+          "name": "MIXED TO FIRST CAPITAL CASE",
+          "type": "A",
+          "size": 139,
+          "locked": true
+        },
+        {
+          "name": "DRIFT",
+          "type": "A",
+          "size": 172,
+          "locked": true
+        },
+        {
+          "name": "INTEREST CALCULATOR",
+          "type": "A",
+          "size": 387,
+          "locked": true
+        },
+        {
+          "name": "MIND'S EYE",
+          "type": "A",
+          "size": 237,
+          "locked": true
+        },
+        {
+          "name": "FIREWORKS",
+          "type": "A",
+          "size": 373,
+          "locked": true
+        },
+        {
+          "name": "MARQUEE",
+          "type": "A",
+          "size": 344,
+          "locked": true
+        },
+        {
+          "name": "MARQUEE INSTRUCTIONS",
+          "type": "A",
+          "size": 189,
+          "locked": true
+        },
+        {
+          "name": "MEMORY PEEKER",
+          "type": "A",
+          "size": 185,
+          "locked": true
+        },
+        {
+          "name": "MEMORY PEEKER INSTRUCTIONS",
+          "type": "A",
+          "size": 221,
+          "locked": true
+        },
+        {
+          "name": "RUN",
+          "type": "A",
+          "size": 235,
+          "locked": true
+        },
+        {
+          "name": "RUN EXAMPLE",
+          "type": "A",
+          "size": 254,
+          "locked": true
+        },
+        {
+          "name": "RUN INSTRUCTIONS",
+          "type": "A",
+          "size": 526,
+          "locked": true
+        },
+        {
+          "name": "STRIKE",
+          "type": "A",
+          "size": 357,
+          "locked": true
+        },
+        {
+          "name": "STRIKE INSTRUCTIONS",
+          "type": "A",
+          "size": 315,
+          "locked": true
+        },
+        {
+          "name": "APPLE SIGN",
+          "type": "A",
+          "size": 317,
+          "locked": true
+        },
+        {
+          "name": "APPLE SIGN INSTRUCTIONS",
+          "type": "A",
+          "size": 111,
+          "locked": true
+        },
+        {
+          "name": "SNOWFLAKES",
+          "type": "A",
+          "size": 192,
+          "locked": true
+        },
+        {
+          "name": "SNOWFLAKES INSTRUCTIONS",
+          "type": "A",
+          "size": 118,
+          "locked": true
+        },
+        {
+          "name": "DAY OF WEEK",
+          "type": "A",
+          "size": 359,
+          "locked": true
+        },
+        {
+          "name": "CODE BREAKER",
+          "type": "A",
+          "size": 192,
+          "locked": true
+        },
+        {
+          "name": "CODE BREAKER INSTRUCTIONS",
+          "type": "A",
+          "size": 695,
+          "locked": true
+        },
+        {
+          "name": "MELBOURNE OZ",
+          "type": "A",
+          "size": 188,
+          "locked": true
+        },
+        {
+          "name": "MELBOURNE OZ INSTRUCTIONS",
+          "type": "A",
+          "size": 210,
+          "locked": true
+        },
+        {
+          "name": "MISSILE HEAD 1",
+          "type": "A",
+          "size": 177,
+          "locked": true
+        },
+        {
+          "name": "MISSILE HEAD 1.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "MISSILE HEAD 2",
+          "type": "A",
+          "size": 178,
+          "locked": true
+        },
+        {
+          "name": "MISSILE HEAD 2.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "BLOX",
+          "type": "A",
+          "size": 382,
+          "locked": true
+        },
+        {
+          "name": "VEJUR",
+          "type": "A",
+          "size": 228,
+          "locked": true
+        },
+        {
+          "name": "MINI-PAINT",
+          "type": "A",
+          "size": 367,
+          "locked": true
+        },
+        {
+          "name": "MINI-PAINT INSTRUCTIONS",
+          "type": "A",
+          "size": 210,
+          "locked": true
+        },
+        {
+          "name": "BASIC FIX IT",
+          "type": "B",
+          "size": 53,
+          "locked": true
+        },
+        {
+          "name": "BASIC FIX IT INSTRUCTIONS",
+          "type": "A",
+          "size": 305,
+          "locked": true
+        },
+        {
+          "name": "IIGS EFFECT MAKER",
+          "type": "A",
+          "size": 307,
+          "locked": true
+        },
+        {
+          "name": "IIGS EFFECT MAKER INSTR",
+          "type": "A",
+          "size": 167,
+          "locked": true
+        },
+        {
+          "name": "ROTATE CUBE",
+          "type": "A",
+          "size": 354,
+          "locked": true
+        },
+        {
+          "name": "LIGHTBAR",
+          "type": "A",
+          "size": 376,
+          "locked": true
+        },
+        {
+          "name": "LIGHTBAR INSTRUCTIONS",
+          "type": "A",
+          "size": 384,
+          "locked": true
+        },
+        {
+          "name": "SURROUND",
+          "type": "A",
+          "size": 366,
+          "locked": true
+        },
+        {
+          "name": "SURROUND INSTRUCTIONS",
+          "type": "A",
+          "size": 446,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1990, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1990, Part 2).dsk",
+      "format": "prodos",
+      "year": 1990,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 342,
+          "locked": true
+        },
+        {
+          "name": "PRO.CALC",
+          "type": "A",
+          "size": 255,
+          "locked": true
+        },
+        {
+          "name": "PRO.CALC.INSTR",
+          "type": "A",
+          "size": 265,
+          "locked": true
+        },
+        {
+          "name": "APPLE.OUT",
+          "type": "B",
+          "size": 36,
+          "locked": true
+        },
+        {
+          "name": "APPLE.OUT.INSTR",
+          "type": "A",
+          "size": 378,
+          "locked": true
+        },
+        {
+          "name": "BLOCKS.VNAME",
+          "type": "A",
+          "size": 160,
+          "locked": true
+        },
+        {
+          "name": "BLOCKS.SLOTDR",
+          "type": "A",
+          "size": 227,
+          "locked": true
+        },
+        {
+          "name": "BLOCKS.INSTR",
+          "type": "A",
+          "size": 243,
+          "locked": true
+        },
+        {
+          "name": "HR.MERGE",
+          "type": "A",
+          "size": 350,
+          "locked": true
+        },
+        {
+          "name": "HR.MERGE.INSTR",
+          "type": "A",
+          "size": 257,
+          "locked": true
+        },
+        {
+          "name": "BOOT.SLOT",
+          "type": "S",
+          "size": 90,
+          "locked": true
+        },
+        {
+          "name": "BOOT.SLOT.INSTR",
+          "type": "A",
+          "size": 244,
+          "locked": true
+        },
+        {
+          "name": "BASIC.COPY",
+          "type": "A",
+          "size": 322,
+          "locked": true
+        },
+        {
+          "name": "BASIC.COPY.INST",
+          "type": "A",
+          "size": 153,
+          "locked": true
+        },
+        {
+          "name": "IIGS.PLOADER",
+          "type": "A",
+          "size": 319,
+          "locked": true
+        },
+        {
+          "name": "IIGS.PLOAD.INST",
+          "type": "A",
+          "size": 173,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1991, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1991, Part 1).dsk",
+      "format": "dos33",
+      "year": 1991,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 378,
+          "locked": true
+        },
+        {
+          "name": "SCREEN FALL",
+          "type": "A",
+          "size": 186,
+          "locked": true
+        },
+        {
+          "name": "PRINTER DUMP",
+          "type": "B",
+          "size": 88,
+          "locked": true
+        },
+        {
+          "name": "PRINTER DUMP ORIG",
+          "type": "B",
+          "size": 72,
+          "locked": true
+        },
+        {
+          "name": "PRINTER DUMP INSTR",
+          "type": "A",
+          "size": 359,
+          "locked": true
+        },
+        {
+          "name": "SHRINKER",
+          "type": "A",
+          "size": 252,
+          "locked": true
+        },
+        {
+          "name": "SHRINKER INSTRUCTIONS",
+          "type": "A",
+          "size": 312,
+          "locked": true
+        },
+        {
+          "name": "BRICKO",
+          "type": "A",
+          "size": 416,
+          "locked": true
+        },
+        {
+          "name": "DUEL",
+          "type": "A",
+          "size": 396,
+          "locked": true
+        },
+        {
+          "name": "DUEL INSTRUCTIONS",
+          "type": "A",
+          "size": 124,
+          "locked": true
+        },
+        {
+          "name": "PARADE",
+          "type": "A",
+          "size": 332,
+          "locked": true
+        },
+        {
+          "name": "IIGS COLOR",
+          "type": "B",
+          "size": 99,
+          "locked": true
+        },
+        {
+          "name": "IIGS COLOR INSTRUCTIONS",
+          "type": "A",
+          "size": 414,
+          "locked": true
+        },
+        {
+          "name": "FISH",
+          "type": "A",
+          "size": 198,
+          "locked": true
+        },
+        {
+          "name": "WIPEOUT",
+          "type": "A",
+          "size": 110,
+          "locked": true
+        },
+        {
+          "name": "SLIDEOUT",
+          "type": "A",
+          "size": 107,
+          "locked": true
+        },
+        {
+          "name": "SLIDEOUT INSTRUCTIONS",
+          "type": "A",
+          "size": 270,
+          "locked": true
+        },
+        {
+          "name": "IIGS MEMORY FREE",
+          "type": "A",
+          "size": 282,
+          "locked": true
+        },
+        {
+          "name": "NIBBLE SPECKLES",
+          "type": "A",
+          "size": 285,
+          "locked": true
+        },
+        {
+          "name": "SUBSTITUTION CODE",
+          "type": "A",
+          "size": 246,
+          "locked": true
+        },
+        {
+          "name": "PIG LATIN TRANSLATOR",
+          "type": "A",
+          "size": 212,
+          "locked": true
+        },
+        {
+          "name": "OH FUDGE",
+          "type": "A",
+          "size": 396,
+          "locked": true
+        },
+        {
+          "name": "OH FUDGE INSTRUCTIONS",
+          "type": "A",
+          "size": 477,
+          "locked": true
+        },
+        {
+          "name": "AMPER DEC-TO-HEX",
+          "type": "A",
+          "size": 244,
+          "locked": true
+        },
+        {
+          "name": "ML STRING",
+          "type": "A",
+          "size": 412,
+          "locked": true
+        },
+        {
+          "name": "ML STRING INSTRUCTIONS",
+          "type": "A",
+          "size": 757,
+          "locked": true
+        },
+        {
+          "name": "ADDRESSER",
+          "type": "A",
+          "size": 387,
+          "locked": true
+        },
+        {
+          "name": "ADDRESSER INSTRUCTIONS",
+          "type": "A",
+          "size": 291,
+          "locked": true
+        },
+        {
+          "name": "BORDERS",
+          "type": "A",
+          "size": 155,
+          "locked": true
+        },
+        {
+          "name": "SAUDI NIGHTS",
+          "type": "A",
+          "size": 300,
+          "locked": true
+        },
+        {
+          "name": "FRACTALS 1",
+          "type": "A",
+          "size": 253,
+          "locked": true
+        },
+        {
+          "name": "FRACTALS 1.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "FRACTALS 2",
+          "type": "A",
+          "size": 253,
+          "locked": true
+        },
+        {
+          "name": "FRACTALS 2.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "UP AND DOWN",
+          "type": "A",
+          "size": 302,
+          "locked": true
+        },
+        {
+          "name": "INTERFERENCE",
+          "type": "A",
+          "size": 252,
+          "locked": true
+        },
+        {
+          "name": "LITTLE DOGGY",
+          "type": "A",
+          "size": 314,
+          "locked": true
+        },
+        {
+          "name": "BUTTON USR",
+          "type": "B",
+          "size": 37,
+          "locked": true
+        },
+        {
+          "name": "BUTTON USR DEMO 1",
+          "type": "A",
+          "size": 142,
+          "locked": true
+        },
+        {
+          "name": "BUTTON USR DEMO 2",
+          "type": "A",
+          "size": 166,
+          "locked": true
+        },
+        {
+          "name": "AUX COPY",
+          "type": "B",
+          "size": 62,
+          "locked": true
+        },
+        {
+          "name": "AUX COPY INSTRUCTIONS",
+          "type": "A",
+          "size": 560,
+          "locked": true
+        },
+        {
+          "name": "HI WHEELER",
+          "type": "A",
+          "size": 342,
+          "locked": true
+        },
+        {
+          "name": "HI WHEELER INSTRUCTIONS",
+          "type": "A",
+          "size": 100,
+          "locked": true
+        },
+        {
+          "name": "IIGS TRANSWARP DETECTOR",
+          "type": "A",
+          "size": 290,
+          "locked": true
+        },
+        {
+          "name": "IIGS TRANSWARP DETECTOR INSTR",
+          "type": "A",
+          "size": 242,
+          "locked": true
+        },
+        {
+          "name": "IIGS FLASHER",
+          "type": "A",
+          "size": 90,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1991, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1991, Part 2).dsk",
+      "format": "prodos",
+      "year": 1991,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 342,
+          "locked": true
+        },
+        {
+          "name": "STAR.TRAVEL",
+          "type": "A",
+          "size": 400,
+          "locked": true
+        },
+        {
+          "name": "BACK",
+          "type": "B",
+          "size": 114,
+          "locked": true
+        },
+        {
+          "name": "BACK.INSTR",
+          "type": "A",
+          "size": 363,
+          "locked": true
+        },
+        {
+          "name": "BEACH.STORM",
+          "type": "A",
+          "size": 316,
+          "locked": true
+        },
+        {
+          "name": "FIREWORKS.II",
+          "type": "A",
+          "size": 388,
+          "locked": true
+        },
+        {
+          "name": "FIREWORKS.INSTR",
+          "type": "A",
+          "size": 152,
+          "locked": true
+        },
+        {
+          "name": "POLYGON",
+          "type": "A",
+          "size": 374,
+          "locked": true
+        },
+        {
+          "name": "POLYGON.INSTR",
+          "type": "A",
+          "size": 140,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1992, Part 1).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1992, Part 1).dsk",
+      "format": "dos33",
+      "year": 1992,
+      "part": 1,
+      "files": [
+        {
+          "name": "HELLO",
+          "type": "A",
+          "size": 378,
+          "locked": true
+        },
+        {
+          "name": "TEASER II",
+          "type": "A",
+          "size": 394,
+          "locked": true
+        },
+        {
+          "name": "TEASER II INSTRUCTIONS",
+          "type": "A",
+          "size": 235,
+          "locked": true
+        },
+        {
+          "name": "TEASER II SOLUTION",
+          "type": "A",
+          "size": 98,
+          "locked": true
+        },
+        {
+          "name": "INPUT LINE",
+          "type": "A",
+          "size": 308,
+          "locked": true
+        },
+        {
+          "name": "INPUT LINE INSTRUCTIONS",
+          "type": "A",
+          "size": 386,
+          "locked": true
+        },
+        {
+          "name": "BINARY CONVERT",
+          "type": "A",
+          "size": 266,
+          "locked": true
+        },
+        {
+          "name": "BINARY CONVERT INSTRUCTIONS",
+          "type": "A",
+          "size": 115,
+          "locked": true
+        },
+        {
+          "name": "ET",
+          "type": "A",
+          "size": 203,
+          "locked": true
+        },
+        {
+          "name": "INSIDE DOS",
+          "type": "B",
+          "size": 124,
+          "locked": true
+        },
+        {
+          "name": "INSIDE DOS INSTRUCTIONS",
+          "type": "A",
+          "size": 432,
+          "locked": true
+        },
+        {
+          "name": "SNAKE",
+          "type": "A",
+          "size": 383,
+          "locked": true
+        },
+        {
+          "name": "SNAKE INSTRUCTIONS",
+          "type": "A",
+          "size": 53,
+          "locked": true
+        },
+        {
+          "name": "IIGS LOCK OUT",
+          "type": "B",
+          "size": 30,
+          "locked": true
+        },
+        {
+          "name": "IIGS LOCK OUT DEMO",
+          "type": "A",
+          "size": 129,
+          "locked": true
+        },
+        {
+          "name": "IIGS LOCK OUT INSTRUCTIONS",
+          "type": "A",
+          "size": 504,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT 3",
+          "type": "A",
+          "size": 218,
+          "locked": true
+        },
+        {
+          "name": "MANDELBROT 3.PIC",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "JULIA FRACTALS",
+          "type": "A",
+          "size": 241,
+          "locked": true
+        },
+        {
+          "name": "JULIA FRACTALS INSTRUCTIONS",
+          "type": "A",
+          "size": 403,
+          "locked": true
+        },
+        {
+          "name": "JULIA FRACTAL.PIC1",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "JULIA FRACTAL.PIC2",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "JULIA FRACTAL.PIC3",
+          "type": "B",
+          "size": 8184,
+          "locked": true
+        },
+        {
+          "name": "DOSCAT",
+          "type": "A",
+          "size": 390,
+          "locked": true
+        },
+        {
+          "name": "DOSCAT INSTRUCTIONS",
+          "type": "A",
+          "size": 192,
+          "locked": true
+        },
+        {
+          "name": "BLACKJACK",
+          "type": "A",
+          "size": 415,
+          "locked": true
+        },
+        {
+          "name": "BLACKJACK INSTRUCTIONS",
+          "type": "A",
+          "size": 104,
+          "locked": true
+        },
+        {
+          "name": "METEORITE NAVIGATOR",
+          "type": "A",
+          "size": 181,
+          "locked": true
+        },
+        {
+          "name": "BOUNCE",
+          "type": "B",
+          "size": 82,
+          "locked": true
+        },
+        {
+          "name": "BOUNCE INSTRUCTIONS",
+          "type": "A",
+          "size": 312,
+          "locked": true
+        },
+        {
+          "name": "ROM HEX-DEC CONVERTER",
+          "type": "A",
+          "size": 125,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "filename": "Nibble One and Two Liners (1992, Part 2).dsk",
+      "full_path": "/Users/brobert/Downloads/NibbleOneandTwoLiners(Complete)/Nibble One and Two Liners (1992, Part 2).dsk",
+      "format": "prodos",
+      "year": 1992,
+      "part": 2,
+      "files": [
+        {
+          "name": "PRODOS",
+          "type": "S",
+          "size": 17128,
+          "locked": true
+        },
+        {
+          "name": "BASIC.SYSTEM",
+          "type": "S",
+          "size": 10240,
+          "locked": true
+        },
+        {
+          "name": "STARTUP",
+          "type": "A",
+          "size": 342,
+          "locked": true
+        },
+        {
+          "name": "WHEEL",
+          "type": "A",
+          "size": 324,
+          "locked": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+1  HOME : FOR I = 1 TO 4:N(I) =  INT( RND(1) * 9) + 1: FOR J = I - 1 TO 1 STEP  - 1:I = I - (N(I) = N(J)): NEXT : NEXT : FOR I = 0 TO 1: INPUT "NBR:";N$:D = 0:P = 0: FOR X = 1 TO 4:N =  VAL( MID$ (N$,X,1)):P = P + (N = N(X)): FOR Y = 1 TO 4:D = D + (N = N(Y)): NEXT : NEXT :D = D - P: VTAB  PEEK(37): HTAB 10: PRINT "D="D"   P="P:I = (P = 4): NEXT 

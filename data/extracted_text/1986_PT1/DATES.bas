@@ -1,0 +1,1 @@
+1 W = 0: HOME : DIM D$(6):D$(0) = "FR":D$(1) = "SA":D$(2) = "SU":D$(3) = "MO":D$(4) = "TU":D$(5) = "WE":D$(6) = "TH": FOR I = 0 TO 1: INPUT "MO,DA,YR:";M,D,Y:X =  -  INT((1 / (M + 1) + .7)):Z =  INT((M + 1 - 12 * X) * 30.6001) +  INT((Y + X) * 365.25) + D:X = Z - 7 *  INT(Z / 7): PRINT D$(X):W = Z - W: NEXT : PRINT W

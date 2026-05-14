@@ -1,0 +1,1 @@
+0  HGR2 :O = O = 0: HCOLOR= O * 3: HPLOT O,Z: CALL 62454: FOR I = Z TO 255:X =  RND(I) * 210 + 5:W =  RND(I) * 30 + 25:V = X + W:S = 157 + X / 9: FOR Y = S TO  RND(I) * V + V / 3 + S * (I > W) STEP  - W / 14 + 1: HCOLOR= Z: HPLOT V,Y - 2 TO X,Y - 1 TO V,Y - 1 TO V + 9,Y + 5: POKE 228,X: HPLOT X * (Y < S) + 2,Y + 9 * (Y = S) TO V - 1,Y: NEXT Y,I: GOTO OZ

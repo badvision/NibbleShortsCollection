@@ -1,0 +1,2 @@
+10  FOR T = 0 TO 6: IF  PEEK(49420 + (T * 256)) = 32 AND  PEEK(49659 + (T * 256)) = 214 THEN M = T + 1: PRINT M: END 
+20  NEXT 

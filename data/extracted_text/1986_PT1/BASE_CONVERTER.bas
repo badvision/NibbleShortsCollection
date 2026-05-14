@@ -1,0 +1,1 @@
+0 N = 0: INPUT "BASE1, BASE2, NUMBER: ";A,B,N$: FOR M = 1 TO  LEN(N$):C =  ASC( MID$ (N$,M,1)) - 48:N = N * A + (C > 9) * (C - 7) + (C < 10) * C: NEXT :C = 0:N$ = "": FOR M = 1 TO 0 STEP 0:C = C + 1:D = N / B ^ C + 1E - 4:M =  INT(D):R =  INT((D - M) * B):N$ =  CHR$((R < 10) * (R + 48) + (R > 9) * (R + 55)) + N$: NEXT : PRINT N$: GOTO 0

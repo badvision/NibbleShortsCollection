@@ -1,0 +1,1 @@
+1 V = 80: HCOLOR= 3: DIM X(V),Y(V): FOR Q = 1 TO 9: HGR :N = 0:Z% =  RND(1) * 20 + 4:P = 6.283 / Z%: HPLOT 220,V: FOR G = P TO 6.3 + P STEP P:N = N + 1:X(N) = 140 + V *  COS(G):Y(N) = V + V *  SIN(G): HPLOT  TO X(N),Y(N): NEXT : FOR N = 1 TO Z%: FOR M = 1 TO Z%: HPLOT X(N),Y(N) TO X(M),Y(M): NEXT M,N: FOR N = 1 TO 1E3: NEXT N,Q

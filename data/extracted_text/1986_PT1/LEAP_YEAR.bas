@@ -1,0 +1,1 @@
+1  TEXT : HOME : INPUT "ENTER YEAR ";Y:L = L + ( INT(Y / 4) * 4 = Y) + ( INT(Y / 100) * 100 = Y) + ( INT(Y / 400) * 400 = Y): HOME : PRINT Y;" IS NOT A LEAP YEAR.": IF L = 1 OR L = 3 THEN  HOME : PRINT Y;" IS A LEAP YEAR !"

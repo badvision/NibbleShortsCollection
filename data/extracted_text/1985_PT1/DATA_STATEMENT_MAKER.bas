@@ -1,0 +1,2 @@
+9  TEXT : HOME :D$ =  CHR$(4):N$ = "DATA": PRINT D$"OPEN"N$: PRINT D$"WRITE"N$: PRINT "HOME": PRINT D$"CLOSE"
+10  INPUT "STR$:";A$: INPUT "LN #";N:L =  LEN(A$): ON (L > 65 OR N < 0 OR N > 63999) GOTO 1:B$ =  STR$(N) + N$: FOR X = 1 TO L:B$ = B$ +  STR$( ASC( MID$ (A$,X,1))) + ",": NEXT :B$ =  MID$ (B$,1, LEN(B$) - 1): PRINT D$"APPEND"N$: PRINT D$"WRITE"N$: PRINT B$: PRINT D$"CLOSE": GOTO 10

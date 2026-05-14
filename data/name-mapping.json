@@ -1,0 +1,2620 @@
+{
+  "1984_PT1": {
+    "NIBBLE": {
+      "prodos_name": "NIBBLE",
+      "best": true
+    },
+    "GRAPH PAPER": {
+      "prodos_name": "GRAPH.PAPER",
+      "best": true
+    },
+    "NEW CURSOR": {
+      "prodos_name": "NEW.CURSOR",
+      "best": true
+    },
+    "CLIMB A MOUNTAIN": {
+      "prodos_name": "CLIMB.A",
+      "best": true
+    },
+    "COLOR SINE": {
+      "prodos_name": "COLOR.SINE",
+      "best": true
+    },
+    "INPUT ANYTHING ROUTINE": {
+      "prodos_name": "INPUT.ANYTHING",
+      "best": true
+    },
+    "WIDENING COLUMN": {
+      "prodos_name": "WIDENING.COLUMN",
+      "best": true
+    },
+    "WALK": {
+      "prodos_name": "WALK",
+      "best": true
+    },
+    "COLOR FLIPPING": {
+      "prodos_name": "COLOR.FLIPPING",
+      "best": true
+    },
+    "KALEIDOSTAR": {
+      "prodos_name": "KALEIDOSTAR",
+      "best": true
+    },
+    "ALTERNATE FLASHING": {
+      "prodos_name": "ALTERNATE",
+      "best": true
+    },
+    "MUSICAL SCALE": {
+      "prodos_name": "MUSICAL.SCALE",
+      "best": true
+    },
+    "BASE CONVERTER": {
+      "prodos_name": "BASE.CONVERTER",
+      "best": true
+    },
+    "WORD BOUNCER": {
+      "prodos_name": "WORD.BOUNCER",
+      "best": true
+    },
+    "ROTATING SQUARE": {
+      "prodos_name": "ROTATING.SQUARE",
+      "best": true
+    },
+    "CIRCULAR RIPPLES": {
+      "prodos_name": "CIRCULAR",
+      "best": true
+    },
+    "CIRCULAR RIPPLES.PIC": {
+      "prodos_name": "CIRCULAR.2",
+      "best": true
+    },
+    "FAST COUNTER": {
+      "prodos_name": "FAST.COUNTER",
+      "best": true
+    },
+    "MELTDOWN": {
+      "prodos_name": "MELTDOWN",
+      "best": true
+    },
+    "FAST FLASH": {
+      "prodos_name": "FAST.FLASH",
+      "best": true
+    },
+    "NIBBLE DISPLAY": {
+      "prodos_name": "NIBBLE.DISPLAY",
+      "best": true
+    },
+    "HEX CONVERTER": {
+      "prodos_name": "HEX.CONVERTER",
+      "best": true
+    },
+    "TONE GENERATOR": {
+      "prodos_name": "TONE.GENERATOR",
+      "best": true
+    },
+    "UNNEW": {
+      "prodos_name": "UNNEW",
+      "best": true
+    },
+    "PAGE FLIP FLICKER": {
+      "prodos_name": "PAGE.FLIP",
+      "best": true
+    },
+    "LO-RES EDITOR": {
+      "prodos_name": "LO.RES.EDITOR",
+      "best": true
+    },
+    "MINI-INDI": {
+      "prodos_name": "MINI.INDI",
+      "best": true
+    },
+    "LASER SOUNDS": {
+      "prodos_name": "LASER.SOUNDS",
+      "best": true
+    },
+    "HI-RES INVERTER": {
+      "prodos_name": "HI.RES.INVERTER",
+      "best": true
+    },
+    "INPUT ANYTHING ROUTINE 2": {
+      "prodos_name": "INPUT.2",
+      "best": true
+    },
+    "SQUARE SPIN": {
+      "prodos_name": "SQUARE.SPIN",
+      "best": true
+    },
+    "BOUNCING BALL": {
+      "prodos_name": "BOUNCING.BALL",
+      "best": true
+    },
+    "PATTERN GENERATOR": {
+      "prodos_name": "PATTERN",
+      "best": true
+    },
+    "PATTERN GENERATOR.PIC": {
+      "prodos_name": "PATTERN.2",
+      "best": true
+    },
+    "PATTERN GENERATOR .7": {
+      "prodos_name": "PATTERN.3",
+      "best": true
+    },
+    "PATTERN GENERATOR .7.PIC": {
+      "prodos_name": "PATTERN.4",
+      "best": true
+    },
+    "DRAW REDRAW": {
+      "prodos_name": "DRAW.REDRAW",
+      "best": true
+    },
+    "WORD GUESSING GAME": {
+      "prodos_name": "WORD.GUESSING",
+      "best": true
+    },
+    "NIBBLE IS AWESOME": {
+      "prodos_name": "NIBBLE.IS",
+      "best": true
+    },
+    "MUSIC STRINGS": {
+      "prodos_name": "MUSIC.STRINGS",
+      "best": true
+    },
+    "WHIRLY SQUARES": {
+      "prodos_name": "WHIRLY.SQUARES",
+      "best": true
+    },
+    "TRIP CALCULATOR": {
+      "prodos_name": "TRIP.CALCULATOR",
+      "best": true
+    },
+    "AMPER HEX CONVERTER": {
+      "prodos_name": "AMPER.HEX",
+      "best": true
+    },
+    "AMPER HEX CONVERTER INSTR": {
+      "prodos_name": "AMPER.HEX.2",
+      "best": true
+    },
+    "KEYBOARD MUSIC": {
+      "prodos_name": "KEYBOARD.MUSIC",
+      "best": true
+    }
+  },
+  "1985_PT1": {
+    "DRAGON": {
+      "prodos_name": "DRAGON",
+      "best": true
+    },
+    "DRAGON INSTRUCTIONS": {
+      "prodos_name": "DRAGON.2",
+      "best": true
+    },
+    "DRAGON 7.PIC": {
+      "prodos_name": "DRAGON.7.PIC",
+      "best": true
+    },
+    "EXPRESSION EVALUATOR": {
+      "prodos_name": "EXPRESSION",
+      "best": true
+    },
+    "EXPRESSION EVALUATOR INSTR": {
+      "prodos_name": "EXPRESSION.2",
+      "best": true
+    },
+    "TEXT MIRRORING": {
+      "prodos_name": "TEXT.MIRRORING",
+      "best": true
+    },
+    "CIRCLE POINTS": {
+      "prodos_name": "CIRCLE.POINTS",
+      "best": true
+    },
+    "PRINT SCREEN": {
+      "prodos_name": "PRINT.SCREEN",
+      "best": true
+    },
+    "BLOCK WEAVE": {
+      "prodos_name": "BLOCK.WEAVE",
+      "best": true
+    },
+    "EMPTY GLASS": {
+      "prodos_name": "EMPTY.GLASS",
+      "best": true
+    },
+    "NIBBLE RUN": {
+      "prodos_name": "NIBBLE.RUN",
+      "best": true
+    },
+    "ONE-LINER MENU": {
+      "prodos_name": "ONE.LINER.MENU",
+      "best": true
+    },
+    "BOUNCE": {
+      "prodos_name": "BOUNCE",
+      "best": true
+    },
+    "BOUNCE INSTRUCTIONS": {
+      "prodos_name": "BOUNCE.2",
+      "best": true
+    },
+    "ROM HEX-DEC CONVERTER": {
+      "prodos_name": "ROM.HEX.DEC",
+      "best": true
+    },
+    "SLIDE SHOW": {
+      "prodos_name": "SLIDE.SHOW",
+      "best": true
+    },
+    "FIX DELETE KEY": {
+      "prodos_name": "FIX.DELETE.KEY",
+      "best": true
+    },
+    "METEORITE NAVIGATOR": {
+      "prodos_name": "METEORITE",
+      "best": true
+    },
+    "LO-RES MAZE GENERATOR": {
+      "prodos_name": "LO.RES.MAZE",
+      "best": true
+    },
+    "SWITCH": {
+      "prodos_name": "SWITCH",
+      "best": true
+    },
+    "SWITCH INSTRUCTIONS": {
+      "prodos_name": "SWITCH.2",
+      "best": true
+    },
+    "MUSICAL MONITOR": {
+      "prodos_name": "MUSICAL.MONITOR",
+      "best": true
+    },
+    "KALEIDOSCOPE": {
+      "prodos_name": "KALEIDOSCOPE",
+      "best": true
+    },
+    "NUMBER SORT": {
+      "prodos_name": "NUMBER.SORT",
+      "best": true
+    },
+    "APPLESOFT KEYWORD CODES": {
+      "prodos_name": "APPLESOFT",
+      "best": true
+    },
+    "APPLESOFT KEYWORD CODES INSTR": {
+      "prodos_name": "APPLESOFT.2",
+      "best": true
+    },
+    "TEXT CENTERER": {
+      "prodos_name": "TEXT.CENTERER",
+      "best": true
+    },
+    "PI CALCULATOR": {
+      "prodos_name": "PI.CALCULATOR",
+      "best": true
+    },
+    "PI CALCULATOR MONOCHROME": {
+      "prodos_name": "PI.CALCULATOR.2",
+      "best": true
+    },
+    "STAR BOUNCE": {
+      "prodos_name": "STAR.BOUNCE",
+      "best": true
+    },
+    "ONE-LINER EDITING": {
+      "prodos_name": "ONE.LINER",
+      "best": true
+    },
+    "ONE-LINER EDITING INSTRUCTIONS": {
+      "prodos_name": "ONE.LINER.2",
+      "best": true
+    },
+    "TEXT WINDOW": {
+      "prodos_name": "TEXT.WINDOW",
+      "best": true
+    },
+    "SLALOM SKIER": {
+      "prodos_name": "SLALOM.SKIER",
+      "best": true
+    },
+    "COIN FLIP AVERAGE": {
+      "prodos_name": "COIN.FLIP",
+      "best": true
+    },
+    "CTRL-RESET 80 COLUMNS": {
+      "prodos_name": "CTRL.RESET.80",
+      "best": true
+    },
+    "HAT": {
+      "prodos_name": "HAT",
+      "best": true
+    },
+    "HAT.PIC": {
+      "prodos_name": "HAT.PIC",
+      "best": true
+    },
+    "ROLLING X": {
+      "prodos_name": "ROLLING.X",
+      "best": true
+    },
+    "ROLLING X.PIC": {
+      "prodos_name": "ROLLING.X.PIC",
+      "best": true
+    },
+    "KEY BEEP": {
+      "prodos_name": "KEY.BEEP",
+      "best": true
+    },
+    "KEY BEEP INSTRUCTIONS": {
+      "prodos_name": "KEY.BEEP.2",
+      "best": true
+    },
+    "NOTEPAD": {
+      "prodos_name": "NOTEPAD",
+      "best": true
+    },
+    "NOTEPAD INSTRUCTIONS": {
+      "prodos_name": "NOTEPAD.2",
+      "best": true
+    },
+    "JOYTONE": {
+      "prodos_name": "JOYTONE",
+      "best": true
+    },
+    "NEWUNDO.CREATE": {
+      "prodos_name": "NEWUNDO.CREATE",
+      "best": true
+    },
+    "NEWUNDO": {
+      "prodos_name": "NEWUNDO",
+      "best": true
+    },
+    "NEWUNDO INSTRUCTIONS": {
+      "prodos_name": "NEWUNDO.2",
+      "best": true
+    },
+    "APPLE LOGO": {
+      "prodos_name": "APPLE.LOGO",
+      "best": true
+    },
+    "BUMP": {
+      "prodos_name": "BUMP",
+      "best": true
+    },
+    "BUMP.PIC": {
+      "prodos_name": "BUMP.PIC",
+      "best": true
+    },
+    "DRIVE": {
+      "prodos_name": "DRIVE",
+      "best": true
+    },
+    "BURST": {
+      "prodos_name": "BURST",
+      "best": true
+    },
+    "ROM KEYWORD DUMP": {
+      "prodos_name": "ROM.KEYWORD",
+      "best": true
+    },
+    "ALARM TIMER": {
+      "prodos_name": "ALARM.TIMER",
+      "best": true
+    },
+    "ROM PATCHER": {
+      "prodos_name": "ROM.PATCHER",
+      "best": true
+    },
+    "ROM PATCHER INSTRUCTIONS": {
+      "prodos_name": "ROM.PATCHER.2",
+      "best": true
+    },
+    "TYPING QUIZ": {
+      "prodos_name": "TYPING.QUIZ",
+      "best": true
+    },
+    "TINIER TIC-TAC-TOE": {
+      "prodos_name": "TINIER.TIC.TAC",
+      "best": true
+    },
+    "ROTATING GLOBE": {
+      "prodos_name": "ROTATING.GLOBE",
+      "best": true
+    },
+    "BLACKJACK": {
+      "prodos_name": "BLACKJACK",
+      "best": true
+    },
+    "BLACKJACK INSTRUCTIONS": {
+      "prodos_name": "BLACKJACK.2",
+      "best": true
+    },
+    "MENU DEMO": {
+      "prodos_name": "MENU.DEMO",
+      "best": true
+    },
+    "JOYSTICK DRAW": {
+      "prodos_name": "JOYSTICK.DRAW",
+      "best": true
+    },
+    "JOYSTICK DRAW INSTRUCTIONS": {
+      "prodos_name": "JOYSTICK.DRAW.2",
+      "best": true
+    },
+    "SCREEN EDITOR": {
+      "prodos_name": "SCREEN.EDITOR",
+      "best": true
+    },
+    "SCREEN EDITOR INSTRUCTIONS": {
+      "prodos_name": "SCREEN.EDITOR.2",
+      "best": true
+    },
+    "WHOOP": {
+      "prodos_name": "WHOOP",
+      "best": true
+    },
+    "WHOOP INSTRUCTIONS": {
+      "prodos_name": "WHOOP.2",
+      "best": true
+    },
+    "ENHANCE": {
+      "prodos_name": "ENHANCE",
+      "best": true
+    },
+    "ENHANCE INSTRUCTIONS": {
+      "prodos_name": "ENHANCE.2",
+      "best": true
+    },
+    "FLICKER": {
+      "prodos_name": "FLICKER",
+      "best": true
+    },
+    "RIPPLES": {
+      "prodos_name": "RIPPLES",
+      "best": true
+    },
+    "RIPPLES.PIC": {
+      "prodos_name": "RIPPLES.PIC",
+      "best": true
+    },
+    "RUNNER": {
+      "prodos_name": "RUNNER",
+      "best": true
+    },
+    "DISSOLVE": {
+      "prodos_name": "DISSOLVE",
+      "best": true
+    },
+    "DISSOLVE DEMO": {
+      "prodos_name": "DISSOLVE.DEMO",
+      "best": true
+    },
+    "THE MOUSE AND THE CHEESE": {
+      "prodos_name": "THE.MOUSE.AND",
+      "best": true
+    },
+    "DATA STATEMENT MAKER": {
+      "prodos_name": "DATA.STATEMENT",
+      "best": true
+    },
+    "DATA STATEMENT MAKER INSTR": {
+      "prodos_name": "DATA.2",
+      "best": true
+    },
+    "VIDEO": {
+      "prodos_name": "VIDEO",
+      "best": true
+    },
+    "VIDEO DEMO": {
+      "prodos_name": "VIDEO.DEMO",
+      "best": true
+    },
+    "QUILT": {
+      "prodos_name": "QUILT",
+      "best": true
+    },
+    "FREE SECTORS": {
+      "prodos_name": "FREE.SECTORS",
+      "best": true
+    },
+    "ON THE ROAD": {
+      "prodos_name": "ON.THE.ROAD",
+      "best": true
+    },
+    "HOME DELETE": {
+      "prodos_name": "HOME.DELETE",
+      "best": true
+    },
+    "HOME DELETE INSTRUCTIONS": {
+      "prodos_name": "HOME.DELETE.2",
+      "best": true
+    },
+    "ROTATING GEM": {
+      "prodos_name": "ROTATING.GEM",
+      "best": true
+    },
+    "MIRROR": {
+      "prodos_name": "MIRROR",
+      "best": true
+    },
+    "MIRROR DEMO": {
+      "prodos_name": "MIRROR.DEMO",
+      "best": true
+    },
+    "LOCATOR": {
+      "prodos_name": "LOCATOR",
+      "best": true
+    },
+    "LOCATOR INSTRUCTIONS": {
+      "prodos_name": "LOCATOR.2",
+      "best": true
+    }
+  },
+  "1985_PT2": {
+    "BIN-DEC-HEX": {
+      "prodos_name": "BIN.DEC.HEX",
+      "best": true
+    },
+    "SINE PLOTTER": {
+      "prodos_name": "SINE.PLOTTER",
+      "best": true
+    },
+    "SECTOR VIEWER": {
+      "prodos_name": "SECTOR.VIEWER",
+      "best": true
+    },
+    "NIBBLE REFERENCE": {
+      "prodos_name": "NIBBLE",
+      "best": true
+    },
+    "GUN TURRET": {
+      "prodos_name": "GUN.TURRET",
+      "best": true
+    },
+    "CIRCUITRY": {
+      "prodos_name": "CIRCUITRY",
+      "best": true
+    },
+    "LIFE": {
+      "prodos_name": "LIFE",
+      "best": true
+    },
+    "LIFE INSTRUCTIONS": {
+      "prodos_name": "LIFE.2",
+      "best": true
+    },
+    "LANDSCAPE AT SUNSET": {
+      "prodos_name": "LANDSCAPE.AT",
+      "best": true
+    },
+    "LINE COUNT": {
+      "prodos_name": "LINE.COUNT",
+      "best": true
+    },
+    "LINE COUNT INSTRUCTIONS": {
+      "prodos_name": "LINE.COUNT.2",
+      "best": true
+    },
+    "NUMBER ROUNDER": {
+      "prodos_name": "NUMBER.ROUNDER",
+      "best": true
+    },
+    "UNDERLINE": {
+      "prodos_name": "UNDERLINE",
+      "best": true
+    },
+    "DISK MAP": {
+      "prodos_name": "DISK.MAP",
+      "best": true
+    },
+    "DISK COPY": {
+      "prodos_name": "DISK.COPY",
+      "best": true
+    },
+    "BAR GRAPH 3D": {
+      "prodos_name": "BAR.GRAPH.3D",
+      "best": true
+    },
+    "HYPNOSIS": {
+      "prodos_name": "HYPNOSIS",
+      "best": true
+    },
+    "WAIT TIMES": {
+      "prodos_name": "WAIT.TIMES",
+      "best": true
+    },
+    "WAIT TIMES INSTRUCTIONS": {
+      "prodos_name": "WAIT.TIMES.2",
+      "best": true
+    },
+    "WALLPAPER": {
+      "prodos_name": "WALLPAPER",
+      "best": true
+    },
+    "WALLPAPER INSTRUCTIONS": {
+      "prodos_name": "WALLPAPER.2",
+      "best": true
+    },
+    "NUMBER MEMORY": {
+      "prodos_name": "NUMBER.MEMORY",
+      "best": true
+    },
+    "CIRCLES": {
+      "prodos_name": "CIRCLES",
+      "best": true
+    },
+    "HEX DUMP": {
+      "prodos_name": "HEX.DUMP",
+      "best": true
+    },
+    "HEX DUMP INSTRUCTIONS": {
+      "prodos_name": "HEX.DUMP.2",
+      "best": true
+    },
+    "SINE RIPPLES": {
+      "prodos_name": "SINE.RIPPLES",
+      "best": true
+    },
+    "LINE EXPLOSION": {
+      "prodos_name": "LINE.EXPLOSION",
+      "best": true
+    },
+    "BLOAD PARAMS": {
+      "prodos_name": "BLOAD.PARAMS",
+      "best": true
+    },
+    "BLOAD PARAMS INSTRUCTIONS": {
+      "prodos_name": "BLOAD.PARAMS.2",
+      "best": true
+    },
+    "UNNEW 2": {
+      "prodos_name": "UNNEW.2",
+      "best": true
+    },
+    "UNNEW 2 INSTRUCTIONS": {
+      "prodos_name": "UNNEW.2.2",
+      "best": true
+    },
+    "THREE-D SQUARE": {
+      "prodos_name": "THREE.D.SQUARE",
+      "best": true
+    },
+    "MANDELBROT": {
+      "prodos_name": "MANDELBROT",
+      "best": true
+    },
+    "MANDELBROT.PIC": {
+      "prodos_name": "MANDELBROT.PIC",
+      "best": true
+    },
+    "MANDELBROT INSTRUCTIONS": {
+      "prodos_name": "MANDELBROT.2",
+      "best": true
+    },
+    "ALPHABETIZER": {
+      "prodos_name": "ALPHABETIZER",
+      "best": true
+    },
+    "SKETCH PAD": {
+      "prodos_name": "SKETCH.PAD",
+      "best": true
+    },
+    "SKETCH PAD INSTRUCTIONS": {
+      "prodos_name": "SKETCH.PAD.2",
+      "best": true
+    },
+    "DYNAMIC FUNCTION": {
+      "prodos_name": "DYNAMIC",
+      "best": true
+    },
+    "DYNAMIC FUNCTION INSTRUCTIONS": {
+      "prodos_name": "DYNAMIC.2",
+      "best": true
+    },
+    "LOAN CALCULATOR": {
+      "prodos_name": "LOAN.CALCULATOR",
+      "best": true
+    },
+    "LOAN CALCULATOR INSTRUCTIONS": {
+      "prodos_name": "LOAN",
+      "best": true
+    },
+    "AUTO NUMBER": {
+      "prodos_name": "AUTO.NUMBER",
+      "best": true
+    },
+    "AUTO NUMBER INSTRUCTIONS": {
+      "prodos_name": "AUTO.NUMBER.2",
+      "best": true
+    },
+    "SINGLE STEP": {
+      "prodos_name": "SINGLE.STEP",
+      "best": true
+    },
+    "SINGLE STEP INSTRUCTIONS": {
+      "prodos_name": "SINGLE.STEP.2",
+      "best": true
+    },
+    "STOP SIGN": {
+      "prodos_name": "STOP.SIGN",
+      "best": true
+    },
+    "DEC-HEX": {
+      "prodos_name": "DEC.HEX",
+      "best": true
+    },
+    "DEC-HEX INSTRUCTIONS": {
+      "prodos_name": "DEC.HEX.2",
+      "best": true
+    },
+    "HARMONICS": {
+      "prodos_name": "HARMONICS",
+      "best": true
+    },
+    "HARMONICS 199.PIC": {
+      "prodos_name": "HARMONICS.199",
+      "best": true
+    },
+    "HARMONICS INSTRUCTIONS": {
+      "prodos_name": "HARMONICS.2",
+      "best": true
+    },
+    "STICK WEAVE": {
+      "prodos_name": "STICK.WEAVE",
+      "best": true
+    },
+    "SNOWFLAKE": {
+      "prodos_name": "SNOWFLAKE",
+      "best": true
+    },
+    "READY SET GO": {
+      "prodos_name": "READY.SET.GO",
+      "best": true
+    },
+    "READY SET GO INSTRUCTIONS": {
+      "prodos_name": "READY.SET.GO.2",
+      "best": true
+    },
+    "SQUARE SPIN": {
+      "prodos_name": "SQUARE.SPIN",
+      "best": true
+    },
+    "DODGEBALL 1": {
+      "prodos_name": "DODGEBALL.1",
+      "best": true
+    },
+    "DODGEBALL 2": {
+      "prodos_name": "DODGEBALL.2",
+      "best": true
+    },
+    "DODGEBALL 3": {
+      "prodos_name": "DODGEBALL.3",
+      "best": true
+    },
+    "DODGEBALL 4": {
+      "prodos_name": "DODGEBALL.4",
+      "best": true
+    },
+    "DODGEBALL 5": {
+      "prodos_name": "DODGEBALL.5",
+      "best": true
+    },
+    "DODGEBALL INSTRUCTIONS": {
+      "prodos_name": "DODGEBALL",
+      "best": true
+    },
+    "SERPENT": {
+      "prodos_name": "SERPENT",
+      "best": true
+    },
+    "SERPENT INSTRUCTIONS": {
+      "prodos_name": "SERPENT.2",
+      "best": true
+    },
+    "FIND 1": {
+      "prodos_name": "FIND.1",
+      "best": true
+    },
+    "FIND 2": {
+      "prodos_name": "FIND.2",
+      "best": true
+    },
+    "FIND 3": {
+      "prodos_name": "FIND.3",
+      "best": true
+    },
+    "FIND INSTRUCTIONS": {
+      "prodos_name": "FIND",
+      "best": true
+    },
+    "MAZE 1": {
+      "prodos_name": "MAZE.1",
+      "best": true
+    },
+    "MAZE 2": {
+      "prodos_name": "MAZE.2",
+      "best": true
+    },
+    "MAZE 3": {
+      "prodos_name": "MAZE.3",
+      "best": true
+    },
+    "MAZE 4": {
+      "prodos_name": "MAZE.4",
+      "best": true
+    },
+    "MAZE INSTRUCTIONS": {
+      "prodos_name": "MAZE",
+      "best": true
+    }
+  },
+  "1986_PT1": {
+    "MESSAGE SPELLER": {
+      "prodos_name": "MESSAGE.SPELLER",
+      "best": true
+    },
+    "DOS COMMANDS": {
+      "prodos_name": "DOS.COMMANDS",
+      "best": true
+    },
+    "CATALOG BY TYPE": {
+      "prodos_name": "CATALOG.BY.TYPE",
+      "best": true
+    },
+    "BOUNCING BALL": {
+      "prodos_name": "BOUNCING.BALL",
+      "best": true
+    },
+    "LIFE 2": {
+      "prodos_name": "LIFE.2",
+      "best": true
+    },
+    "LIFE 2 INSTRUCTIONS": {
+      "prodos_name": "LIFE.2.2",
+      "best": true
+    },
+    "LIFE 2 RANDOM": {
+      "prodos_name": "LIFE.2.RANDOM",
+      "best": true
+    },
+    "PREMIUM GAS COST": {
+      "prodos_name": "PREMIUM.GAS",
+      "best": true
+    },
+    "ROAD TO THE STARS": {
+      "prodos_name": "ROAD.TO.THE",
+      "best": true
+    },
+    "LEAP YEAR": {
+      "prodos_name": "LEAP.YEAR",
+      "best": true
+    },
+    "TEXT EDITOR": {
+      "prodos_name": "TEXT.EDITOR",
+      "best": true
+    },
+    "TEXT EDITOR INSTRUCTIONS": {
+      "prodos_name": "TEXT.EDITOR.2",
+      "best": true
+    },
+    "WATER TORTURE": {
+      "prodos_name": "WATER.TORTURE",
+      "best": true
+    },
+    "CURTAIN": {
+      "prodos_name": "CURTAIN",
+      "best": true
+    },
+    "CURTAIN INSTRUCTIONS": {
+      "prodos_name": "CURTAIN.2",
+      "best": true
+    },
+    "HYPOTENUSE FRACTION": {
+      "prodos_name": "HYPOTENUSE",
+      "best": true
+    },
+    "HYPOTENUSE FRACTION INSTR": {
+      "prodos_name": "HYPOTENUSE.2",
+      "best": true
+    },
+    "TRIANGLES": {
+      "prodos_name": "TRIANGLES",
+      "best": true
+    },
+    "TRIANGLES.PIC": {
+      "prodos_name": "TRIANGLES.PIC",
+      "best": true
+    },
+    "SNAKE": {
+      "prodos_name": "SNAKE",
+      "best": true
+    },
+    "SNAKE INSTRUCTIONS": {
+      "prodos_name": "SNAKE.2",
+      "best": true
+    },
+    "ANGLE GUESSER": {
+      "prodos_name": "ANGLE.GUESSER",
+      "best": true
+    },
+    "LIFE 3": {
+      "prodos_name": "LIFE.3",
+      "best": true
+    },
+    "LIFE 3 INSTRUCTIONS": {
+      "prodos_name": "LIFE.3.2",
+      "best": true
+    },
+    "KEYBOARD ORGAN": {
+      "prodos_name": "KEYBOARD.ORGAN",
+      "best": true
+    },
+    "KEYBOARD ORGAN INSTRUCTIONS": {
+      "prodos_name": "KEYBOARD.2",
+      "best": true
+    },
+    "PRINT AN ENVELOPE": {
+      "prodos_name": "PRINT.AN",
+      "best": true
+    },
+    "LOWER TO UPPER": {
+      "prodos_name": "LOWER.TO.UPPER",
+      "best": true
+    },
+    "LOWER TO UPPER INSTRUCTIONS": {
+      "prodos_name": "LOWER.TO.2",
+      "best": true
+    },
+    "LETTER FREQUENCY": {
+      "prodos_name": "LETTER",
+      "best": true
+    },
+    "PRINT SCREEN": {
+      "prodos_name": "PRINT.SCREEN",
+      "best": true
+    },
+    "DOS PRODOS CATALOG": {
+      "prodos_name": "DOS.PRODOS",
+      "best": true
+    },
+    "DOS PRODOS CATALOG INSTR": {
+      "prodos_name": "DOS.PRODOS.2",
+      "best": true
+    },
+    "APPLE IDENTIFIER": {
+      "prodos_name": "APPLE",
+      "best": true
+    },
+    "DOS PRODOS FILENAME VALIDATOR": {
+      "prodos_name": "DOS.PRODOS.3",
+      "best": true
+    },
+    "JUMPING JACKS": {
+      "prodos_name": "JUMPING.JACKS",
+      "best": true
+    },
+    "TOWERS OF HANOI": {
+      "prodos_name": "TOWERS.OF.HANOI",
+      "best": true
+    },
+    "TYPING BOMBS": {
+      "prodos_name": "TYPING.BOMBS",
+      "best": true
+    },
+    "HI-RES WRITER": {
+      "prodos_name": "HI.RES.WRITER",
+      "best": true
+    },
+    "DATES": {
+      "prodos_name": "DATES",
+      "best": true
+    },
+    "DATES INSTRUCTIONS": {
+      "prodos_name": "DATES.2",
+      "best": true
+    },
+    "HALLEY'S COMET": {
+      "prodos_name": "HALLEYS.COMET",
+      "best": true
+    },
+    "HALLEY'S COMET INSTRUCTIONS": {
+      "prodos_name": "HALLEYS.COMET.2",
+      "best": true
+    },
+    "BOWTIE DRAWER": {
+      "prodos_name": "BOWTIE.DRAWER",
+      "best": true
+    },
+    "BOWTIE DRAWER INSTRUCTIONS": {
+      "prodos_name": "BOWTIE.DRAWER.2",
+      "best": true
+    },
+    "SPACE CROSS": {
+      "prodos_name": "SPACE.CROSS",
+      "best": true
+    },
+    "BASE CONVERTER": {
+      "prodos_name": "BASE.CONVERTER",
+      "best": true
+    },
+    "FULL-STOP SHOP": {
+      "prodos_name": "FULL.STOP.SHOP",
+      "best": true
+    },
+    "PROJECTILE": {
+      "prodos_name": "PROJECTILE",
+      "best": true
+    },
+    "CALENDAR": {
+      "prodos_name": "CALENDAR",
+      "best": true
+    },
+    "CUBE ROTATOR": {
+      "prodos_name": "CUBE.ROTATOR",
+      "best": true
+    },
+    "STRING FIND": {
+      "prodos_name": "STRING.FIND",
+      "best": true
+    },
+    "STRING FIND INSTRUCTIONS": {
+      "prodos_name": "STRING.FIND.2",
+      "best": true
+    },
+    "TANTALUS": {
+      "prodos_name": "TANTALUS",
+      "best": true
+    },
+    "STARS AND STRIPES": {
+      "prodos_name": "STARS.AND",
+      "best": true
+    },
+    "PASCAL CARDS": {
+      "prodos_name": "PASCAL.CARDS",
+      "best": true
+    },
+    "DAISIES": {
+      "prodos_name": "DAISIES",
+      "best": true
+    },
+    "DATE VALIDATOR": {
+      "prodos_name": "DATE.VALIDATOR",
+      "best": true
+    },
+    "PRINT SHOP HGR CONVERTER": {
+      "prodos_name": "PRINT.SHOP.HGR",
+      "best": true
+    },
+    "PRINT SHOP HGR CONVERTER INSTR": {
+      "prodos_name": "PRINT.SHOP.2",
+      "best": true
+    },
+    "CHARACTER DESIGNER": {
+      "prodos_name": "CHARACTER",
+      "best": true
+    },
+    "CHARACTER DESIGNER INSTR": {
+      "prodos_name": "CHARACTER.2",
+      "best": true
+    },
+    "PRINT SCRN CAT": {
+      "prodos_name": "PRINT.SCRN.CAT",
+      "best": true
+    },
+    "PRINT SCRN CAT INSTRUCTIONS": {
+      "prodos_name": "PRINT.SCRN.2",
+      "best": true
+    },
+    "DATE VALIDATOR 2": {
+      "prodos_name": "DATE.2",
+      "best": true
+    },
+    "DATE VALIDATOR 2 INSTRUCTIONS": {
+      "prodos_name": "DATE.3",
+      "best": true
+    },
+    "KEYBOARD BUFFER": {
+      "prodos_name": "KEYBOARD.BUFFER",
+      "best": true
+    },
+    "KEYBOARD BUFFER DEMO": {
+      "prodos_name": "KEYBOARD",
+      "best": true
+    },
+    "GRAPHS": {
+      "prodos_name": "GRAPHS",
+      "best": true
+    },
+    "DRIVE CLEANER": {
+      "prodos_name": "DRIVE.CLEANER",
+      "best": true
+    },
+    "DRIVE CLEANER INSTRUCTIONS": {
+      "prodos_name": "DRIVE.CLEANER.2",
+      "best": true
+    },
+    "MULTIPLE WINDOWS": {
+      "prodos_name": "MULTIPLE",
+      "best": true
+    },
+    "CHECKBOOK": {
+      "prodos_name": "CHECKBOOK",
+      "best": true
+    },
+    "CHECKBOOK INSTRUCTIONS": {
+      "prodos_name": "CHECKBOOK.2",
+      "best": true
+    },
+    "QUILT": {
+      "prodos_name": "QUILT",
+      "best": true
+    }
+  },
+  "1987_PT1": {
+    "SATURN": {
+      "prodos_name": "SATURN",
+      "best": true
+    },
+    "SATURN.PIC": {
+      "prodos_name": "SATURN.PIC",
+      "best": true
+    },
+    "MARCHING SOLDIERS": {
+      "prodos_name": "MARCHING",
+      "best": true
+    },
+    "DOUBLE CATALOG": {
+      "prodos_name": "DOUBLE.CATALOG",
+      "best": true
+    },
+    "FACTORS": {
+      "prodos_name": "FACTORS",
+      "best": true
+    },
+    "DIAMOND": {
+      "prodos_name": "DIAMOND",
+      "best": true
+    },
+    "DIAMOND.PIC": {
+      "prodos_name": "DIAMOND.PIC",
+      "best": true
+    },
+    "PRINT ON": {
+      "prodos_name": "PRINT.ON",
+      "best": true
+    },
+    "PRINT ON INSTRUCTIONS": {
+      "prodos_name": "PRINT.ON.2",
+      "best": true
+    },
+    "AL": {
+      "prodos_name": "AL",
+      "best": true
+    },
+    "AL INSTRUCTIONS": {
+      "prodos_name": "AL.INSTRUCTIONS",
+      "best": true
+    },
+    "CIRCLE PATTERNS": {
+      "prodos_name": "CIRCLE.PATTERNS",
+      "best": true
+    },
+    "BREAKOUT": {
+      "prodos_name": "BREAKOUT",
+      "best": true
+    },
+    "HI-RES REVERSE": {
+      "prodos_name": "HI.RES.REVERSE",
+      "best": true
+    },
+    "HI-RES REVERSE INSTRUCTIONS": {
+      "prodos_name": "HI.RES.2",
+      "best": true
+    },
+    "MORSE CODE": {
+      "prodos_name": "MORSE.CODE",
+      "best": true
+    },
+    "MORSE CODE INSTRUCTIONS": {
+      "prodos_name": "MORSE.CODE.2",
+      "best": true
+    },
+    "FADER": {
+      "prodos_name": "FADER",
+      "best": true
+    },
+    "FADER INSTRUCTIONS": {
+      "prodos_name": "FADER.2",
+      "best": true
+    },
+    "PONG": {
+      "prodos_name": "PONG",
+      "best": true
+    },
+    "TEXT INVADERS": {
+      "prodos_name": "TEXT.INVADERS",
+      "best": true
+    },
+    "POTHOLES IN SPACE": {
+      "prodos_name": "POTHOLES.IN",
+      "best": true
+    },
+    "SCINTILLATING OVALS": {
+      "prodos_name": "SCINTILLATING",
+      "best": true
+    },
+    "PHONE NUMBER WORDS": {
+      "prodos_name": "PHONE.NUMBER",
+      "best": true
+    },
+    "CHOOSY LISTER": {
+      "prodos_name": "CHOOSY.LISTER",
+      "best": true
+    },
+    "CHOOSY LISTER INSTRUCTIONS": {
+      "prodos_name": "CHOOSY.LISTER.2",
+      "best": true
+    },
+    "DOS PRODOS CATALOG 2": {
+      "prodos_name": "DOS.PRODOS",
+      "best": true
+    },
+    "DOS PRODOS CATALOG 2 INSTR": {
+      "prodos_name": "DOS.PRODOS.2",
+      "best": true
+    },
+    "MINI-RACE": {
+      "prodos_name": "MINI.RACE",
+      "best": true
+    },
+    "MOUSE FINDER": {
+      "prodos_name": "MOUSE.FINDER",
+      "best": true
+    },
+    "MOUSE FINDER INSTRUCTIONS": {
+      "prodos_name": "MOUSE.FINDER.2",
+      "best": true
+    },
+    "PERMUTATIONS COMBINATIONS": {
+      "prodos_name": "PERMUTATIONS",
+      "best": true
+    },
+    "ROLLING SQUARE": {
+      "prodos_name": "ROLLING.SQUARE",
+      "best": true
+    },
+    "LETTER-GO": {
+      "prodos_name": "LETTER.GO",
+      "best": true
+    },
+    "THREE-D DRAPE": {
+      "prodos_name": "THREE.D.DRAPE",
+      "best": true
+    },
+    "THREE-D DRAPE.PIC": {
+      "prodos_name": "THREE.D.DRAPE.2",
+      "best": true
+    },
+    "WATER FOUNTAIN": {
+      "prodos_name": "WATER.FOUNTAIN",
+      "best": true
+    },
+    "QUOTE CONVERT": {
+      "prodos_name": "QUOTE.CONVERT",
+      "best": true
+    },
+    "QUOTE CONVERT INSTRUCTIONS": {
+      "prodos_name": "QUOTE.CONVERT.2",
+      "best": true
+    },
+    "POKER HAND DEALER": {
+      "prodos_name": "POKER.HAND",
+      "best": true
+    },
+    "AUTO MENU": {
+      "prodos_name": "AUTO.MENU",
+      "best": true
+    },
+    "DISK COPY 2": {
+      "prodos_name": "DISK.COPY.2",
+      "best": true
+    },
+    "DISK COPY 2 INSTRUCTIONS": {
+      "prodos_name": "DISK.COPY.2.2",
+      "best": true
+    },
+    "DECIMAL ALIGN": {
+      "prodos_name": "DECIMAL.ALIGN",
+      "best": true
+    },
+    "MUNCH": {
+      "prodos_name": "MUNCH",
+      "best": true
+    },
+    "MUNCH INSTRUCTIONS": {
+      "prodos_name": "MUNCH.2",
+      "best": true
+    },
+    "VAR SWAP": {
+      "prodos_name": "VAR.SWAP",
+      "best": true
+    },
+    "VAR SWAP INSTRUCTIONS": {
+      "prodos_name": "VAR.SWAP.2",
+      "best": true
+    },
+    "ML TO DATA": {
+      "prodos_name": "ML.TO.DATA",
+      "best": true
+    },
+    "ML TO DATA INSTRUCTIONS": {
+      "prodos_name": "ML.TO.DATA.2",
+      "best": true
+    },
+    "RESTORER.CREATE": {
+      "prodos_name": "RESTORER.CREATE",
+      "best": true
+    },
+    "RESTORER": {
+      "prodos_name": "RESTORER",
+      "best": true
+    },
+    "RESTORER INSTRUCTIONS": {
+      "prodos_name": "RESTORER.2",
+      "best": true
+    },
+    "STARS": {
+      "prodos_name": "STARS",
+      "best": true
+    },
+    "STARS INSTRUCTIONS": {
+      "prodos_name": "STARS.2",
+      "best": true
+    },
+    "GO VAR": {
+      "prodos_name": "GO.VAR",
+      "best": true
+    },
+    "GO VAR INSTRUCTIONS": {
+      "prodos_name": "GO.VAR.2",
+      "best": true
+    },
+    "APPLE IDENTIFIER": {
+      "prodos_name": "APPLE",
+      "best": true
+    },
+    "THREE-D PLOT 1": {
+      "prodos_name": "THREE.D.PLOT.1",
+      "best": true
+    },
+    "THREE-D PLOT 1.PIC": {
+      "prodos_name": "THREE.D.PLOT..2",
+      "best": true
+    },
+    "THREE-D PLOT 2": {
+      "prodos_name": "THREE.D.PLOT.2",
+      "best": true
+    },
+    "THREE-D PLOT 2.PIC": {
+      "prodos_name": "THREE.D.PLOT..3",
+      "best": true
+    },
+    "THREE-D PLOT 3": {
+      "prodos_name": "THREE.D.PLOT.3",
+      "best": true
+    },
+    "THREE-D PLOT 3.PIC": {
+      "prodos_name": "THREE.D.PLOT..4",
+      "best": true
+    },
+    "GRAPHER": {
+      "prodos_name": "GRAPHER",
+      "best": true
+    },
+    "GRAPHER INSTRUCTIONS": {
+      "prodos_name": "GRAPHER.2",
+      "best": true
+    },
+    "FACTORIALS": {
+      "prodos_name": "FACTORIALS",
+      "best": true
+    }
+  },
+  "1987_PT2": {
+    "APPLE.MACROS": {
+      "prodos_name": "APPLE.MACROS",
+      "best": true
+    },
+    "APPLE.MAC.INSTR": {
+      "prodos_name": "APPLE.MAC.INSTR",
+      "best": true
+    },
+    "DATESTAMPS": {
+      "prodos_name": "DATESTAMPS",
+      "best": true
+    },
+    "DATESTAMPS.INST": {
+      "prodos_name": "DATESTAMPS.INST",
+      "best": true
+    },
+    "AMPERGONE": {
+      "prodos_name": "AMPERGONE",
+      "best": true
+    },
+    "AMPERGONE.INSTR": {
+      "prodos_name": "AMPERGONE.INSTR",
+      "best": true
+    },
+    "STORAGE.DEVICES": {
+      "prodos_name": "STORAGE.DEVICES",
+      "best": true
+    },
+    "STORAGE.INSTR": {
+      "prodos_name": "STORAGE.INSTR",
+      "best": true
+    }
+  },
+  "1988_PT1": {
+    "METEOROIDS": {
+      "prodos_name": "METEOROIDS",
+      "best": true
+    },
+    "YES NO": {
+      "prodos_name": "YES.NO",
+      "best": true
+    },
+    "YES NO DEMO": {
+      "prodos_name": "YES.NO.DEMO",
+      "best": true
+    },
+    "YES NO INSTRUCTIONS": {
+      "prodos_name": "YES.NO.2",
+      "best": true
+    },
+    "HANOI TOWERS": {
+      "prodos_name": "HANOI.TOWERS",
+      "best": true
+    },
+    "HANOI TOWERS INSTRUCTIONS": {
+      "prodos_name": "HANOI.TOWERS.2",
+      "best": true
+    },
+    "MASTERMIND": {
+      "prodos_name": "MASTERMIND",
+      "best": true
+    },
+    "MASTERMIND INSTRUCTIONS": {
+      "prodos_name": "MASTERMIND.2",
+      "best": true
+    },
+    "JOYSTICK CUBE": {
+      "prodos_name": "JOYSTICK.CUBE",
+      "best": true
+    },
+    "MELTDOWN": {
+      "prodos_name": "MELTDOWN",
+      "best": false,
+      "duplicate_of": "1984_PT1/MELTDOWN"
+    },
+    "STREET LIGHT": {
+      "prodos_name": "STREET.LIGHT",
+      "best": true
+    },
+    "PUZZLE": {
+      "prodos_name": "PUZZLE",
+      "best": true
+    },
+    "PUZZLE INSTRUCTIONS": {
+      "prodos_name": "PUZZLE.2",
+      "best": true
+    },
+    "QUICK KEYS": {
+      "prodos_name": "QUICK.KEYS",
+      "best": true
+    },
+    "QUICK KEYS INSTRUCTIONS": {
+      "prodos_name": "QUICK.KEYS.2",
+      "best": true
+    },
+    "TAB CONVERTER": {
+      "prodos_name": "TAB.CONVERTER",
+      "best": true
+    },
+    "TAB CONVERTER INSTRUCTIONS": {
+      "prodos_name": "TAB.CONVERTER.2",
+      "best": true
+    },
+    "WORM": {
+      "prodos_name": "WORM",
+      "best": true
+    },
+    "TWIRLER": {
+      "prodos_name": "TWIRLER",
+      "best": true
+    },
+    "CATALOG MEMO": {
+      "prodos_name": "CATALOG.MEMO",
+      "best": true
+    },
+    "CATALOG MEMO INSTRUCTIONS": {
+      "prodos_name": "CATALOG.MEMO.2",
+      "best": true
+    },
+    "SUPERFINDER": {
+      "prodos_name": "SUPERFINDER",
+      "best": true
+    },
+    "SUPERFINDER INSTRUCTIONS": {
+      "prodos_name": "SUPERFINDER.2",
+      "best": true
+    },
+    "F FORMAT": {
+      "prodos_name": "F.FORMAT",
+      "best": true
+    },
+    "F FORMAT INSTRUCTIONS": {
+      "prodos_name": "F.FORMAT.2",
+      "best": true
+    },
+    "ROMAN NUMERAL CONVERT": {
+      "prodos_name": "ROMAN.NUMERAL",
+      "best": true
+    },
+    "PRINT SHOP INVERT": {
+      "prodos_name": "PRINT.SHOP",
+      "best": true
+    },
+    "PRINT SHOP INVERT INSTR": {
+      "prodos_name": "PRINT.SHOP.2",
+      "best": true
+    },
+    "ALPHASORT": {
+      "prodos_name": "ALPHASORT",
+      "best": true
+    },
+    "ALPHASORT INSTRUCTIONS": {
+      "prodos_name": "ALPHASORT.2",
+      "best": true
+    },
+    "BARS": {
+      "prodos_name": "BARS",
+      "best": true
+    },
+    "BARS INSTRUCTIONS": {
+      "prodos_name": "BARS.2",
+      "best": true
+    },
+    "LENGTH MAKER": {
+      "prodos_name": "LENGTH.MAKER",
+      "best": true
+    },
+    "LENGTH": {
+      "prodos_name": "LENGTH",
+      "best": true
+    },
+    "LENGTH INSTRUCTIONS": {
+      "prodos_name": "LENGTH.2",
+      "best": true
+    },
+    "LOSER TUNE": {
+      "prodos_name": "LOSER.TUNE",
+      "best": true
+    },
+    "EASTER": {
+      "prodos_name": "EASTER",
+      "best": true
+    },
+    "CATALOG DRIVE SELECTION": {
+      "prodos_name": "CATALOG.DRIVE",
+      "best": true
+    },
+    "SPINNER": {
+      "prodos_name": "SPINNER",
+      "best": true
+    },
+    "MANDELBROT 2": {
+      "prodos_name": "MANDELBROT.2",
+      "best": true
+    },
+    "MANDELBROT 2.PIC": {
+      "prodos_name": "MANDELBROT.2.2",
+      "best": true
+    },
+    "MINI-BREAKOUT": {
+      "prodos_name": "MINI.BREAKOUT",
+      "best": true
+    },
+    "MINI-BREAKOUT INSTRUCTIONS": {
+      "prodos_name": "MINI.BREAKOUT.2",
+      "best": true
+    },
+    "MAZE": {
+      "prodos_name": "MAZE",
+      "best": true
+    },
+    "MAZE INSTRUCTIONS": {
+      "prodos_name": "MAZE.2",
+      "best": true
+    },
+    "ROTER": {
+      "prodos_name": "ROTER",
+      "best": true
+    },
+    "ROTER INSTRUCTIONS": {
+      "prodos_name": "ROTER.2",
+      "best": true
+    },
+    "LO-RES TO HI-RES": {
+      "prodos_name": "LO.RES.TO.HI",
+      "best": true
+    },
+    "DOS LOWER CASE": {
+      "prodos_name": "DOS.LOWER.CASE",
+      "best": true
+    },
+    "DOS LOWER CASE INSTRUCTIONS": {
+      "prodos_name": "DOS.LOWER.2",
+      "best": true
+    },
+    "INPUT ANYTHING ROUTINE 3": {
+      "prodos_name": "INPUT.ANYTHING",
+      "best": true
+    },
+    "INPUT ANYTHING ROUTINE 3 DEMO": {
+      "prodos_name": "INPUT.2",
+      "best": true
+    },
+    "MINI-DRAW": {
+      "prodos_name": "MINI.DRAW",
+      "best": true
+    },
+    "MINI-DRAW INSTRUCTIONS": {
+      "prodos_name": "MINI.DRAW.2",
+      "best": true
+    },
+    "MOIRE": {
+      "prodos_name": "MOIRE",
+      "best": true
+    },
+    "MOIRE 2": {
+      "prodos_name": "MOIRE.2",
+      "best": true
+    },
+    "IF THEN ELSE": {
+      "prodos_name": "IF.THEN.ELSE",
+      "best": true
+    },
+    "IF THEN ELSE DEMO 1": {
+      "prodos_name": "IF.THEN.ELSE.2",
+      "best": true
+    },
+    "IF THEN ELSE DEMO 2": {
+      "prodos_name": "IF.THEN.ELSE.3",
+      "best": true
+    }
+  },
+  "1988_PT2": {
+    "FREE.SPACE": {
+      "prodos_name": "FREE.SPACE",
+      "best": true
+    },
+    "FREE.SPACE.INST": {
+      "prodos_name": "FREE.SPACE.INST",
+      "best": true
+    },
+    "RAM.EXTEND.B": {
+      "prodos_name": "RAM.EXTEND.B",
+      "best": true
+    },
+    "RAM.EXTEND": {
+      "prodos_name": "RAM.EXTEND",
+      "best": true
+    },
+    "RAM.EXTEND.INST": {
+      "prodos_name": "RAM.EXTEND.INST",
+      "best": true
+    },
+    "LISTVOLS": {
+      "prodos_name": "LISTVOLS",
+      "best": true
+    },
+    "LISTVOLS.INSTR": {
+      "prodos_name": "LISTVOLS.INSTR",
+      "best": true
+    }
+  },
+  "1989_PT1": {
+    "BIG APPLE": {
+      "prodos_name": "BIG.APPLE",
+      "best": true
+    },
+    "BIG APPLE INSTRUCTIONS": {
+      "prodos_name": "BIG.APPLE.2",
+      "best": true
+    },
+    "WIPE": {
+      "prodos_name": "WIPE",
+      "best": true
+    },
+    "WIPE INSTRUCTIONS": {
+      "prodos_name": "WIPE.2",
+      "best": true
+    },
+    "DIFFRACTION": {
+      "prodos_name": "DIFFRACTION",
+      "best": true
+    },
+    "DIFFRACTION.PIC": {
+      "prodos_name": "DIFFRACTION.PIC",
+      "best": true
+    },
+    "PIE CHART": {
+      "prodos_name": "PIE.CHART",
+      "best": true
+    },
+    "PIE CHART INSTRUCTIONS": {
+      "prodos_name": "PIE.CHART.2",
+      "best": true
+    },
+    "UNJUMBLER 40": {
+      "prodos_name": "UNJUMBLER.40",
+      "best": true
+    },
+    "UNJUMBLER 80": {
+      "prodos_name": "UNJUMBLER.80",
+      "best": true
+    },
+    "UNJUMBLER INSTRUCTIONS": {
+      "prodos_name": "UNJUMBLER",
+      "best": true
+    },
+    "CALENDAR YEAR": {
+      "prodos_name": "CALENDAR.YEAR",
+      "best": true
+    },
+    "DOSCAT": {
+      "prodos_name": "DOSCAT",
+      "best": true
+    },
+    "DOSCAT INSTRUCTIONS": {
+      "prodos_name": "DOSCAT.2",
+      "best": true
+    },
+    "MAKE A MAP": {
+      "prodos_name": "MAKE.A.MAP",
+      "best": true
+    },
+    "MAKE A MAP INSTRUCTIONS": {
+      "prodos_name": "MAKE.A.MAP.2",
+      "best": true
+    },
+    "SHAPE SELECT": {
+      "prodos_name": "SHAPE.SELECT",
+      "best": true
+    },
+    "SHAPE SELECT INSTRUCTIONS": {
+      "prodos_name": "SHAPE.SELECT.2",
+      "best": true
+    },
+    "NIBBLE IS THE BEST": {
+      "prodos_name": "NIBBLE.IS.THE",
+      "best": true
+    },
+    "ROUNDIT": {
+      "prodos_name": "ROUNDIT",
+      "best": true
+    },
+    "ROUNDIT DEMO": {
+      "prodos_name": "ROUNDIT.DEMO",
+      "best": true
+    },
+    "SUPERGET": {
+      "prodos_name": "SUPERGET",
+      "best": true
+    },
+    "SUPERGET DEMO": {
+      "prodos_name": "SUPERGET.DEMO",
+      "best": true
+    },
+    "LO-RES DRAW": {
+      "prodos_name": "LO.RES.DRAW",
+      "best": true
+    },
+    "COMBINATIONS": {
+      "prodos_name": "COMBINATIONS",
+      "best": true
+    },
+    "SCREEN FALL": {
+      "prodos_name": "SCREEN.FALL",
+      "best": true
+    },
+    "CHAOS": {
+      "prodos_name": "CHAOS",
+      "best": true
+    },
+    "CHAOS INSTRUCTIONS": {
+      "prodos_name": "CHAOS.2",
+      "best": true
+    },
+    "EXPLORER": {
+      "prodos_name": "EXPLORER",
+      "best": true
+    },
+    "EXPLORER KEYBOARD": {
+      "prodos_name": "EXPLORER.2",
+      "best": true
+    },
+    "PRINTSHOP VIEWER": {
+      "prodos_name": "PRINTSHOP",
+      "best": true
+    },
+    "PRINTSHOP VIEWER INSTRUCTIONS": {
+      "prodos_name": "PRINTSHOP.2",
+      "best": true
+    },
+    "MICRO TV": {
+      "prodos_name": "MICRO.TV",
+      "best": true
+    },
+    "MICRO TV INSTRUCTIONS": {
+      "prodos_name": "MICRO.TV.2",
+      "best": true
+    },
+    "COOL OFF": {
+      "prodos_name": "COOL.OFF",
+      "best": true
+    },
+    "SORT": {
+      "prodos_name": "SORT",
+      "best": true
+    },
+    "SORT DEMO": {
+      "prodos_name": "SORT.DEMO",
+      "best": true
+    },
+    "JEWEL": {
+      "prodos_name": "JEWEL",
+      "best": true
+    },
+    "RETURN ADDRESS": {
+      "prodos_name": "RETURN.ADDRESS",
+      "best": true
+    },
+    "RETURN ADDRESS INSTRUCTIONS": {
+      "prodos_name": "RETURN.2",
+      "best": true
+    },
+    "GET PLUS": {
+      "prodos_name": "GET.PLUS",
+      "best": true
+    },
+    "GET PLUS INSTRUCTIONS": {
+      "prodos_name": "GET.PLUS.2",
+      "best": true
+    },
+    "QUICK CAT": {
+      "prodos_name": "QUICK.CAT",
+      "best": true
+    },
+    "QUICK CAT INSTRUCTIONS": {
+      "prodos_name": "QUICK.CAT.2",
+      "best": true
+    },
+    "ROBOT CATCH": {
+      "prodos_name": "ROBOT.CATCH",
+      "best": true
+    },
+    "ROBOT CATCH INSTRUCTIONS": {
+      "prodos_name": "ROBOT.CATCH.2",
+      "best": true
+    },
+    "CHANNELS": {
+      "prodos_name": "CHANNELS",
+      "best": true
+    },
+    "CHANNELS INSTRUCTIONS": {
+      "prodos_name": "CHANNELS.2",
+      "best": true
+    },
+    "INERTIA": {
+      "prodos_name": "INERTIA",
+      "best": true
+    },
+    "INERTIA INSTRUCTIONS": {
+      "prodos_name": "INERTIA.2",
+      "best": true
+    },
+    "NIBBLE EXPRESS": {
+      "prodos_name": "NIBBLE.EXPRESS",
+      "best": true
+    },
+    "NIBBLE APPLES": {
+      "prodos_name": "NIBBLE.APPLES",
+      "best": true
+    },
+    "BASKET": {
+      "prodos_name": "BASKET",
+      "best": true
+    },
+    "TL BOMBER": {
+      "prodos_name": "TL.BOMBER",
+      "best": true
+    }
+  },
+  "1989_PT2": {
+    "PROCOM": {
+      "prodos_name": "PROCOM",
+      "best": true
+    },
+    "PROCOM.INSTR": {
+      "prodos_name": "PROCOM.INSTR",
+      "best": true
+    },
+    "PRODOS.PRINT.S": {
+      "prodos_name": "PRODOS.PRINT.S",
+      "best": true
+    },
+    "PRODOS.PRINT": {
+      "prodos_name": "PRODOS.PRINT",
+      "best": true
+    },
+    "PRODOS.PR.INSTR": {
+      "prodos_name": "PRODOS.PR.INSTR",
+      "best": true
+    },
+    "AWP.READER": {
+      "prodos_name": "AWP.READER",
+      "best": true
+    },
+    "AWP.READER.INST": {
+      "prodos_name": "AWP.READER.INST",
+      "best": true
+    },
+    "CAT.DATER": {
+      "prodos_name": "CAT.DATER",
+      "best": true
+    },
+    "CAT.DATER.INSTR": {
+      "prodos_name": "CAT.DATER.INSTR",
+      "best": true
+    },
+    "TYPE.AHEAD": {
+      "prodos_name": "TYPE.AHEAD",
+      "best": true
+    },
+    "TYPE.AHEAD.INST": {
+      "prodos_name": "TYPE.AHEAD.INST",
+      "best": true
+    }
+  },
+  "1990_PT1": {
+    "UNDERSCORE CURSOR": {
+      "prodos_name": "UNDERSCORE",
+      "best": true
+    },
+    "SLOGAN": {
+      "prodos_name": "SLOGAN",
+      "best": true
+    },
+    "PYRAMID": {
+      "prodos_name": "PYRAMID",
+      "best": true
+    },
+    "PYRAMID INSTRUCTIONS": {
+      "prodos_name": "PYRAMID.2",
+      "best": true
+    },
+    "NEGASCREEN": {
+      "prodos_name": "NEGASCREEN",
+      "best": true
+    },
+    "NEGASCREEN INSTRUCTIONS": {
+      "prodos_name": "NEGASCREEN.2",
+      "best": true
+    },
+    "MENU SUBROUTINE": {
+      "prodos_name": "MENU.SUBROUTINE",
+      "best": true
+    },
+    "MENU SUBROUTINE DEMO": {
+      "prodos_name": "MENU",
+      "best": true
+    },
+    "SCRN 80": {
+      "prodos_name": "SCRN.80",
+      "best": true
+    },
+    "SCRN 80 DEMO": {
+      "prodos_name": "SCRN.80.DEMO",
+      "best": true
+    },
+    "SPACE WEIGHTS": {
+      "prodos_name": "SPACE.WEIGHTS",
+      "best": true
+    },
+    "FRAMER": {
+      "prodos_name": "FRAMER",
+      "best": true
+    },
+    "MIXED TO UPPER CASE": {
+      "prodos_name": "MIXED.TO.UPPER",
+      "best": true
+    },
+    "MIXED TO FIRST CAPITAL CASE": {
+      "prodos_name": "MIXED.TO.FIRST",
+      "best": true
+    },
+    "DRIFT": {
+      "prodos_name": "DRIFT",
+      "best": true
+    },
+    "INTEREST CALCULATOR": {
+      "prodos_name": "INTEREST",
+      "best": true
+    },
+    "MIND'S EYE": {
+      "prodos_name": "MINDS.EYE",
+      "best": true
+    },
+    "FIREWORKS": {
+      "prodos_name": "FIREWORKS",
+      "best": true
+    },
+    "MARQUEE": {
+      "prodos_name": "MARQUEE",
+      "best": true
+    },
+    "MARQUEE INSTRUCTIONS": {
+      "prodos_name": "MARQUEE.2",
+      "best": true
+    },
+    "MEMORY PEEKER": {
+      "prodos_name": "MEMORY.PEEKER",
+      "best": true
+    },
+    "MEMORY PEEKER INSTRUCTIONS": {
+      "prodos_name": "MEMORY.PEEKER.2",
+      "best": true
+    },
+    "RUN": {
+      "prodos_name": "RUN",
+      "best": true
+    },
+    "RUN EXAMPLE": {
+      "prodos_name": "RUN.EXAMPLE",
+      "best": true
+    },
+    "RUN INSTRUCTIONS": {
+      "prodos_name": "RUN.2",
+      "best": true
+    },
+    "STRIKE": {
+      "prodos_name": "STRIKE",
+      "best": true
+    },
+    "STRIKE INSTRUCTIONS": {
+      "prodos_name": "STRIKE.2",
+      "best": true
+    },
+    "APPLE SIGN": {
+      "prodos_name": "APPLE.SIGN",
+      "best": true
+    },
+    "APPLE SIGN INSTRUCTIONS": {
+      "prodos_name": "APPLE.SIGN.2",
+      "best": true
+    },
+    "SNOWFLAKES": {
+      "prodos_name": "SNOWFLAKES",
+      "best": true
+    },
+    "SNOWFLAKES INSTRUCTIONS": {
+      "prodos_name": "SNOWFLAKES.2",
+      "best": true
+    },
+    "DAY OF WEEK": {
+      "prodos_name": "DAY.OF.WEEK",
+      "best": true
+    },
+    "CODE BREAKER": {
+      "prodos_name": "CODE.BREAKER",
+      "best": true
+    },
+    "CODE BREAKER INSTRUCTIONS": {
+      "prodos_name": "CODE.BREAKER.2",
+      "best": true
+    },
+    "MELBOURNE OZ": {
+      "prodos_name": "MELBOURNE.OZ",
+      "best": true
+    },
+    "MELBOURNE OZ INSTRUCTIONS": {
+      "prodos_name": "MELBOURNE.OZ.2",
+      "best": true
+    },
+    "MISSILE HEAD 1": {
+      "prodos_name": "MISSILE.HEAD.1",
+      "best": true
+    },
+    "MISSILE HEAD 1.PIC": {
+      "prodos_name": "MISSILE.HEAD..2",
+      "best": true
+    },
+    "MISSILE HEAD 2": {
+      "prodos_name": "MISSILE.HEAD.2",
+      "best": true
+    },
+    "MISSILE HEAD 2.PIC": {
+      "prodos_name": "MISSILE.HEAD..3",
+      "best": true
+    },
+    "BLOX": {
+      "prodos_name": "BLOX",
+      "best": true
+    },
+    "VEJUR": {
+      "prodos_name": "VEJUR",
+      "best": true
+    },
+    "MINI-PAINT": {
+      "prodos_name": "MINI.PAINT",
+      "best": true
+    },
+    "MINI-PAINT INSTRUCTIONS": {
+      "prodos_name": "MINI.PAINT.2",
+      "best": true
+    },
+    "BASIC FIX IT": {
+      "prodos_name": "BASIC.FIX.IT",
+      "best": true
+    },
+    "BASIC FIX IT INSTRUCTIONS": {
+      "prodos_name": "BASIC.FIX.IT.2",
+      "best": true
+    },
+    "IIGS EFFECT MAKER": {
+      "prodos_name": "IIGS.EFFECT",
+      "best": true
+    },
+    "IIGS EFFECT MAKER INSTR": {
+      "prodos_name": "IIGS.EFFECT.2",
+      "best": true
+    },
+    "ROTATE CUBE": {
+      "prodos_name": "ROTATE.CUBE",
+      "best": true
+    },
+    "LIGHTBAR": {
+      "prodos_name": "LIGHTBAR",
+      "best": true
+    },
+    "LIGHTBAR INSTRUCTIONS": {
+      "prodos_name": "LIGHTBAR.2",
+      "best": true
+    },
+    "SURROUND": {
+      "prodos_name": "SURROUND",
+      "best": true
+    },
+    "SURROUND INSTRUCTIONS": {
+      "prodos_name": "SURROUND.2",
+      "best": true
+    }
+  },
+  "1990_PT2": {
+    "PRO.CALC": {
+      "prodos_name": "PRO.CALC",
+      "best": true
+    },
+    "PRO.CALC.INSTR": {
+      "prodos_name": "PRO.CALC.INSTR",
+      "best": true
+    },
+    "APPLE.OUT": {
+      "prodos_name": "APPLE.OUT",
+      "best": true
+    },
+    "APPLE.OUT.INSTR": {
+      "prodos_name": "APPLE.OUT.INSTR",
+      "best": true
+    },
+    "BLOCKS.VNAME": {
+      "prodos_name": "BLOCKS.VNAME",
+      "best": true
+    },
+    "BLOCKS.SLOTDR": {
+      "prodos_name": "BLOCKS.SLOTDR",
+      "best": true
+    },
+    "BLOCKS.INSTR": {
+      "prodos_name": "BLOCKS.INSTR",
+      "best": true
+    },
+    "HR.MERGE": {
+      "prodos_name": "HR.MERGE",
+      "best": true
+    },
+    "HR.MERGE.INSTR": {
+      "prodos_name": "HR.MERGE.INSTR",
+      "best": true
+    },
+    "BOOT.SLOT": {
+      "prodos_name": "BOOT.SLOT",
+      "best": true
+    },
+    "BOOT.SLOT.INSTR": {
+      "prodos_name": "BOOT.SLOT.INSTR",
+      "best": true
+    },
+    "BASIC.COPY": {
+      "prodos_name": "BASIC.COPY",
+      "best": true
+    },
+    "BASIC.COPY.INST": {
+      "prodos_name": "BASIC.COPY.INST",
+      "best": true
+    },
+    "IIGS.PLOADER": {
+      "prodos_name": "IIGS.PLOADER",
+      "best": true
+    },
+    "IIGS.PLOAD.INST": {
+      "prodos_name": "IIGS.PLOAD.INST",
+      "best": true
+    }
+  },
+  "1991_PT1": {
+    "SCREEN FALL": {
+      "prodos_name": "SCREEN.FALL",
+      "best": true
+    },
+    "PRINTER DUMP": {
+      "prodos_name": "PRINTER.DUMP",
+      "best": true
+    },
+    "PRINTER DUMP ORIG": {
+      "prodos_name": "PRINTER.DUMP.2",
+      "best": true
+    },
+    "PRINTER DUMP INSTR": {
+      "prodos_name": "PRINTER.DUMP.3",
+      "best": true
+    },
+    "SHRINKER": {
+      "prodos_name": "SHRINKER",
+      "best": true
+    },
+    "SHRINKER INSTRUCTIONS": {
+      "prodos_name": "SHRINKER.2",
+      "best": true
+    },
+    "BRICKO": {
+      "prodos_name": "BRICKO",
+      "best": true
+    },
+    "DUEL": {
+      "prodos_name": "DUEL",
+      "best": true
+    },
+    "DUEL INSTRUCTIONS": {
+      "prodos_name": "DUEL.2",
+      "best": true
+    },
+    "PARADE": {
+      "prodos_name": "PARADE",
+      "best": true
+    },
+    "IIGS COLOR": {
+      "prodos_name": "IIGS.COLOR",
+      "best": true
+    },
+    "IIGS COLOR INSTRUCTIONS": {
+      "prodos_name": "IIGS.COLOR.2",
+      "best": true
+    },
+    "FISH": {
+      "prodos_name": "FISH",
+      "best": true
+    },
+    "WIPEOUT": {
+      "prodos_name": "WIPEOUT",
+      "best": true
+    },
+    "SLIDEOUT": {
+      "prodos_name": "SLIDEOUT",
+      "best": true
+    },
+    "SLIDEOUT INSTRUCTIONS": {
+      "prodos_name": "SLIDEOUT.2",
+      "best": true
+    },
+    "IIGS MEMORY FREE": {
+      "prodos_name": "IIGS.MEMORY",
+      "best": true
+    },
+    "NIBBLE SPECKLES": {
+      "prodos_name": "NIBBLE.SPECKLES",
+      "best": true
+    },
+    "SUBSTITUTION CODE": {
+      "prodos_name": "SUBSTITUTION",
+      "best": true
+    },
+    "PIG LATIN TRANSLATOR": {
+      "prodos_name": "PIG.LATIN",
+      "best": true
+    },
+    "OH FUDGE": {
+      "prodos_name": "OH.FUDGE",
+      "best": true
+    },
+    "OH FUDGE INSTRUCTIONS": {
+      "prodos_name": "OH.FUDGE.2",
+      "best": true
+    },
+    "AMPER DEC-TO-HEX": {
+      "prodos_name": "AMPER.DEC.TO",
+      "best": true
+    },
+    "ML STRING": {
+      "prodos_name": "ML.STRING",
+      "best": true
+    },
+    "ML STRING INSTRUCTIONS": {
+      "prodos_name": "ML.STRING.2",
+      "best": true
+    },
+    "ADDRESSER": {
+      "prodos_name": "ADDRESSER",
+      "best": true
+    },
+    "ADDRESSER INSTRUCTIONS": {
+      "prodos_name": "ADDRESSER.2",
+      "best": true
+    },
+    "BORDERS": {
+      "prodos_name": "BORDERS",
+      "best": true
+    },
+    "SAUDI NIGHTS": {
+      "prodos_name": "SAUDI.NIGHTS",
+      "best": true
+    },
+    "FRACTALS 1": {
+      "prodos_name": "FRACTALS.1",
+      "best": true
+    },
+    "FRACTALS 1.PIC": {
+      "prodos_name": "FRACTALS.1.PIC",
+      "best": true
+    },
+    "FRACTALS 2": {
+      "prodos_name": "FRACTALS.2",
+      "best": true
+    },
+    "FRACTALS 2.PIC": {
+      "prodos_name": "FRACTALS.2.PIC",
+      "best": true
+    },
+    "UP AND DOWN": {
+      "prodos_name": "UP.AND.DOWN",
+      "best": true
+    },
+    "INTERFERENCE": {
+      "prodos_name": "INTERFERENCE",
+      "best": true
+    },
+    "LITTLE DOGGY": {
+      "prodos_name": "LITTLE.DOGGY",
+      "best": true
+    },
+    "BUTTON USR": {
+      "prodos_name": "BUTTON.USR",
+      "best": true
+    },
+    "BUTTON USR DEMO 1": {
+      "prodos_name": "BUTTON.USR.2",
+      "best": true
+    },
+    "BUTTON USR DEMO 2": {
+      "prodos_name": "BUTTON.USR.3",
+      "best": true
+    },
+    "AUX COPY": {
+      "prodos_name": "AUX.COPY",
+      "best": true
+    },
+    "AUX COPY INSTRUCTIONS": {
+      "prodos_name": "AUX.COPY.2",
+      "best": true
+    },
+    "HI WHEELER": {
+      "prodos_name": "HI.WHEELER",
+      "best": true
+    },
+    "HI WHEELER INSTRUCTIONS": {
+      "prodos_name": "HI.WHEELER.2",
+      "best": true
+    },
+    "IIGS TRANSWARP DETECTOR": {
+      "prodos_name": "IIGS.TRANSWARP",
+      "best": true
+    },
+    "IIGS TRANSWARP DETECTOR INSTR": {
+      "prodos_name": "IIGS.2",
+      "best": true
+    },
+    "IIGS FLASHER": {
+      "prodos_name": "IIGS.FLASHER",
+      "best": true
+    }
+  },
+  "1991_PT2": {
+    "STAR.TRAVEL": {
+      "prodos_name": "STAR.TRAVEL",
+      "best": true
+    },
+    "BACK": {
+      "prodos_name": "BACK",
+      "best": true
+    },
+    "BACK.INSTR": {
+      "prodos_name": "BACK.INSTR",
+      "best": true
+    },
+    "BEACH.STORM": {
+      "prodos_name": "BEACH.STORM",
+      "best": true
+    },
+    "FIREWORKS.II": {
+      "prodos_name": "FIREWORKS.II",
+      "best": true
+    },
+    "FIREWORKS.INSTR": {
+      "prodos_name": "FIREWORKS.INSTR",
+      "best": true
+    },
+    "POLYGON": {
+      "prodos_name": "POLYGON",
+      "best": true
+    },
+    "POLYGON.INSTR": {
+      "prodos_name": "POLYGON.INSTR",
+      "best": true
+    }
+  },
+  "1992_PT1": {
+    "TEASER II": {
+      "prodos_name": "TEASER.II",
+      "best": true
+    },
+    "TEASER II INSTRUCTIONS": {
+      "prodos_name": "TEASER.II.2",
+      "best": true
+    },
+    "TEASER II SOLUTION": {
+      "prodos_name": "TEASER.II.3",
+      "best": true
+    },
+    "INPUT LINE": {
+      "prodos_name": "INPUT.LINE",
+      "best": true
+    },
+    "INPUT LINE INSTRUCTIONS": {
+      "prodos_name": "INPUT.LINE.2",
+      "best": true
+    },
+    "BINARY CONVERT": {
+      "prodos_name": "BINARY.CONVERT",
+      "best": true
+    },
+    "BINARY CONVERT INSTRUCTIONS": {
+      "prodos_name": "BINARY.2",
+      "best": true
+    },
+    "ET": {
+      "prodos_name": "ET",
+      "best": true
+    },
+    "INSIDE DOS": {
+      "prodos_name": "INSIDE.DOS",
+      "best": true
+    },
+    "INSIDE DOS INSTRUCTIONS": {
+      "prodos_name": "INSIDE.DOS.2",
+      "best": true
+    },
+    "SNAKE": {
+      "prodos_name": "SNAKE",
+      "best": true
+    },
+    "SNAKE INSTRUCTIONS": {
+      "prodos_name": "SNAKE.2",
+      "best": true
+    },
+    "IIGS LOCK OUT": {
+      "prodos_name": "IIGS.LOCK.OUT",
+      "best": true
+    },
+    "IIGS LOCK OUT DEMO": {
+      "prodos_name": "IIGS.LOCK.OUT.2",
+      "best": true
+    },
+    "IIGS LOCK OUT INSTRUCTIONS": {
+      "prodos_name": "IIGS.LOCK.OUT.3",
+      "best": true
+    },
+    "MANDELBROT 3": {
+      "prodos_name": "MANDELBROT.3",
+      "best": true
+    },
+    "MANDELBROT 3.PIC": {
+      "prodos_name": "MANDELBROT.3.2",
+      "best": true
+    },
+    "JULIA FRACTALS": {
+      "prodos_name": "JULIA.FRACTALS",
+      "best": true
+    },
+    "JULIA FRACTALS INSTRUCTIONS": {
+      "prodos_name": "JULIA.2",
+      "best": true
+    },
+    "JULIA FRACTAL.PIC1": {
+      "prodos_name": "JULIA.FRACTAL",
+      "best": true
+    },
+    "JULIA FRACTAL.PIC2": {
+      "prodos_name": "JULIA.FRACTAL.2",
+      "best": true
+    },
+    "JULIA FRACTAL.PIC3": {
+      "prodos_name": "JULIA.FRACTAL.3",
+      "best": true
+    },
+    "DOSCAT": {
+      "prodos_name": "DOSCAT",
+      "best": false,
+      "duplicate_of": "1989_PT1/DOSCAT"
+    },
+    "DOSCAT INSTRUCTIONS": {
+      "prodos_name": "DOSCAT.2",
+      "best": true
+    },
+    "BLACKJACK": {
+      "prodos_name": "BLACKJACK",
+      "best": false,
+      "duplicate_of": "1985_PT1/BLACKJACK"
+    },
+    "BLACKJACK INSTRUCTIONS": {
+      "prodos_name": "BLACKJACK.2",
+      "best": false,
+      "duplicate_of": "1985_PT1/BLACKJACK INSTRUCTIONS"
+    },
+    "METEORITE NAVIGATOR": {
+      "prodos_name": "METEORITE",
+      "best": true
+    },
+    "BOUNCE": {
+      "prodos_name": "BOUNCE",
+      "best": false,
+      "duplicate_of": "1985_PT1/BOUNCE"
+    },
+    "BOUNCE INSTRUCTIONS": {
+      "prodos_name": "BOUNCE.2",
+      "best": false,
+      "duplicate_of": "1985_PT1/BOUNCE INSTRUCTIONS"
+    },
+    "ROM HEX-DEC CONVERTER": {
+      "prodos_name": "ROM.HEX.DEC",
+      "best": true
+    }
+  },
+  "1992_PT2": {
+    "WHEEL": {
+      "prodos_name": "WHEEL",
+      "best": true
+    }
+  }
+}

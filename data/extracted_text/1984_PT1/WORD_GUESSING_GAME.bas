@@ -1,0 +1,1 @@
+10  INPUT "ENTER 5-LETTER WORD:";W$: HOME : FOR I = 1 TO 20: PRINT "GUESS#"I;: HTAB 12:G$ = "":C = 0: FOR J = 1 TO 5: GET A$: PRINT A$;:G$ = G$ + A$:X$ =  MID$ (W$,J,1):C = C + (X$ = A$): NEXT : HTAB 20: PRINT C"RIGHT":I = I + (20 - I) * (C = 5): NEXT : FLASH : PRINT W$: NORMAL : PRINT : GOTO 10

@@ -1,0 +1,1 @@
+10 N =  INT((F -  INT(F)) * 10 + .5):Z =  ABS(X) + .5 * 10 ^  - N:K =  INT(Z):L = 2 + (X < 0) + N +  INT( LOG(K + .5) /  LOG(10)) * (Z > 1):M = F > L: PRINT  MID$ ("**********         -",1 + M * (19 -  INT(F) + L),F - M * (L - (X < 0))) MID$ (( STR$(K) + "."),1,M * (L - N)) MID$ ( STR$((Z - K + 1) * 10 ^ N + .5),2,M * N);: RETURN 

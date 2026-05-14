@@ -1,0 +1,2 @@
+1  HOME : DIM X(26),A(26): INPUT "Type a string: ";Q$: FOR M = 1 TO 26:A(M) = M: NEXT :M = 26: FOR T = 1 TO M:Q =  INT( RND(1) * M + 1):X(T) = A(Q): FOR R = Q TO M - 1:A(R) = A(R + 1): NEXT :M = M - 1: NEXT : FOR T = 1 TO  LEN(Q$):M$ =  MID$ (Q$,T,1):B =  ASC(M$) - 64
+2 O$ =  CHR$(X(B * (B > 0 AND B < 27)) + 64 * (B > 0 AND B < 27) +  ASC(M$) * (B < 1 OR B > 26)): PRINT O$;: NEXT : PRINT : PRINT "Answer is ";Q$

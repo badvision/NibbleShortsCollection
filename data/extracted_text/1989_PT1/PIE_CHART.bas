@@ -1,0 +1,1 @@
+1  HGR : HOME :C = 15.91: FOR X = 1 TO 5: READ W:E(X) = W: VTAB 22: HTAB X * 6: INPUT A(X):A(X) = (A(X) / C) + A(X - 1): NEXT :X = 140:Y = 86:P1 = 3.14:P2 = P1 * 2: FOR Q = 1 TO 5: FOR J = A(Q - 1) TO A(Q) STEP P2 / 647: HCOLOR= E(Q):M = 99 *  COS(J) + X:N = 28 *  SIN(J) + Y: HPLOT X,Y TO M,N TO M,N + 9: NEXT J,Q: DATA 1,2,3,5,6

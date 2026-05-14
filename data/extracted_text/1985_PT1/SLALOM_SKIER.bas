@@ -1,0 +1,1 @@
+1  VTAB 24:A = 1920:I = I + 1: PRINT  TAB( 1 + 39 *  RND(1))"*":K =  PEEK(49152):X = X + (K = 149) * (X < 38) - (K = 136) * (X > 0): POKE A + X, PEEK(A + X) - 128: ON  PEEK(A + X) <  > 42 GOTO 1: FOR J = 1 TO 100:P =  PEEK(49237) +  PEEK(49236): NEXT : PRINT "CRASH AFTER "I" LINES": FOR J = 1 TO 3E3: NEXT : HOME : RUN 

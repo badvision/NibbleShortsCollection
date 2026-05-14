@@ -1,0 +1,1 @@
+10  INPUT "NUMBER,PLACE ";Z$,P: DIM R(2):Z =  LEN(Z$): FOR D = 1 TO Z:A =  NOT ( MID$ (Z$,D,1) >  < "."):R(A) = A * ( INT( VAL( MID$ (Z$,1,D - 1) +  MID$ (Z$,D + 1)) * 10 ^  - (Z - (D + P)) + .5) * 10 ^  - P):Z2$ =  STR$(R(1)): NEXT : PRINT "ROUNDED ",Z2$

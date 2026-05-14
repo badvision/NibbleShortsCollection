@@ -1,0 +1,1 @@
+1  FOR J = 1 TO 2: PRINT "Side "J;: INPUT " ft, in, n, d ";F,I,N,D:S = S + (F * 12 + I + N / (D + (D = 0))) ^ 2: NEXT :H =  SQR(S) + 1 / 128:D = 64:N =  INT((H -  INT(H)) * D):F% = H / 12:I% = H - F% * 12: FOR J = 1 TO 6:K =  INT(N / 2) = N / 2:N = N - N * .5 * K:D = D - D * .5 * K: NEXT : PRINT "Len= "F%" ft "I%;: IF N > 0 THEN  PRINT " & "N"/"D" in

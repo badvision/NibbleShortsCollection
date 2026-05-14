@@ -1,0 +1,2 @@
+10  HOME : INPUT "Enter Principle: ";P: PRINT : INPUT "Enter Interest Rate (Nominal): ";R: PRINT : INPUT "Enter Number of Years: ";Y: PRINT : INPUT "Enter Compounds Per Year: ";N:R = R / 100:T = ((R / N + 1) ^ (Y * N)) * P:C = T - P:E =  INT(T):I =  VAL( MID$ ( STR$(T - E),1,3)):F =  INT(C)
+20 A =  VAL( MID$ ( STR$(C - F),1,3)): HOME : PRINT "Starting Principle: ";P: VTAB 3: PRINT "Interest Rate: ";R: VTAB 5: PRINT "Number of Years: "Y: VTAB 7: PRINT "Compounds Per Year: ";N: VTAB 9: PRINT "Interest Gained: ";F;A: VTAB 11: PRINT "Final Balance: ";E;I

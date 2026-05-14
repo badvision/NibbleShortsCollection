@@ -1,0 +1,1 @@
+1  HOME : INPUT "NUMBER OF NAMES: ";A: DIM A$(A): PRINT : IF A > 1 THEN  FOR B = 1 TO A: PRINT "#"B;: INPUT ": ";A$(B): NEXT : FOR B = 1 TO A: FOR C = 1 TO A - 1:A$(0) = A$(C):A$(C) = A$(C + (A$(C) > A$(C + 1))):A$(C + 1) = A$((A$(0) < A$(C + 1)) * (C + 1)): NEXT C,B: PRINT : PRINT "ALPHABETIZED:": PRINT : FOR B = 1 TO A: PRINT A$(B): NEXT 

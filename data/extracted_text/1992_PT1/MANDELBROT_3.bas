@@ -1,0 +1,2 @@
+1  HGR2 :F =  - 2.25:G = .75:QM =  - 1.5:QA = 1.5:M = 100:TP = 3 / 148: FOR NP = 0 TO 148: FOR NQ = 0 TO 148:PO = F + NP * TP:QO = QM + NQ * TP:X = 0:Y = 0: FOR V = 1 TO 15:X = X ^ 2 - Y ^ 2 + PO:Y = 2 * OX * Y + QO:OX = X:R = X ^ 2 + Y ^ 2: IF R < M AND V < 16 THEN CO = 0: NEXT V
+2  HCOLOR= 3 * (((V / 2) =  INT(V / 2)) = 0): HPLOT NP + 64,172 - NQ: NEXT NQ: NEXT NP

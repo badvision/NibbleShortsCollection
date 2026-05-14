@@ -1,0 +1,1 @@
+10  INPUT "ENTER STRING: ";A$:L =  LEN(A$):C$ = "": FOR I = 1 TO L:C =  ASC( MID$ (A$,I,1)):B =  ASC( MID$ (A$,I - 1 * (I > 1),1)):B = 0 + 1 * (B = 32 OR I = 1):C$ = C$ +  CHR$(C - 32 * (C > 96 AND C < 123) * B): NEXT : PRINT C$

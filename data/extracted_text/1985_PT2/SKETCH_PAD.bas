@@ -1,0 +1,1 @@
+10  HGR :X = 135:Y = 95:C = 3: FOR I = 0 TO 1 STEP 0: HCOLOR= 3 - C: HPLOT X,Y: GET A$: HCOLOR= C: HPLOT X,Y:X = X + (A$ = "O") + (A$ = "K") + (A$ = ",") - (A$ = "U") - (A$ = "J") - (A$ = "N"):Y = Y + (A$ = "N") + (A$ = "M") + (A$ = ",") - (A$ = "U") - (A$ = "I") - (A$ = "O"):C = C + (A$ = " ") * ( SGN(1 - C)) * 3: NEXT 

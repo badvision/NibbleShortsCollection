@@ -1,0 +1,1 @@
+10 X =  RND(8):Y =  RND(8):A = X * X:B = Y * Y:Z = 100:R = R + 1: VTAB 24: PRINT 4 * C / R: HCOLOR= 1:H =  - Z * Y + 129:V = Z * X + 90: HPLOT V,H: ON (A + B > 1) GOTO 10: HCOLOR= 2: HPLOT V,H:C = C + 1: ON G GOTO 10: HGR :G = 1: GOTO 10

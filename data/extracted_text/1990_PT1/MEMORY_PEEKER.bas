@@ -1,0 +1,1 @@
+1  HOME : PRINT  CHR$(21);:H$ = "0123456789ABCDEF": INPUT "START ADDRESS: ";S: INPUT "END ADDRESS: ";E: FOR I = S TO E:L =  PEEK(I):L$ =  STR$(L):B =  INT(L / 16):B$ =  MID$ (H$,B + 1,1):C$ =  MID$ (H$, INT(L - 16 * B + 1),1): PRINT I" = " TAB( 12 -  LEN(L$))L$" = $"B$C$: GET A$: NEXT 

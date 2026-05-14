@@ -1,0 +1,1 @@
+1 QZ =  PEEK(64435) +  PEEK(64448): PRINT "MACHINE IS APPLE //" MID$ ("C    E-ENHE-OLDPLUS ",1 + 5 * ((QZ > 229) + (QZ > 239) + (QZ > 240)),5)

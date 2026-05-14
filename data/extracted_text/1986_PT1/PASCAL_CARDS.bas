@@ -1,0 +1,1 @@
+1  PRINT "Pascal cards": FOR S = 1 TO 7:B = 49152 + 256 * S:C =  INT( PEEK(B + 12) / 16 + 1) * ( PEEK(B + 5) +  PEEK(B + 7) = 80):C = C * (C < 11):C(S) = C: PRINT S":" MID$ ("non-pasunknownprinterjoystckser/parmodem..sound..clock..bigdisk80-col.net/busspecial",C * 7 + 1,7): NEXT 

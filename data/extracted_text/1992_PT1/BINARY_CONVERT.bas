@@ -1,0 +1,2 @@
+10  TEXT : HOME : FOR A = 1 TO 8: READ Q(A): NEXT : DATA 128,64,32,16,8,4,2,1: VTAB 3: PRINT "    B I N A R Y   C O N V E R T E R": PRINT "    B Y     D A N     F U R L A N I"
+20  VTAB 8: PRINT  SPC( 80): PRINT "1 6 3 1 8 4 2 1": PRINT "2 4 2 6": PRINT "8": VTAB 8: HTAB 1: FOR I = 1 TO 8: GET A$:A =  VAL(A$) =  > 1:B = B + A * Q(I): PRINT A;" ";: NEXT : PRINT "= ";B:B = 0: WAIT  - 16384,128: GET A$: ON A$ =  CHR$(13) GOTO 20

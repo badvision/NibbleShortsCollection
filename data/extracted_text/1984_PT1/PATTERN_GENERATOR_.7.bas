@@ -1,0 +1,1 @@
+10 P = .7: HGR2 : FOR Y =  - 95 TO 0:Y2 = Y * Y: FOR X =  - 139 TO 0:R = (1E7 -  INT((Y2 + X * X) ^ P)) / 2: HCOLOR= 3 * (R <  >  INT(R)):X1 = X + 139:Y1 = Y + 95: HPLOT X1,Y1: HPLOT 278 - X1,Y1: HPLOT X1,190 - Y1: HPLOT 278 - X1,190 - Y1: NEXT : NEXT 

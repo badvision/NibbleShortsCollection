@@ -1,0 +1,1 @@
+1 X = 2:Y = 2:R =  - 1:D = R: FOR I = 1024 TO 2047: POKE I,32: NEXT : FOR I = 1 TO 1556:A = X = 39:B = Y = 2:C = X = 2:E = Y = 23:D = D + C * 2 + A *  - 2 + A * B * 2:R = R + B * 2 + E *  - 2: HTAB X: VTAB Y: PRINT " ": VTAB Y: IF C * E = 0 THEN Y = Y + R - A * E * 20:X = X + D + A * E: HTAB X: VTAB Y: PRINT "*":Z = (A + B + C + E > 0) *  - 16336:Q =  PEEK(Z):Q =  PEEK(Z): NEXT 

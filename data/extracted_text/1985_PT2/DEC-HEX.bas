@@ -1,0 +1,1 @@
+1  INPUT A$:A =  VAL(A$): FOR B = 12 TO 0 STEP  - 4:C =  INT(A / 2 ^ B):A = A - C * 2 ^ B:B$ = B$ +  CHR$((C > 9) * 7 + C + 48): NEXT :A =  LEN(A$): FOR B = 0 TO A - 2:C =  ASC( MID$ (A$,A - B,1)):D = D + (C - (C > 64) * 7 - 48) * 2 ^ (B * 4): NEXT :A =  ASC(A$): PRINT A$"=" MID$ ("$" + B$,1,(A > 36) * 9); MID$ ( STR$(D),1,(A = 36) * 9);: PRINT : PRINT : RUN 

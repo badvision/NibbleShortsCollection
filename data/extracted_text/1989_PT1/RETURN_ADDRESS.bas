@@ -1,0 +1,2 @@
+10  HOME :N$ = "Your Name":A$ = "Your Street Address":T$ = "Your Town, State, Zip":D$ =  CHR$(4):S$ =  CHR$(27) +  CHR$(66):U$ =  CHR$(27) +  CHR$(81): PRINT  CHR$(4)"PR#1": PRINT S$;U$
+20  PRINT D$"PR#1": FOR I = 1 TO 2: PRINT N$;: HTAB (25): PRINT N$: PRINT A$;: HTAB (25): PRINT A$: PRINT T$;: HTAB (25): PRINT T$: PRINT : NEXT I: PRINT D$"PR#0": PRINT "Again?  (Y/N)": GET M$: IF M$ <  > "N" AND M$ <  > "n" THEN  GOTO 20

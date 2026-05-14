@@ -1,0 +1,1 @@
+1  HGR2 : FOR Z = 10 TO 0 STEP  - .2: FOR X = 10 TO 0 STEP  - .2:Y =  - 10 *  COS(3 *  SQR((X - 5) * (X - 5) + (Z - 5) * (Z - 5))) / 2 + 50: HPLOT X * 20 + Z * 3 + 20,Y + Z * 10: NEXT : NEXT 

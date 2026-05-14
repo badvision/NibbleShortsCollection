@@ -1,0 +1,2 @@
+0  GOTO 10:::::::::: RETURN : REM 10 COLONS
+1 M = 2053: INPUT "L1,L2?";S$,E$: POKE M,188: FOR I = 1 TO  LEN(S$): POKE M + I, ASC( MID$ (S$,I,1)): NEXT : POKE M + 1 +  LEN(S$),44: FOR I = 1 TO  LEN(E$): POKE M + 1 +  LEN(S$) + I, ASC( MID$ (E$,I,1)): NEXT : GOSUB 0: POKE M,171: POKE M + 1,49: POKE M + 2,48: FOR I = M + 3 TO M + 11: POKE I,58: NEXT : RETURN 

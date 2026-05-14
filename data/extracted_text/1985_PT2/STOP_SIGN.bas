@@ -1,0 +1,1 @@
+10 A$ = "     ____      ___/!   \__  !__-_____-__!    O     O    ":B$ = "  __   /  \ !STOP! \__/": HOME : POKE 33,6: VTAB 5: PRINT B$: POKE 33,14:I = 65: FOR J = 1 TO 3: FOR I = I TO I - 20 STEP  - 1 / J: POKE 32,I: VTAB 10: PRINT A$: NEXT I,J: POKE 33,40: POKE 32,0

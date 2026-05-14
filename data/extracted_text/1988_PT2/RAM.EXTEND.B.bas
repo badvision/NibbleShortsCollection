@@ -1,0 +1,2 @@
+1 A$ = "[<__<_b_l1b4mZ:dIN8[0;P`F\GX08J0X:\od@X9\oQ1ioioX@Z0X@8Q0X@Z@j8Q0X@Z@X08Q0Y18J0X2\o:7To8Y0aoaoZ@X0ToQo8Y0HQo80_Pn0TmZJJR8R_BZg8koJC3_QoX0ToVbTobRTobZ0TobdnioTobdnao80_Pn0\bHZ0Q@QnZ\Q@QnZ0QAQoQoYMQAQo[R`[R`K9":B$ = "fi=;6<d8@8>6<7YI@JdD"
+2 B$ = B$ + "0=F2=R3A7`V5HP`P`8TP\4D0R@01641\5`6L2@WIdM4A7EedP": FOR I = 0 TO 206:J =  INT(I / 3):K = I - 3 * J:A =  ASC( MID$ (A$,I + 1,1)) - 48:B =  ASC( MID$ (B$,J + 1,1)) - 48: POKE 768 + I,4 * A +  INT(B / 4 ^ K) - 4 *  INT(B / 4 ^ (K + 1)): NEXT : POKE 975,191: PRINT  CHR$(4);"BSAVERAM.EXTEND,A768,L208"

@@ -1,0 +1,2 @@
+10 D$ =  CHR$(4): INPUT "QTY,PRINT?<1/0>";N,P: PRINT D$"PR#"P: DIM N$(N + 2): FOR I = 1 TO N: PRINT I;: INPUT ":";N$(I): NEXT : FOR J = 1 TO N - 1: FOR I = 1 TO N - J: IF N$(I) <  = N$(I + 1) THEN  NEXT : NEXT : PRINT : FOR I = 1 TO N: PRINT I"."N$(I)" "; CHR$(13 * ( PEEK(36) > 33));: NEXT : PRINT : PRINT D$"PR#0"
+20 T$ = N$(I):N$(I) = N$(I + 1):N$(I + 1) = T$: IF I < N THEN  NEXT : NEXT : PRINT  CHR$(7) CHR$(7): FOR I = 1 TO N: PRINT I"."N$(I)" "; CHR$(13 * ( PEEK(36) > 33));: NEXT : PRINT : PRINT D$"PR#0": REM INPUT NUMBER OF WORDS AND PRINTER USE.  ALPHASORT/2LINER

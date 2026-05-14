@@ -1,0 +1,1 @@
+10  HGR2 : FOR X = 0 TO 279: FOR Y = 0 TO 96:A = 0:B = 0:C = (X - 140) / 90 - .5:D = (Y - 96) / 96: FOR I = 0 TO 7:Q = A * A - B * B + C:B = 2 * A * B + D:A = Q: HCOLOR= I + (I > 3) - (I = 7) * 4: HPLOT X,Y: HPLOT X,191 - Y:I = I + (A * A + B * B > 4) * 7: NEXT I,Y,X

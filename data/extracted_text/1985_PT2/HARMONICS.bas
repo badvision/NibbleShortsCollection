@@ -1,0 +1,1 @@
+10  DIM S(314):M = 1: HOME : HGR : VTAB 21: PRINT "HARMONICS: ";: FOR M = 1 TO 199 STEP 2: PRINT M" ";: FOR R = 0 TO 314:Q = R / 1.125:X = (R * M) / 100:S(R) = S(R) +  SIN(X * 2) / M: HCOLOR= 0: HPLOT Q,45 + 40 * (S(R) -  SIN(X * 2) / M): HCOLOR= 3: HPLOT Q,45 + 40 * S(R): HPLOT Q,110 + 40 *  SIN(X * 2) / M: NEXT : PRINT "+ ";: NEXT 

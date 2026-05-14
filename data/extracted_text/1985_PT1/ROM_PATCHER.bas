@@ -1,0 +1,1 @@
+1 C$ = "C081 C081 D000<D000.FFFFM ": PRINT "MOD:";: FOR I = 1 TO 239: GET A$: PRINT A$;:C$ = C$ + A$:I = I + 300 * (A$ =  CHR$(13)): NEXT I:C$ =  LEFT$(C$, LEN(C$) - 1) + " N C080 D823G": FOR I = 1 TO  LEN(C$): POKE 511 + I, ASC( MID$ (C$,I,1)) + 128: NEXT : POKE 72,0: CALL  - 144

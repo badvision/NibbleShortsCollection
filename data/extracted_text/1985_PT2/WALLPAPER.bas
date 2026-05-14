@@ -1,0 +1,1 @@
+10  HGR2 : FOR A = 0 TO 1:P =  RND(1) * 256:S =  RND(1) * 4:T = S < 3:S = S * T + 1: POKE 228,P: FOR Y = 0 TO 191 STEP S:J =  PEEK(49152) = 211: FOR X = 0 TO P / 100 * S * J:M =  PEEK(49200 * J): NEXT : HPLOT 0,Y TO 279,Y: NEXT :A = 0: NEXT 

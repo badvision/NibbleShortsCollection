@@ -1,0 +1,2 @@
+10  HIMEM: 7168:D$ =  CHR$(4):T = 16384: DIM A%(255): INPUT O$,N$: PRINT D$"BLOAD"O$",A"T: POKE 232,0: POKE 233,64: SCALE= 1: ROT= 0: HGR : POKE  - 16302,0:P = 0: FOR I = 1 TO  PEEK(T): XDRAW I AT 139,95: GET K$:A = T + 2 * I:A%(P) =  PEEK(A) + 256 *  PEEK(A + 1):P = P + (K$ = "Y"): XDRAW I AT 139,95: NEXT 
+20  TEXT : POKE T,P:A = 2 * P + 2: FOR I = 0 TO P - 1: PRINT I + 1: POKE T + 2 + 2 * I,A - 256 *  INT(A / 256): POKE T + 3 + 2 * I,A / 256:B = T: FOR J = 0 TO 1:V =  PEEK(B + A%(I)): POKE T + A,V:A = A + 1:B = B + 1:J = V = 0: NEXT J,I: PRINT D$"BSAVE"N$",A"T",L"A

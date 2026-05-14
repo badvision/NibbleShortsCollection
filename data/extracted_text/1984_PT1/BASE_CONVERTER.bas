@@ -1,0 +1,1 @@
+1  INPUT "NUMBER,BASE,NEW BASE->";O$,OB,NB: FOR I = 1 TO  LEN(O$):X =  ASC( MID$ (O$,I,1)) - 48:X = X - 7 * (X > 9):N = N * OB + X: NEXT :N = N + .5:L% =  LOG(N) /  LOG(NB): FOR I = L% TO 0 STEP  - 1:X% = N / NB ^ I:N = N - X% * NB ^ I:N$ = N$ +  CHR$(48 + X% + 7 * (X% > 9)): NEXT : PRINT O$" (BASE "OB") = "N$" (BASE "NB")"

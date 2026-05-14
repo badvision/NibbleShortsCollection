@@ -1,0 +1,1 @@
+10  HCOLOR= 3: HGR2 : FOR X = 1 TO 360:Y = 99 + 70 *  COS(X * 7 / 400): HPLOT X * 23 / 30,Y: NEXT :N = 186: FOR U = 1 TO 2:Z = 9: FOR X = 7 TO N:W = 99 + 70 *  COS(X * 7 / 400): HCOLOR= 0: FOR I = 1 TO 2: HPLOT Z + 1,Y TO Z - 1,Y - 5 TO Z - 2,Y: HPLOT Z - 4,Y - 4 TO Z + 2,Y - 4: HCOLOR= 3:Z = X * 23 / 30 - 1:Y = W - 1: NEXT I: NEXT X:N = N - 9: NEXT U

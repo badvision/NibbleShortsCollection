@@ -1,0 +1,1 @@
+10  TEXT : WAIT 49168,128:L = 20:R = 1:U = 12:D = U:Z = L / U: FOR I = 1 TO 12: POKE 32,L: POKE 33,R: POKE 34,U: POKE 35,D: HOME :U = U - 1:D = D + 1:L = L - Z:R = R + Z * 2: NEXT : TEXT : HOME 

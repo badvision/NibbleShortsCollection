@@ -1,0 +1,1 @@
+0 B$ = B$ + A$: GET A$: PRINT A$;: ON A$ <  >  CHR$(13) GOTO 0: PRINT A$B$

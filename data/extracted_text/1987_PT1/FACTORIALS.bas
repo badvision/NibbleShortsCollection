@@ -1,0 +1,2 @@
+10  HOME : PRINT "FACTORIALS": PRINT : INPUT "ENTER A NUMBER ";N: IF N < 34 THEN F = 1: FOR I = 1 TO N:F = F * I: NEXT I: PRINT : PRINT N;" FACTORIAL = ";F: END 
+20 K =  LOG(10):P = 3.14159265:F = ((N *  LOG(N)) + ( LOG(2 * P * N)) / 2 - N) / K:M = 10 ^ (F -  INT(F)):M =  INT((M + .005) * 100) / 100: PRINT : PRINT N;" FACTORIAL = ";M;"E+"; INT(F): PRINT : END 

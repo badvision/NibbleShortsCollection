@@ -1,0 +1,2 @@
+10  HOME : GR : FOR Y = 0 TO 9:A(Y) =  INT(40 *  RND(1)) - 20:B(Y) =  INT(80 *  RND(1)) - 40: NEXT : FOR X = 0 TO 1000: FOR Y = 0 TO 9: COLOR= 0: PLOT  ABS(A(Y)), ABS(B(Y)):A(Y) = (A(Y) + 1) * (1 - (2 * (A(Y) = 19))):B(Y) = (B(Y) + 1) * (1 - (2 * (B(Y) = 38))): COLOR= 1: IF  SCRN(  ABS(A(Y)), ABS(B(Y))) = 2 THEN  END 
+20  PLOT  ABS(A(Y)), ABS(B(Y)):T =  PEEK( - 16384): POKE  - 16368,0: COLOR= 0: VLIN L,L + 10 AT 10:L = L + (T = 218) - (T = 193):L = (L - (L > 29)) * (L > 0): COLOR= 2: VLIN L,L + 10 AT 10: NEXT Y: VTAB 23: PRINT "SCORE-";S:S = S + 1: NEXT 

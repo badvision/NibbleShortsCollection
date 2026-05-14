@@ -1,0 +1,1 @@
+1  HGR2 : HCOLOR= 3: FOR I = 0 TO 20:L = 2 *  INT( RND(1) * 3 + 1):X = 15 +  INT( RND(1) * 239):Y = 15 +  INT( RND(1) * 152): HPLOT X + 15,Y: FOR T = 0 TO 6.3 STEP .0525: HPLOT  TO X + 15 *  COS(L * T) *  COS(T),Y + 15 *  COS(L * T) *  SIN(T): NEXT : HPLOT X,Y + 15 TO X,Y + 25: HPLOT X + 5,Y + 17 TO X,Y + 20 TO X - 5,Y + 17: NEXT : GOTO 1

@@ -1,0 +1,1 @@
+10  INPUT "FILE:";F$:NF = 1: IF  LEN(F$) THEN  FOR NC = 1 TO  LEN(F$):NA =  ASC( MID$ (F$,NC,1)):NF = NC < 16 AND ((NA > 64 AND NA < 91) OR (((NA = 46) OR (NA > 47 AND NA < 58)) AND NC > 1)) AND NF = 1: NEXT : PRINT  MID$ ("INVALID",1 + 2 * NF)" NAME": ON NF = 0 GOTO 10

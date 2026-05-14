@@ -1,0 +1,305 @@
+{
+  "total_extracted": 645,
+  "unique_programs": 639,
+  "duplicate_sets": [
+    {
+      "hash": "9541090965d42a49c9290ec65b681eefc771a386982f05bd37af1f55ccd53a20",
+      "canonical": {
+        "disk_key": "1984_PT1",
+        "name": "MELTDOWN",
+        "year": 1984,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1988_PT1",
+          "name": "MELTDOWN",
+          "year": 1988,
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "hash": "1210a529596ee4f68a64223d566ae1dbe895457447b7e597ed61411704eb6099",
+      "canonical": {
+        "disk_key": "1985_PT1",
+        "name": "BOUNCE",
+        "year": 1985,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1992_PT1",
+          "name": "BOUNCE",
+          "year": 1992,
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "hash": "6b58ca13cedfac91e505f7f8ee7809d386bc1097133d7f0d7324968f9e8ecdfa",
+      "canonical": {
+        "disk_key": "1985_PT1",
+        "name": "BOUNCE INSTRUCTIONS",
+        "year": 1985,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1992_PT1",
+          "name": "BOUNCE INSTRUCTIONS",
+          "year": 1992,
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "hash": "4f1b55804e1a415ca0d19fbd9e647e4b65e2fd31d67ca15bff727f5c94c995f0",
+      "canonical": {
+        "disk_key": "1985_PT1",
+        "name": "BLACKJACK",
+        "year": 1985,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1992_PT1",
+          "name": "BLACKJACK",
+          "year": 1992,
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "hash": "71b5ba61a1fa68658a996291142b39feffb44d177f20568deb87e65a52978dd7",
+      "canonical": {
+        "disk_key": "1985_PT1",
+        "name": "BLACKJACK INSTRUCTIONS",
+        "year": 1985,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1992_PT1",
+          "name": "BLACKJACK INSTRUCTIONS",
+          "year": 1992,
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "hash": "3b5d2a4506295b4f8d84c327585cd5dd9951cd1397144f249defed63f66a62c4",
+      "canonical": {
+        "disk_key": "1989_PT1",
+        "name": "DOSCAT",
+        "year": 1989,
+        "best": true
+      },
+      "duplicates": [
+        {
+          "disk_key": "1992_PT1",
+          "name": "DOSCAT",
+          "year": 1992,
+          "suppressed": true
+        }
+      ]
+    }
+  ],
+  "same_name_different_content": [
+    {
+      "name": "BASE CONVERTER",
+      "instances": [
+        {
+          "disk_key": "1984_PT1",
+          "hash": "a60d07ce49557e9dfa038f1c5363ed34e1eff04c1822c2ab50ee1011db87b116",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1986_PT1",
+          "hash": "8d15917d793189bb9d73d4f55417300bfe807330219e071d3b1d16b5458fb533",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "SQUARE SPIN",
+      "instances": [
+        {
+          "disk_key": "1984_PT1",
+          "hash": "f1435f60637e3c842b979cf1d15c97ba026200a2d2526eaad1c82d00b6ab30e8",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1985_PT2",
+          "hash": "d7121fe4f1816509fdcbe03c58edbbf0fa9833e723b62991ccbfd915c45c5801",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "BOUNCING BALL",
+      "instances": [
+        {
+          "disk_key": "1984_PT1",
+          "hash": "be22e3f65e5a1b8595e2f3fabca4f780078f82d4c064279268b010b17531a233",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1986_PT1",
+          "hash": "3a5866003a6f556f2f2eaca6d5894d31550e92d0ed4e04af0a5d1dab3892ef5a",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "PRINT SCREEN",
+      "instances": [
+        {
+          "disk_key": "1985_PT1",
+          "hash": "bbfe45838f8249a699a50a75591452e22c7526640f8c56af7fff8cff7f54690f",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1986_PT1",
+          "hash": "97b3bf7ff514ff433b25e79afbfadb0b5331e806efe98d96496330dc3d3dca7a",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "ROM HEX-DEC CONVERTER",
+      "instances": [
+        {
+          "disk_key": "1985_PT1",
+          "hash": "b1457113f4e2d1034ff4f0820668fbcb0e78a56b35a4f0e5ef3bcfef162c2bc2",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1992_PT1",
+          "hash": "a7239c06c331bfa44a61a140aa37b650d4a82f10940c50ef79124bb26f571ebd",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "METEORITE NAVIGATOR",
+      "instances": [
+        {
+          "disk_key": "1985_PT1",
+          "hash": "cb5d8dc1455f53ce722317e6c99ae1efceab0ec41804277dfe5ee9cf2612ac68",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1992_PT1",
+          "hash": "69970578d039bc4f30020ebc94a254bca030819213d9431d02cd6dae571cca19",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "QUILT",
+      "instances": [
+        {
+          "disk_key": "1985_PT1",
+          "hash": "3f1c21614aef9f952375f947b568eb983d598cf85db3cc3dd59c7b6b457e31fc",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1986_PT1",
+          "hash": "ac4ff2daeaac2facd6308f0df148925ab9f3b7c2584d4eb7def1d7a13a8cafb3",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "MAZE INSTRUCTIONS",
+      "instances": [
+        {
+          "disk_key": "1985_PT2",
+          "hash": "b81b76392fcdd37e201c505a9d72dc25b23b2958693217e7d15da5b6f1d65ce7",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1988_PT1",
+          "hash": "26bd3791a35c8b35018bb7560dc3dfbace9b7571fc8484869ff93220bc77c02f",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "SNAKE",
+      "instances": [
+        {
+          "disk_key": "1986_PT1",
+          "hash": "f7c0cbe8be869f41715f9a080429029395295addcc6ee992ccc85ecbf6094c01",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1992_PT1",
+          "hash": "9d5d27a74df09c0a751e741709243cce89dc7f5a0c59f90f9422407599c6561f",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "SNAKE INSTRUCTIONS",
+      "instances": [
+        {
+          "disk_key": "1986_PT1",
+          "hash": "e6409d3bbb2b2f651fdcad2550015aef074a2bbfa0ff37c981c200480a663dd9",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1992_PT1",
+          "hash": "8abbc2ada025a424f2fce0f527aa835e37c0859a3b2791e5d75f2f17ce2ec8a0",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "APPLE IDENTIFIER",
+      "instances": [
+        {
+          "disk_key": "1986_PT1",
+          "hash": "e11cde9b48d3b7fdbb8013c13ffc6aa220aeb59ec4be62b6d0c4071ff3e537ad",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1987_PT1",
+          "hash": "fcf17a881ea8052f5d5b1ad4b7edd8825c8be409cc7db76041df9bda97293b5d",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "DOSCAT INSTRUCTIONS",
+      "instances": [
+        {
+          "disk_key": "1989_PT1",
+          "hash": "202f2a38fd896f594bf1a5d2d4fda3b0d34756f52dc913cf9a25cc9816b663cc",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1992_PT1",
+          "hash": "fc5e1fa922c433e252cc78ee6d6f7df37024fad430bc993e094deb3e7608e835",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    },
+    {
+      "name": "SCREEN FALL",
+      "instances": [
+        {
+          "disk_key": "1989_PT1",
+          "hash": "fa842eddd6d6c0e58731ca6b21bdf5fd5fd65dc1c7b340ea41f5ec317409a997",
+          "note": "kept \u2014 unique content"
+        },
+        {
+          "disk_key": "1991_PT1",
+          "hash": "e253e13212928e7785a3924670797330acf8113a009417143babbe5d0020a92e",
+          "note": "kept \u2014 unique content"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+10 A = 0:M = 1E - 6: PRINT : INPUT "ENTER INTEGER > 2 : ";N: PRINT : FOR J = 2 TO  SQR(N):D = N / J:Q = (D =  INT(D + M)):A = A + Q:L$ =  STR$(J) + "*" +  STR$(D) + " ": PRINT  MID$ (L$,1,Q *  LEN(L$));: NEXT : PRINT  MID$ ("PRIME",1,5 *  NOT A);: PRINT : RUN 

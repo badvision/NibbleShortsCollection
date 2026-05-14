@@ -1,0 +1,2 @@
+1  TEXT : HOME : HGR : GR : VTAB 21: PRINT "ARROWS TO MOVE, D+E FOR DRAW+ERASE MODES":X = 20:Y = 20: POKE 768,1
+2  GET A$:A =  ASC(A$):X = X + 1 * (A = 21) - 1 * (A = 8):Y = Y + 1 * (A = 10) - 1 * (A = 11):B =  PEEK(768): POKE 768,(A = 68 OR B = 1) - (A = 69):C =  PEEK(768): COLOR= C * 15: HCOLOR= C * 3: PLOT X,Y: HPLOT X,Y: ON A <  > 13 GOTO 2: POKE  - 16297,0: POKE  - 16300,0: POKE  - 16301,0: POKE  - 16304,0: END 

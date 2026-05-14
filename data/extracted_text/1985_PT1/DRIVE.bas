@@ -1,0 +1,1 @@
+1  INPUT "ROAD WIDTH:";W: FOR I = 1 TO 24: PRINT "**" SPC( W)"**": NEXT :P = 2: FOR I = 0 TO 1:H = H + (H < 1) - (H > 36 - W): HTAB H: PRINT "**" SPC( W)"**":H = H +  SGN( RND(1) - .5):K =  PEEK(49152):P = P + (K = 149) - (K = 136):I =  PEEK(1192 + P) > 160:Z =  PEEK(49200): POKE 1192 + P,217:S = S + 1: NEXT : PRINT "MILES:" INT(S / 50)

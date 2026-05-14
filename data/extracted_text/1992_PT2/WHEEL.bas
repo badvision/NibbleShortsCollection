@@ -1,0 +1,2 @@
+7 U = 135:V = 95: HGR : FOR J = 1 TO 3:L = J:H = 0: FOR B = 90 TO 20 STEP  - 15:H = H + 1:S = 6.3:Z = S / 42: FOR A = H * Z / 2 TO S + H * Z / 2 STEP Z:L = (L > 2) + (L + 1) * (L < 3): HCOLOR= L: FOR C = A TO A + Z - .01 STEP Z / B * 7:X =  COS(C) * B + U:Y =  SIN(C) * B + V: HPLOT U,V TO X,Y: NEXT C,A,B: HCOLOR= 6: FOR M = 1 TO 191 STEP 2
+8  HPLOT 0,M TO 279,M: NEXT : PRINT  CHR$(4);"BSAVE/RAM/P"J",A8192,L8192": NEXT : HGR2 :G = 0: FOR S = 1 TO 999: FOR T = 3 TO 1 STEP  - 1:G = G = 0: PRINT  CHR$(4);"BLOAD/RAM/P"T",A"8192 + G * 8192",L8192": POKE 49236 + G,0: NEXT : NEXT 

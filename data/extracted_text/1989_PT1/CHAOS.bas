@@ -1,0 +1,1 @@
+10  TEXT : HGR : HCOLOR= 3: FOR L = 1 TO 4: INPUT "X,Y coord ";X(L),Y(L): HPLOT X(L),Y(L): NEXT : FOR L = 1 TO 1E9:T =  INT( RND(1) * 3) + 1:X(4) = X(4) + (X(T) - X(4)) / 2:Y(4) = Y(4) + (Y(T) - Y(4)) / 2: HPLOT X(4),Y(4): NEXT 

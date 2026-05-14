@@ -1,0 +1,1 @@
+1 Y = 53455:X = Z + Y:Z = Z + 1:C =  PEEK(X): PRINT  CHR$(C);:X = X + 1:B = (C > 127):B =  NOT B: ON B GOTO 1: PRINT : PRINT X"    ";:B = (X = 54118):B =  NOT B: ON B GOTO 1

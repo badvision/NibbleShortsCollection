@@ -1,0 +1,2 @@
+80 L = 1:I$ = "":P = 1:H =  PEEK(36):B = 515:M =  ABS(M):M = M - M * (M > (39 - H)):M = M + (39 - H) * (M < 1):V =  PEEK(37) + 1:E = 515 + M: FOR I = B + 1 TO E: POKE I,95: PRINT  CHR$(95);: NEXT : VTAB V
+90 C = B + P: HTAB H + P: GET A$:A =  ASC(A$):R = A = 13:P = P - (A = 8 AND P > 1): ON (A < 32 AND A <  > 21) - R GOTO 90:P = P + (P < M):L = L + (P > L) - (R = 1 AND P > L): ON A = 21 GOTO 90: POKE C + L * R,A:A =  PEEK(C): PRINT  CHR$(A);: ON R = 0 OR (L = M AND R = 0) GOTO 90:L = L + (L = M): FOR I = B + 1 TO B + L - 1:I$ = I$ +  CHR$( PEEK(I)): NEXT 

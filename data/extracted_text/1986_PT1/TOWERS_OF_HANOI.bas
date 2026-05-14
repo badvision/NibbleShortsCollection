@@ -1,0 +1,2 @@
+1  INPUT "NUM DISKS=";N: DIM A(3,N),B(3):B(0) = N: FOR I = 1 TO N:A(0,I) = I: NEXT I: FOR I = 1 TO 2 ^ N - 1:A = (I + 2) / 3:B =  INT(3 * (A -  INT(A)) + .5) + 1:F = B - 2 * (1 - B / 2 +  INT(B / 2)):T = B - F: IF A(F,B(F)) < A(T,B(T)) THEN Z = F:F = T:T = Z
+2 B(T) = B(T) + 1:A(T,B(T)) = A(F,B(F)):A(F,B(F)) = 0:B(F) = B(F) - 1: PRINT "MOVE #";I; TAB( 9);":FROM ";F + 1;" TO ";T + 1; TAB( 24);"DISKS:";B(0);" ";B(1);" ";B(2): NEXT I: PRINT "SOLUTION COMPLETE": END 

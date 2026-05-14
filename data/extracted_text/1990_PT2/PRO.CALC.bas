@@ -1,0 +1,2 @@
+1 D$ =  CHR$(4):C$ =  CHR$(34): PRINT D$"PREFIX/RAM/": PRINT D$"OPENQ": PRINT D$"CLOSE": PRINT D$"DELETEQ": TEXT : HOME :M$ = "N=":O$ = ":?" + C$ + " " + C$ + ":CONT"
+2  VTAB 1: HTAB 1: INPUT "Calculation? ";N$: VTAB 2: CALL  - 868: IF N$ <  > "" THEN  PRINT D$"OPENQ": PRINT D$"WRITEQ": PRINT M$ + N$ + O$: PRINT D$"CLOSE": PRINT D$"EXECQ": END : GET X$: PRINT D$"DELETEQ": VTAB 2: HTAB 1: PRINT N: PRINT " ":L = N: GOTO 2

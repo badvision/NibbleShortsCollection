@@ -1,0 +1,1 @@
+10  HOME :D$ =  CHR$(4):Q$ =  CHR$(34): PRINT D$"OPENLENGTH": PRINT D$"WRITELENGTH": PRINT "L=(PEEK(175)+PEEK(176)*256)-(PEEK(103)+PEEK(104)*256):IFL>3THEN?"Q$"The BASIC program is "Q$"L"Q$" bytes long."Q$: PRINT "IFL<4THEN?"Q$"No BASIC program in memory."Q$: PRINT D$"CLOSE"

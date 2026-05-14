@@ -1,0 +1,1 @@
+1  TEXT : HOME :L = 1:A$ = "NIBBLE MAGAZINE IS AWESOME!": FOR A = 1 TO  LEN(A$) + 1: VTAB 22: HTAB 1: PRINT  CHR$(93);C$;:C$ =  LEFT$(A$,L): GET T$:L = L + 1: NEXT 

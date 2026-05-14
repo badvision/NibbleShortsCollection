@@ -1,0 +1,1 @@
+1 X1 = 139:Y1 = 80: HGR : HCOLOR= 3: HOME : VTAB 22: INPUT "CIRCLES: ";C:C = 6.28 / C: FOR Z = C TO 6.30 STEP C:XC = X1 +  COS(Z) * 35:YC = Y1 +  SIN(Z) * 35: FOR Q = 0 TO 6.28 STEP .05:X =  COS(Q) * 35:Y =  SIN(Q) * 35: HPLOT XC + X,YC + Y: NEXT : NEXT 

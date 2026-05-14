@@ -1,0 +1,1 @@
+1  HGR : PRINT : PRINT : PRINT ,"BIG APPLE": HCOLOR= 6: FOR X = 0 TO 278: HPLOT X,0 TO X + 1,154 -  RND(1) * X / 7: HPLOT X,159: NEXT : FOR E = 0 TO 9E9:F = F = 0: HCOLOR= 7 - F * 3 * C:Z =  RND(1) * 277:C = E > 120:D = E < 50:Y = E *  NOT C + 156 * C: HPLOT Z / (D + 1),Y TO Z + 3 * C,Y + C: HPLOT M / 2,155:M = (M + C) * (M < 559): PRINT "^^ ";: NEXT 

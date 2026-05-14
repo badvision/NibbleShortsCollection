@@ -1,0 +1,1 @@
+10  DEF  FN W(Z) =  - 100 / ((I * I / 2000) + (E * E / 1800) + 1):S =  SIN(2.8):C =  COS(2.8): HGR2 : HCOLOR= 7: FOR E =  - 140 TO 140 STEP 17.5: FOR I =  - 140 TO 140: HPLOT (I - E * C) / 2 + 143, FN W(Z) + E * S + 112: NEXT I,E: FOR I =  - 140 TO 140 STEP 17.5: FOR E =  - 140 TO 140: HPLOT (I - E * C) / 2 + 143, FN W(Z) + E * S + 112: NEXT E,I

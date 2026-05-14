@@ -1,0 +1,164 @@
+[
+  {
+    "disk_key": "1985_PT1",
+    "program": "DISSOLVE DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "DRAGON 7.PIC",
+    "referenced_file_prodos": "DRAGON.7.PIC",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "DISSOLVE DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "ROLLING X.PIC",
+    "referenced_file_prodos": "ROLLING.X.PIC",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "DISSOLVE DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "DISSOLVE",
+    "referenced_file_prodos": "DISSOLVE",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "VIDEO DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "VIDEO",
+    "referenced_file_prodos": "VIDEO",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "VIDEO DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "RIPPLES.PIC",
+    "referenced_file_prodos": "RIPPLES.PIC",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "MIRROR DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "DRAGON 7.PIC",
+    "referenced_file_prodos": "DRAGON.7.PIC",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1985_PT1",
+    "program": "MIRROR DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "MIRROR",
+    "referenced_file_prodos": "MIRROR",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1986_PT1",
+    "program": "LIFE 2 RANDOM",
+    "statement_type": "BLOAD",
+    "referenced_file": "LIFE 2",
+    "referenced_file_prodos": "LIFE.2",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1986_PT1",
+    "program": "KEYBOARD BUFFER DEMO",
+    "statement_type": "BRUN",
+    "referenced_file": "KEYBOARD BUFFER",
+    "referenced_file_prodos": "KEYBOARD.BUFFER",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1988_PT1",
+    "program": "YES NO DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "YES NO",
+    "referenced_file_prodos": "YES.NO",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1988_PT1",
+    "program": "INPUT ANYTHING ROUTINE 3 DEMO",
+    "statement_type": "BRUN",
+    "referenced_file": "INPUT ANYTHING ROUTINE 3",
+    "referenced_file_prodos": "INPUT.ANYTHING",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1988_PT1",
+    "program": "IF THEN ELSE DEMO 1",
+    "statement_type": "BRUN",
+    "referenced_file": "IF THEN ELSE",
+    "referenced_file_prodos": "IF.THEN.ELSE",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1988_PT1",
+    "program": "IF THEN ELSE DEMO 2",
+    "statement_type": "BRUN",
+    "referenced_file": "IF THEN ELSE",
+    "referenced_file_prodos": "IF.THEN.ELSE",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1989_PT1",
+    "program": "SUPERGET DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "SUPERGET",
+    "referenced_file_prodos": "SUPERGET",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1989_PT1",
+    "program": "SORT DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "SORT",
+    "referenced_file_prodos": "SORT",
+    "needs_patch": false,
+    "patch_status": "NOT_NEEDED"
+  },
+  {
+    "disk_key": "1990_PT1",
+    "program": "SCRN 80 DEMO",
+    "statement_type": "BLOAD",
+    "referenced_file": "SCRN 80",
+    "referenced_file_prodos": "SCRN.80",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1991_PT1",
+    "program": "BUTTON USR DEMO 1",
+    "statement_type": "BRUN",
+    "referenced_file": "BUTTON USR",
+    "referenced_file_prodos": "BUTTON.USR",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  },
+  {
+    "disk_key": "1991_PT1",
+    "program": "BUTTON USR DEMO 2",
+    "statement_type": "BRUN",
+    "referenced_file": "BUTTON USR",
+    "referenced_file_prodos": "BUTTON.USR",
+    "needs_patch": true,
+    "patch_status": "VERIFIED_OK"
+  }
+]

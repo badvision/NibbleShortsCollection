@@ -1,0 +1,1 @@
+10  SPEED= 235:A$ = "*:::::*::*::::::::*:::::*::::::::*:::::":L =  LEN(A$) - 1:B$ =  CHR$(92) + "-/!": HOME : VTAB 11: HTAB 17: PRINT "(====)": FOR Y = 1 TO 2:Y = 1: FOR T = 1 TO 4:C$ =  MID$ (B$,T,1): VTAB 12: HTAB 18: PRINT C$"  "C$: PRINT A$:A$ =  RIGHT$(A$,1) +  LEFT$(A$,L): NEXT T,Y

@@ -1,0 +1,1 @@
+10  PRINT  CHR$(4) LEFT$("CATALOG",7 - 4 * ( PEEK(48896) = 76))

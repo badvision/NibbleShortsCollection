@@ -1,0 +1,2 @@
+1  REM  6/8/08
+10  PRINT "USE THE A-Z-,-. KEYS TO MOVE."

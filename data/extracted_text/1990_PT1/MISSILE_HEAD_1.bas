@@ -1,0 +1,1 @@
+10  DIM X(46): DIM Y(46): DIM Z(46): HGR2 : HCOLOR= 3: FOR T = 1 TO 45:X(T) = T:Z(T) = (X(T) ^ 2) / 15: NEXT : FOR R = .1 TO 6.3 STEP .1: FOR T = 1 TO 45:X(T) =  COS(R) * T:Y(T) =  SIN(R) * T: HPLOT X(T) * .866 + Y(T) * .866 + 140,X(T) * .499 - Y(T) * .499 + Z(T) + 10: NEXT : NEXT : GET G$: TEXT : HOME 

@@ -1,0 +1,1 @@
+10  HOME : GR :X = 3:Y = 9: FOR A = 6 TO 33 STEP 3: COLOR= 1: VLIN 0,39 AT A: COLOR= 0: PLOT A,38 *  RND(1): NEXT : FOR T = 999 TO 1 STEP  - 1: COLOR= 8:A =  PEEK(49152):C = Y - (A = 201):C = C + (A = 205):B = X + (A = 203):T = T *  NOT  SCRN( B,C): PLOT B,C: COLOR= 0: PLOT X,Y:X = B:Y = C: VTAB 21: PRINT T"  ":T = T * (X <  > 39): NEXT 

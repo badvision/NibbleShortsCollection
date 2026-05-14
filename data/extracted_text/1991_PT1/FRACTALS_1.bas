@@ -1,0 +1,2 @@
+1 B = 6:N = 5:E = 360: HGR2 : HCOLOR= 3:P = 3.141592654:C = 96:T = 191:S = 279 / T:R = P / 2 / B: FOR I = 1 TO B ^ N:K = I:X = C:M = 0:Y = 96: HPLOT S * X,191 - Y: FOR J = 1 TO N
+2 W% = (K - 1) / B ^ (N - J) + 10 ^  - 8:M = M - W% +  INT(B / 2) - (B + 1) / 2 +  INT((B + 1) / 2):H = T / 2 ^ (J + 1):K = K - W% * B ^ (N - J):F = M * 4 * E / 360:X =  SIN(R * F) * H + X:Y = Y +  COS(R * F) * H: HPLOT  TO X * S,191 - Y: NEXT J,I

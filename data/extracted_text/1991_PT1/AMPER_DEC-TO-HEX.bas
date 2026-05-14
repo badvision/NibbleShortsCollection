@@ -1,0 +1,2 @@
+1  DATA 32,103,221,32,82,231,166,80,165,81,76,65,249,1013,76,1014,0,1015,3: FOR I = 768 TO 780: READ X: POKE I,X: NEXT : FOR I = 1 TO 6 STEP 2: READ A,B: POKE A,B: NEXT 
+2  HOME : PRINT "ConvHex - By M.Tabini": PRINT "Decimal-to-Hex converter": PRINT "Syntax : '&num'": PRINT : PRINT "NOTE: the program occupies only 13 bytes!!!"

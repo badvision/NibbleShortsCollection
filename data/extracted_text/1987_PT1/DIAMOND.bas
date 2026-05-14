@@ -1,0 +1,2 @@
+1  HOME : HGR : HCOLOR= 3: FOR A = 80 TO 0 STEP  - 8:B = 80 - A: FOR C = 0 TO 6.3 STEP .1: IF D = 0 THEN  HPLOT A *  COS(C) + 140,B *  SIN(C) + 80:D = 1
+2  HPLOT  TO A *  COS(C) + 140,B *  SIN(C) + 80: NEXT :D = 0: NEXT : VTAB 24

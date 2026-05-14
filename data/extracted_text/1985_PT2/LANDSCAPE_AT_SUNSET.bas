@@ -1,0 +1,1 @@
+10 A = 12:B = 268: HGR2 : HCOLOR= 1: FOR I = 191 TO 0 STEP  - 1: HPLOT A,I TO B,I:I = I - S / 8:S = S + .8: NEXT : DIM Y(B):C = 128:Y(A) = 96:Y(B) = 96: FOR E = 0 TO 5: FOR I = A + C TO B STEP C + C:Y(I) = (Y(I - C) + Y(I + C) + C * (1 -  RND(1) * (2 -  NOT E))) / 2: NEXT :C = C / 2: NEXT : HCOLOR= 6: FOR I = A TO B: HPLOT I,Y(I) TO I,0: NEXT 

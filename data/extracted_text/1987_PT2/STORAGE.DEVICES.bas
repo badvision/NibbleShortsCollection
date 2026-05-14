@@ -1,0 +1,1 @@
+10  DIM DR(14),SL(14):N =  PEEK(48945) + 1: FOR X = 1 TO N:C =  PEEK(X + 48945):I = (C > 128):DR = 1:DR(X) = DR + I:C = C - 128 * I:SL(X) =  INT(C / 16): NEXT : FOR C = 1 TO N: PRINT "Slot "SL(C)", Drive "DR(C): NEXT 

@@ -1,0 +1,1 @@
+1  TEXT : HOME : POKE 34,4:Z = 5: FOR D = 0 TO 1:D = 0:Z = Z + ( PDL(0) > 190) - ( PDL(0) < 60):Z = Z + (Z < 5) - (Z > 35): VTAB 4: HTAB Z: PRINT " /O\ ": COLOR= 11: PLOT  RND(1) * 35 + 5,40: CALL  - 912:K =  PEEK( - 16336):W = W + 1: VTAB 1: PRINT "SCORE:";W: IF  SCRN( Z + 2,8) +  SCRN( Z + 1,8) +  SCRN( Z,8) = 0 THEN  NEXT :

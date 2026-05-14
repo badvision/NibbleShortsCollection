@@ -1,0 +1,1 @@
+1 A = 128:B = 1201:C = 32: DIM A%(4,21): FOR D = 0 TO 4: FOR E = 0 TO 21:F = B + (D * A) + E:A%(D,E) =  PEEK(F): POKE (F),C: NEXT : NEXT : VTAB 11: HTAB 12: PRINT "THIS IS A DEMO!!!": VTAB 13: HTAB 14: PRINT "PRESS RETURN": GET A$: FOR D = 0 TO 4: FOR E = 0 TO 21:G = A%(D,E): POKE (B + (D * A) + E),G: NEXT : NEXT 

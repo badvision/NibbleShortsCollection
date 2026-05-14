@@ -1,0 +1,2 @@
+4 C = 6.15: FOR K = 0 TO 9: HGR2 :D = 15:F = 40:Q = 20:E = 279:B = C: FOR J = 1 TO 3:P = 145: FOR I = 0 TO 530 STEP 12.48:X = 149 + I / B:Y = Q -  SIN(I) * D: HCOLOR= 7
+5  HPLOT X,Y TO P,Q: HPLOT X,F - Y TO P,F - Q: HPLOT E - X,Y TO E - P,Q: HPLOT E - X,F - Y TO E - P,F - Q:P = X:Y = Q: NEXT :D = D + 8:Q = Q + 60:F = F + 120: NEXT :C = C + .3: NEXT 

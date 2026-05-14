@@ -1,0 +1,1 @@
+10  HOME : TEXT : HGR :X = .:Y = 80: HCOLOR= 3: FOR I = 22528 TO 23099:N =  PEEK(I): FOR J = 7 TO . STEP  - 1:K = 2 ^ J:C = (N >  = K):N = N - C * K:NC = 1 - C: HPLOT X * C + (X + 120) * NC,Y:X = (X + 1) * (X < 87):Y = Y + (X = .): NEXT : NEXT 

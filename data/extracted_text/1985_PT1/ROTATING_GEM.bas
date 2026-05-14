@@ -1,0 +1,2 @@
+1  HCOLOR= 3: HGR : HGR2 :M = 1: FOR Z = 0 TO 1: FOR P = Z TO 6.284 + Z STEP .6284:C = 127:E = 70:K =  COS(P):L =  SIN(P): HPLOT K * E + C,L * 10 + 55 TO M * E + C,N * 10 + 55 TO M * 95 + C,N * 20 + E TO K * 95 + C,L * 20 + E TO C,160:M = K:N = L: NEXT : POKE 230,32: NEXT : FOR I = 1 TO 90: POKE 49236 + ( INT(I / 2) = I / 2),0: FOR J = 1 TO 200
+2  NEXT J,I

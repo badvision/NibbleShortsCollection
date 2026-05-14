@@ -1,0 +1,2 @@
+1  HOME : FOR G = 1 TO 6: READ G$(G): NEXT : FOR Q = 1 TO 16: FOR I = 1 TO 40: FOR G = 1 TO 6: VTAB G + Q: HTAB I: PRINT G$(G): NEXT :K =  PEEK(49200): VTAB 1: HTAB 12: PRINT "CHUGGA CHUGGA": NEXT : VTAB 1: HTAB 12: PRINT "  TOOT TOOT  ": PRINT  CHR$(7): FOR J = 1 TO 150: NEXT : PRINT  CHR$(7): NEXT 
+2  DATA "          (   @","         /-\   @","        !  ( !-I!"," NIBBLE  \_/ !:O!"," ------+----+!--!\"," 0-00-0 0--0 0--0_\": REM  10,3,9,3,8,2,1,1,2,1,AND 1 SPACES

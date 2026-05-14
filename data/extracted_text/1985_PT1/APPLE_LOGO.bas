@@ -1,0 +1,1 @@
+9 W$ = "01112222333222111005ADGIJKLMMMNOOPPPPPPPPPPPPPPPPPPPPPPPMMMMMMKKHGE?7": HGR : FOR I =  - 14 TO 70: HCOLOR= ( ABS((I + 5) / 10) + (I < 5) + (I > 34)) * (I < 55):Y = I + 40 - 49 * (I > 54):T =  ASC( MID$ (W$,I + 15 - 16 * (I > 54),1)) - 47:C = 131 - (I - 2) * (I < 3) + 46 * (I > 54): HPLOT C - T,Y TO C + T,Y: NEXT 

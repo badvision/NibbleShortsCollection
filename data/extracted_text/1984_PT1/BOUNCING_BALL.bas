@@ -1,0 +1,1 @@
+10  HOME : HGR : HCOLOR= 3: DIM Y(600):A = 150:B = 270: HPLOT 0,A TO B,A: FOR I = 1 TO B:Y(I) = A -  ABS( SIN(I / 9)) *  EXP( - I / 80) * A:Y(I + A) = A: NEXT : FOR F = 1 TO B: FOR I = 1 TO B: FOR J = 0 TO 1: HCOLOR= J * 3: HPLOT I + T * J,Y(I + T * J): NEXT J,I:T = T + 1:T = T * (T < 9): NEXT 

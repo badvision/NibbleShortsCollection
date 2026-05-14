@@ -1,0 +1,4542 @@
+[
+  {
+    "program_name": "Color and Animation",
+    "author": "Fred Pence / Yvan Koenig /",
+    "year": 1984,
+    "issue": "Aug 1984",
+    "description": "animation and page-flipping",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Color and Animation / Input Anything / Hi-Res Action / Visual Haiku",
+    "raw_text": "Color and Animation"
+  },
+  {
+    "program_name": "Input Anything",
+    "author": "Fred Pence / Yvan Koenig /",
+    "year": 1984,
+    "issue": "Aug 1984",
+    "description": "animation and page-flipping",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Color and Animation / Input Anything / Hi-Res Action / Visual Haiku",
+    "raw_text": "Input Anything"
+  },
+  {
+    "program_name": "Hi-Res Action",
+    "author": "Fred Pence / Yvan Koenig /",
+    "year": 1984,
+    "issue": "Aug 1984",
+    "description": "animation and page-flipping",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Color and Animation / Input Anything / Hi-Res Action / Visual Haiku",
+    "raw_text": "Hi-Res Action"
+  },
+  {
+    "program_name": "Visual Haiku",
+    "author": "Fred Pence / Yvan Koenig /",
+    "year": 1984,
+    "issue": "Aug 1984",
+    "description": "animation and page-flipping",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Color and Animation / Input Anything / Hi-Res Action / Visual Haiku",
+    "raw_text": "Visual Haiku"
+  },
+  {
+    "program_name": "Hi-Res Draw",
+    "author": "Jeff Bouril / Sylvia Monson",
+    "year": 1984,
+    "issue": "Dec 1984",
+    "description": "Tranquil Display",
+    "categories": [
+      "demo"
+    ],
+    "subject": "demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Draw / Word Guess / Sly Testimonial / Characters to Tones",
+    "raw_text": "Hi-Res Draw"
+  },
+  {
+    "program_name": "Word Guess",
+    "author": "Jeff Bouril / Sylvia Monson",
+    "year": 1984,
+    "issue": "Dec 1984",
+    "description": "Road Trip Cost",
+    "categories": [
+      "demo"
+    ],
+    "subject": "demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Draw / Word Guess / Sly Testimonial / Characters to Tones",
+    "raw_text": "Word Guess"
+  },
+  {
+    "program_name": "Sly Testimonial",
+    "author": "Jeff Bouril / Sylvia Monson",
+    "year": 1984,
+    "issue": "Dec 1984",
+    "description": "Resident Hex/Dec",
+    "categories": [
+      "demo"
+    ],
+    "subject": "demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Draw / Word Guess / Sly Testimonial / Characters to Tones",
+    "raw_text": "Sly Testimonial"
+  },
+  {
+    "program_name": "Characters to Tones",
+    "author": "Jeff Bouril / Sylvia Monson",
+    "year": 1984,
+    "issue": "Dec 1984",
+    "description": "Music Mystery James Moore",
+    "categories": [
+      "demo"
+    ],
+    "subject": "demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Draw / Word Guess / Sly Testimonial / Characters to Tones",
+    "raw_text": "Characters to Tones"
+  },
+  {
+    "program_name": "Displaying Text",
+    "author": "Mike Rohrer, Bill Dugan, Ch",
+    "year": 1984,
+    "issue": "Jul 1984",
+    "description": "Answer To The World's Problems",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Displaying Text / Hi-Res Grids / Changing Cursor and Text",
+    "raw_text": "Displaying Text"
+  },
+  {
+    "program_name": "Hi-Res Grids",
+    "author": "Mike Rohrer, Bill Dugan, Ch",
+    "year": 1984,
+    "issue": "Jul 1984",
+    "description": "Answer To The World's Problems",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Displaying Text / Hi-Res Grids / Changing Cursor and Text",
+    "raw_text": "Hi-Res Grids"
+  },
+  {
+    "program_name": "Changing Cursor and Text",
+    "author": "Mike Rohrer, Bill Dugan, Ch",
+    "year": 1984,
+    "issue": "Jul 1984",
+    "description": "Answer To The World's Problems",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner Contest Winners",
+    "batch_title": "Displaying Text / Hi-Res Grids / Changing Cursor and Text",
+    "raw_text": "Changing Cursor and Text"
+  },
+  {
+    "program_name": "Lo-Res Pictures",
+    "author": "Kevin Springle / Mark Routb",
+    "year": 1984,
+    "issue": "Nov 1984",
+    "description": "Shortest Input Anything",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Lo-Res Pictures / Mini-Indi / Auditory Gem / Invert Hi-Res Picture",
+    "raw_text": "Lo-Res Pictures"
+  },
+  {
+    "program_name": "Mini-Indi",
+    "author": "Kevin Springle / Mark Routb",
+    "year": 1984,
+    "issue": "Nov 1984",
+    "description": "Hi-Res Art",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Lo-Res Pictures / Mini-Indi / Auditory Gem / Invert Hi-Res Picture",
+    "raw_text": "Mini-Indi"
+  },
+  {
+    "program_name": "Auditory Gem",
+    "author": "Kevin Springle / Mark Routb",
+    "year": 1984,
+    "issue": "Nov 1984",
+    "description": "Hi-Res Animation",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Lo-Res Pictures / Mini-Indi / Auditory Gem / Invert Hi-Res Picture",
+    "raw_text": "Auditory Gem"
+  },
+  {
+    "program_name": "Invert Hi-Res Picture",
+    "author": "Kevin Springle / Mark Routb",
+    "year": 1984,
+    "issue": "Nov 1984",
+    "description": "Moire Patterns Mark Yannone",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Lo-Res Pictures / Mini-Indi / Auditory Gem / Invert Hi-Res Picture",
+    "raw_text": "Invert Hi-Res Picture"
+  },
+  {
+    "program_name": "Screen Clear",
+    "author": "Keith Stattenfield / Bill D",
+    "year": 1984,
+    "issue": "Oct 1984",
+    "description": "Tone Generator",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Screen Clear / Hi-Res Animation / Unique Text Display / Convert Hex",
+    "raw_text": "Screen Clear"
+  },
+  {
+    "program_name": "Hi-Res Animation",
+    "author": "Keith Stattenfield / Bill D",
+    "year": 1984,
+    "issue": "Oct 1984",
+    "description": "Resurrect Applesoft programs",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Screen Clear / Hi-Res Animation / Unique Text Display / Convert Hex",
+    "raw_text": "Hi-Res Animation"
+  },
+  {
+    "program_name": "Unique Text Display",
+    "author": "Keith Stattenfield / Bill D",
+    "year": 1984,
+    "issue": "Oct 1984",
+    "description": "Screen Effects Chuck Koop",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Screen Clear / Hi-Res Animation / Unique Text Display / Convert Hex",
+    "raw_text": "Unique Text Display"
+  },
+  {
+    "program_name": "Convert Hex",
+    "author": "Keith Stattenfield / Bill D",
+    "year": 1984,
+    "issue": "Oct 1984",
+    "description": "Teddy Pan",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Screen Clear / Hi-Res Animation / Unique Text Display / Convert Hex",
+    "raw_text": "Convert Hex"
+  },
+  {
+    "program_name": "Graphics Display",
+    "author": "Hap Gaylord / Gary Kowalski",
+    "year": 1984,
+    "issue": "Sep 1984",
+    "description": "Animate Text",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Graphics Display / Flashing Text / Music / Base Converter",
+    "raw_text": "Graphics Display"
+  },
+  {
+    "program_name": "Flashing Text",
+    "author": "Hap Gaylord / Gary Kowalski",
+    "year": 1984,
+    "issue": "Sep 1984",
+    "description": "Animation, Graphics, and Sound",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Graphics Display / Flashing Text / Music / Base Converter",
+    "raw_text": "Flashing Text"
+  },
+  {
+    "program_name": "Music",
+    "author": "Hap Gaylord / Gary Kowalski",
+    "year": 1984,
+    "issue": "Sep 1984",
+    "description": "Pretty Picture",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Graphics Display / Flashing Text / Music / Base Converter",
+    "raw_text": "Music"
+  },
+  {
+    "program_name": "Base Converter",
+    "author": "Hap Gaylord / Gary Kowalski",
+    "year": 1984,
+    "issue": "Sep 1984",
+    "description": "Scott McBride",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Graphics Display / Flashing Text / Music / Base Converter",
+    "raw_text": "Base Converter"
+  },
+  {
+    "program_name": "Computing PI",
+    "author": "Garry Brettle / Chris Chris",
+    "year": 1985,
+    "issue": "Apr 1985",
+    "description": "Scrolling Snake (or Slalom Skiier)",
+    "categories": [
+      "utility",
+      "game"
+    ],
+    "subject": "utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "Computing PI / Roundabout Screen Clear / Easy Line Edit / Apple Win",
+    "raw_text": "Computing PI"
+  },
+  {
+    "program_name": "Roundabout Screen Clear",
+    "author": "Garry Brettle / Chris Chris",
+    "year": 1985,
+    "issue": "Apr 1985",
+    "description": "Coin Toss",
+    "categories": [
+      "utility",
+      "game"
+    ],
+    "subject": "utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "Computing PI / Roundabout Screen Clear / Easy Line Edit / Apple Win",
+    "raw_text": "Roundabout Screen Clear"
+  },
+  {
+    "program_name": "Easy Line Edit",
+    "author": "Garry Brettle / Chris Chris",
+    "year": 1985,
+    "issue": "Apr 1985",
+    "description": "RESET 80-Columns Robert Nufer",
+    "categories": [
+      "utility",
+      "game"
+    ],
+    "subject": "utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "Computing PI / Roundabout Screen Clear / Easy Line Edit / Apple Win",
+    "raw_text": "Easy Line Edit"
+  },
+  {
+    "program_name": "Apple Win",
+    "author": "Garry Brettle / Chris Chris",
+    "year": 1985,
+    "issue": "Apr 1985",
+    "description": "Bob Poole",
+    "categories": [
+      "utility",
+      "game"
+    ],
+    "subject": "utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "Computing PI / Roundabout Screen Clear / Easy Line Edit / Apple Win",
+    "raw_text": "Apple Win"
+  },
+  {
+    "program_name": "The Mouse and the Cheese",
+    "author": "Gerald Breaux / Jim Sanders",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "The Mouse and the Cheese / DATA Generator / Transfer Hi-Res Pages",
+    "raw_text": "The Mouse and the Cheese"
+  },
+  {
+    "program_name": "DATA Generator",
+    "author": "Gerald Breaux / Jim Sanders",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "The Mouse and the Cheese / DATA Generator / Transfer Hi-Res Pages",
+    "raw_text": "DATA Generator"
+  },
+  {
+    "program_name": "Transfer Hi-Res Pages",
+    "author": "Gerald Breaux / Jim Sanders",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "The Mouse and the Cheese / DATA Generator / Transfer Hi-Res Pages",
+    "raw_text": "Transfer Hi-Res Pages"
+  },
+  {
+    "program_name": "Hi-Res Display",
+    "author": "Craig Anderson / Dave Tubbs",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "Hi-Res Gem",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Display / DOS 3.3 Room / Car On Roadway / <DELETE> is HOME",
+    "raw_text": "Hi-Res Display"
+  },
+  {
+    "program_name": "DOS 3.3 Room",
+    "author": "Craig Anderson / Dave Tubbs",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "Mirror Page 1",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Display / DOS 3.3 Room / Car On Roadway / <DELETE> is HOME",
+    "raw_text": "DOS 3.3 Room"
+  },
+  {
+    "program_name": "Car On Roadway",
+    "author": "Craig Anderson / Dave Tubbs",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "Line Address Roger Richley",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Display / DOS 3.3 Room / Car On Roadway / <DELETE> is HOME",
+    "raw_text": "Car On Roadway"
+  },
+  {
+    "program_name": "<DELETE> is HOME",
+    "author": "Craig Anderson / Dave Tubbs",
+    "year": 1985,
+    "issue": "Aug 1985",
+    "description": "Daniel Spielman",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Display / DOS 3.3 Room / Car On Roadway / <DELETE> is HOME",
+    "raw_text": "<DELETE> is HOME"
+  },
+  {
+    "program_name": "Running Automobile",
+    "author": "David Jackson / Chris Crawf",
+    "year": 1985,
+    "issue": "Dec 1985",
+    "description": "Interesting Displays",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Running Automobile / hex-dec converter / Square Wave Synthesis",
+    "raw_text": "Running Automobile"
+  },
+  {
+    "program_name": "hex-dec converter",
+    "author": "David Jackson / Chris Crawf",
+    "year": 1985,
+    "issue": "Dec 1985",
+    "description": "Snowflake",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Running Automobile / hex-dec converter / Square Wave Synthesis",
+    "raw_text": "hex-dec converter"
+  },
+  {
+    "program_name": "Square Wave Synthesis",
+    "author": "David Jackson / Chris Crawf",
+    "year": 1985,
+    "issue": "Dec 1985",
+    "description": "Reflex Test",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Running Automobile / hex-dec converter / Square Wave Synthesis",
+    "raw_text": "Square Wave Synthesis"
+  },
+  {
+    "program_name": "HELLO",
+    "author": "Mark Ulmer / Kevin Springle",
+    "year": 1985,
+    "issue": "Feb 1985",
+    "description": "Activate <DELETE> Key",
+    "categories": [
+      "demo",
+      "utility",
+      "game"
+    ],
+    "subject": "demo / utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "HELLO / BOUNCE Screen Clearer / Hex-Dec ROM / Slide Show",
+    "raw_text": "HELLO"
+  },
+  {
+    "program_name": "BOUNCE Screen Clearer",
+    "author": "Mark Ulmer / Kevin Springle",
+    "year": 1985,
+    "issue": "Feb 1985",
+    "description": "Meterorites",
+    "categories": [
+      "demo",
+      "utility",
+      "game"
+    ],
+    "subject": "demo / utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "HELLO / BOUNCE Screen Clearer / Hex-Dec ROM / Slide Show",
+    "raw_text": "BOUNCE Screen Clearer"
+  },
+  {
+    "program_name": "Hex-Dec ROM",
+    "author": "Mark Ulmer / Kevin Springle",
+    "year": 1985,
+    "issue": "Feb 1985",
+    "description": "Maze Generator Patrick Shea",
+    "categories": [
+      "demo",
+      "utility",
+      "game"
+    ],
+    "subject": "demo / utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "HELLO / BOUNCE Screen Clearer / Hex-Dec ROM / Slide Show",
+    "raw_text": "Hex-Dec ROM"
+  },
+  {
+    "program_name": "Slide Show",
+    "author": "Mark Ulmer / Kevin Springle",
+    "year": 1985,
+    "issue": "Feb 1985",
+    "description": "Fernando Madrid",
+    "categories": [
+      "demo",
+      "utility",
+      "game"
+    ],
+    "subject": "demo / utility / game",
+    "column": "One-Liner Winners",
+    "batch_title": "HELLO / BOUNCE Screen Clearer / Hex-Dec ROM / Slide Show",
+    "raw_text": "Slide Show"
+  },
+  {
+    "program_name": "Dragon Curves",
+    "author": "Gordon Stallings / Airy-Cha",
+    "year": 1985,
+    "issue": "Jan 1985",
+    "description": "Geometric Patterns",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Dragon Curves / Dynamic Expression Execution / Mirror Screen",
+    "raw_text": "Dragon Curves"
+  },
+  {
+    "program_name": "Dynamic Expression Execution",
+    "author": "Gordon Stallings / Airy-Cha",
+    "year": 1985,
+    "issue": "Jan 1985",
+    "description": "Screen Dump",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Dragon Curves / Dynamic Expression Execution / Mirror Screen",
+    "raw_text": "Dynamic Expression Execution"
+  },
+  {
+    "program_name": "Mirror Screen",
+    "author": "Gordon Stallings / Airy-Cha",
+    "year": 1985,
+    "issue": "Jan 1985",
+    "description": "Text Animation",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Dragon Curves / Dynamic Expression Execution / Mirror Screen",
+    "raw_text": "Mirror Screen"
+  },
+  {
+    "program_name": "Tinier Tic-Tac-Toe",
+    "author": "Gerald Breaux / Roger Richl",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Joystick Drawing Bernard Cena - Page 45 -",
+    "categories": [
+      "game",
+      "utility",
+      "demo"
+    ],
+    "subject": "game / utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Tinier Tic-Tac-Toe / 3-D Globe (8/85,p10) / Blackjack / Frame for M",
+    "raw_text": "Tinier Tic-Tac-Toe"
+  },
+  {
+    "program_name": "3-D Globe (8",
+    "author": "Gerald Breaux / Roger Richl",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Joystick Drawing Bernard Cena - Page 45 -",
+    "categories": [
+      "game",
+      "utility",
+      "demo"
+    ],
+    "subject": "game / utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Tinier Tic-Tac-Toe / 3-D Globe (8/85,p10) / Blackjack / Frame for M",
+    "raw_text": "3-D Globe (8"
+  },
+  {
+    "program_name": "85,p10)",
+    "author": "Gerald Breaux / Roger Richl",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Joystick Drawing Bernard Cena - Page 45 -",
+    "categories": [
+      "game",
+      "utility",
+      "demo"
+    ],
+    "subject": "game / utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Tinier Tic-Tac-Toe / 3-D Globe (8/85,p10) / Blackjack / Frame for M",
+    "raw_text": "85,p10)"
+  },
+  {
+    "program_name": "Blackjack",
+    "author": "Gerald Breaux / Roger Richl",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Joystick Drawing Bernard Cena - Page 45 -",
+    "categories": [
+      "game",
+      "utility",
+      "demo"
+    ],
+    "subject": "game / utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Tinier Tic-Tac-Toe / 3-D Globe (8/85,p10) / Blackjack / Frame for M",
+    "raw_text": "Blackjack"
+  },
+  {
+    "program_name": "Frame for M",
+    "author": "Gerald Breaux / Roger Richl",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Joystick Drawing Bernard Cena - Page 45 -",
+    "categories": [
+      "game",
+      "utility",
+      "demo"
+    ],
+    "subject": "game / utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Tinier Tic-Tac-Toe / 3-D Globe (8/85,p10) / Blackjack / Frame for M",
+    "raw_text": "Frame for M"
+  },
+  {
+    "program_name": "Full Screen Editor",
+    "author": "F.H. Houang / Joseph Youngb",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Ripples",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Full Screen Editor / Whoop / Control Key Functions / Diagonal Drift",
+    "raw_text": "Full Screen Editor"
+  },
+  {
+    "program_name": "Whoop",
+    "author": "F.H. Houang / Joseph Youngb",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Nibble Races Ahead",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Full Screen Editor / Whoop / Control Key Functions / Diagonal Drift",
+    "raw_text": "Whoop"
+  },
+  {
+    "program_name": "Control Key Functions",
+    "author": "F.H. Houang / Joseph Youngb",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Dissolve (Page-Swapping) Bill Gallagher",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Full Screen Editor / Whoop / Control Key Functions / Diagonal Drift",
+    "raw_text": "Control Key Functions"
+  },
+  {
+    "program_name": "Diagonal Drift",
+    "author": "F.H. Houang / Joseph Youngb",
+    "year": 1985,
+    "issue": "Jul 1985",
+    "description": "Sandra Frierson",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Full Screen Editor / Whoop / Control Key Functions / Diagonal Drift",
+    "raw_text": "Diagonal Drift"
+  },
+  {
+    "program_name": "3-D Figure",
+    "author": "Les Battyanyi / Tien Nguyen",
+    "year": 1985,
+    "issue": "Jun 1985",
+    "description": "Alarm Timer",
+    "categories": [
+      "demo",
+      "game",
+      "utility"
+    ],
+    "subject": "demo / game / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Figure / Driving Game / Jump Out / Applesoft ROM Examiner",
+    "raw_text": "3-D Figure"
+  },
+  {
+    "program_name": "Driving Game",
+    "author": "Les Battyanyi / Tien Nguyen",
+    "year": 1985,
+    "issue": "Jun 1985",
+    "description": "Modify ROM",
+    "categories": [
+      "demo",
+      "game",
+      "utility"
+    ],
+    "subject": "demo / game / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Figure / Driving Game / Jump Out / Applesoft ROM Examiner",
+    "raw_text": "Driving Game"
+  },
+  {
+    "program_name": "Jump Out",
+    "author": "Les Battyanyi / Tien Nguyen",
+    "year": 1985,
+    "issue": "Jun 1985",
+    "description": "Typing Game Adam Finn",
+    "categories": [
+      "demo",
+      "game",
+      "utility"
+    ],
+    "subject": "demo / game / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Figure / Driving Game / Jump Out / Applesoft ROM Examiner",
+    "raw_text": "Jump Out"
+  },
+  {
+    "program_name": "Applesoft ROM Examiner",
+    "author": "Les Battyanyi / Tien Nguyen",
+    "year": 1985,
+    "issue": "Jun 1985",
+    "description": "Bob Brownhill",
+    "categories": [
+      "demo",
+      "game",
+      "utility"
+    ],
+    "subject": "demo / game / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Figure / Driving Game / Jump Out / Applesoft ROM Examiner",
+    "raw_text": "Applesoft ROM Examiner"
+  },
+  {
+    "program_name": "Hi-Res Invert",
+    "author": "Geoffrey Pike / Allen Chan",
+    "year": 1985,
+    "issue": "Mar 1985",
+    "description": "Token Display",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Invert / Musical Characters / Kaleidoscope / Sort",
+    "raw_text": "Hi-Res Invert"
+  },
+  {
+    "program_name": "Musical Characters",
+    "author": "Geoffrey Pike / Allen Chan",
+    "year": 1985,
+    "issue": "Mar 1985",
+    "description": "Music Command",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Invert / Musical Characters / Kaleidoscope / Sort",
+    "raw_text": "Musical Characters"
+  },
+  {
+    "program_name": "Kaleidoscope",
+    "author": "Geoffrey Pike / Allen Chan",
+    "year": 1985,
+    "issue": "Mar 1985",
+    "description": "Center Text J. Morris Prosser",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Invert / Musical Characters / Kaleidoscope / Sort",
+    "raw_text": "Kaleidoscope"
+  },
+  {
+    "program_name": "Sort",
+    "author": "Geoffrey Pike / Allen Chan",
+    "year": 1985,
+    "issue": "Mar 1985",
+    "description": "Jose Feio",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Hi-Res Invert / Musical Characters / Kaleidoscope / Sort",
+    "raw_text": "Sort"
+  },
+  {
+    "program_name": "3-D Hat",
+    "author": "Thomas Morton / Bob Kanzelm",
+    "year": 1985,
+    "issue": "May 1985",
+    "description": "Paddle Sounds",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Hat / Rolling X / Audio Keyboard / NOTEPAD / Paddle Sound Routi",
+    "raw_text": "3-D Hat"
+  },
+  {
+    "program_name": "Rolling X",
+    "author": "Thomas Morton / Bob Kanzelm",
+    "year": 1985,
+    "issue": "May 1985",
+    "description": "NEWUNDO (restore deleted program)",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Hat / Rolling X / Audio Keyboard / NOTEPAD / Paddle Sound Routi",
+    "raw_text": "Rolling X"
+  },
+  {
+    "program_name": "Audio Keyboard",
+    "author": "Thomas Morton / Bob Kanzelm",
+    "year": 1985,
+    "issue": "May 1985",
+    "description": "Hi-Res Fruit William Hensley",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Hat / Rolling X / Audio Keyboard / NOTEPAD / Paddle Sound Routi",
+    "raw_text": "Audio Keyboard"
+  },
+  {
+    "program_name": "NOTEPAD",
+    "author": "Thomas Morton / Bob Kanzelm",
+    "year": 1985,
+    "issue": "May 1985",
+    "description": "Michael Decker",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Hat / Rolling X / Audio Keyboard / NOTEPAD / Paddle Sound Routi",
+    "raw_text": "NOTEPAD"
+  },
+  {
+    "program_name": "Paddle Sound Routi",
+    "author": "Thomas Morton / Bob Kanzelm",
+    "year": 1985,
+    "issue": "May 1985",
+    "description": "Gerald Breaux",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "3-D Hat / Rolling X / Audio Keyboard / NOTEPAD / Paddle Sound Routi",
+    "raw_text": "Paddle Sound Routi"
+  },
+  {
+    "program_name": "Shifting Hi-Res Display",
+    "author": "Jeffrey Roy / John James",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "unNEW a program",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Shifting Hi-Res Display / Starting Address and Length of ML program",
+    "raw_text": "Shifting Hi-Res Display"
+  },
+  {
+    "program_name": "Starting Address and Length of ML program",
+    "author": "Jeffrey Roy / John James",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "Two Page Animation",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Shifting Hi-Res Display / Starting Address and Length of ML program",
+    "raw_text": "Starting Address and Length of ML program"
+  },
+  {
+    "program_name": "Alphabetize Names",
+    "author": "Chris Crawford / Greg Ferra",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Alphabetize Names / Sketch Pad / EXEC DEF FN / Financial Calculator",
+    "raw_text": "Alphabetize Names"
+  },
+  {
+    "program_name": "Sketch Pad",
+    "author": "Chris Crawford / Greg Ferra",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Alphabetize Names / Sketch Pad / EXEC DEF FN / Financial Calculator",
+    "raw_text": "Sketch Pad"
+  },
+  {
+    "program_name": "EXEC DEF FN",
+    "author": "Chris Crawford / Greg Ferra",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Alphabetize Names / Sketch Pad / EXEC DEF FN / Financial Calculator",
+    "raw_text": "EXEC DEF FN"
+  },
+  {
+    "program_name": "Financial Calculator",
+    "author": "Chris Crawford / Greg Ferra",
+    "year": 1985,
+    "issue": "Nov 1985",
+    "description": "Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Alphabetize Names / Sketch Pad / EXEC DEF FN / Financial Calculator",
+    "raw_text": "Financial Calculator"
+  },
+  {
+    "program_name": "Track",
+    "author": "Shaun Wexler / Kurt Witt /",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Track/Sector Map / One Drive Disk Copier / 3-D Bars / Two Hi-Res Pa",
+    "raw_text": "Track"
+  },
+  {
+    "program_name": "Sector Map",
+    "author": "Shaun Wexler / Kurt Witt /",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Track/Sector Map / One Drive Disk Copier / 3-D Bars / Two Hi-Res Pa",
+    "raw_text": "Sector Map"
+  },
+  {
+    "program_name": "One Drive Disk Copier",
+    "author": "Shaun Wexler / Kurt Witt /",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Track/Sector Map / One Drive Disk Copier / 3-D Bars / Two Hi-Res Pa",
+    "raw_text": "One Drive Disk Copier"
+  },
+  {
+    "program_name": "3-D Bars",
+    "author": "Shaun Wexler / Kurt Witt /",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Track/Sector Map / One Drive Disk Copier / 3-D Bars / Two Hi-Res Pa",
+    "raw_text": "3-D Bars"
+  },
+  {
+    "program_name": "Two Hi-Res Pa",
+    "author": "Shaun Wexler / Kurt Witt /",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "Two-Liner Winners",
+    "batch_title": "Track/Sector Map / One Drive Disk Copier / 3-D Bars / Two Hi-Res Pa",
+    "raw_text": "Two Hi-Res Pa"
+  },
+  {
+    "program_name": "Using WAIT for Timing",
+    "author": "Steven Meuse",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "a table of delay values for X values of 1 to 255; JSR $FCA8",
+    "categories": [
+      "tip"
+    ],
+    "subject": "tip",
+    "column": "Two-Liner Winners",
+    "batch_title": "Using WAIT for Timing",
+    "raw_text": "Using WAIT for Timing"
+  },
+  {
+    "program_name": "Wallpaper",
+    "author": "Bill Currie / Paul Phillips",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "Alternate Patterns Kevin Ediger",
+    "categories": [
+      "demo",
+      "education",
+      "utility"
+    ],
+    "subject": "demo / education / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Wallpaper / Memorize Nine Digits / Interlocking Circles / Hex Dump",
+    "raw_text": "Wallpaper"
+  },
+  {
+    "program_name": "Memorize Nine Digits",
+    "author": "Bill Currie / Paul Phillips",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "Alternate Patterns Kevin Ediger",
+    "categories": [
+      "demo",
+      "education",
+      "utility"
+    ],
+    "subject": "demo / education / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Wallpaper / Memorize Nine Digits / Interlocking Circles / Hex Dump",
+    "raw_text": "Memorize Nine Digits"
+  },
+  {
+    "program_name": "Interlocking Circles",
+    "author": "Bill Currie / Paul Phillips",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "Alternate Patterns Kevin Ediger",
+    "categories": [
+      "demo",
+      "education",
+      "utility"
+    ],
+    "subject": "demo / education / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Wallpaper / Memorize Nine Digits / Interlocking Circles / Hex Dump",
+    "raw_text": "Interlocking Circles"
+  },
+  {
+    "program_name": "Hex Dump",
+    "author": "Bill Currie / Paul Phillips",
+    "year": 1985,
+    "issue": "Oct 1985",
+    "description": "Alternate Patterns Kevin Ediger",
+    "categories": [
+      "demo",
+      "education",
+      "utility"
+    ],
+    "subject": "demo / education / utility",
+    "column": "One-Liner Winners",
+    "batch_title": "Wallpaper / Memorize Nine Digits / Interlocking Circles / Hex Dump",
+    "raw_text": "Hex Dump"
+  },
+  {
+    "program_name": "Number Conversion",
+    "author": "Adam Levin / Chia Cheng Kwa",
+    "year": 1985,
+    "issue": "Sep 1985",
+    "description": "Praising Nibble",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Number Conversion / Sine Wave Plotter / View Disk Sector",
+    "raw_text": "Number Conversion"
+  },
+  {
+    "program_name": "Sine Wave Plotter",
+    "author": "Adam Levin / Chia Cheng Kwa",
+    "year": 1985,
+    "issue": "Sep 1985",
+    "description": "Target Shooting Ken Flood, Jr.",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Number Conversion / Sine Wave Plotter / View Disk Sector",
+    "raw_text": "Sine Wave Plotter"
+  },
+  {
+    "program_name": "View Disk Sector",
+    "author": "Adam Levin / Chia Cheng Kwa",
+    "year": 1985,
+    "issue": "Sep 1985",
+    "description": "Shawn Day",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Number Conversion / Sine Wave Plotter / View Disk Sector",
+    "raw_text": "View Disk Sector"
+  },
+  {
+    "program_name": "Full-Stop Shop",
+    "author": "Ben Sprey / Yosi Yayon / Al",
+    "year": 1986,
+    "issue": "Aug 1986",
+    "description": "String Finder Ken Jenks",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Full-Stop Shop / Projectile Motion / Calendar Printer / Rotate Cube",
+    "raw_text": "Full-Stop Shop"
+  },
+  {
+    "program_name": "Projectile Motion",
+    "author": "Ben Sprey / Yosi Yayon / Al",
+    "year": 1986,
+    "issue": "Aug 1986",
+    "description": "String Finder Ken Jenks",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Full-Stop Shop / Projectile Motion / Calendar Printer / Rotate Cube",
+    "raw_text": "Projectile Motion"
+  },
+  {
+    "program_name": "Calendar Printer",
+    "author": "Ben Sprey / Yosi Yayon / Al",
+    "year": 1986,
+    "issue": "Aug 1986",
+    "description": "String Finder Ken Jenks",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Full-Stop Shop / Projectile Motion / Calendar Printer / Rotate Cube",
+    "raw_text": "Calendar Printer"
+  },
+  {
+    "program_name": "Rotate Cube",
+    "author": "Ben Sprey / Yosi Yayon / Al",
+    "year": 1986,
+    "issue": "Aug 1986",
+    "description": "String Finder Ken Jenks",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Full-Stop Shop / Projectile Motion / Calendar Printer / Rotate Cube",
+    "raw_text": "Rotate Cube"
+  },
+  {
+    "program_name": "Multiple Windows",
+    "author": "Prem A. Nandwani / Sue Bran",
+    "year": 1986,
+    "issue": "Dec 1986",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Multiple Windows / Checkbook Balancer / Unusual Hi-Res Display",
+    "raw_text": "Multiple Windows"
+  },
+  {
+    "program_name": "Checkbook Balancer",
+    "author": "Prem A. Nandwani / Sue Bran",
+    "year": 1986,
+    "issue": "Dec 1986",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Multiple Windows / Checkbook Balancer / Unusual Hi-Res Display",
+    "raw_text": "Checkbook Balancer"
+  },
+  {
+    "program_name": "Unusual Hi-Res Display",
+    "author": "Prem A. Nandwani / Sue Bran",
+    "year": 1986,
+    "issue": "Dec 1986",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Multiple Windows / Checkbook Balancer / Unusual Hi-Res Display",
+    "raw_text": "Unusual Hi-Res Display"
+  },
+  {
+    "program_name": "Premium or Regular",
+    "author": "Ken McGuire / Jerry Wang /",
+    "year": 1986,
+    "issue": "Feb 1986",
+    "description": "Water Torture Goh Liang Woei",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Premium or Regular / Road to the Stars / Leap Year / Word Processor",
+    "raw_text": "Premium or Regular"
+  },
+  {
+    "program_name": "Road to the Stars",
+    "author": "Ken McGuire / Jerry Wang /",
+    "year": 1986,
+    "issue": "Feb 1986",
+    "description": "Water Torture Goh Liang Woei",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Premium or Regular / Road to the Stars / Leap Year / Word Processor",
+    "raw_text": "Road to the Stars"
+  },
+  {
+    "program_name": "Leap Year",
+    "author": "Ken McGuire / Jerry Wang /",
+    "year": 1986,
+    "issue": "Feb 1986",
+    "description": "Water Torture Goh Liang Woei",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Premium or Regular / Road to the Stars / Leap Year / Word Processor",
+    "raw_text": "Leap Year"
+  },
+  {
+    "program_name": "Word Processor",
+    "author": "Ken McGuire / Jerry Wang /",
+    "year": 1986,
+    "issue": "Feb 1986",
+    "description": "Water Torture Goh Liang Woei",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Premium or Regular / Road to the Stars / Leap Year / Word Processor",
+    "raw_text": "Word Processor"
+  },
+  {
+    "program_name": "Message Display",
+    "author": "Andrea Sigurdson / Eric Sny",
+    "year": 1986,
+    "issue": "Jan 1986",
+    "description": "Bouncing Ball",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Message Display / DOS Command Catalog / Selective CATALOG",
+    "raw_text": "Message Display"
+  },
+  {
+    "program_name": "DOS Command Catalog",
+    "author": "Andrea Sigurdson / Eric Sny",
+    "year": 1986,
+    "issue": "Jan 1986",
+    "description": "Conway's Game of Life Gene Masse",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Message Display / DOS Command Catalog / Selective CATALOG",
+    "raw_text": "DOS Command Catalog"
+  },
+  {
+    "program_name": "Selective CATALOG",
+    "author": "Andrea Sigurdson / Eric Sny",
+    "year": 1986,
+    "issue": "Jan 1986",
+    "description": "William K. Richards",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Message Display / DOS Command Catalog / Selective CATALOG",
+    "raw_text": "Selective CATALOG"
+  },
+  {
+    "program_name": "Day of Week and Date Interval",
+    "author": "Alan Bargender / W.J. Curri",
+    "year": 1986,
+    "issue": "Jul 1986",
+    "description": "Space Cross",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Day of Week and Date Interval / Halley's Comet / Paddle Bow-Ties",
+    "raw_text": "Day of Week and Date Interval"
+  },
+  {
+    "program_name": "Halley's Comet",
+    "author": "Alan Bargender / W.J. Curri",
+    "year": 1986,
+    "issue": "Jul 1986",
+    "description": "Base Converter Eric Holmen",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Day of Week and Date Interval / Halley's Comet / Paddle Bow-Ties",
+    "raw_text": "Halley's Comet"
+  },
+  {
+    "program_name": "Paddle Bow-Ties",
+    "author": "Alan Bargender / W.J. Curri",
+    "year": 1986,
+    "issue": "Jul 1986",
+    "description": "Brad Pickering",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner Winners",
+    "batch_title": "Day of Week and Date Interval / Halley's Comet / Paddle Bow-Ties",
+    "raw_text": "Paddle Bow-Ties"
+  },
+  {
+    "program_name": "One-Line Solutions",
+    "author": "Nibble Staff",
+    "year": 1986,
+    "issue": "Jun 1986",
+    "description": "screen dump / 40-column CATALOG / machine identity / valid file name check / looking for INPUT anything and DATE input routines",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One-Line Solutions",
+    "batch_title": "One-Line Solutions",
+    "raw_text": "One-Line Solutions"
+  },
+  {
+    "program_name": "Jumping Jacks",
+    "author": "Keith Parker / Alfred Aenis",
+    "year": 1986,
+    "issue": "Jun 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "game"
+    ],
+    "subject": "demo / game",
+    "column": "Two-Liner Winners",
+    "batch_title": "Jumping Jacks / Towers of Hanoi / Typing Game / Hi-Res Strings",
+    "raw_text": "Jumping Jacks"
+  },
+  {
+    "program_name": "Towers of Hanoi",
+    "author": "Keith Parker / Alfred Aenis",
+    "year": 1986,
+    "issue": "Jun 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "game"
+    ],
+    "subject": "demo / game",
+    "column": "Two-Liner Winners",
+    "batch_title": "Jumping Jacks / Towers of Hanoi / Typing Game / Hi-Res Strings",
+    "raw_text": "Towers of Hanoi"
+  },
+  {
+    "program_name": "Typing Game",
+    "author": "Keith Parker / Alfred Aenis",
+    "year": 1986,
+    "issue": "Jun 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "game"
+    ],
+    "subject": "demo / game",
+    "column": "Two-Liner Winners",
+    "batch_title": "Jumping Jacks / Towers of Hanoi / Typing Game / Hi-Res Strings",
+    "raw_text": "Typing Game"
+  },
+  {
+    "program_name": "Hi-Res Strings",
+    "author": "Keith Parker / Alfred Aenis",
+    "year": 1986,
+    "issue": "Jun 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "game"
+    ],
+    "subject": "demo / game",
+    "column": "Two-Liner Winners",
+    "batch_title": "Jumping Jacks / Towers of Hanoi / Typing Game / Hi-Res Strings",
+    "raw_text": "Hi-Res Strings"
+  },
+  {
+    "program_name": "Conway's Life (10",
+    "author": "Dean Hickerson / Thomas McK",
+    "year": 1986,
+    "issue": "May 1986",
+    "description": "lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner And Two-Liner Winners",
+    "batch_title": "Conway's Life (10/86p123) / Keyboard Organ / Print Shop Envelopes",
+    "raw_text": "Conway's Life (10"
+  },
+  {
+    "program_name": "86p123)",
+    "author": "Dean Hickerson / Thomas McK",
+    "year": 1986,
+    "issue": "May 1986",
+    "description": "lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner And Two-Liner Winners",
+    "batch_title": "Conway's Life (10/86p123) / Keyboard Organ / Print Shop Envelopes",
+    "raw_text": "86p123)"
+  },
+  {
+    "program_name": "Keyboard Organ",
+    "author": "Dean Hickerson / Thomas McK",
+    "year": 1986,
+    "issue": "May 1986",
+    "description": "lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner And Two-Liner Winners",
+    "batch_title": "Conway's Life (10/86p123) / Keyboard Organ / Print Shop Envelopes",
+    "raw_text": "Keyboard Organ"
+  },
+  {
+    "program_name": "Print Shop Envelopes",
+    "author": "Dean Hickerson / Thomas McK",
+    "year": 1986,
+    "issue": "May 1986",
+    "description": "lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner And Two-Liner Winners",
+    "batch_title": "Conway's Life (10/86p123) / Keyboard Organ / Print Shop Envelopes",
+    "raw_text": "Print Shop Envelopes"
+  },
+  {
+    "program_name": "Date Input Anything",
+    "author": "Robert Stong / Scott Elliot",
+    "year": 1986,
+    "issue": "Nov 1986",
+    "description": "Disk Head Mover (CLEANER) Joan Oliver",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Date Input Anything / One-Character Keyboard Buffer / Bar and Pie C",
+    "raw_text": "Date Input Anything"
+  },
+  {
+    "program_name": "One-Character Keyboard Buffer",
+    "author": "Robert Stong / Scott Elliot",
+    "year": 1986,
+    "issue": "Nov 1986",
+    "description": "Disk Head Mover (CLEANER) Joan Oliver",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Date Input Anything / One-Character Keyboard Buffer / Bar and Pie C",
+    "raw_text": "One-Character Keyboard Buffer"
+  },
+  {
+    "program_name": "Bar and Pie C",
+    "author": "Robert Stong / Scott Elliot",
+    "year": 1986,
+    "issue": "Nov 1986",
+    "description": "Disk Head Mover (CLEANER) Joan Oliver",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Date Input Anything / One-Character Keyboard Buffer / Bar and Pie C",
+    "raw_text": "Bar and Pie C"
+  },
+  {
+    "program_name": "Intelligent Date Input",
+    "author": "Andre Bedard / Rafael Furst",
+    "year": 1986,
+    "issue": "Oct 1986",
+    "description": "Hi-Res Character Maker",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Intelligent Date Input / Display Print Shop Graphic",
+    "raw_text": "Intelligent Date Input"
+  },
+  {
+    "program_name": "Display Print Shop Graphic",
+    "author": "Andre Bedard / Rafael Furst",
+    "year": 1986,
+    "issue": "Oct 1986",
+    "description": "Screen CATALOG Alan Thomas",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Intelligent Date Input / Display Print Shop Graphic",
+    "raw_text": "Display Print Shop Graphic"
+  },
+  {
+    "program_name": "Tantalus' Plight",
+    "author": "Dennis Spiegel / J. Stephen",
+    "year": 1986,
+    "issue": "Sep 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tantalus' Plight / Stars and Stripes / Identify Devices / Daisies",
+    "raw_text": "Tantalus' Plight"
+  },
+  {
+    "program_name": "Stars and Stripes",
+    "author": "Dennis Spiegel / J. Stephen",
+    "year": 1986,
+    "issue": "Sep 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tantalus' Plight / Stars and Stripes / Identify Devices / Daisies",
+    "raw_text": "Stars and Stripes"
+  },
+  {
+    "program_name": "Identify Devices",
+    "author": "Dennis Spiegel / J. Stephen",
+    "year": 1986,
+    "issue": "Sep 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tantalus' Plight / Stars and Stripes / Identify Devices / Daisies",
+    "raw_text": "Identify Devices"
+  },
+  {
+    "program_name": "Daisies",
+    "author": "Dennis Spiegel / J. Stephen",
+    "year": 1986,
+    "issue": "Sep 1986",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tantalus' Plight / Stars and Stripes / Identify Devices / Daisies",
+    "raw_text": "Daisies"
+  },
+  {
+    "program_name": "Breakout",
+    "author": "Greg Ferrar / David Lemm /",
+    "year": 1987,
+    "issue": "Apr 1987",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Breakout / Reverse Picture / Morse Code / Random Fade",
+    "raw_text": "Breakout"
+  },
+  {
+    "program_name": "Reverse Picture",
+    "author": "Greg Ferrar / David Lemm /",
+    "year": 1987,
+    "issue": "Apr 1987",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Breakout / Reverse Picture / Morse Code / Random Fade",
+    "raw_text": "Reverse Picture"
+  },
+  {
+    "program_name": "Morse Code",
+    "author": "Greg Ferrar / David Lemm /",
+    "year": 1987,
+    "issue": "Apr 1987",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Breakout / Reverse Picture / Morse Code / Random Fade",
+    "raw_text": "Morse Code"
+  },
+  {
+    "program_name": "Random Fade",
+    "author": "Greg Ferrar / David Lemm /",
+    "year": 1987,
+    "issue": "Apr 1987",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Breakout / Reverse Picture / Morse Code / Random Fade",
+    "raw_text": "Random Fade"
+  },
+  {
+    "program_name": "Simon",
+    "author": "James Beam / Juan Pablo Vel",
+    "year": 1987,
+    "issue": "Aug 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Simon / Mathland II / Fountain / \"Quotation Marks\"",
+    "raw_text": "Simon"
+  },
+  {
+    "program_name": "Mathland II",
+    "author": "James Beam / Juan Pablo Vel",
+    "year": 1987,
+    "issue": "Aug 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Simon / Mathland II / Fountain / \"Quotation Marks\"",
+    "raw_text": "Mathland II"
+  },
+  {
+    "program_name": "Fountain",
+    "author": "James Beam / Juan Pablo Vel",
+    "year": 1987,
+    "issue": "Aug 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Simon / Mathland II / Fountain / \"Quotation Marks\"",
+    "raw_text": "Fountain"
+  },
+  {
+    "program_name": "\"Quotation Marks\"",
+    "author": "James Beam / Juan Pablo Vel",
+    "year": 1987,
+    "issue": "Aug 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Simon / Mathland II / Fountain / \"Quotation Marks\"",
+    "raw_text": "\"Quotation Marks\""
+  },
+  {
+    "program_name": "Machine ID",
+    "author": "Daver Barcan / Mark Moe / A",
+    "year": 1987,
+    "issue": "Dec 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics",
+      "math"
+    ],
+    "subject": "utility / graphics / math",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Machine ID / Plotter / Grapher / Factorials",
+    "raw_text": "Machine ID"
+  },
+  {
+    "program_name": "Plotter",
+    "author": "Daver Barcan / Mark Moe / A",
+    "year": 1987,
+    "issue": "Dec 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics",
+      "math"
+    ],
+    "subject": "utility / graphics / math",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Machine ID / Plotter / Grapher / Factorials",
+    "raw_text": "Plotter"
+  },
+  {
+    "program_name": "Grapher",
+    "author": "Daver Barcan / Mark Moe / A",
+    "year": 1987,
+    "issue": "Dec 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics",
+      "math"
+    ],
+    "subject": "utility / graphics / math",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Machine ID / Plotter / Grapher / Factorials",
+    "raw_text": "Grapher"
+  },
+  {
+    "program_name": "Factorials",
+    "author": "Daver Barcan / Mark Moe / A",
+    "year": 1987,
+    "issue": "Dec 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics",
+      "math"
+    ],
+    "subject": "utility / graphics / math",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Machine ID / Plotter / Grapher / Factorials",
+    "raw_text": "Factorials"
+  },
+  {
+    "program_name": "Extended CATALOG",
+    "author": "Moy Wong / Alan Thomas / St",
+    "year": 1987,
+    "issue": "Feb 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Extended CATALOG / Factors / Oval Diamond",
+    "raw_text": "Extended CATALOG"
+  },
+  {
+    "program_name": "Factors",
+    "author": "Moy Wong / Alan Thomas / St",
+    "year": 1987,
+    "issue": "Feb 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Extended CATALOG / Factors / Oval Diamond",
+    "raw_text": "Factors"
+  },
+  {
+    "program_name": "Oval Diamond",
+    "author": "Moy Wong / Alan Thomas / St",
+    "year": 1987,
+    "issue": "Feb 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Extended CATALOG / Factors / Oval Diamond",
+    "raw_text": "Oval Diamond"
+  },
+  {
+    "program_name": "Apple Macros",
+    "author": "Bill Jetzer / Mark Moe / Vl",
+    "year": 1987,
+    "issue": "Jan 1987",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One and Two-Liner Winners",
+    "batch_title": "Apple Macros / Ringed Planet / Marching Soldiers (4/87p127)",
+    "raw_text": "Apple Macros"
+  },
+  {
+    "program_name": "Ringed Planet",
+    "author": "Bill Jetzer / Mark Moe / Vl",
+    "year": 1987,
+    "issue": "Jan 1987",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One and Two-Liner Winners",
+    "batch_title": "Apple Macros / Ringed Planet / Marching Soldiers (4/87p127)",
+    "raw_text": "Ringed Planet"
+  },
+  {
+    "program_name": "Marching Soldiers (4",
+    "author": "Bill Jetzer / Mark Moe / Vl",
+    "year": 1987,
+    "issue": "Jan 1987",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One and Two-Liner Winners",
+    "batch_title": "Apple Macros / Ringed Planet / Marching Soldiers (4/87p127)",
+    "raw_text": "Marching Soldiers (4"
+  },
+  {
+    "program_name": "87p127)",
+    "author": "Bill Jetzer / Mark Moe / Vl",
+    "year": 1987,
+    "issue": "Jan 1987",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One and Two-Liner Winners",
+    "batch_title": "Apple Macros / Ringed Planet / Marching Soldiers (4/87p127)",
+    "raw_text": "87p127)"
+  },
+  {
+    "program_name": "Mini-Race",
+    "author": "Horacio M. Arevalo / Benjam",
+    "year": 1987,
+    "issue": "Jul 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Mini-Race / Find Mouse / Permutations and Combinations / Screen Bor",
+    "raw_text": "Mini-Race"
+  },
+  {
+    "program_name": "Find Mouse",
+    "author": "Horacio M. Arevalo / Benjam",
+    "year": 1987,
+    "issue": "Jul 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Mini-Race / Find Mouse / Permutations and Combinations / Screen Bor",
+    "raw_text": "Find Mouse"
+  },
+  {
+    "program_name": "Permutations and Combinations",
+    "author": "Horacio M. Arevalo / Benjam",
+    "year": 1987,
+    "issue": "Jul 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Mini-Race / Find Mouse / Permutations and Combinations / Screen Bor",
+    "raw_text": "Permutations and Combinations"
+  },
+  {
+    "program_name": "Screen Bor",
+    "author": "Horacio M. Arevalo / Benjam",
+    "year": 1987,
+    "issue": "Jul 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "Two-Liner Winners",
+    "batch_title": "Mini-Race / Find Mouse / Permutations and Combinations / Screen Bor",
+    "raw_text": "Screen Bor"
+  },
+  {
+    "program_name": "Phone Combos",
+    "author": "Michael Parks / James Evans",
+    "year": 1987,
+    "issue": "Jun 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Phone Combos / LIST Lines / Date-Stamp Files / Remove Array",
+    "raw_text": "Phone Combos"
+  },
+  {
+    "program_name": "LIST Lines",
+    "author": "Michael Parks / James Evans",
+    "year": 1987,
+    "issue": "Jun 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Phone Combos / LIST Lines / Date-Stamp Files / Remove Array",
+    "raw_text": "LIST Lines"
+  },
+  {
+    "program_name": "Date-Stamp Files",
+    "author": "Michael Parks / James Evans",
+    "year": 1987,
+    "issue": "Jun 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Phone Combos / LIST Lines / Date-Stamp Files / Remove Array",
+    "raw_text": "Date-Stamp Files"
+  },
+  {
+    "program_name": "Remove Array",
+    "author": "Michael Parks / James Evans",
+    "year": 1987,
+    "issue": "Jun 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Phone Combos / LIST Lines / Date-Stamp Files / Remove Array",
+    "raw_text": "Remove Array"
+  },
+  {
+    "program_name": "Printer Select",
+    "author": "George Clark / Nir Nussbaum",
+    "year": 1987,
+    "issue": "Mar 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Printer Select / Program Addresses / Graphics Designs",
+    "raw_text": "Printer Select"
+  },
+  {
+    "program_name": "Program Addresses",
+    "author": "George Clark / Nir Nussbaum",
+    "year": 1987,
+    "issue": "Mar 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Printer Select / Program Addresses / Graphics Designs",
+    "raw_text": "Program Addresses"
+  },
+  {
+    "program_name": "Graphics Designs",
+    "author": "George Clark / Nir Nussbaum",
+    "year": 1987,
+    "issue": "Mar 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Printer Select / Program Addresses / Graphics Designs",
+    "raw_text": "Graphics Designs"
+  },
+  {
+    "program_name": "Tennis",
+    "author": "Horacio Arevalo / Greg Ferr",
+    "year": 1987,
+    "issue": "May 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tennis / Text Invaders / Potholes in Space / Scintillating Wonders",
+    "raw_text": "Tennis"
+  },
+  {
+    "program_name": "Text Invaders",
+    "author": "Horacio Arevalo / Greg Ferr",
+    "year": 1987,
+    "issue": "May 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tennis / Text Invaders / Potholes in Space / Scintillating Wonders",
+    "raw_text": "Text Invaders"
+  },
+  {
+    "program_name": "Potholes in Space",
+    "author": "Horacio Arevalo / Greg Ferr",
+    "year": 1987,
+    "issue": "May 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tennis / Text Invaders / Potholes in Space / Scintillating Wonders",
+    "raw_text": "Potholes in Space"
+  },
+  {
+    "program_name": "Scintillating Wonders",
+    "author": "Horacio Arevalo / Greg Ferr",
+    "year": 1987,
+    "issue": "May 1987",
+    "description": "",
+    "categories": [
+      "game",
+      "novelty"
+    ],
+    "subject": "game / novelty",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Tennis / Text Invaders / Potholes in Space / Scintillating Wonders",
+    "raw_text": "Scintillating Wonders"
+  },
+  {
+    "program_name": "Program Restorer",
+    "author": "Jason Wagner / Stuart Mark",
+    "year": 1987,
+    "issue": "Nov 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Program Restorer / Star Travel / ProDOS volumes / GOTO variables",
+    "raw_text": "Program Restorer"
+  },
+  {
+    "program_name": "Star Travel",
+    "author": "Jason Wagner / Stuart Mark",
+    "year": 1987,
+    "issue": "Nov 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Program Restorer / Star Travel / ProDOS volumes / GOTO variables",
+    "raw_text": "Star Travel"
+  },
+  {
+    "program_name": "ProDOS volumes",
+    "author": "Jason Wagner / Stuart Mark",
+    "year": 1987,
+    "issue": "Nov 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Program Restorer / Star Travel / ProDOS volumes / GOTO variables",
+    "raw_text": "ProDOS volumes"
+  },
+  {
+    "program_name": "GOTO variables",
+    "author": "Jason Wagner / Stuart Mark",
+    "year": 1987,
+    "issue": "Nov 1987",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Program Restorer / Star Travel / ProDOS volumes / GOTO variables",
+    "raw_text": "GOTO variables"
+  },
+  {
+    "program_name": "MUNCH",
+    "author": "Horacio Arevalo / Kenneth H",
+    "year": 1987,
+    "issue": "Oct 1987",
+    "description": "",
+    "categories": [
+      "arcade",
+      "utility"
+    ],
+    "subject": "arcade / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "MUNCH / VAR.SWAP / ML.TO.DATA",
+    "raw_text": "MUNCH"
+  },
+  {
+    "program_name": "VAR.SWAP",
+    "author": "Horacio Arevalo / Kenneth H",
+    "year": 1987,
+    "issue": "Oct 1987",
+    "description": "",
+    "categories": [
+      "arcade",
+      "utility"
+    ],
+    "subject": "arcade / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "MUNCH / VAR.SWAP / ML.TO.DATA",
+    "raw_text": "VAR.SWAP"
+  },
+  {
+    "program_name": "ML.TO.DATA",
+    "author": "Horacio Arevalo / Kenneth H",
+    "year": 1987,
+    "issue": "Oct 1987",
+    "description": "",
+    "categories": [
+      "arcade",
+      "utility"
+    ],
+    "subject": "arcade / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "MUNCH / VAR.SWAP / ML.TO.DATA",
+    "raw_text": "ML.TO.DATA"
+  },
+  {
+    "program_name": "Card Deck",
+    "author": "John Ratcliff / Randy Wooda",
+    "year": 1987,
+    "issue": "Sep 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Card Deck / Auto Menu / DiskCopy / Aligned Numbers",
+    "raw_text": "Card Deck"
+  },
+  {
+    "program_name": "Auto Menu",
+    "author": "John Ratcliff / Randy Wooda",
+    "year": 1987,
+    "issue": "Sep 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Card Deck / Auto Menu / DiskCopy / Aligned Numbers",
+    "raw_text": "Auto Menu"
+  },
+  {
+    "program_name": "DiskCopy",
+    "author": "John Ratcliff / Randy Wooda",
+    "year": 1987,
+    "issue": "Sep 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Card Deck / Auto Menu / DiskCopy / Aligned Numbers",
+    "raw_text": "DiskCopy"
+  },
+  {
+    "program_name": "Aligned Numbers",
+    "author": "John Ratcliff / Randy Wooda",
+    "year": 1987,
+    "issue": "Sep 1987",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Card Deck / Auto Menu / DiskCopy / Aligned Numbers",
+    "raw_text": "Aligned Numbers"
+  },
+  {
+    "program_name": "WORM",
+    "author": "Stanley Furrow / Bill Jetze",
+    "year": 1988,
+    "issue": "Apr 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "WORM / TWIRLER / CAT.MEMO / SUPERFINDER",
+    "raw_text": "WORM"
+  },
+  {
+    "program_name": "TWIRLER",
+    "author": "Stanley Furrow / Bill Jetze",
+    "year": 1988,
+    "issue": "Apr 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "WORM / TWIRLER / CAT.MEMO / SUPERFINDER",
+    "raw_text": "TWIRLER"
+  },
+  {
+    "program_name": "CAT.MEMO",
+    "author": "Stanley Furrow / Bill Jetze",
+    "year": 1988,
+    "issue": "Apr 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "WORM / TWIRLER / CAT.MEMO / SUPERFINDER",
+    "raw_text": "CAT.MEMO"
+  },
+  {
+    "program_name": "SUPERFINDER",
+    "author": "Stanley Furrow / Bill Jetze",
+    "year": 1988,
+    "issue": "Apr 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "WORM / TWIRLER / CAT.MEMO / SUPERFINDER",
+    "raw_text": "SUPERFINDER"
+  },
+  {
+    "program_name": "IF.THEN.ELSE",
+    "author": "Gary Chan Keng Hwee / Bill",
+    "year": 1988,
+    "issue": "Dec 1988",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners (by Rudy A. Guy)",
+    "batch_title": "IF.THEN.ELSE / DHR.DISPLAY / LIST.VOLS",
+    "raw_text": "IF.THEN.ELSE"
+  },
+  {
+    "program_name": "DHR.DISPLAY",
+    "author": "Gary Chan Keng Hwee / Bill",
+    "year": 1988,
+    "issue": "Dec 1988",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners (by Rudy A. Guy)",
+    "batch_title": "IF.THEN.ELSE / DHR.DISPLAY / LIST.VOLS",
+    "raw_text": "DHR.DISPLAY"
+  },
+  {
+    "program_name": "LIST.VOLS",
+    "author": "Gary Chan Keng Hwee / Bill",
+    "year": 1988,
+    "issue": "Dec 1988",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners (by Rudy A. Guy)",
+    "batch_title": "IF.THEN.ELSE / DHR.DISPLAY / LIST.VOLS",
+    "raw_text": "LIST.VOLS"
+  },
+  {
+    "program_name": "Sound Maker",
+    "author": "",
+    "year": 1988,
+    "issue": "Feb 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Sound Maker / Melt.Down / Free.Space / Street.Light",
+    "raw_text": "Sound Maker"
+  },
+  {
+    "program_name": "Melt.Down",
+    "author": "",
+    "year": 1988,
+    "issue": "Feb 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Sound Maker / Melt.Down / Free.Space / Street.Light",
+    "raw_text": "Melt.Down"
+  },
+  {
+    "program_name": "Free.Space",
+    "author": "",
+    "year": 1988,
+    "issue": "Feb 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Sound Maker / Melt.Down / Free.Space / Street.Light",
+    "raw_text": "Free.Space"
+  },
+  {
+    "program_name": "Street.Light",
+    "author": "",
+    "year": 1988,
+    "issue": "Feb 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Sound Maker / Melt.Down / Free.Space / Street.Light",
+    "raw_text": "Street.Light"
+  },
+  {
+    "program_name": "YES.NO",
+    "author": "Mike Teixeira / Omer R. Met",
+    "year": 1988,
+    "issue": "Jan 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "strategy"
+    ],
+    "subject": "utility / strategy",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "YES.NO / Hanoi.Tower, Mastermind",
+    "raw_text": "YES.NO"
+  },
+  {
+    "program_name": "Hanoi.Tower, Mastermind",
+    "author": "Mike Teixeira / Omer R. Met",
+    "year": 1988,
+    "issue": "Jan 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "strategy"
+    ],
+    "subject": "utility / strategy",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "YES.NO / Hanoi.Tower, Mastermind",
+    "raw_text": "Hanoi.Tower, Mastermind"
+  },
+  {
+    "program_name": "ALPHASORT",
+    "author": "David Selick / Matthew Amst",
+    "year": 1988,
+    "issue": "Jul 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "ALPHASORT / BARS / LENGTH.MAKER / LOSER.TUNE",
+    "raw_text": "ALPHASORT"
+  },
+  {
+    "program_name": "BARS",
+    "author": "David Selick / Matthew Amst",
+    "year": 1988,
+    "issue": "Jul 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "ALPHASORT / BARS / LENGTH.MAKER / LOSER.TUNE",
+    "raw_text": "BARS"
+  },
+  {
+    "program_name": "LENGTH.MAKER",
+    "author": "David Selick / Matthew Amst",
+    "year": 1988,
+    "issue": "Jul 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "ALPHASORT / BARS / LENGTH.MAKER / LOSER.TUNE",
+    "raw_text": "LENGTH.MAKER"
+  },
+  {
+    "program_name": "LOSER.TUNE",
+    "author": "David Selick / Matthew Amst",
+    "year": 1988,
+    "issue": "Jul 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "ALPHASORT / BARS / LENGTH.MAKER / LOSER.TUNE",
+    "raw_text": "LOSER.TUNE"
+  },
+  {
+    "program_name": "TEXT.LIFE",
+    "author": "Keith Ford / Joel Buursma /",
+    "year": 1988,
+    "issue": "Jun 1988",
+    "description": "",
+    "categories": [
+      "simulation",
+      "utility"
+    ],
+    "subject": "simulation / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "TEXT.LIFE / JOY.CENTER / GET.PLUS",
+    "raw_text": "TEXT.LIFE"
+  },
+  {
+    "program_name": "JOY.CENTER",
+    "author": "Keith Ford / Joel Buursma /",
+    "year": 1988,
+    "issue": "Jun 1988",
+    "description": "",
+    "categories": [
+      "simulation",
+      "utility"
+    ],
+    "subject": "simulation / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "TEXT.LIFE / JOY.CENTER / GET.PLUS",
+    "raw_text": "JOY.CENTER"
+  },
+  {
+    "program_name": "GET.PLUS",
+    "author": "Keith Ford / Joel Buursma /",
+    "year": 1988,
+    "issue": "Jun 1988",
+    "description": "",
+    "categories": [
+      "simulation",
+      "utility"
+    ],
+    "subject": "simulation / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "TEXT.LIFE / JOY.CENTER / GET.PLUS",
+    "raw_text": "GET.PLUS"
+  },
+  {
+    "program_name": "Puzzle",
+    "author": "Mark Moe / Paul Meyers / Da",
+    "year": 1988,
+    "issue": "Mar 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Puzzle / Quick.Key / Tab.Converter",
+    "raw_text": "Puzzle"
+  },
+  {
+    "program_name": "Quick.Key",
+    "author": "Mark Moe / Paul Meyers / Da",
+    "year": 1988,
+    "issue": "Mar 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Puzzle / Quick.Key / Tab.Converter",
+    "raw_text": "Quick.Key"
+  },
+  {
+    "program_name": "Tab.Converter",
+    "author": "Mark Moe / Paul Meyers / Da",
+    "year": 1988,
+    "issue": "Mar 1988",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One-Liner and Two-Liner Winners",
+    "batch_title": "Puzzle / Quick.Key / Tab.Converter",
+    "raw_text": "Tab.Converter"
+  },
+  {
+    "program_name": "Floating Point FORMAT",
+    "author": "J.H. Barnhart / Riaz Seedat",
+    "year": 1988,
+    "issue": "May 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- and Two-Liners",
+    "batch_title": "Floating Point FORMAT / ROMAN Numeral CONVERT / PRINT SHOP INVERT",
+    "raw_text": "Floating Point FORMAT"
+  },
+  {
+    "program_name": "ROMAN Numeral CONVERT",
+    "author": "J.H. Barnhart / Riaz Seedat",
+    "year": 1988,
+    "issue": "May 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- and Two-Liners",
+    "batch_title": "Floating Point FORMAT / ROMAN Numeral CONVERT / PRINT SHOP INVERT",
+    "raw_text": "ROMAN Numeral CONVERT"
+  },
+  {
+    "program_name": "PRINT SHOP INVERT",
+    "author": "J.H. Barnhart / Riaz Seedat",
+    "year": 1988,
+    "issue": "May 1988",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- and Two-Liners",
+    "batch_title": "Floating Point FORMAT / ROMAN Numeral CONVERT / PRINT SHOP INVERT",
+    "raw_text": "PRINT SHOP INVERT"
+  },
+  {
+    "program_name": "Convert Lo-Res Screen to Hi-Res",
+    "author": "Benjamin Ng / Michael Paris",
+    "year": 1988,
+    "issue": "Oct 1988",
+    "description": "extend file limit in",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "Convert Lo-Res Screen to Hi-Res / lower-case dos",
+    "raw_text": "Convert Lo-Res Screen to Hi-Res"
+  },
+  {
+    "program_name": "lower-case dos",
+    "author": "Benjamin Ng / Michael Paris",
+    "year": 1988,
+    "issue": "Oct 1988",
+    "description": "RAM",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "Convert Lo-Res Screen to Hi-Res / lower-case dos",
+    "raw_text": "lower-case dos"
+  },
+  {
+    "program_name": "Mini Breakout!",
+    "author": "Sean Marhken / Kevin Polonu",
+    "year": 1988,
+    "issue": "Sep 1988",
+    "description": "",
+    "categories": [
+      "arcade",
+      "graphics"
+    ],
+    "subject": "arcade / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Mini Breakout! / Maze / Roter (Rotate Hi-Res Image)",
+    "raw_text": "Mini Breakout!"
+  },
+  {
+    "program_name": "Maze",
+    "author": "Sean Marhken / Kevin Polonu",
+    "year": 1988,
+    "issue": "Sep 1988",
+    "description": "",
+    "categories": [
+      "arcade",
+      "graphics"
+    ],
+    "subject": "arcade / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Mini Breakout! / Maze / Roter (Rotate Hi-Res Image)",
+    "raw_text": "Maze"
+  },
+  {
+    "program_name": "Roter (Rotate Hi-Res Image)",
+    "author": "Sean Marhken / Kevin Polonu",
+    "year": 1988,
+    "issue": "Sep 1988",
+    "description": "",
+    "categories": [
+      "arcade",
+      "graphics"
+    ],
+    "subject": "arcade / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Mini Breakout! / Maze / Roter (Rotate Hi-Res Image)",
+    "raw_text": "Roter (Rotate Hi-Res Image)"
+  },
+  {
+    "program_name": "ProDOS.PRINT (deactivates 80-column card)",
+    "author": "Jerry Wickwire / Riaz Seeda",
+    "year": 1989,
+    "issue": "Apr 1989",
+    "description": "Shape.Select (select shapes from existing shape tables) Nibble Opinion (shameless self-aggrandizing) - Page 111 -",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "ProDOS.PRINT (deactivates 80-column card)",
+    "raw_text": "ProDOS.PRINT (deactivates 80-column card)"
+  },
+  {
+    "program_name": "AWP.READER",
+    "author": "Robert Adams / Bill Thompso",
+    "year": 1989,
+    "issue": "Aug 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "AWP.READER / COOL.OFF / CAT.DATER",
+    "raw_text": "AWP.READER"
+  },
+  {
+    "program_name": "COOL.OFF",
+    "author": "Robert Adams / Bill Thompso",
+    "year": 1989,
+    "issue": "Aug 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "AWP.READER / COOL.OFF / CAT.DATER",
+    "raw_text": "COOL.OFF"
+  },
+  {
+    "program_name": "CAT.DATER",
+    "author": "Robert Adams / Bill Thompso",
+    "year": 1989,
+    "issue": "Aug 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "novelty"
+    ],
+    "subject": "utility / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "AWP.READER / COOL.OFF / CAT.DATER",
+    "raw_text": "CAT.DATER"
+  },
+  {
+    "program_name": "Nibble.Express",
+    "author": "Chris Tenden / Bill Thompso",
+    "year": 1989,
+    "issue": "Dec 1989",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Nibble.Express / Nibble.Apples / Basket",
+    "raw_text": "Nibble.Express"
+  },
+  {
+    "program_name": "Nibble.Apples",
+    "author": "Chris Tenden / Bill Thompso",
+    "year": 1989,
+    "issue": "Dec 1989",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Nibble.Express / Nibble.Apples / Basket",
+    "raw_text": "Nibble.Apples"
+  },
+  {
+    "program_name": "Basket",
+    "author": "Chris Tenden / Bill Thompso",
+    "year": 1989,
+    "issue": "Dec 1989",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Nibble.Express / Nibble.Apples / Basket",
+    "raw_text": "Basket"
+  },
+  {
+    "program_name": "Three D Chart",
+    "author": "Juan Murillo Tamayo / Lorin",
+    "year": 1989,
+    "issue": "Feb 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Three D Chart / UnJumbler / Calendar",
+    "raw_text": "Three D Chart"
+  },
+  {
+    "program_name": "UnJumbler",
+    "author": "Juan Murillo Tamayo / Lorin",
+    "year": 1989,
+    "issue": "Feb 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Three D Chart / UnJumbler / Calendar",
+    "raw_text": "UnJumbler"
+  },
+  {
+    "program_name": "Calendar",
+    "author": "Juan Murillo Tamayo / Lorin",
+    "year": 1989,
+    "issue": "Feb 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Three D Chart / UnJumbler / Calendar",
+    "raw_text": "Calendar"
+  },
+  {
+    "program_name": "BIG.APPLE",
+    "author": "Bill Currie / Kenneth Russe",
+    "year": 1989,
+    "issue": "Jan 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "utility"
+    ],
+    "subject": "graphics / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "BIG.APPLE / WIPE / Diffraction",
+    "raw_text": "BIG.APPLE"
+  },
+  {
+    "program_name": "WIPE",
+    "author": "Bill Currie / Kenneth Russe",
+    "year": 1989,
+    "issue": "Jan 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "utility"
+    ],
+    "subject": "graphics / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "BIG.APPLE / WIPE / Diffraction",
+    "raw_text": "WIPE"
+  },
+  {
+    "program_name": "Diffraction",
+    "author": "Bill Currie / Kenneth Russe",
+    "year": 1989,
+    "issue": "Jan 1989",
+    "description": "",
+    "categories": [
+      "graphics",
+      "utility"
+    ],
+    "subject": "graphics / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "BIG.APPLE / WIPE / Diffraction",
+    "raw_text": "Diffraction"
+  },
+  {
+    "program_name": "Explorer (arcade game)",
+    "author": "Henrique Avila Vianna / Dav",
+    "year": 1989,
+    "issue": "Jul 1989",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "Explorer (arcade game) / Print Shop Graphics Viewer / Micro.TV",
+    "raw_text": "Explorer (arcade game)"
+  },
+  {
+    "program_name": "Print Shop Graphics Viewer",
+    "author": "Henrique Avila Vianna / Dav",
+    "year": 1989,
+    "issue": "Jul 1989",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "Explorer (arcade game) / Print Shop Graphics Viewer / Micro.TV",
+    "raw_text": "Print Shop Graphics Viewer"
+  },
+  {
+    "program_name": "Micro.TV",
+    "author": "Henrique Avila Vianna / Dav",
+    "year": 1989,
+    "issue": "Jul 1989",
+    "description": "",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "Explorer (arcade game) / Print Shop Graphics Viewer / Micro.TV",
+    "raw_text": "Micro.TV"
+  },
+  {
+    "program_name": "Combinations",
+    "author": "Bernard Hayes / Dave Wisti",
+    "year": 1989,
+    "issue": "Jun 1989",
+    "description": "",
+    "categories": [
+      "statistics",
+      "utility",
+      "science"
+    ],
+    "subject": "statistics / utility / science",
+    "column": "One- And Two-Liners",
+    "batch_title": "Combinations / SCREEN.CLEAR / Chaos",
+    "raw_text": "Combinations"
+  },
+  {
+    "program_name": "SCREEN.CLEAR",
+    "author": "Bernard Hayes / Dave Wisti",
+    "year": 1989,
+    "issue": "Jun 1989",
+    "description": "",
+    "categories": [
+      "statistics",
+      "utility",
+      "science"
+    ],
+    "subject": "statistics / utility / science",
+    "column": "One- And Two-Liners",
+    "batch_title": "Combinations / SCREEN.CLEAR / Chaos",
+    "raw_text": "SCREEN.CLEAR"
+  },
+  {
+    "program_name": "Chaos",
+    "author": "Bernard Hayes / Dave Wisti",
+    "year": 1989,
+    "issue": "Jun 1989",
+    "description": "",
+    "categories": [
+      "statistics",
+      "utility",
+      "science"
+    ],
+    "subject": "statistics / utility / science",
+    "column": "One- And Two-Liners",
+    "batch_title": "Combinations / SCREEN.CLEAR / Chaos",
+    "raw_text": "Chaos"
+  },
+  {
+    "program_name": "DOSCAT (read DOS 3.3 directory)",
+    "author": "Dr. Gregory G. Weltin / Eri",
+    "year": 1989,
+    "issue": "Mar 1989",
+    "description": "MAKE.A.MAP (prints grids for adventure maps)",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "DOSCAT (read DOS 3.3 directory) / PROCOM (file utility)",
+    "raw_text": "DOSCAT (read DOS 3.3 directory)"
+  },
+  {
+    "program_name": "PROCOM (file utility)",
+    "author": "Dr. Gregory G. Weltin / Eri",
+    "year": 1989,
+    "issue": "Mar 1989",
+    "description": "MAKE.A.MAP (prints grids for adventure maps)",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "DOSCAT (read DOS 3.3 directory) / PROCOM (file utility)",
+    "raw_text": "PROCOM (file utility)"
+  },
+  {
+    "program_name": "ROUNDIT (round to two decimals)",
+    "author": "David Selick / Brian D. Wel",
+    "year": 1989,
+    "issue": "May 1989",
+    "description": "Lo-Res Designs",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "ROUNDIT (round to two decimals) / SUPERGET (convert lower to upper-",
+    "raw_text": "ROUNDIT (round to two decimals)"
+  },
+  {
+    "program_name": "SUPERGET (convert lower to upper-",
+    "author": "David Selick / Brian D. Wel",
+    "year": 1989,
+    "issue": "May 1989",
+    "description": "Lo-Res Designs",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "ROUNDIT (round to two decimals) / SUPERGET (convert lower to upper-",
+    "raw_text": "SUPERGET (convert lower to upper-"
+  },
+  {
+    "program_name": "Robot Catch",
+    "author": "David Roberts / Lans Carste",
+    "year": 1989,
+    "issue": "Nov 1989",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "Robot Catch / Channels / Inertia",
+    "raw_text": "Robot Catch"
+  },
+  {
+    "program_name": "Channels",
+    "author": "David Roberts / Lans Carste",
+    "year": 1989,
+    "issue": "Nov 1989",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "Robot Catch / Channels / Inertia",
+    "raw_text": "Channels"
+  },
+  {
+    "program_name": "Inertia",
+    "author": "David Roberts / Lans Carste",
+    "year": 1989,
+    "issue": "Nov 1989",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "Robot Catch / Channels / Inertia",
+    "raw_text": "Inertia"
+  },
+  {
+    "program_name": "GET.PLUS",
+    "author": "Tony Pizza / Andy Haas / Je",
+    "year": 1989,
+    "issue": "Oct 1989",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "GET.PLUS / TYPE.AHEAD buffer / QUICK.CAT",
+    "raw_text": "GET.PLUS"
+  },
+  {
+    "program_name": "TYPE.AHEAD buffer",
+    "author": "Tony Pizza / Andy Haas / Je",
+    "year": 1989,
+    "issue": "Oct 1989",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "GET.PLUS / TYPE.AHEAD buffer / QUICK.CAT",
+    "raw_text": "TYPE.AHEAD buffer"
+  },
+  {
+    "program_name": "QUICK.CAT",
+    "author": "Tony Pizza / Andy Haas / Je",
+    "year": 1989,
+    "issue": "Oct 1989",
+    "description": "",
+    "categories": [
+      "utility"
+    ],
+    "subject": "utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "GET.PLUS / TYPE.AHEAD buffer / QUICK.CAT",
+    "raw_text": "QUICK.CAT"
+  },
+  {
+    "program_name": "Insertion Sort",
+    "author": "Juan Manuel Gonzalez Nava /",
+    "year": 1989,
+    "issue": "Sep 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Insertion Sort / Jewel / Return.Address",
+    "raw_text": "Insertion Sort"
+  },
+  {
+    "program_name": "Jewel",
+    "author": "Juan Manuel Gonzalez Nava /",
+    "year": 1989,
+    "issue": "Sep 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Insertion Sort / Jewel / Return.Address",
+    "raw_text": "Jewel"
+  },
+  {
+    "program_name": "Return.Address",
+    "author": "Juan Manuel Gonzalez Nava /",
+    "year": 1989,
+    "issue": "Sep 1989",
+    "description": "",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Insertion Sort / Jewel / Return.Address",
+    "raw_text": "Return.Address"
+  },
+  {
+    "program_name": "UC.ALL and UC.LEAD",
+    "author": "Brian Mattick / Prem A. Nan",
+    "year": 1990,
+    "issue": "Apr 1990",
+    "description": "accept keyboard input and convert to upper case",
+    "categories": [
+      "utility",
+      "graphics",
+      "finance"
+    ],
+    "subject": "utility / graphics / finance",
+    "column": "One- And Two-Liners",
+    "batch_title": "UC.ALL and UC.LEAD / DRIFT / INTEREST",
+    "raw_text": "UC.ALL and UC.LEAD"
+  },
+  {
+    "program_name": "DRIFT",
+    "author": "Brian Mattick / Prem A. Nan",
+    "year": 1990,
+    "issue": "Apr 1990",
+    "description": "accept keyboard input and convert to upper case",
+    "categories": [
+      "utility",
+      "graphics",
+      "finance"
+    ],
+    "subject": "utility / graphics / finance",
+    "column": "One- And Two-Liners",
+    "batch_title": "UC.ALL and UC.LEAD / DRIFT / INTEREST",
+    "raw_text": "DRIFT"
+  },
+  {
+    "program_name": "INTEREST",
+    "author": "Brian Mattick / Prem A. Nan",
+    "year": 1990,
+    "issue": "Apr 1990",
+    "description": "accept keyboard input and convert to upper case",
+    "categories": [
+      "utility",
+      "graphics",
+      "finance"
+    ],
+    "subject": "utility / graphics / finance",
+    "column": "One- And Two-Liners",
+    "batch_title": "UC.ALL and UC.LEAD / DRIFT / INTEREST",
+    "raw_text": "INTEREST"
+  },
+  {
+    "program_name": "Apple Sign",
+    "author": "Henrique Avila Vianna / Ger",
+    "year": 1990,
+    "issue": "Aug 1990",
+    "description": "",
+    "categories": [
+      "novelty",
+      "technique"
+    ],
+    "subject": "novelty / technique",
+    "column": "One- And Two-Liners",
+    "batch_title": "Apple Sign / Snowflakes / Day of Week",
+    "raw_text": "Apple Sign"
+  },
+  {
+    "program_name": "Snowflakes",
+    "author": "Henrique Avila Vianna / Ger",
+    "year": 1990,
+    "issue": "Aug 1990",
+    "description": "",
+    "categories": [
+      "novelty",
+      "technique"
+    ],
+    "subject": "novelty / technique",
+    "column": "One- And Two-Liners",
+    "batch_title": "Apple Sign / Snowflakes / Day of Week",
+    "raw_text": "Snowflakes"
+  },
+  {
+    "program_name": "Day of Week",
+    "author": "Henrique Avila Vianna / Ger",
+    "year": 1990,
+    "issue": "Aug 1990",
+    "description": "",
+    "categories": [
+      "novelty",
+      "technique"
+    ],
+    "subject": "novelty / technique",
+    "column": "One- And Two-Liners",
+    "batch_title": "Apple Sign / Snowflakes / Day of Week",
+    "raw_text": "Day of Week"
+  },
+  {
+    "program_name": "ROTATE.CUBE",
+    "author": "David R. McGinley / Curt Es",
+    "year": 1990,
+    "issue": "Dec 1990",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility",
+      "strategy"
+    ],
+    "subject": "demo / utility / strategy",
+    "column": "One- And Two-Liners",
+    "batch_title": "ROTATE.CUBE / LIGHTBAR / SURROUND",
+    "raw_text": "ROTATE.CUBE"
+  },
+  {
+    "program_name": "LIGHTBAR",
+    "author": "David R. McGinley / Curt Es",
+    "year": 1990,
+    "issue": "Dec 1990",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility",
+      "strategy"
+    ],
+    "subject": "demo / utility / strategy",
+    "column": "One- And Two-Liners",
+    "batch_title": "ROTATE.CUBE / LIGHTBAR / SURROUND",
+    "raw_text": "LIGHTBAR"
+  },
+  {
+    "program_name": "SURROUND",
+    "author": "David R. McGinley / Curt Es",
+    "year": 1990,
+    "issue": "Dec 1990",
+    "description": "",
+    "categories": [
+      "demo",
+      "utility",
+      "strategy"
+    ],
+    "subject": "demo / utility / strategy",
+    "column": "One- And Two-Liners",
+    "batch_title": "ROTATE.CUBE / LIGHTBAR / SURROUND",
+    "raw_text": "SURROUND"
+  },
+  {
+    "program_name": "PYRAMID",
+    "author": "Bill Currie / Antonio Napol",
+    "year": 1990,
+    "issue": "Feb 1990",
+    "description": "watch slaves create the Great Pyramid",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "PYRAMID / NEGASCREEN / MENU.MAKER",
+    "raw_text": "PYRAMID"
+  },
+  {
+    "program_name": "NEGASCREEN",
+    "author": "Bill Currie / Antonio Napol",
+    "year": 1990,
+    "issue": "Feb 1990",
+    "description": "watch slaves create the Great Pyramid",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "PYRAMID / NEGASCREEN / MENU.MAKER",
+    "raw_text": "NEGASCREEN"
+  },
+  {
+    "program_name": "MENU.MAKER",
+    "author": "Bill Currie / Antonio Napol",
+    "year": 1990,
+    "issue": "Feb 1990",
+    "description": "watch slaves create the Great Pyramid",
+    "categories": [
+      "novelty",
+      "utility"
+    ],
+    "subject": "novelty / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "PYRAMID / NEGASCREEN / MENU.MAKER",
+    "raw_text": "MENU.MAKER"
+  },
+  {
+    "program_name": "Underscore cursor",
+    "author": "Francoise Blais / David Ran",
+    "year": 1990,
+    "issue": "Jan 1990",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Underscore cursor / Apple II rallying cry / equation solver",
+    "raw_text": "Underscore cursor"
+  },
+  {
+    "program_name": "Apple II rallying cry",
+    "author": "Francoise Blais / David Ran",
+    "year": 1990,
+    "issue": "Jan 1990",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Underscore cursor / Apple II rallying cry / equation solver",
+    "raw_text": "Apple II rallying cry"
+  },
+  {
+    "program_name": "equation solver",
+    "author": "Francoise Blais / David Ran",
+    "year": 1990,
+    "issue": "Jan 1990",
+    "description": "",
+    "categories": [
+      "novelty"
+    ],
+    "subject": "novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "Underscore cursor / Apple II rallying cry / equation solver",
+    "raw_text": "equation solver"
+  },
+  {
+    "program_name": "HR.Merge",
+    "author": "Bernie Purcell / Frank McCo",
+    "year": 1990,
+    "issue": "Jul 1990",
+    "description": "merge two hi-res screens into a Double Hi-Res screen",
+    "categories": [
+      "utility",
+      "arcade",
+      "demo (baseball)"
+    ],
+    "subject": "utility / arcade / demo (baseball)",
+    "column": "One- And Two-Liners",
+    "batch_title": "HR.Merge / RUN / STRIKE",
+    "raw_text": "HR.Merge"
+  },
+  {
+    "program_name": "RUN",
+    "author": "Bernie Purcell / Frank McCo",
+    "year": 1990,
+    "issue": "Jul 1990",
+    "description": "merge two hi-res screens into a Double Hi-Res screen",
+    "categories": [
+      "utility",
+      "arcade",
+      "demo (baseball)"
+    ],
+    "subject": "utility / arcade / demo (baseball)",
+    "column": "One- And Two-Liners",
+    "batch_title": "HR.Merge / RUN / STRIKE",
+    "raw_text": "RUN"
+  },
+  {
+    "program_name": "STRIKE",
+    "author": "Bernie Purcell / Frank McCo",
+    "year": 1990,
+    "issue": "Jul 1990",
+    "description": "merge two hi-res screens into a Double Hi-Res screen",
+    "categories": [
+      "utility",
+      "arcade",
+      "demo (baseball)"
+    ],
+    "subject": "utility / arcade / demo (baseball)",
+    "column": "One- And Two-Liners",
+    "batch_title": "HR.Merge / RUN / STRIKE",
+    "raw_text": "STRIKE"
+  },
+  {
+    "program_name": "SCRN.80",
+    "author": "Brian Wells / Desmond Daign",
+    "year": 1990,
+    "issue": "Mar 1990",
+    "description": "double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
+    "categories": [
+      "utility",
+      "science",
+      "utility"
+    ],
+    "subject": "utility / science / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "SCRN.80 / SPACE.WEIGHTS / FRAMER",
+    "raw_text": "SCRN.80"
+  },
+  {
+    "program_name": "SPACE.WEIGHTS",
+    "author": "Brian Wells / Desmond Daign",
+    "year": 1990,
+    "issue": "Mar 1990",
+    "description": "double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
+    "categories": [
+      "utility",
+      "science",
+      "utility"
+    ],
+    "subject": "utility / science / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "SCRN.80 / SPACE.WEIGHTS / FRAMER",
+    "raw_text": "SPACE.WEIGHTS"
+  },
+  {
+    "program_name": "FRAMER",
+    "author": "Brian Wells / Desmond Daign",
+    "year": 1990,
+    "issue": "Mar 1990",
+    "description": "double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
+    "categories": [
+      "utility",
+      "science",
+      "utility"
+    ],
+    "subject": "utility / science / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "SCRN.80 / SPACE.WEIGHTS / FRAMER",
+    "raw_text": "FRAMER"
+  },
+  {
+    "program_name": "APPLE.OUT",
+    "author": "Rick C. Petty / Jerry Wickw",
+    "year": 1990,
+    "issue": "May 1990",
+    "description": "direct output to the print with the OA-key find free space on disk",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "APPLE.OUT / BLOCKS.FREE / MINDS.EYE",
+    "raw_text": "APPLE.OUT"
+  },
+  {
+    "program_name": "BLOCKS.FREE",
+    "author": "Rick C. Petty / Jerry Wickw",
+    "year": 1990,
+    "issue": "May 1990",
+    "description": "direct output to the print with the OA-key find free space on disk",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "APPLE.OUT / BLOCKS.FREE / MINDS.EYE",
+    "raw_text": "BLOCKS.FREE"
+  },
+  {
+    "program_name": "MINDS.EYE",
+    "author": "Rick C. Petty / Jerry Wickw",
+    "year": 1990,
+    "issue": "May 1990",
+    "description": "direct output to the print with the OA-key find free space on disk",
+    "categories": [
+      "utility",
+      "graphics"
+    ],
+    "subject": "utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "APPLE.OUT / BLOCKS.FREE / MINDS.EYE",
+    "raw_text": "MINDS.EYE"
+  },
+  {
+    "program_name": "BASIC.FIX.IT",
+    "author": "Tim Moore / Gareth S.L. Jon",
+    "year": 1990,
+    "issue": "Nov 1990",
+    "description": "resurrect Applesoft program",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "BASIC.FIX.IT / BASIC.COPY / PLOADER, EFFECT.MAKER",
+    "raw_text": "BASIC.FIX.IT"
+  },
+  {
+    "program_name": "BASIC.COPY",
+    "author": "Tim Moore / Gareth S.L. Jon",
+    "year": 1990,
+    "issue": "Nov 1990",
+    "description": "copy disks",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "BASIC.FIX.IT / BASIC.COPY / PLOADER, EFFECT.MAKER",
+    "raw_text": "BASIC.COPY"
+  },
+  {
+    "program_name": "PLOADER, EFFECT.MAKER",
+    "author": "Tim Moore / Gareth S.L. Jon",
+    "year": 1990,
+    "issue": "Nov 1990",
+    "description": "view SHR graphics, shimmering SHR screen",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "BASIC.FIX.IT / BASIC.COPY / PLOADER, EFFECT.MAKER",
+    "raw_text": "PLOADER, EFFECT.MAKER"
+  },
+  {
+    "program_name": "Boot Slot",
+    "author": "David Becker / Jim Royal /",
+    "year": 1990,
+    "issue": "Oct 1990",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "Boot Slot / Vejur / Minipaint",
+    "raw_text": "Boot Slot"
+  },
+  {
+    "program_name": "Vejur",
+    "author": "David Becker / Jim Royal /",
+    "year": 1990,
+    "issue": "Oct 1990",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "Boot Slot / Vejur / Minipaint",
+    "raw_text": "Vejur"
+  },
+  {
+    "program_name": "Minipaint",
+    "author": "David Becker / Jim Royal /",
+    "year": 1990,
+    "issue": "Oct 1990",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "Boot Slot / Vejur / Minipaint",
+    "raw_text": "Minipaint"
+  },
+  {
+    "program_name": "MELBOURNE.OZ",
+    "author": "Bill Currie / Santiago Ferr",
+    "year": 1990,
+    "issue": "Sep 1990",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "MELBOURNE.OZ / Nose Cone / BLOX",
+    "raw_text": "MELBOURNE.OZ"
+  },
+  {
+    "program_name": "Nose Cone",
+    "author": "Bill Currie / Santiago Ferr",
+    "year": 1990,
+    "issue": "Sep 1990",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "MELBOURNE.OZ / Nose Cone / BLOX",
+    "raw_text": "Nose Cone"
+  },
+  {
+    "program_name": "BLOX",
+    "author": "Bill Currie / Santiago Ferr",
+    "year": 1990,
+    "issue": "Sep 1990",
+    "description": "",
+    "categories": [
+      "graphics",
+      "novelty"
+    ],
+    "subject": "graphics / novelty",
+    "column": "One- And Two-Liners",
+    "batch_title": "MELBOURNE.OZ / Nose Cone / BLOX",
+    "raw_text": "BLOX"
+  },
+  {
+    "program_name": "FISHRAMA",
+    "author": "Prem A. Nandwani / Bill Tho",
+    "year": 1991,
+    "issue": "Apr 1991",
+    "description": "colored fish",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "FISHRAMA / STORM.WINDOW / WIPEOUT and SLIDEOUT",
+    "raw_text": "FISHRAMA"
+  },
+  {
+    "program_name": "STORM.WINDOW",
+    "author": "Prem A. Nandwani / Bill Tho",
+    "year": 1991,
+    "issue": "Apr 1991",
+    "description": "looking at a stormy beach",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "FISHRAMA / STORM.WINDOW / WIPEOUT and SLIDEOUT",
+    "raw_text": "STORM.WINDOW"
+  },
+  {
+    "program_name": "WIPEOUT and SLIDEOUT",
+    "author": "Prem A. Nandwani / Bill Tho",
+    "year": 1991,
+    "issue": "Apr 1991",
+    "description": "clearing the text screen - Page 144 -",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "FISHRAMA / STORM.WINDOW / WIPEOUT and SLIDEOUT",
+    "raw_text": "WIPEOUT and SLIDEOUT"
+  },
+  {
+    "program_name": "ADDRESSER",
+    "author": "John J. Gagne / Nathan Lang",
+    "year": 1991,
+    "issue": "Aug 1991",
+    "description": "printer return address labels custom text screen borders a tribute to the Patriot missle system",
+    "categories": [
+      "home",
+      "utility",
+      "demo"
+    ],
+    "subject": "home / utility / demo",
+    "column": "One- and -Two Liners",
+    "batch_title": "ADDRESSER / BORDERS / SAUDI NIGHTS",
+    "raw_text": "ADDRESSER"
+  },
+  {
+    "program_name": "BORDERS",
+    "author": "John J. Gagne / Nathan Lang",
+    "year": 1991,
+    "issue": "Aug 1991",
+    "description": "printer return address labels custom text screen borders a tribute to the Patriot missle system",
+    "categories": [
+      "home",
+      "utility",
+      "demo"
+    ],
+    "subject": "home / utility / demo",
+    "column": "One- and -Two Liners",
+    "batch_title": "ADDRESSER / BORDERS / SAUDI NIGHTS",
+    "raw_text": "BORDERS"
+  },
+  {
+    "program_name": "SAUDI NIGHTS",
+    "author": "John J. Gagne / Nathan Lang",
+    "year": 1991,
+    "issue": "Aug 1991",
+    "description": "printer return address labels custom text screen borders a tribute to the Patriot missle system",
+    "categories": [
+      "home",
+      "utility",
+      "demo"
+    ],
+    "subject": "home / utility / demo",
+    "column": "One- and -Two Liners",
+    "batch_title": "ADDRESSER / BORDERS / SAUDI NIGHTS",
+    "raw_text": "SAUDI NIGHTS"
+  },
+  {
+    "program_name": "DETECTOR",
+    "author": "Sean Zabriskie / Brent Host",
+    "year": 1991,
+    "issue": "Dec 1991",
+    "description": "performs a check on an Apple IIGS to see if a TransWarp GS is installed",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "DETECTOR / FLASHER",
+    "raw_text": "DETECTOR"
+  },
+  {
+    "program_name": "FLASHER",
+    "author": "Sean Zabriskie / Brent Host",
+    "year": 1991,
+    "issue": "Dec 1991",
+    "description": "causes any GS to have \"color convulsions\"",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "DETECTOR / FLASHER",
+    "raw_text": "FLASHER"
+  },
+  {
+    "program_name": "Statement of Ownership, Management, and Circulation",
+    "author": "",
+    "year": 1991,
+    "issue": "Dec 1991",
+    "description": "a non-GS version of TEASER routine to accept 40 column text",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "Statement of Ownership, Management, and Circulation",
+    "raw_text": "Statement of Ownership, Management, and Circulation"
+  },
+  {
+    "program_name": "BRICKO",
+    "author": "Bill Currie / Ricardo Andre",
+    "year": 1991,
+    "issue": "Feb 1991",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "BRICKO / DUEL / PARADE",
+    "raw_text": "BRICKO"
+  },
+  {
+    "program_name": "DUEL",
+    "author": "Bill Currie / Ricardo Andre",
+    "year": 1991,
+    "issue": "Feb 1991",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "BRICKO / DUEL / PARADE",
+    "raw_text": "DUEL"
+  },
+  {
+    "program_name": "PARADE",
+    "author": "Bill Currie / Ricardo Andre",
+    "year": 1991,
+    "issue": "Feb 1991",
+    "description": "",
+    "categories": [
+      "demo",
+      "arcade"
+    ],
+    "subject": "demo / arcade",
+    "column": "One- And Two-Liners",
+    "batch_title": "BRICKO / DUEL / PARADE",
+    "raw_text": "PARADE"
+  },
+  {
+    "program_name": "Screen Shakes",
+    "author": "S.C. Woon / Adam Dean / Dan",
+    "year": 1991,
+    "issue": "Jan 1991",
+    "description": "letters tumble down send text screen to printer generates shrunken hi-res version of a lo-res drawing",
+    "categories": [
+      "novelty",
+      "utility",
+      "graphics"
+    ],
+    "subject": "novelty / utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Screen Shakes / 40-column screen print / Shrinker",
+    "raw_text": "Screen Shakes"
+  },
+  {
+    "program_name": "40-column screen print",
+    "author": "S.C. Woon / Adam Dean / Dan",
+    "year": 1991,
+    "issue": "Jan 1991",
+    "description": "letters tumble down send text screen to printer generates shrunken hi-res version of a lo-res drawing",
+    "categories": [
+      "novelty",
+      "utility",
+      "graphics"
+    ],
+    "subject": "novelty / utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Screen Shakes / 40-column screen print / Shrinker",
+    "raw_text": "40-column screen print"
+  },
+  {
+    "program_name": "Shrinker",
+    "author": "S.C. Woon / Adam Dean / Dan",
+    "year": 1991,
+    "issue": "Jan 1991",
+    "description": "letters tumble down send text screen to printer generates shrunken hi-res version of a lo-res drawing",
+    "categories": [
+      "novelty",
+      "utility",
+      "graphics"
+    ],
+    "subject": "novelty / utility / graphics",
+    "column": "One- And Two-Liners",
+    "batch_title": "Screen Shakes / 40-column screen print / Shrinker",
+    "raw_text": "Shrinker"
+  },
+  {
+    "program_name": "OH FUDGE!",
+    "author": "Paul Nix / Macro Tabini / C",
+    "year": 1991,
+    "issue": "Jun 1991",
+    "description": "that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
+    "categories": [
+      "game",
+      "utility"
+    ],
+    "subject": "game / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "OH FUDGE! / CONVHEX / ML.STRING",
+    "raw_text": "OH FUDGE!"
+  },
+  {
+    "program_name": "CONVHEX",
+    "author": "Paul Nix / Macro Tabini / C",
+    "year": 1991,
+    "issue": "Jun 1991",
+    "description": "that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
+    "categories": [
+      "game",
+      "utility"
+    ],
+    "subject": "game / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "OH FUDGE! / CONVHEX / ML.STRING",
+    "raw_text": "CONVHEX"
+  },
+  {
+    "program_name": "ML.STRING",
+    "author": "Paul Nix / Macro Tabini / C",
+    "year": 1991,
+    "issue": "Jun 1991",
+    "description": "that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
+    "categories": [
+      "game",
+      "utility"
+    ],
+    "subject": "game / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "OH FUDGE! / CONVHEX / ML.STRING",
+    "raw_text": "ML.STRING"
+  },
+  {
+    "program_name": "STAR TRAVEL",
+    "author": "Kenneth E. Richardson / Mar",
+    "year": 1991,
+    "issue": "Mar 1991",
+    "description": "travel through space back out of a subdirectory change background, border, and text color on GS",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "STAR TRAVEL / BACK / GS.COLOR",
+    "raw_text": "STAR TRAVEL"
+  },
+  {
+    "program_name": "BACK",
+    "author": "Kenneth E. Richardson / Mar",
+    "year": 1991,
+    "issue": "Mar 1991",
+    "description": "travel through space back out of a subdirectory change background, border, and text color on GS",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "STAR TRAVEL / BACK / GS.COLOR",
+    "raw_text": "BACK"
+  },
+  {
+    "program_name": "GS.COLOR",
+    "author": "Kenneth E. Richardson / Mar",
+    "year": 1991,
+    "issue": "Mar 1991",
+    "description": "travel through space back out of a subdirectory change background, border, and text color on GS",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "STAR TRAVEL / BACK / GS.COLOR",
+    "raw_text": "GS.COLOR"
+  },
+  {
+    "program_name": "MEM.CHECK",
+    "author": "Thomas Bradshaw / Kevin Fu",
+    "year": 1991,
+    "issue": "May 1991",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "MEM.CHECK / Lo-Res display / Encrypt / Pig Latin",
+    "raw_text": "MEM.CHECK"
+  },
+  {
+    "program_name": "Lo-Res display",
+    "author": "Thomas Bradshaw / Kevin Fu",
+    "year": 1991,
+    "issue": "May 1991",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "MEM.CHECK / Lo-Res display / Encrypt / Pig Latin",
+    "raw_text": "Lo-Res display"
+  },
+  {
+    "program_name": "Encrypt",
+    "author": "Thomas Bradshaw / Kevin Fu",
+    "year": 1991,
+    "issue": "May 1991",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "MEM.CHECK / Lo-Res display / Encrypt / Pig Latin",
+    "raw_text": "Encrypt"
+  },
+  {
+    "program_name": "Pig Latin",
+    "author": "Thomas Bradshaw / Kevin Fu",
+    "year": 1991,
+    "issue": "May 1991",
+    "description": "",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "MEM.CHECK / Lo-Res display / Encrypt / Pig Latin",
+    "raw_text": "Pig Latin"
+  },
+  {
+    "program_name": "AUX.COPY",
+    "author": "Chris J. Engebretson / Bill",
+    "year": 1991,
+    "issue": "Nov 1991",
+    "description": "machine language routine to access the auxiliary bank of memory",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "AUX.COPY / HI.WHEELER",
+    "raw_text": "AUX.COPY"
+  },
+  {
+    "program_name": "HI.WHEELER",
+    "author": "Chris J. Engebretson / Bill",
+    "year": 1991,
+    "issue": "Nov 1991",
+    "description": "depicts a man riding an old-fashioned bicycle",
+    "categories": [
+      "utility",
+      "demo"
+    ],
+    "subject": "utility / demo",
+    "column": "One- And Two-Liners",
+    "batch_title": "AUX.COPY / HI.WHEELER",
+    "raw_text": "HI.WHEELER"
+  },
+  {
+    "program_name": "Little Doggy",
+    "author": "Bill Thompson / Adam E. Dea",
+    "year": 1991,
+    "issue": "Oct 1991",
+    "description": "tail wagging antics",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- And -Two Liners",
+    "batch_title": "Little Doggy / Button.USR",
+    "raw_text": "Little Doggy"
+  },
+  {
+    "program_name": "Button.USR",
+    "author": "Bill Thompson / Adam E. Dea",
+    "year": 1991,
+    "issue": "Oct 1991",
+    "description": "add a button function to Applesoft",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- And -Two Liners",
+    "batch_title": "Little Doggy / Button.USR",
+    "raw_text": "Button.USR"
+  },
+  {
+    "program_name": "Snake",
+    "author": "Andrew Allan / Sean Zabrisk",
+    "year": 1992,
+    "issue": "Apr 1992",
+    "description": "",
+    "categories": [
+      "game",
+      "utility"
+    ],
+    "subject": "game / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "Snake / control-panel lockout",
+    "raw_text": "Snake"
+  },
+  {
+    "program_name": "control-panel lockout",
+    "author": "Andrew Allan / Sean Zabrisk",
+    "year": 1992,
+    "issue": "Apr 1992",
+    "description": "",
+    "categories": [
+      "game",
+      "utility"
+    ],
+    "subject": "game / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "Snake / control-panel lockout",
+    "raw_text": "control-panel lockout"
+  },
+  {
+    "program_name": "WHEEL",
+    "author": "Kenneth Richardson / Dan Fu",
+    "year": 1992,
+    "issue": "Feb 1992",
+    "description": "fill your screen with rotating colors convert binary numbers into decimal",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "WHEEL / BINARY.CONVERT",
+    "raw_text": "WHEEL"
+  },
+  {
+    "program_name": "BINARY.CONVERT",
+    "author": "Kenneth Richardson / Dan Fu",
+    "year": 1992,
+    "issue": "Feb 1992",
+    "description": "fill your screen with rotating colors convert binary numbers into decimal",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- And Two-Liners",
+    "batch_title": "WHEEL / BINARY.CONVERT",
+    "raw_text": "BINARY.CONVERT"
+  },
+  {
+    "program_name": "GAUNTLET",
+    "author": "Michael Brown / Derek Sloan",
+    "year": 1992,
+    "issue": "Jul 1992",
+    "description": "avoid walls and avoid on-rushing asteroids",
+    "categories": [
+      "arcade",
+      "utility",
+      "utility"
+    ],
+    "subject": "arcade / utility / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "GAUNTLET / SPRINGER / DEC2HEX",
+    "raw_text": "GAUNTLET"
+  },
+  {
+    "program_name": "SPRINGER",
+    "author": "Michael Brown / Derek Sloan",
+    "year": 1992,
+    "issue": "Jul 1992",
+    "description": "clear the 40-column screen by springing the text up and down",
+    "categories": [
+      "arcade",
+      "utility",
+      "utility"
+    ],
+    "subject": "arcade / utility / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "GAUNTLET / SPRINGER / DEC2HEX",
+    "raw_text": "SPRINGER"
+  },
+  {
+    "program_name": "DEC2HEX",
+    "author": "Michael Brown / Derek Sloan",
+    "year": 1992,
+    "issue": "Jul 1992",
+    "description": "convert decimal numbers to hexadecimal",
+    "categories": [
+      "arcade",
+      "utility",
+      "utility"
+    ],
+    "subject": "arcade / utility / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "GAUNTLET / SPRINGER / DEC2HEX",
+    "raw_text": "DEC2HEX"
+  },
+  {
+    "program_name": "DOS CATALOG",
+    "author": "Charles Booth / Brian Evans",
+    "year": 1992,
+    "issue": "Jun 1992",
+    "description": "capture filenames into an array",
+    "categories": [
+      "utility",
+      "card game"
+    ],
+    "subject": "utility / card game",
+    "column": "One- and Two-Liners",
+    "batch_title": "DOS CATALOG / Blackjack",
+    "raw_text": "DOS CATALOG"
+  },
+  {
+    "program_name": "Blackjack",
+    "author": "Charles Booth / Brian Evans",
+    "year": 1992,
+    "issue": "Jun 1992",
+    "description": "a fully functioning Blackjack game",
+    "categories": [
+      "utility",
+      "card game"
+    ],
+    "subject": "utility / card game",
+    "column": "One- and Two-Liners",
+    "batch_title": "DOS CATALOG / Blackjack",
+    "raw_text": "Blackjack"
+  },
+  {
+    "program_name": "E.T.",
+    "author": "David Roberts / Alberto Rof",
+    "year": 1992,
+    "issue": "Mar 1992",
+    "description": "out-of-this-world graphic displays",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "E.T. / INSIDE.DOS",
+    "raw_text": "E.T."
+  },
+  {
+    "program_name": "INSIDE.DOS",
+    "author": "David Roberts / Alberto Rof",
+    "year": 1992,
+    "issue": "Mar 1992",
+    "description": "display RWTS call (DOS 3.3) information",
+    "categories": [
+      "demo",
+      "utility"
+    ],
+    "subject": "demo / utility",
+    "column": "One- and Two-Liners",
+    "batch_title": "E.T. / INSIDE.DOS",
+    "raw_text": "INSIDE.DOS"
+  },
+  {
+    "program_name": "Mandelbrot set fractal",
+    "author": "John Moravec",
+    "year": 1992,
+    "issue": "May 1992",
+    "description": "plots the Mandelbrot set fractal on a 149 x 149 grid",
+    "categories": [
+      "math"
+    ],
+    "subject": "math",
+    "column": "One- and Two-Liners",
+    "batch_title": "Mandelbrot set fractal / Julia fractal",
+    "raw_text": "Mandelbrot set fractal"
+  },
+  {
+    "program_name": "Julia fractal",
+    "author": "John Moravec",
+    "year": 1992,
+    "issue": "May 1992",
+    "description": "develops fractal images based on the iteration of the X -> X^2 + C",
+    "categories": [
+      "math"
+    ],
+    "subject": "math",
+    "column": "One- and Two-Liners",
+    "batch_title": "Mandelbrot set fractal / Julia fractal",
+    "raw_text": "Julia fractal"
+  }
+]

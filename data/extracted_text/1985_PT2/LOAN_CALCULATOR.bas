@@ -1,0 +1,1 @@
+1  INPUT "?->0: PV,N,PMT,I:";P,N,M,I:X = ((N / (P + .1) * M) ^ (2 / (N + .1)) - 1) * (I = 0) + 1 + I / 100:I = X - 1:V = (1 - X ^  - N) / I + (N = 0):P = P + M * V * (P = 0):M = M + P / V * (M = 0):R = P / M:N = N - (N = 0) *  LOG(1 - I * R) /  LOG(X): FOR K = 1 TO 5:X = X - (X ^  - N - 1 + R * I) / (R - N * X ^  - (N + 1)):I = X - 1: NEXT : PRINT P,N,M,I * 100: RUN 

@@ -1,0 +1,1 @@
+1 X =  RND(1) * 40:U =  INT( RND(1) * 23): DEF  FN Y(Z) = 1024 + 40 *  INT(Z / 8) + 128 * (Z -  INT(Z / 8) * 8):I = 160:J =  PEEK( FN Y(U) + X):W =  NOT (J - I):U = U + W * (22 - U): FOR V = U TO 22:K =  PEEK( FN Y(V + 1) + X): POKE  FN Y(V + 1) + X,J: POKE  FN Y(V + W) + X,I + W * (K - I):L =  PEEK(49200):I = K: NEXT : RUN 

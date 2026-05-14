@@ -1,0 +1,2 @@
+1  PRINT "ENTER BASE,NUMBER.": PRINT "BASES ARE: BIN=% DEC=# HEX=$": INPUT B$,N$:L =  LEN(N$): PRINT : FOR R = 1 TO L:C$ =  MID$ (N$,R,1):T = T +  VAL(C$) * ((B$ = "%") * 2 + (B$ = "#") * 10 + (B$ = "$") * 16) ^ (L - R) + (C$ > "@") * ( ASC(C$) - 55) * 16 ^ (L - R): NEXT : FOR C = 1 TO 3:N$ = "": READ B,B$: PRINT B$;:Z = T: FOR R = 0 TO 1
+2 N =  INT(Z / B):L = Z - N * B:N$ =  CHR$(L + 48 + 7 * (L >  = 10)) + N$:Z = N:R = Z = 0: NEXT : PRINT N$: NEXT : PRINT : DATA   2,"BIN%= ",10,"DEC#= ",16,"HEX$= ":T = 0: RESTORE : GOTO 1

@@ -1,0 +1,1 @@
+10  TEXT : HOME : INPUT "WORD ?";W$:W =  LEN(W$): FOR Z = 1 TO 5: FOR X = 1 TO (39 - W): HTAB X: PRINT W$: NEXT :A =  PEEK( - 16336) +  PEEK( - 16336): FOR X = (38 - W) TO 2 STEP  - 1: HTAB X: PRINT W$: NEXT :A =  PEEK( - 16336) +  PEEK( - 16336): NEXT 

@@ -1,0 +1,2 @@
+1  GR : HOME : VTAB 21: PRINT " ABCDEFGHIJKLMNOPQRSTUVWXYZ": FOR Z = 1 TO 2: VTAB 21: HTAB 29: PRINT "SCORE:"S: FOR I = 1 TO 9:A = X(I):B = Y(I):T = 192 + A:K =  PEEK( - 16384): ON (B =  > 40 - N OR T = K OR A = 0) GOSUB 2:B = B + N: COLOR= 15: PLOT A,B: COLOR= 0: PLOT A,B - N:X(I) = A:Y(I) = B: NEXT :Z = 1: NEXT 
+2 N = 1: COLOR= 0: PLOT A,B:A =  INT( RND(1) * 26) + 1:C = C + (B =  > 40 - N):S = S + (T = K):B = N:H =  - 16336 * (T = K): FOR H1 = 1 TO 5:H2 =  PEEK(H): NEXT : VTAB 22: PRINT "HITS:";C: IF C < 25 THEN  RETURN 

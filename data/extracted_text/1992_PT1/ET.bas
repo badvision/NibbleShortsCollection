@@ -1,0 +1,1 @@
+1  HOME : GR : FOR J = 1 TO 10: READ R:C = 15 - 10 * (R > 3) - 9 * (R = 1): FOR I = .01 TO 6.3 STEP 500 / R * .00078:X = R *  COS(I):Y = R *  SIN(I) * 1.5: COLOR= C: PLOT 10 + X,Y + 15: PLOT 28 + X,Y + 15: COLOR= 5 * (R > 1 OR I < 3.5): PLOT 19 + X,28 + Y / 1.3: NEXT I,J: HTAB 131: PRINT "OUR FAVORITE ALIEN": DATA 10,9,8,6,5,4,3,2.1,1.5,1

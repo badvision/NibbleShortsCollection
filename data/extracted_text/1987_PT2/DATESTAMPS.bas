@@ -1,0 +1,2 @@
+10  INPUT "DAY=";D: INPUT "MONTH=";M: INPUT "YEAR=19";Y: IF Y >  - 1 AND Y < 100 AND D > 0 AND D < 32 AND M > 0 AND M < 13 THEN  PRINT "OK? ";M;"/";D;"/";Y: GET A$: IF A$ = "Y" OR A$ = "y" THEN P2 = Y * 2 + (1 * (M > 7)):P1 = (32 * (M - 8) * (M > 7)) + (32 * M * (M < 8) + D): POKE 49040,P1: POKE 49041,P2: PRINT  CHR$(4);"CAT": END 
+11  PRINT "LET'S TRY IT AGAIN. YOU TYPED SOMETHING IN WRONG.": PRINT  CHR$(7): GOTO 10

@@ -1,0 +1,3 @@
+10  PRINT  CHR$(4);"BRUN IF THEN ELSE"
+20  PRINT "IS IT OK ?";: GET A$
+30  &  IF A$ = "Y" THEN  PRINT "YES": &  PRINT "NO"

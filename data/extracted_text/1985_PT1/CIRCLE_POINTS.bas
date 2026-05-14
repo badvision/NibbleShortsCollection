@@ -1,0 +1,1 @@
+10  TEXT : HOME : INPUT "NUMBER OF POINTS:";A: HCOLOR= 3: HGR2 : FOR T1 = 0 TO (2 * 3.14) - .001 STEP (2 * 3.14) / A: FOR T2 = T1 + (2 * 3.14) / A TO (2 * 3.14) - 0.001 STEP (2 * 3.14) / A: HPLOT ( COS(T1) * 95 + 127),( SIN(T1) * 95 + 95) TO ( COS(T2) * 95 + 127),( SIN(T2) * 95 + 95): NEXT : NEXT : GET A$: RUN 

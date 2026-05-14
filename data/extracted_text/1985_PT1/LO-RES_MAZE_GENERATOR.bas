@@ -1,0 +1,1 @@
+1  GR : COLOR= 15:E = 18: DEF  FN R(N) =  INT( RND(1) * N) + 1: DIM C(E,E):C(9,9) = 1: PLOT E,E: FOR I = 1 TO 288: FOR J = 0 TO 1:X =  FN R(17):Y =  FN R(17):V =  FN R(3) - 2:W =  NOT V * (2 *  FN R(2) - 3):S = X + V:U = Y + W:J = C(X,Y) * S * U AND S < E AND U < E AND 1 - C(S,U): NEXT : PLOT X * 2 + V,Y * 2 + W:C(S,U) = 1: PLOT 2 * S,2 * U: NEXT 

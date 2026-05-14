@@ -1,0 +1,2 @@
+10 X = 20:Y = 20: FOR I = 0 TO 10: HOME : GR :A =  INT( RND(1) * 39):B =  INT( RND(1) * 39): FOR J = 1 TO 1000: FOR L = 0 TO C: NEXT L: COLOR= 0: PLOT X,Y:T = T + 1:XI = ( PDL(0) > 200) - ( PDL(0) < 75):YI = ( PDL(1) > 200) - ( PDL(1) < 75): IF (A = X) AND (Y = B) THEN  PRINT  CHR$(7):J = 1000
+20 X = X + XI - (X = 39) + ((X = 0) AND (XI < 1)):Y = Y + YI - (Y = 38) + ((Y = 0) AND (YI < 1)):C = 10 *  INT(((( ABS(A - X)) ^ 2) + (( ABS(B - Y)) ^ 2)) ^ .5): COLOR= 15: PLOT X,Y: VTAB 21: HTAB 1: PRINT "YOU FOUND ";I;"-SCORE IS ";T: NEXT J,I

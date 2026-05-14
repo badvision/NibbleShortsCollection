@@ -1,0 +1,2 @@
+10 X = 0: PRINT  CHR$(7);: INPUT "DATE (M/D/YY)--> ";I$:L =  LEN(I$): FOR N = 1 TO L:J$ =  MID$ (I$,N,1):X = X + (J$ < "/" OR J$ > "9"): NEXT :Y =  VAL( RIGHT$(I$,2)):M =  VAL( LEFT$(I$,2)):D =  VAL( MID$ (I$,3 + ( MID$ (I$,3,1) = "/"),2)):M$ = "0303232332323"
+20  ON L > 8 OR L < 6 OR X OR M * D = 0 OR M > 12 OR D >  VAL( MID$ (M$,M + 1,1)) + 28 + ( INT(Y / 4) - Y / 4 = 0 AND M = 2) GOTO 10

@@ -1,0 +1,1 @@
+1  HOME : FOR I = 1 TO 22: PRINT "!        !": NEXT : FOR I = 0 TO 9: PRINT "-";:V(I) = 2: NEXT : VTAB 1: HTAB 1: PRINT "!01234567! NIBBLE RUN": FOR I = 0 TO 1:R =  INT( RND(1) * 8): VTAB V(R): HTAB 2 + R: PRINT R:V(R) = V(R) + 1:V =  PEEK(37): VTAB V: HTAB 2 + R: PRINT " ":I = V = 22: NEXT : POKE 1873 + R,48 + R

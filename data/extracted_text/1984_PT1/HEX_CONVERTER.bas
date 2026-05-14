@@ -1,0 +1,1 @@
+1  INPUT "ENTER HEXADECIMAL NUMBER?";HN$:HN$ =  RIGHT$("0000" + HN$,4):SN = 4096: FOR I = 1 TO 4:Z =  ASC( MID$ (HN$,I,1)):N = N + SN * (Z - 48 - 7 * ((Z - 48) > 10)):SN = SN / 16: NEXT : PRINT N:N = 0: RUN 

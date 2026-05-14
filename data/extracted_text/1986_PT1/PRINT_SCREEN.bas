@@ -1,0 +1,1 @@
+33010  PRINT  CHR$(4)"PR#1": PRINT  CHR$(9)"80N": FOR I = 1024 TO 1104 STEP 40: FOR J = 0 TO 896 STEP 128: FOR K = 0 TO 39:A =  PEEK(I + J + K):A = A + (A < 32) * 192:A = A + (A < 64) * 128:A = A + (A < 96) * 64:A = A + (A < 128) * 64:A = A + (A < 160) * 64: PRINT  CHR$(A);: NEXT K: PRINT : NEXT J,I: PRINT : PRINT  CHR$(4)"PR#0"

@@ -1,0 +1,1 @@
+1  INPUT "DRAGON=";N: TEXT : IF N > 0 AND N < 8 THEN F = 128:E = 0:K = 4 ^ N: FOR X = 1 TO N:U = F:F =  - E / 2:E = U / 2: NEXT : HGR : HCOLOR= 3:X = 80:Y = 70: HPLOT X,Y: FOR M = 1 TO K:Z = M:X = X + F:Y = Y + E: HPLOT  TO X,Y: FOR A = 0 TO 1:Z = Z / 2:Q =  INT(Z):A = Z - Q: NEXT :A = (Q / 2 =  INT(Q / 2)) * 2 - 1:U = F:F = A * E:E =  - A * U: NEXT : GOTO 1

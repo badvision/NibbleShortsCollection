@@ -1,0 +1,1 @@
+10 P = 160:Q = 64: HGR : POKE  - 16302,0: HCOLOR= 3: FOR I =  - Q TO Q:L =  INT(.5 +  SQR(10000 - I * 1.56 * I * 1.56)): FOR J =  - L TO L:T =  SQR(J * J + I * 1.56 * I * 1.56) * .0171:Y = ( COS(T) + .4 *  COS(5 * T)) * 56: HPLOT J + I + P,Y - I + Q + 20: NEXT J,I

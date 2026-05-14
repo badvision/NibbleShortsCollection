@@ -1,0 +1,1 @@
+1 A =  PEEK( - 16302):A =  PEEK( - 16297):A =  PEEK( - 16300): FOR I = 1 TO 1000: TEXT :A =  PEEK( - 16304): NEXT 

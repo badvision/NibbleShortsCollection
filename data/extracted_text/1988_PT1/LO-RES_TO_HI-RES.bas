@@ -1,0 +1,1 @@
+1  HGR : POKE 34,20: HOME : VTAB 22: PRINT "This is Hi-Res version of Lo-Res Screen": FOR A = 0 TO 39: FOR B = 0 TO 39: HCOLOR=  VAL( MID$ ("0562126655221563", SCRN( B,A) + 1,1)): FOR C = 0 TO 3: HPLOT B * 7,C + A * 4 TO B * 7 + 6,C + A * 4: NEXT C,B,A

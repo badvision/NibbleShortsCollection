@@ -1,0 +1,2 @@
+1  HOME :PI = 3.1415926535989: DIM A(138),B(138),M(138,2),N(138,2):R = (2 * PI) / 138:N = R:S = 0: FOR I = 0 TO 137:A(I) =  SIN(R) * 15:B(I) = A(I) + S:S = S + 1:R = R + N: NEXT : FOR X = 142 TO 279:K = X - 142:M(K,1) = X:M(K,2) =  INT(A(K) + 27):N(K,1) = 284 - X:N(K,2) =  INT(B(K) + 27): NEXT X: HGR2 
+2  HCOLOR= 1: FOR I = 0 TO 137 STEP 5:C = N(I,1):D = N(I,2): FOR X = C TO C + 137:Y = A(X - C) + D: HPLOT X,Y: NEXT X:A = M(I,1):B = M(I,2): FOR X = A TO A - 137 STEP  - 1:Y = B(A - X) + B: HPLOT X,Y: NEXT X: NEXT I

@@ -1,0 +1,1 @@
+1  HGR :A = 49235:B = 255:C = 254:K =  INT( RND(1) * B): FOR I = 0 TO 170: POKE 228,K: HPLOT 0,I TO 279,I:K = K * 2:K = K - (K > B) * C: NEXT : GR : FOR I = 0 TO 39: FOR J = 0 TO 39: COLOR=  RND(1) * 16: PLOT I,J: NEXT J,I: FOR Z = 0 TO 999: POKE A + 3,0: POKE A + 4,0: NEXT : FOR Z = 0 TO 400: POKE A + 4, PEEK(A + 1 + 2): NEXT : RUN 

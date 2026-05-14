@@ -1,0 +1,1 @@
+8 B = 5: FOR Z = 0 TO 1: INPUT V,H,Z:A(V,H) = 3: NEXT : FOR C = 0 TO 1: HOME : FOR V = 1 TO B: FOR H = 1 TO B:A = A(V,H):C = A = 3 OR A = 13 OR A = 14:A(V,H) = C * 10: PRINT  CHR$(43 - C);: NEXT : PRINT : NEXT : FOR V = 1 TO B: FOR H = 1 TO B: FOR T = V - 1 TO V + 1: FOR L = H - 1 TO H + 1:A(T,L) = A(T,L) + (A(V,H) > 9): NEXT L,T,H,V:C = 0: NEXT C

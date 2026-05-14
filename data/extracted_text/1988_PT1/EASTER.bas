@@ -1,0 +1,2 @@
+5  HOME : DIM F(19): FOR I = 1 TO 19: READ F(I): NEXT : INPUT "YEAR ";Y:J% = (Y / 19 -  INT(Y / 19)) * 19 + 1.5:Z = (Y - 1):A = ( INT(365.25 * Z) -  INT(Z / 100) +  INT(Z / 400) + 59 + 31 * (F(J%) < 19) + F(J%) + (Y = 400 *  INT(Y / 400) OR (Y = 4 *  INT(Y / 4) AND Y <  > 100 *  INT(Y / 100)))) / 7:B% = 7 * (A -  INT(A)) + 1.5
+10  DATA   14,3,23,11,31,18,8,28,16,5,25,13,2,22,10,30,17,7,27:F$(3) = "MARCH ":F$(4) = "APRIL ":X = F(J%) + 8 - B%:E = X - 31 * (X > 31): PRINT "EASTER IS ";F$(3 + (F(J%) < 19) + (X > 31));E;" IN ";Y

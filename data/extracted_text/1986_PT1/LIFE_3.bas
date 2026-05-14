@@ -1,0 +1,2 @@
+0  FOR A = 4098 TO 4332:Q = ( PEEK(A / 3 + 795) - 32) / 4 ^ (A - 3 *  INT(A / 3)): POKE A, PEEK(A - 1852) - 32 + 64 *  INT(Q - 4 *  INT(Q / 4)): NEXT : HGR2 : POKE 49234,0: POKE 49236,0: CALL 4098: REM VVB(B(B(#"C(B(B("3P((AP(GX(,R+.*B(S,N[N(RL+SN,[R^P\OWN(,SD,Z,!#$(AH=@(C "RL82)!
+1  REM M0 M7 @ $3IF%4$5E4%"I@F3P!*%#@00$*$+$,E"% %$E#%!F380#I@LI?%%8E#I$JI<08E"I_%"*I?JI$P*E"I8%"*I#J&#B%U'5**0Y@00$X$Y$Z$[B(T'8EZ%[%[8EY%Z%Z8EX%Y%Y8%X%X*P&@$PY0;E[)_%[@ E+%ZEYE[I_1$F5I_%5P#,H0&4P#,00E3)!%3J]4 ,,0Q"%(&"Q"JJE(J%'F"(Q"(JE'JJ%)@
