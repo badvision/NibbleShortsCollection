@@ -83,8 +83,8 @@ DOCS_SUFFIXES = [
     '.INSTR', '.INST',
 ]
 
-docs_entries = [e for e in raw if e.get('primary_topic') == 'DOCS' and e.get('best', True)]
-non_docs_entries = [e for e in raw if e.get('primary_topic') != 'DOCS' and e.get('best', True)]
+docs_entries = [e for e in raw if e.get('topics', [''])[0] == 'DOCS' and e.get('best', True)]
+non_docs_entries = [e for e in raw if e.get('topics', [''])[0] != 'DOCS' and e.get('best', True)]
 
 non_docs_by_disk = defaultdict(dict)
 for e in non_docs_entries:
@@ -244,7 +244,7 @@ for p in non_docs_entries:
         'flags': flags,
         'instr_name': instr_name,
         'pic_name': pic_name,
-        'topic': p['primary_topic'],
+        'topic': p['topics'][0],
     })
 
 print(f"\nLoaded {len(programs)} non-DOCS programs (skipped {len(skipped_pics)} picture files with parent programs)")

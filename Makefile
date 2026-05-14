@@ -3,7 +3,7 @@ SRC = src
 DATA = data
 DIST = dist
 
-.PHONY: all clean topics
+.PHONY: all clean
 
 all: $(DIST)/NIBBLE.LIBRARY.po
 
@@ -19,7 +19,3 @@ $(DIST)/NIBBLE.LIBRARY.po: $(DATA)/topic-assignments.json \
 
 clean:
 	rm -rf $(DIST)/
-
-# Re-run ML topic clustering (may take a while; requires sentence-transformers)
-topics: $(DATA)/topic-assignments.json
-	$(PYTHON) $(SRC)/build_topics.py

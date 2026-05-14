@@ -49,7 +49,6 @@ EXTRACTED = DATA_DIR / "extracted"
 EXTRACTED_PATCHED = DATA_DIR / "extracted_patched"  # not used in repo (already merged into extracted)
 TOPIC_ASSIGNMENTS = DATA_DIR / "topic-assignments.json"
 NAME_MAPPING = DATA_DIR / "name-mapping.json"
-DEDUP_REPORT = DATA_DIR / "dedup-report.json"
 DISK_JSONS_DIR = DATA_DIR / "disk-jsons"
 TOPIC_INDEX_OUT = DIST_DIR / "TOPIC.INDEX"
 BUILD_REPORT_OUT = DIST_DIR / "build-report.txt"
@@ -269,8 +268,9 @@ def build_topic_index(programs: list[dict]) -> str:
             continue
         year = str(prog["year"])
         prodos_name = prog["prodos_name"]
-        primary = prog.get("primary_topic") or ""
-        secondary = prog.get("secondary_topic") or ""
+        topics = prog.get("topics") or []
+        primary = topics[0] if topics else ""
+        secondary = topics[1] if len(topics) > 1 else ""
         display = orig[:30]
         lines.append(f"{year}\t{prodos_name}\t{primary}\t{secondary}\t{display}")
     return "\n".join(lines) + "\n"
