@@ -641,7 +641,7 @@ menu_lines = [
     (110,  'PRINT ""'),
     (120,  'PRINT "  CHOOSE (1-4): ";'),
     (130,  'GET K$ : PRINT K$;'),
-    (135,  'IF K$="$" THEN PRINT CHR$(4)"PR#0": GOTO 10'),
+    (135,  'IF K$="$" THEN PRINT CHR$(21): GOTO 10'),
     (136,  'IF K$="*" THEN PRINT CHR$(4)"PR#3": GOTO 10'),
     (140,  'IF K$="1" THEN PRINT CHR$(4)"RUN BY.YEAR"'),
     (150,  'IF K$="2" THEN PRINT CHR$(4)"RUN BY.NAME"'),
@@ -873,8 +873,8 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2480, 'GOTO 2000'))
 
     # 9000: column-mode switch subroutine
-    # $=shift+4 → 40 columns (PR#0);  *=shift+8 → 80 columns (PR#3)
-    L.append((9000, 'IF K$="$" THEN PRINT D$"PR#0": RETURN'))
+    # $=shift+4 → 40 columns (CHR$(21));  *=shift+8 → 80 columns (PR#3)
+    L.append((9000, 'IF K$="$" THEN PRINT CHR$(21): RETURN'))
     L.append((9010, 'PRINT D$"PR#3": RETURN'))
 
     return L
@@ -929,7 +929,7 @@ year_menu_lines_init.append((ln+10, 'PRINT "  Q) BACK TO MENU"'))
 year_menu_lines_init.append((ln+20, 'PRINT ""'))
 year_menu_lines_init.append((ln+30, 'PRINT "  CHOOSE YEAR: ";'))
 year_menu_lines_init.append((ln+40, 'GET K$ : PRINT K$;'))
-year_menu_lines_init.append((ln+45, 'IF K$="$" THEN PRINT D$"PR#0": GOTO 10'))
+year_menu_lines_init.append((ln+45, 'IF K$="$" THEN PRINT CHR$(21): GOTO 10'))
 year_menu_lines_init.append((ln+46, 'IF K$="*" THEN PRINT D$"PR#3": GOTO 10'))
 year_menu_lines_init.append((ln+50, 'IF K$="Q" OR K$="q" THEN PRINT D$"RUN MENU": END'))
 year_menu_lines_init.append((ln+60, f'YI=VAL(K$): IF YI<1 OR YI>{len(years_seen)} THEN GOTO {ln+30}'))
@@ -991,7 +991,7 @@ topic_init.append((ln+20, 'PRINT ""'))
 topic_init.append((ln+30, f'PRINT "  CHOOSE (1-{len(topics_seen)}): ";'))
 # GET-based single-char input (no RETURN needed)
 topic_init.append((ln+35, 'GET K$: PRINT K$;'))
-topic_init.append((ln+37, 'IF K$="$" THEN PRINT D$"PR#0": GOTO 10'))
+topic_init.append((ln+37, 'IF K$="$" THEN PRINT CHR$(21): GOTO 10'))
 topic_init.append((ln+38, 'IF K$="*" THEN PRINT D$"PR#3": GOTO 10'))
 topic_init.append((ln+40, 'IF K$="Q" OR K$="q" THEN PRINT D$"RUN MENU": END'))
 topic_init.append((ln+45, 'TI=VAL(K$): IF TI<1 THEN GOTO ' + str(ln+30)))

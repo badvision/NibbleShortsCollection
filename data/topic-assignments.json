@@ -6,7 +6,8 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DEMOS"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Nibble: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -31,7 +32,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DEMOS"
+      "TEXT"
     ],
     "description": "New Cursor: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -80,7 +81,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DEMOS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Widening Column: Nibble magazine Apple II BASIC program",
@@ -473,7 +474,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DEMOS"
+      "TEXT"
     ],
     "description": "Nibble Is Awesome: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -657,7 +658,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Block Weave: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -706,7 +707,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DEMOS"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Bounce: RUNNING 'BOUNCE' WILL CLEAR THE SCREEN  BY BOUNCING THE TEXT UP AND DOWN UNTIL  IT IS GONE.",
     "graphics_mode": "TEXT.MODE"
@@ -845,7 +847,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Number Sort: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -857,8 +859,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "EDUCATION",
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Applesoft Keyword Codes: educational learning program",
     "graphics_mode": "TEXT.MODE"
@@ -1081,8 +1082,7 @@
     "best": true,
     "topics": [
       "TEXT",
-      "DOCS",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Notepad: Michael Decker",
     "graphics_mode": "TEXT.MODE"
@@ -1472,7 +1472,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Runner: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1559,7 +1560,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DEMOS",
       "HI.RES"
     ],
     "description": "Quilt: Nibble magazine Apple II BASIC program",
@@ -1717,7 +1717,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "TEXT"
     ],
     "description": "Nibble Reference: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -2063,7 +2063,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Three-D Square: 'BRUN UNNEW 2' TO RESTORE AN APPLESOFT  PROGRAM TO MEMORY AFTER IT HAS BEEN     ERASED WITH A 'NEW' OR 'FP' COMMAND. [graphics program]",
@@ -2124,7 +2124,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
       "HI.RES"
     ],
     "description": "Sketch Pad: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
@@ -2174,7 +2173,7 @@
     "best": true,
     "topics": [
       "MATH",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Loan Calculator: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
     "graphics_mode": "TEXT.MODE"
@@ -2595,7 +2594,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT"
+      "ANIMATION"
     ],
     "description": "Message Speller: ABCDEFGHIJKLMNOPQRSTUVWXYZ NEW WORD [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -2619,8 +2618,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "DOCS"
+      "UTILITIES"
     ],
     "description": "Catalog By Type: B3B0:BA C5 D0 D9 D4 C5 CC C9 C6",
     "graphics_mode": "TEXT.MODE"
@@ -2743,7 +2741,9 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "ANIMATION",
+      "AUDIO",
+      "TEXT"
     ],
     "description": "Water Torture: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -2866,7 +2866,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAME"
+      "GAMES"
     ],
     "description": "Life 3: M0 M7 @ $3IF%4$5E4%\"I@F3P!*%#@00$*$+$,E\"% %$E#%!F380#I@LI?%%8E#I$JI<08E\"I_%\"*I?JI$P*E\"I8%\"*I#J&#B%U'5**0Y@00$X$Y$Z$[B(T'8EZ%[%[8EY%Z%Z8EX%Y%Y8%X%X*P&@$PY0;E[)_%[@ E+%ZEYE[I_1$F5I_%5P#,H0&4P#,00E3)!%3J]4 ,,0Q\"%(&\"Q\"JJE(J%'F\"(Q\"(JE'JJ%)@",
     "graphics_mode": "HI.RES"
@@ -3024,7 +3024,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Jumping Jacks: interactive game program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -3048,8 +3048,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "EDUCATION",
-      "ANIMATION",
+      "GAMES",
       "LO.RES"
     ],
     "description": "Typing Bombs: educational learning program [graphics program]",
@@ -3175,9 +3174,8 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES",
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Full-Stop Shop: String Finder Ken Jenks",
     "graphics_mode": "HI.RES"
@@ -3189,9 +3187,9 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES",
-      "HI.RES"
+      "HI.RES",
+      "MATH",
+      "SCIENCE"
     ],
     "description": "Projectile: String Finder Ken Jenks",
     "graphics_mode": "HI.RES"
@@ -3317,9 +3315,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS",
-      "HI.RES"
+      "PRODUCTIVITY"
     ],
     "description": "Print Shop Hgr Converter: system utility program for Apple II [graphics program]",
     "graphics_mode": "HI.RES"
@@ -3478,7 +3474,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DEMOS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Multiple Windows: Nibble magazine Apple II BASIC program [graphics program]",
@@ -3515,7 +3511,6 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "DEMOS",
       "HI.RES"
     ],
     "description": "Quilt: Nibble magazine Apple II BASIC program",
@@ -3553,8 +3548,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Marching Soldiers: YYYYYYYYYY Y [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -3616,7 +3611,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Print On: AFTER 'BRUN PRINT ON', YOU CAN USE THE  '&' TO TOGGLE THE PRINTER ON AND OFF.   (IT ALTERNATELY ISSUES 'PR#1' AND 'PR#0'COMMANDS.)",
     "graphics_mode": "TEXT.MODE"
@@ -4563,8 +4558,8 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Street Light: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -4668,7 +4663,7 @@
     "best": true,
     "topics": [
       "ANIMATION",
-      "UTILITIES"
+      "TEXT"
     ],
     "description": "Twirler: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4706,8 +4701,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "TEXT",
-      "DOCS"
+      "UTILITIES"
     ],
     "description": "Superfinder: 'SUPERFINDER' FINDS ALL OCCURRENCES OF APARTICULAR BYTE VALUE WITHIN A SPECIFIEDMEMORY RANGE.",
     "graphics_mode": "TEXT.MODE"
@@ -4768,8 +4762,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
     "description": "Print Shop Invert: system utility program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -4793,8 +4786,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "MATH"
     ],
     "description": "Alphasort: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -5485,7 +5477,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "TEXT"
     ],
     "description": "Nibble Is The Best: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5521,7 +5513,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "TEXT"
+      "UTILITIES"
     ],
     "description": "Superget: lower-UPPERCase Conversion ON [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5533,7 +5525,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "TEXT"
+      "UTILITIES"
     ],
     "description": "Superget Demo: lower-UPPERCase Conversion ON [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5545,8 +5537,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "LO.RES",
-      "UTILITIES"
+      "LO.RES"
     ],
     "description": "Lo Res Draw: graphics and visual effects program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -5570,7 +5561,8 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DEMOS"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Screen Fall: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5583,8 +5575,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "UTILITIES",
-      "SCIENCE"
+      "MATH"
     ],
     "description": "Chaos: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6059,7 +6050,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DEMOS"
+      "TEXT"
     ],
     "description": "Underscore Cursor: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6196,7 +6187,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DEMOS"
+      "TEXT"
     ],
     "description": "Framer: Create a MouseText window with shadowing",
     "graphics_mode": "TEXT.MODE"
@@ -6741,7 +6732,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Apple.Out: TO USE 'APPLE.OUT', BLOAD IT, THEN TYPE 'PR#1' TO START PRINTER OUTPUT, THEN    'CALL 768'.",
     "graphics_mode": "TEXT.MODE"
@@ -6898,7 +6889,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "DEMOS"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Screen Fall: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6910,7 +6902,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Printer Dump: BLOAD THE PRINTER DUMP OR PRINTER DUMP  ORIG PROGRAM AND 'CALL 768' TO SEND THE CONTENTS OF THE 40-COLUMN SCREEN TO THE PRINTER.",
     "graphics_mode": "TEXT.MODE"
@@ -6922,7 +6914,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Printer Dump Orig: BLOAD THE PRINTER DUMP OR PRINTER DUMP  ORIG PROGRAM AND 'CALL 768' TO SEND THE CONTENTS OF THE 40-COLUMN SCREEN TO THE PRINTER.",
     "graphics_mode": "TEXT.MODE"
@@ -7239,7 +7231,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "ANIMATION"
+      "ANIMATION",
+      "AUDIO"
     ],
     "description": "Saudi Nights: a tribute to the Patriot missle system",
     "graphics_mode": "TEXT.MODE"
@@ -7299,7 +7292,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "ANIMATION",
+      "TEXT"
     ],
     "description": "Up And Down: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -7555,7 +7549,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "GAMES"
     ],
     "description": "Teaser Ii: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
