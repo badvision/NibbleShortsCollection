@@ -315,7 +315,7 @@ for p in non_docs_entries:
         'display_name': display_name,
         'flags': flags,
         'pic_count': pc,
-        'topic': p['topics'][0],
+        'topics': p.get('topics', []),
     })
 
 print(f"\nLoaded {len(programs)} non-DOCS programs (skipped {len(skipped_pics)} linked pic files)")
@@ -505,7 +505,7 @@ by_name_sorted = sorted(programs, key=lambda p: p['display_name'])
 by_name_records = []
 for p in by_name_sorted:
     by_name_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count']
+        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count'],
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_NAME), by_name_records)
@@ -541,17 +541,34 @@ for yr in years_seen:
     print(f"  {yr}: start={year_start[yr]}, count={year_count[yr]}")
 
 # ---------------------------------------------------------------------------
-# BY.TOPIC data file -- sorted by topic then display_name
+# BY.TOPIC data file -- expanded to one record per (program, topic), sorted by topic then name
+# Programs with multiple topics appear once per topic.
+# DOCS topic is excluded (those entries are instruction/pic files, not browseable programs).
 # ---------------------------------------------------------------------------
 
-by_topic_sorted = sorted(programs, key=lambda p: (p['topic'], p['display_name']))
+# Expand programs to (topic, program) pairs, skipping DOCS
+topic_program_pairs = []
+for p in programs:
+    for t in p['topics']:
+        if t and t != 'DOCS':
+            topic_program_pairs.append((t, p))
+
+# Deduplicate (same program appearing twice under the same topic)
+seen_tp = set()
+unique_pairs = []
+for t, p in topic_program_pairs:
+    key = (t, p['prodos_name'], p['year'])
+    if key not in seen_tp:
+        seen_tp.add(key)
+        unique_pairs.append((t, p))
+
+by_topic_sorted = sorted(unique_pairs, key=lambda tp: (tp[0], tp[1]['display_name']))
 
 # Compute topic start records and counts (for hard-coded DATA in BY.TOPIC.bas)
 topics_seen = []
 topic_start = {}
 topic_count = {}
-for i, p in enumerate(by_topic_sorted):
-    t = p['topic']
+for i, (t, p) in enumerate(by_topic_sorted):
     if t not in topic_start:
         topic_start[t] = i
         topic_count[t] = 0
@@ -559,9 +576,9 @@ for i, p in enumerate(by_topic_sorted):
     topic_count[t] += 1
 
 by_topic_records = []
-for p in by_topic_sorted:
+for t, p in by_topic_sorted:
     by_topic_records.append(make_record(
-        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count']
+        p['year'], p['prodos_name'], p['display_name'], p['flags'], p['pic_count'],
     ))
 
 write_data_file(str(DIST_DIR / DATA_FILE_TOPIC), by_topic_records)
@@ -1037,11 +1054,16 @@ for fname in ['STARTUP.bas', 'MENU.bas', 'BY.YEAR.bas', 'BY.NAME.bas', 'BY.TOPIC
 
 # Verify data file sizes
 num_programs = len(programs)
+num_topic_records = len(by_topic_records)
 print("\nVerifying data file sizes:")
-for fname in [DATA_FILE_NAME, DATA_FILE_YEAR, DATA_FILE_TOPIC]:
+for fname, expected_count in [
+    (DATA_FILE_NAME, num_programs),
+    (DATA_FILE_YEAR, num_programs),
+    (DATA_FILE_TOPIC, num_topic_records),
+]:
     path = str(DIST_DIR / fname)
     sz = os.path.getsize(path)
-    expected = num_programs * RECORD_LEN
+    expected = expected_count * RECORD_LEN
     status = "OK" if sz == expected else f"MISMATCH (expected {expected})"
     print(f"  {fname}: {sz} bytes = {sz // RECORD_LEN} records x {RECORD_LEN} [{status}]")
 
