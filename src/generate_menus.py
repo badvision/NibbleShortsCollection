@@ -640,6 +640,17 @@ startup_lines = [
 write_bas(str(DIST_DIR / 'STARTUP.bas'), startup_lines)
 
 # ---------------------------------------------------------------------------
+# MENU.STUB.bas -- placed in each Y{year}/ subdirectory as "MENU"
+# Resets prefix to / then runs the top-level MENU program.
+# ---------------------------------------------------------------------------
+
+menu_stub_lines = [
+    (10, 'PRINT CHR$(4)"PREFIX /"'),
+    (20, 'PRINT CHR$(4)"RUN MENU"'),
+]
+write_bas(str(DIST_DIR / 'MENU.STUB.bas'), menu_stub_lines)
+
+# ---------------------------------------------------------------------------
 # MENU.bas
 # ---------------------------------------------------------------------------
 
@@ -670,8 +681,9 @@ menu_lines = [
     (1020, 'PRINT "  COMPLETE COLLECTION"'),
     (1030, f'PRINT "  {non_docs_total} PROGRAMS, 1984-1992"'),
     (1040, 'PRINT ""'),
+    (1045, 'PRINT "  USE SHIFT+4/SHIFT+8 FOR 40/80 COLS"'),
     (1050, 'PRINT "  WHEN DONE WITH A PROGRAM,"'),
-    (1060, 'PRINT "  TYPE:  RUN MENU"'),
+    (1060, 'PRINT "  TYPE:  -MENU"'),
     (1070, 'PRINT ""'),
     (1080, 'PRINT "  PRESS ANY KEY..."'),
     (1090, 'GET K$: RETURN'),
@@ -1038,7 +1050,7 @@ write_bas(str(DIST_DIR / 'BY.TOPIC.bas'), topic_browse_lines)
 
 print("\nValidating generated files:")
 all_ok = True
-for fname in ['STARTUP.bas', 'MENU.bas', 'BY.YEAR.bas', 'BY.NAME.bas', 'BY.TOPIC.bas']:
+for fname in ['STARTUP.bas', 'MENU.bas', 'MENU.STUB.bas', 'BY.YEAR.bas', 'BY.NAME.bas', 'BY.TOPIC.bas']:
     path = str(DIST_DIR / fname)
     issues = validate_bas(path)
     with open(path) as f:

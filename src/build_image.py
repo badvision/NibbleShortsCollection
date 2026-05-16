@@ -377,6 +377,26 @@ def add_menu_files() -> int:
             print(f"  Added: {name}")
             added += 1
 
+    # Add MENU stub to each year subdirectory
+    print("\nAdding MENU stub to year subdirectories...")
+    stub_path = DIST_DIR / 'MENU.STUB.bas'
+    if not stub_path.exists():
+        errors.append(f"MISSING menu stub: {stub_path}")
+        print(f"  MISSING: {stub_path}")
+    else:
+        stub_text = stub_path.read_bytes()
+        stub_years = sorted({p['year'] for p in json.loads(TOPIC_ASSIGNMENTS.read_text())
+                             if p.get('best', True)})
+        for year in stub_years:
+            dest = f'Y{year}/MENU'
+            rc, _, err = ac('-bas', str(OUTPUT_IMAGE), dest, stdin_bytes=stub_text)
+            if rc != 0:
+                errors.append(f"WRITE FAIL {dest}: {err.strip()}")
+                print(f"  ERROR adding {dest}: {err.strip()[:80]}")
+            else:
+                added += 1
+        print(f"  Added MENU stub to {len(stub_years)} year directories")
+
     # Add data files (NAME.DATA, YEAR.DATA, TOPIC.DATA)
     print("\nAdding data files...")
     for fname in ['NAME.DATA', 'YEAR.DATA', 'TOPIC.DATA']:
