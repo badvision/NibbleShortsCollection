@@ -18,7 +18,8 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "MATH"
     ],
     "description": "Graph Paper: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -42,7 +43,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "DEMOS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Climb A Mountain: interactive game program for Apple II [graphics program]",
@@ -67,8 +68,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "ANIMATION",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Input Anything Routine: animation and page-flipping",
     "graphics_mode": "TEXT.MODE"
@@ -80,7 +80,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES",
+      "DEMOS",
       "HI.RES"
     ],
     "description": "Widening Column: Nibble magazine Apple II BASIC program",
@@ -105,8 +105,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "HI.RES",
-      "LO.RES"
+      "ANIMATION"
     ],
     "description": "Color Flipping: graphics and visual effects program [graphics program]",
     "graphics_mode": "BOTH"
@@ -168,7 +167,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES"
+      "ANIMATION"
     ],
     "description": "Word Bouncer: interactive game program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -252,9 +251,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "GAMES",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Nibble Display: Hi-Res Gem",
     "graphics_mode": "TEXT.MODE"
@@ -329,11 +326,10 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "LO.RES",
-      "UTILITIES"
+      "GAMES"
     ],
-    "description": "Mini-Indi: Hi-Res Art",
-    "graphics_mode": "LO.RES"
+    "description": "Mini-Indi: Driving game",
+    "graphics_mode": "TEXT.MODE"
   },
   {
     "disk_key": "1984_PT1",
@@ -367,10 +363,9 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "ANIMATION",
-      "DEMOS"
+      "UTILITIES"
     ],
-    "description": "Input Anything Routine 2: animation and page-flipping",
+    "description": "Input Anything Routine 2",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -582,7 +577,7 @@
   {
     "disk_key": "1985_PT1",
     "original_name": "DRAGON 7.PIC",
-    "prodos_name": "DISSOLVE.1.PIC",
+    "prodos_name": "DRAGON.7.PIC",
     "year": 1985,
     "best": true,
     "topics": [
@@ -926,7 +921,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "DEMOS",
       "ANIMATION"
     ],
     "description": "Star Bounce: interactive game program for Apple II [utilities program]",
@@ -963,7 +957,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Text Window: text processing program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1036,17 +1030,15 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "ANIMATION",
-      "UTILITIES",
-      "HI.RES"
+      "ANIMATION"
     ],
-    "description": "Rolling X: NEWUNDO (restore deleted program)",
+    "description": "Rolling X",
     "graphics_mode": "HI.RES"
   },
   {
     "disk_key": "1985_PT1",
     "original_name": "ROLLING X.PIC",
-    "prodos_name": "DISSOLVE.2.PIC",
+    "prodos_name": "ROLLING.X.PIC",
     "year": 1985,
     "best": true,
     "topics": [
@@ -1333,7 +1325,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "UTILITIES"
     ],
     "description": "Menu Demo: graphics and visual effects program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1369,11 +1361,9 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "ANIMATION",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
-    "description": "Screen Editor: Ripples",
+    "description": "Screen Editor",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -1465,7 +1455,7 @@
   {
     "disk_key": "1985_PT1",
     "original_name": "RIPPLES.PIC",
-    "prodos_name": "VIDEO.DEMO.PIC",
+    "prodos_name": "RIPPLES.PIC",
     "year": 1985,
     "best": true,
     "topics": [
@@ -1549,24 +1539,13 @@
   },
   {
     "disk_key": "1985_PT1",
-    "original_name": "VIDEO",
-    "prodos_name": "VIDEO",
-    "year": 1985,
-    "best": true,
-    "topics": [
-      "HI.RES"
-    ],
-    "description": "Video: Nibble magazine Apple II BASIC program [graphics program]",
-    "graphics_mode": "HI.RES"
-  },
-  {
-    "disk_key": "1985_PT1",
     "original_name": "VIDEO DEMO",
     "prodos_name": "VIDEO.DEMO",
     "year": 1985,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Video Demo: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -1845,7 +1824,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "ANIMATION",
+      "DEMOS"
     ],
     "description": "Underline: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -1881,7 +1861,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "PRODUCTIVITY"
     ],
     "description": "Bar Graph 3d: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -2215,7 +2196,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "UTILITIES"
     ],
     "description": "Auto Number: AN AUTO LINE NUMBERING UTILITY.  TYPE   'BLOAD AUTO NUMBER', THEN 'HOME', THEN  A FIVE-DIGIT STARTING LINE NUMBER (USE  LEADING ZEROES FOR STARTING LINE NUMBERSBELOW 10000), AND HIT RETURN.  THEN TYPE",
     "graphics_mode": "TEXT.MODE"
@@ -2390,12 +2371,13 @@
   },
   {
     "disk_key": "1985_PT2",
-    "original_name": "DODGEBALL 1",
+    "original_name": "1LL 1",
     "prodos_name": "DODGEBALL.1",
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Dodgeball 1: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -2407,7 +2389,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Dodgeball 2: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -2419,7 +2402,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Dodgeball 3: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -2431,7 +2415,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Dodgeball 4: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -2443,7 +2428,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Dodgeball 5: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -2467,7 +2453,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Serpent: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -3452,8 +3439,6 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "GAMES",
       "UTILITIES"
     ],
     "description": "Keyboard Buffer Demo: Hi-Res Fruit William Hensley",
@@ -3554,7 +3539,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "SCIENCE"
     ],
     "description": "Saturn: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4150,8 +4136,6 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "TEXT",
       "UTILITIES"
     ],
     "description": "Ml To Data: START OF ML, END, START LINE, INCR,",
@@ -4506,7 +4490,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES",
       "UTILITIES"
     ],
     "description": "Yes No Demo: DO YOU LIKE NIBBLE? [utilities program]",
@@ -4697,7 +4680,8 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES"
+      "ANIMATION",
+      "UTILITIES"
     ],
     "description": "Twirler: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4847,7 +4831,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DEMOS"
+      "HI.RES"
     ],
     "description": "Bars: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4909,7 +4893,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "DEMOS"
+      "AUDIO"
     ],
     "description": "Loser Tune: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4981,7 +4965,8 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Mini Breakout: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -5107,7 +5092,7 @@
     "topics": [
       "UTILITIES"
     ],
-    "description": "Input Anything Routine 3 Demo: Disk Head Mover (CLEANER) Joan Oliver",
+    "description": "Input Anything Routine 3 Demo",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -5178,8 +5163,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "ANIMATION",
       "UTILITIES"
     ],
     "description": "If Then Else Demo 1: IS IT OK ?",
@@ -5192,7 +5175,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GRAPHICS",
       "UTILITIES"
     ],
     "description": "If Then Else Demo 2: graphics and visual effects program",
@@ -5290,7 +5272,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Big Apple: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5314,7 +5296,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "HI.RES"
     ],
     "description": "Wipe: LOAD AN IMAGE ON HI-RES PAGE 2, THEN    VIEW HI-RES PAGE 1.  'BRUN WIPE', OR    BLOAD IT FIRST AND 'CALL 768'.  THE     CONTENTS OF PAGE 2 WILL BE DISPLAYED ON PAGE 1 WITH A LEFT-TO-RIGHT WIPE.",
     "graphics_mode": "TEXT.MODE"
@@ -5365,7 +5347,8 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "PRODUCTIVITY"
     ],
     "description": "Pie Chart: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5539,7 +5522,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "MATH"
     ],
     "description": "Roundit Demo: graphics and visual effects program",
     "graphics_mode": "TEXT.MODE"
@@ -5691,8 +5674,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Micro Tv: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5729,8 +5711,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "MATH",
-      "TEXT"
+      "MATH"
     ],
     "description": "Sort: ENTER 10 NUMBERS TO SORT: [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5742,8 +5723,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "TEXT"
+      "MATH"
     ],
     "description": "Sort Demo: ENTER 10 NUMBERS TO SORT: [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5768,10 +5748,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "BUSINESS",
-      "TEXT",
-      "UTILITIES",
-      "GRAPHICS"
+      "PRODUCTIVITY"
     ],
     "description": "Return Address: business and productivity program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5867,7 +5844,8 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Channels: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -5915,7 +5893,6 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "DEMOS",
       "ANIMATION"
     ],
     "description": "Nibble Express: TOOT TOOT [utilities program]",
@@ -6077,7 +6054,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Type.Ahead: 'BRUN TYPE.AHEAD' TO EXPAND THE KEYBOARDINPUT BUFFER FROM ONE CHARACTER TO 32   CHARACTERS.  A SOUND WILL PLAY IF A     CHARACTER IS TYPED WHEN THE KEYBOARD    BUFFER IS FULL.",
     "graphics_mode": "TEXT.MODE"
@@ -6113,7 +6090,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DEMOS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Slogan: Nibble magazine Apple II BASIC program",
@@ -6152,7 +6129,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "HI.RES"
     ],
     "description": "Negascreen: NEGASCREEN WILL INVERT THE CONTENTS OF  HI-RES PAGE 1.  TO USE IT, EITHER BRUN  IT, OR BLOAD IT AND CALL 784.",
     "graphics_mode": "TEXT.MODE"
@@ -6189,7 +6166,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GRAPHICS",
+      "UTILITIES",
       "DOCS"
     ],
     "description": "Menu Subroutine Demo: HIGHLIGHT CHOICE WITH ARROWS & <RETURN> [utilities program]",
@@ -6416,10 +6393,9 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "UTILITIES"
+      "ANIMATION"
     ],
-    "description": "Strike: merge two hi-res screens into a Double Hi-Res screen",
+    "description": "Strike: Baseball animation",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -6603,7 +6579,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "DEMOS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Blox: Nibble magazine Apple II BASIC program",
@@ -6630,7 +6606,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Mini Paint: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6678,7 +6654,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "ANIMATION"
+      "IIGS"
     ],
     "description": "Iigs Effect Maker: Let's see this effect : it's great!!!!",
     "graphics_mode": "TEXT.MODE"
@@ -6921,7 +6897,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "IIGS"
     ],
     "description": "Iigs Ploader: system utility program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -7032,7 +7008,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Duel: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -7068,8 +7045,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GAMES"
+      "IIGS"
     ],
     "description": "Iigs Color: 'BRUN IIGS COLOR' TO INSTALL AMPERSAND  ROUTINES THAT CAN BE USED ON THE APPLE  IIGS.",
     "graphics_mode": "TEXT.MODE"
@@ -7105,9 +7081,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES",
-      "GRAPHICS",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Wipeout: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7119,7 +7093,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "ANIMATION"
     ],
     "description": "Slideout: graphics and visual effects program",
     "graphics_mode": "TEXT.MODE"
@@ -7143,7 +7117,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "IIGS"
     ],
     "description": "Iigs Memory Free: NOT A IIGS",
     "graphics_mode": "TEXT.MODE"
@@ -7402,7 +7376,6 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GRAPHICS",
       "UTILITIES"
     ],
     "description": "Button Usr Demo 1: add a button function to Applesoft",
@@ -7415,7 +7388,6 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GRAPHICS",
       "UTILITIES"
     ],
     "description": "Button Usr Demo 2: add a button function to Applesoft",
@@ -7452,7 +7424,6 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES",
       "ANIMATION",
       "HI.RES"
     ],
@@ -7478,7 +7449,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "IIGS"
     ],
     "description": "Iigs Transwarp Detector: No Transwarp",
     "graphics_mode": "TEXT.MODE"
@@ -7502,9 +7473,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "ANIMATION",
-      "UTILITIES"
+      "IIGS"
     ],
     "description": "Iigs Flasher: causes any GS to have \"color convulsions\"",
     "graphics_mode": "TEXT.MODE"
@@ -7517,8 +7486,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "ANIMATION",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Star.Travel: travel through space back out of a subdirectory change background, border, and text color on GS",
     "graphics_mode": "HI.RES"
@@ -7554,7 +7522,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "HI.RES"
+      "ANIMATION"
     ],
     "description": "Beach Storm: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -7763,7 +7731,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "IIGS"
     ],
     "description": "Iigs Lock Out: NORMALLY, THE APPLE IIGS CONTROL PANEL  CAN BE ACCESSED BY PRESSING OPEN APPLE- CONTROL-ESCAPE.  'IIGS LOCK OUT' IS A   UTILITY TO PREVENT ACCESS TO THE CONTROLPANEL.",
     "graphics_mode": "TEXT.MODE"
@@ -7775,7 +7743,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "IIGS"
     ],
     "description": "Iigs Lock Out Demo: graphics and visual effects program",
     "graphics_mode": "TEXT.MODE"
@@ -7923,11 +7891,10 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
+      "ANIMATION",
       "HI.RES"
     ],
-    "description": "Wheel: fill your screen with rotating colors convert binary numbers into decimal",
+    "description": "Wheel: fill your screen with rotating colors",
     "graphics_mode": "HI.RES"
   }
 ]

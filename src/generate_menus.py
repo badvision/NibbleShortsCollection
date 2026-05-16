@@ -641,6 +641,8 @@ menu_lines = [
     (110,  'PRINT ""'),
     (120,  'PRINT "  CHOOSE (1-4): ";'),
     (130,  'GET K$ : PRINT K$;'),
+    (135,  'IF K$="$" THEN PRINT CHR$(4)"PR#3": GOTO 10'),
+    (136,  'IF K$="*" THEN PRINT CHR$(4)"PR#0": GOTO 10'),
     (140,  'IF K$="1" THEN PRINT CHR$(4)"RUN BY.YEAR"'),
     (150,  'IF K$="2" THEN PRINT CHR$(4)"RUN BY.NAME"'),
     (160,  'IF K$="3" THEN PRINT CHR$(4)"RUN BY.TOPIC"'),
@@ -779,6 +781,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((1390, f'PRINT "  N)EXT  P)REV  Q)UIT  1-{PAGE_SIZE} > ";'))
     # Use GET for single-char navigation; handle 1-digit and 2-digit numbers
     L.append((1410, 'GET K$ : PRINT K$;'))
+    L.append((1415, 'IF K$="$" OR K$="*" THEN GOSUB 9000: GOTO 1300'))
 
     # 1500-1999: navigation (single-char, no RETURN needed)
     L.append((1500, 'IF K$="Q" OR K$="q" THEN PRINT D$"RUN MENU": END'))
@@ -833,6 +836,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2234, 'PRINT "  Q) BACK"'))
     L.append((2235, 'VTAB 24: PRINT "  > ";'))
     L.append((2240, 'GET K$ : PRINT K$;'))
+    L.append((2245, 'IF K$="$" OR K$="*" THEN GOSUB 9000: GOTO 2000'))
     L.append((2250, 'IF K$="Q" OR K$="q" THEN GOTO 1000'))
     L.append((2260, 'IF K$="R" OR K$="r" THEN GOTO 2300'))
     L.append((2265, 'IF HV=1 AND (K$="P" OR K$="p") THEN GOTO 2400'))
@@ -841,6 +845,7 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2350, 'PRINT "  V) VIEW   Q) BACK"'))
     L.append((2360, 'VTAB 24: PRINT "  > ";'))
     L.append((2370, 'GET K$ : PRINT K$;'))
+    L.append((2375, 'IF K$="$" OR K$="*" THEN GOSUB 9000: GOTO 2000'))
     L.append((2380, 'IF K$="Q" OR K$="q" THEN GOTO 1000'))
     L.append((2390, 'IF K$="V" OR K$="v" THEN GOTO 2400'))
     L.append((2396, 'GOTO 2380'))
@@ -866,6 +871,11 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2465, 'TEXT: HOME'))
     L.append((2470, 'IF NP>1 AND PI<NP THEN PI=PI+1: GOTO 2415'))
     L.append((2480, 'GOTO 2000'))
+
+    # 9000: column-mode switch subroutine
+    # $=shift+4 → 80 columns (PR#3);  *=shift+8 → 40 columns (PR#0)
+    L.append((9000, 'IF K$="$" THEN PRINT D$"PR#3": RETURN'))
+    L.append((9010, 'PRINT D$"PR#0": RETURN'))
 
     return L
 
@@ -919,6 +929,8 @@ year_menu_lines_init.append((ln+10, 'PRINT "  Q) BACK TO MENU"'))
 year_menu_lines_init.append((ln+20, 'PRINT ""'))
 year_menu_lines_init.append((ln+30, 'PRINT "  CHOOSE YEAR: ";'))
 year_menu_lines_init.append((ln+40, 'GET K$ : PRINT K$;'))
+year_menu_lines_init.append((ln+45, 'IF K$="$" THEN PRINT D$"PR#3": GOTO 10'))
+year_menu_lines_init.append((ln+46, 'IF K$="*" THEN PRINT D$"PR#0": GOTO 10'))
 year_menu_lines_init.append((ln+50, 'IF K$="Q" OR K$="q" THEN PRINT D$"RUN MENU": END'))
 year_menu_lines_init.append((ln+60, f'YI=VAL(K$): IF YI<1 OR YI>{len(years_seen)} THEN GOTO {ln+30}'))
 # Read start record and count from DATA
@@ -979,6 +991,8 @@ topic_init.append((ln+20, 'PRINT ""'))
 topic_init.append((ln+30, f'PRINT "  CHOOSE (1-{len(topics_seen)}): ";'))
 # GET-based single-char input (no RETURN needed)
 topic_init.append((ln+35, 'GET K$: PRINT K$;'))
+topic_init.append((ln+37, 'IF K$="$" THEN PRINT D$"PR#3": GOTO 10'))
+topic_init.append((ln+38, 'IF K$="*" THEN PRINT D$"PR#0": GOTO 10'))
 topic_init.append((ln+40, 'IF K$="Q" OR K$="q" THEN PRINT D$"RUN MENU": END'))
 topic_init.append((ln+45, 'TI=VAL(K$): IF TI<1 THEN GOTO ' + str(ln+30)))
 # For TI=1: could be 1 or 10-19 -- get second digit to disambiguate
