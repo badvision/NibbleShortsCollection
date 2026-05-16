@@ -137,11 +137,12 @@ def build_load_addr_table() -> dict[tuple[str, str], int]:
         disks = raw.get("disks", [])
         for disk in disks:
             for entry in disk.get("files", []):
-                if entry.get("type") != "B":
+                if entry.get("type") not in ("B", "BIN"):
                     continue
-                addr_str = entry.get("address", "A=$0000")
-                # Strip leading "A=" if present
-                addr_str = addr_str.replace("A=", "").strip()
+                # DOS 3.3 disks use "address" field; ProDOS disks use "auxType"
+                addr_str = entry.get("address") or entry.get("auxType", "0")
+                # Strip "A=" prefix and "$" sigil — formats: "A=$0300", "$4000", "A=$2000"
+                addr_str = addr_str.replace("A=", "").replace("$", "").strip()
                 try:
                     addr = int(addr_str, 16)
                 except ValueError:
@@ -233,12 +234,16 @@ def populate_programs(
             load_addr = "0x0801"
         elif file_type == "B":
             ac_type = "BIN"
-            raw_addr = load_addr_table.get((disk_key, orig_name), 0)
-            # .PIC and .PICn files always load at $4000
+            _sentinel = object()
+            raw_addr = load_addr_table.get((disk_key, orig_name), _sentinel)
+            # .PIC and .Pn files always load at $4000
             if (re.search(r'\.PIC\d*$', orig_name.upper()) or
-                    re.search(r'\.PIC\d*$', prodos_name.upper())):
+                    re.search(r'\.P\d+$', prodos_name.upper())):
                 raw_addr = 0x4000
-            load_addr = hex(raw_addr) if raw_addr else "0x2000"
+            if raw_addr is _sentinel:
+                raw_addr = 0x2000  # unknown — use safe default
+                print(f"  WARN: no load addr for {disk_key}/{orig_name}, defaulting to $2000")
+            load_addr = hex(raw_addr)
         else:
             ac_type = "TXT"
             load_addr = "0x0000"
