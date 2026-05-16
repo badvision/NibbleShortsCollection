@@ -129,7 +129,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "ANIMATION"
     ],
     "description": "Alternate Flashing: graphics and visual effects program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -227,7 +227,8 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Meltdown: graphics and visual effects program",
     "graphics_mode": "TEXT.MODE"
@@ -593,7 +594,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Expression Evaluator: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -1483,7 +1484,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GRAPHICS"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Dissolve: graphics and visual effects program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1582,7 +1584,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "PRODUCTIVITY"
+      "ANIMATION"
     ],
     "description": "On The Road: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1703,8 +1705,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GRAPHICS"
+      "UTILITIES"
     ],
     "description": "Sector Viewer: Shawn Day",
     "graphics_mode": "TEXT.MODE"
@@ -1728,7 +1729,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "GAMES"
     ],
     "description": "Gun Turret: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1740,7 +1741,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "SCIENCE"
+      "SCIENCE",
+      "HI.RES"
     ],
     "description": "Circuitry: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -2669,9 +2671,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS",
-      "HI.RES"
+      "GAMES"
     ],
     "description": "Life 2 Random: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "HI.RES"
@@ -2683,8 +2683,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "MATH"
+      "PRODUCTIVITY"
     ],
     "description": "Premium Gas Cost: ANOTHER COMPARISON? (Y/N)",
     "graphics_mode": "TEXT.MODE"
@@ -2696,12 +2695,9 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GAMES",
-      "DEMOS",
       "HI.RES"
     ],
-    "description": "Road To The Stars: Water Torture Goh Liang Woei",
+    "description": "Road To The Stars",
     "graphics_mode": "HI.RES"
   },
   {
@@ -2711,11 +2707,9 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "PRODUCTIVITY",
-      "GAMES",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
-    "description": "Leap Year: Water Torture Goh Liang Woei",
+    "description": "Leap Year",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -2835,7 +2829,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "UTILITIES",
       "LO.RES"
     ],
     "description": "Snake: interactive game program for Apple II [graphics program]",
@@ -2861,7 +2854,7 @@
     "best": true,
     "topics": [
       "GAMES",
-      "HI.RES"
+      "MATH"
     ],
     "description": "Angle Guesser: interactive game program for Apple II [graphics program]",
     "graphics_mode": "HI.RES"
@@ -2873,9 +2866,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "TEXT",
-      "HI.RES"
+      "GAME"
     ],
     "description": "Life 3: M0 M7 @ $3IF%4$5E4%\"I@F3P!*%#@00$*$+$,E\"% %$E#%!F380#I@LI?%%8E#I$JI<08E\"I_%\"*I?JI$P*E\"I8%\"*I#J&#B%U'5**0Y@00$X$Y$Z$[B(T'8EZ%[%[8EY%Z%Z8EX%Y%Y8%X%X*P&@$PY0;E[)_%[@ E+%ZEYE[I_1$F5I_%5P#,H0&4P#,00E3)!%3J]4 ,,0Q\"%(&\"Q\"JJE(J%'F\"(Q\"(JE'JJ%)@",
     "graphics_mode": "HI.RES"
@@ -2899,8 +2890,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES"
+      "AUDIO"
     ],
     "description": "Keyboard Organ: lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
     "graphics_mode": "TEXT.MODE"
@@ -2924,8 +2914,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Print An Envelope: lower case to UPPER CASE / Character Frequency Table Randall Erickson / Dave Sorkin",
     "graphics_mode": "TEXT.MODE"
@@ -3354,8 +3343,8 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GRAPHICS",
-      "HI.RES"
+      "HI.RES",
+      "PRODUCTIVITY"
     ],
     "description": "Character Designer: Nibble magazine Apple II BASIC program",
     "graphics_mode": "HI.RES"
@@ -4514,7 +4503,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
       "GAMES"
     ],
     "description": "Hanoi Towers: THE TOWER OF HANOI [utilities program]",
@@ -4539,8 +4527,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DOCS"
+      "GAMES"
     ],
     "description": "Mastermind: CAN YOU BREAK THE 4 DIGIT CODE?",
     "graphics_mode": "TEXT.MODE"
@@ -5450,7 +5437,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Make A Map: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5646,10 +5633,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GAMES",
-      "DEMOS",
-      "HI.RES"
+      "PRODUCTIVITY"
     ],
     "description": "Printshop Viewer: system utility program for Apple II [graphics program]",
     "graphics_mode": "HI.RES"
@@ -5698,8 +5682,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Cool Off: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5905,8 +5888,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Nibble Apples: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5918,8 +5900,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "TEXT",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Basket: O    +--   ^   \\/ > [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6103,8 +6084,6 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS",
       "HI.RES"
     ],
     "description": "Pyramid: watch slaves create the Great Pyramid",
@@ -6153,8 +6132,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DOCS"
+      "UTILITIES"
     ],
     "description": "Menu Subroutine: HIGHLIGHT CHOICE WITH ARROWS & <RETURN> [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6270,7 +6248,8 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "MATH"
+      "MATH",
+      "PRODUCTIVITY"
     ],
     "description": "Interest Calculator: math and calculation program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6282,8 +6261,6 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GRAPHICS",
       "HI.RES"
     ],
     "description": "Mind'S Eye: direct output to the print with the OA-key find free space on disk",
@@ -6308,7 +6285,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Marquee: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6356,11 +6333,11 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "LO.RES",
+      "HI.RES",
       "UTILITIES"
     ],
     "description": "Run: merge two hi-res screens into a Double Hi-Res screen",
-    "graphics_mode": "LO.RES"
+    "graphics_mode": "HI.RES"
   },
   {
     "disk_key": "1990_PT1",
@@ -6369,7 +6346,8 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Run Example: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -6417,8 +6395,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Apple Sign: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6468,7 +6445,7 @@
     "best": true,
     "topics": [
       "MATH",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
     "description": "Day Of Week: ENTER DATE: MM,DD,YYYY",
     "graphics_mode": "TEXT.MODE"
@@ -6716,7 +6693,7 @@
     "best": true,
     "topics": [
       "LO.RES",
-      "UTILITIES"
+      "GAMES"
     ],
     "description": "Surround: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -7226,8 +7203,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Addresser: printer return address labels custom text screen borders a tribute to the Patriot missle system",
     "graphics_mode": "TEXT.MODE"
@@ -7251,10 +7227,9 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "TEXT",
       "UTILITIES"
     ],
-    "description": "Borders: printer return address labels custom text screen borders a tribute to the Patriot missle system",
+    "description": "Borders: custom text screen borders",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -7264,10 +7239,9 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES"
+      "ANIMATION"
     ],
-    "description": "Saudi Nights: printer return address labels custom text screen borders a tribute to the Patriot missle system",
+    "description": "Saudi Nights: a tribute to the Patriot missle system",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -7350,9 +7324,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GAMES",
-      "LO.RES"
+      "LO.RES",
+      "ANIMATION"
     ],
     "description": "Little Doggy: tail wagging antics",
     "graphics_mode": "LO.RES"
