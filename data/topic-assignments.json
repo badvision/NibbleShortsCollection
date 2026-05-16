@@ -2263,7 +2263,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "ANIMATION"
     ],
     "description": "Stop Sign: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -3277,7 +3277,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Tantalus: Nibble magazine Apple II BASIC program",
@@ -4458,7 +4458,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Storage Devices: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
