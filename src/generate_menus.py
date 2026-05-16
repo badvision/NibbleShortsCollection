@@ -845,9 +845,10 @@ def gen_browse_program(file_var, hdr_expr, init_lines):
     L.append((2390, 'IF K$="V" OR K$="v" THEN GOTO 2400'))
     L.append((2396, 'GOTO 2380'))
 
-    # Run program
+    # Run program — cd into year dir first so relative BLOADs inside programs work
     L.append((2300, 'REM RUN PROGRAM'))
-    L.append((2310, 'PY$="Y"+STR$(YR(SN)+1983)+"/"+PN$(SN)'))
+    L.append((2305, 'PRINT D$"PREFIX Y"+STR$(YR(SN)+1983)'))
+    L.append((2310, 'PY$=PN$(SN)'))
     L.append((2320, 'IF FL(SN)=2 OR FL(SN)=3 THEN PRINT D$"BRUN ";PY$: END'))
     L.append((2330, 'PRINT D$"RUN ";PY$: END'))
 
