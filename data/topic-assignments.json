@@ -154,9 +154,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "MATH",
-      "DEMOS",
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Base Converter: Scott McBride",
     "graphics_mode": "TEXT.MODE"
@@ -510,7 +508,8 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "MATH"
+      "MATH",
+      "PRODUCTIVITY"
     ],
     "description": "Trip Calculator: math and calculation program",
     "graphics_mode": "TEXT.MODE"
@@ -619,9 +618,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "TEXT",
-      "GRAPHICS",
-      "LO.RES"
+      "TEXT"
     ],
     "description": "Text Mirroring: text processing program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -645,8 +642,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Print Screen: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -896,7 +892,6 @@
     "best": true,
     "topics": [
       "MATH",
-      "UTILITIES",
       "HI.RES"
     ],
     "description": "Pi Calculator: Auto Line Numbering / Single-Step Disassembly Willard Roit / John Cleveland",
@@ -910,7 +905,6 @@
     "best": true,
     "topics": [
       "MATH",
-      "ANIMATION",
       "HI.RES"
     ],
     "description": "Pi Calculator Monochrome: math and calculation program [graphics program]",
@@ -984,7 +978,8 @@
     "best": true,
     "topics": [
       "MATH",
-      "HI.RES"
+      "HI.RES",
+      "SCIENCE"
     ],
     "description": "Coin Flip Average: math and calculation program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -1827,7 +1822,7 @@
     "best": true,
     "topics": [
       "ANIMATION",
-      "DEMOS"
+      "TEXT"
     ],
     "description": "Underline: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -1912,11 +1907,9 @@
     "year": 1985,
     "best": true,
     "topics": [
+      "HI.RES",
       "ANIMATION",
-      "TEXT",
-      "EDUCATION",
-      "UTILITIES",
-      "HI.RES"
+      "AUDIO"
     ],
     "description": "Wallpaper: Alternate Patterns Kevin Ediger",
     "graphics_mode": "HI.RES"
@@ -1964,8 +1957,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "GRAPHICS"
+      "UTILITIES"
     ],
     "description": "Hex Dump: 'HEX DUMP' EXTENDS THE FUNCTIONALITY OF THE MONITOR.  'BLOAD HEX DUMP' TO       INSTALL THE PATCH (DO NOT BRUN IT).     THEN, IN THE MONITOR, SPECIFY AN ADDRESSRANGE THE WAY YOU NORMALLY WOULD FOR A",
     "graphics_mode": "TEXT.MODE"
@@ -2002,8 +1994,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "ANIMATION",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Line Explosion: Nibble magazine Apple II BASIC program",
     "graphics_mode": "HI.RES"
@@ -2372,7 +2363,7 @@
   },
   {
     "disk_key": "1985_PT2",
-    "original_name": "1LL 1",
+    "original_name": "DODGEBALL 1",
     "prodos_name": "DODGEBALL.1",
     "year": 1985,
     "best": true,
@@ -2963,8 +2954,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
     "description": "Print Screen: system utility program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -3098,7 +3088,7 @@
     "best": true,
     "topics": [
       "MATH",
-      "UTILITIES",
+      "SCIENCE",
       "HI.RES"
     ],
     "description": "Halley'S Comet: Base Converter Eric Holmen",
@@ -3160,9 +3150,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "MATH",
-      "DEMOS",
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Base Converter: Scott McBride",
     "graphics_mode": "TEXT.MODE"
@@ -3671,8 +3659,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "LO.RES",
-      "DEMOS"
+      "GAMES",
+      "LO.RES"
     ],
     "description": "Breakout: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -3684,8 +3672,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "HI.RES",
-      "DEMOS"
+      "HI.RES"
     ],
     "description": "Hi-Res Reverse: TO REVERSE THE COLORS OF A HI-RES       DISPLAY, 'BLOAD HI-RES REVERSE' AND THENDO 'CALL 781' TO REVERSE PAGE 1 OR      'CALL 768' TO REVERSE PAGE 2.",
     "graphics_mode": "TEXT.MODE"
@@ -3709,7 +3696,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "PRODUCTIVITY"
+      "PRODUCTIVITY",
+      "AUDIO"
     ],
     "description": "Morse Code: 'BRUN MORSE CODE' AND TYPE IN A         CHARACTER.  THE MORSE CODE EQUIVALENT   FOR THAT CHARACTER WILL BE HEARD.",
     "graphics_mode": "TEXT.MODE"
@@ -3734,7 +3722,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Fader: WHILE VIEWING HI-RES PAGE 1, BRUN FADER TO CAUSE THE CONTENTS OF HI-RES PAGE 2  TO GRADUALLY APPEAR.",
     "graphics_mode": "TEXT.MODE"
@@ -3772,7 +3760,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "DEMOS",
       "LO.RES"
     ],
     "description": "Text Invaders: interactive game program for Apple II [utilities program]",
@@ -3786,8 +3773,7 @@
     "best": true,
     "topics": [
       "GAMES",
-      "DEMOS",
-      "LO.RES"
+      "TEXT"
     ],
     "description": "Potholes In Space: interactive game program for Apple II [games program]",
     "graphics_mode": "LO.RES"
@@ -3811,7 +3797,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "MATH"
+      "PRODUCTIVITY"
     ],
     "description": "Phone Number Words: math and calculation program",
     "graphics_mode": "TEXT.MODE"
@@ -3872,8 +3858,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "DEMOS",
-      "UTILITIES",
       "HI.RES"
     ],
     "description": "Mini Race: interactive game program for Apple II [graphics program]",
@@ -3886,8 +3870,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Mouse Finder: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -3972,8 +3955,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "GAMES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Water Fountain: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4021,9 +4003,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DEMOS",
-      "LO.RES"
+      "UTILITIES"
     ],
     "description": "Auto Menu: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "LO.RES"
@@ -4071,8 +4051,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "HI.RES",
-      "UTILITIES"
+      "GAMES",
+      "HI.RES"
     ],
     "description": "Munch: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4096,7 +4076,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "MATH"
+      "UTILITIES"
     ],
     "description": "Var Swap: 'VAR SWAP' SWAPS THE CONTENTS OF TWO    DIFFERENT VARIABLES.  THE VARIABLES MAY EVEN BE ARRAY ELEMENTS, ALTHOUGH MIXING TYPES WILL CAUSE UNPREDICTABLE RESULTS.",
     "graphics_mode": "TEXT.MODE"
@@ -4339,9 +4319,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "MATH",
-      "UTILITIES",
-      "GRAPHICS"
+      "MATH"
     ],
     "description": "Factorials: FACTORIALS [math program]",
     "graphics_mode": "TEXT.MODE"
@@ -4572,8 +4550,7 @@
     "best": true,
     "topics": [
       "GAMES",
-      "DEMOS",
-      "UTILITIES"
+      "TEXT"
     ],
     "description": "Puzzle: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -4621,9 +4598,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "MATH",
-      "DOCS",
-      "DEMOS",
       "UTILITIES"
     ],
     "description": "Tab Converter: H:1-40 V:1-24 Q:QUITS [utilities program]",
@@ -4649,8 +4623,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Worm: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -4675,9 +4648,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "TEXT",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Catalog Memo: (ENTER 22 CHAR MEMO <RTN> ALONE ENDS) [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -4749,8 +4720,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "PRODUCTIVITY",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
     "description": "Roman Numeral Convert: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -4834,9 +4804,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Length Maker: IFL<4THEN?",
     "graphics_mode": "TEXT.MODE"
@@ -4848,7 +4816,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "TEXT"
+      "UTILITIES"
     ],
     "description": "Length: IFL<4THEN?",
     "graphics_mode": "TEXT.MODE"
@@ -4970,7 +4938,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "GRAPHICS",
       "HI.RES"
     ],
     "description": "Maze: interactive game program for Apple II [games program]",
@@ -5300,8 +5267,7 @@
     "best": true,
     "topics": [
       "MATH",
-      "GRAPHICS",
-      "UTILITIES",
+      "SCIENCE",
       "HI.RES"
     ],
     "description": "Diffraction: math and calculation program [graphics program]",
@@ -5351,9 +5317,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES",
-      "GRAPHICS",
-      "DEMOS"
+      "GAMES"
     ],
     "description": "Unjumbler 40: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5365,9 +5329,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES",
-      "GRAPHICS",
-      "DEMOS"
+      "GAMES"
     ],
     "description": "Unjumbler 80: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5391,9 +5353,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "MATH",
-      "GRAPHICS",
-      "DEMOS"
+      "MATH"
     ],
     "description": "Calendar Year: math and calculation program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -6000,9 +5960,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DOCS",
-      "DEMOS"
+      "UTILITIES"
     ],
     "description": "Cat.Dater: THE CATALOG WILL BE TIME STAMPED",
     "graphics_mode": "TEXT.MODE"
@@ -6161,8 +6119,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "LO.RES",
-      "DEMOS"
+      "LO.RES"
     ],
     "description": "Scrn 80 Demo: double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
     "graphics_mode": "LO.RES"
@@ -6223,10 +6180,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "TEXT",
-      "DOCS",
-      "UTILITIES",
-      "GRAPHICS",
+      "ANIMATION",
       "HI.RES"
     ],
     "description": "Drift: accept keyboard input and convert to upper case",
@@ -6410,8 +6364,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "HI.RES",
-      "DEMOS"
+      "HI.RES"
     ],
     "description": "Snowflakes: graphics and visual effects program",
     "graphics_mode": "HI.RES"
@@ -6473,7 +6426,7 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS"
+      "ANIMATION"
     ],
     "description": "Melbourne Oz: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6939,7 +6892,6 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS",
       "UTILITIES",
       "LO.RES"
     ],
@@ -7306,7 +7258,8 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "DEMOS"
+      "AUDIO",
+      "ANIMATION"
     ],
     "description": "Interference: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7634,9 +7587,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "LO.RES",
-      "ANIMATION",
-      "UTILITIES"
+      "LO.RES"
     ],
     "description": "Et: out-of-this-world graphic displays",
     "graphics_mode": "LO.RES"
@@ -7759,7 +7710,6 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "ANIMATION",
       "MATH"
     ],
     "description": "Julia Fractals: develops fractal images based on the iteration of the X -> X^2 + C",
