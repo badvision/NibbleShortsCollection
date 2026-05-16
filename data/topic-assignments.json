@@ -6,7 +6,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Nibble: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -30,7 +30,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "New Cursor: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -42,7 +42,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES",
+      "DEMOS",
       "HI.RES"
     ],
     "description": "Climb A Mountain: interactive game program for Apple II [graphics program]",
@@ -477,7 +477,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Nibble Is Awesome: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -562,10 +562,9 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
       "HI.RES"
     ],
-    "description": "Dragon: interactive game program for Apple II [graphics program]",
+    "description": "Dragon: Draw a dragon shape",
     "graphics_mode": "HI.RES"
   },
   {
@@ -577,7 +576,7 @@
     "topics": [
       "DOCS"
     ],
-    "description": "Dragon Instructions: RESPOND TO THE PROMPT WITH A NUMBER     FROM 1 TO 7.",
+    "description": "Dragon Instructions: RESPOND TO THE PROMPT WITH A NUMBER FROM 1 TO 7.",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -711,7 +710,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Bounce: RUNNING 'BOUNCE' WILL CLEAR THE SCREEN  BY BOUNCING THE TEXT UP AND DOWN UNTIL  IT IS GONE.",
     "graphics_mode": "TEXT.MODE"
@@ -775,7 +774,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES",
+      "PRODUCTIVITY",
       "LO.RES"
     ],
     "description": "Meteorite Navigator: Nibble magazine Apple II BASIC program [utilities program]",
@@ -788,7 +787,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
       "LO.RES"
     ],
     "description": "Lo Res Maze Generator: interactive game program for Apple II [graphics program]",
@@ -928,7 +926,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS",
+      "ANIMATION"
     ],
     "description": "Star Bounce: interactive game program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -940,7 +939,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "One Liner Editing: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -1001,7 +1000,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Ctrl Reset 80 Columns: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -1210,7 +1209,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
       "HI.RES"
     ],
     "description": "Burst: Nibble magazine Apple II BASIC program",
@@ -1580,7 +1578,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
+      "DEMOS",
       "HI.RES"
     ],
     "description": "Quilt: Nibble magazine Apple II BASIC program",
@@ -1605,7 +1603,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "On The Road: Nibble magazine Apple II BASIC program [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -1677,7 +1675,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Locator: 'BRUN LOCATOR' TO LOAD THE PROGRAM INTO THE AMPERSAND VECTOR.  THEREAFTER, TYPE '&' FOLLOWED BY AN APPLESOFT LINE       NUMBER, AND THE MEMORY ADDRESS WHERE    THAT LINE IS STORED WILL BE DISPLAYED.",
     "graphics_mode": "TEXT.MODE"
@@ -1713,10 +1711,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
-      "ANIMATION",
-      "UTILITIES",
-      "HI.RES"
+      "HI.RES",
+      "MATH"
     ],
     "description": "Sine Plotter: Target Shooting Ken Flood, Jr.",
     "graphics_mode": "HI.RES"
@@ -2022,8 +2018,9 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION",
+      "DEMOS"
     ],
     "description": "Line Explosion: Nibble magazine Apple II BASIC program",
     "graphics_mode": "HI.RES"
@@ -2278,10 +2275,9 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES"
+      "MATH"
     ],
-    "description": "Dec-Hex: Maze Generator Patrick Shea",
+    "description": "Dec-Hex: Convert dec/hex",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -2293,7 +2289,7 @@
     "topics": [
       "DOCS"
     ],
-    "description": "Dec-Hex Instructions: Maze Generator Patrick Shea",
+    "description": "Dec-Hex: Convert dec/hex",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -2622,10 +2618,9 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
       "UTILITIES"
     ],
-    "description": "Dos Commands: Conway's Game of Life Gene Masse",
+    "description": "Dos Commands: List dos commands",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -2665,7 +2660,7 @@
       "HI.RES",
       "LO.RES"
     ],
-    "description": "Life 2: THIS VERSION OF THE GAME OF LIFE IS     SEEDED BY AN R-SHAPED PENTOMINO PATTERN.'BRUN LIFE' TO VIEW IT.  ALTERNATELY,   'BLOAD LIFE' AND 'CALL 4096'.",
+    "description": "Life 2: THIS VERSION OF THE GAME OF LIFE IS SEEDED BY AN R-SHAPED PENTOMINO PATTERN.'BRUN LIFE' TO VIEW IT.  ALTERNATELY, 'BLOAD LIFE' AND 'CALL 4096'.",
     "graphics_mode": "BOTH"
   },
   {
@@ -2677,7 +2672,7 @@
     "topics": [
       "DOCS"
     ],
-    "description": "Life 2 Instructions: THIS VERSION OF THE GAME OF LIFE IS     SEEDED BY AN R-SHAPED PENTOMINO PATTERN.'BRUN LIFE' TO VIEW IT.  ALTERNATELY,   'BLOAD LIFE' AND 'CALL 4096'.",
+    "description": "Life 2 Instructions: THIS VERSION OF THE GAME OF LIFE IS SEEDED BY AN R-SHAPED PENTOMINO PATTERN.'BRUN LIFE' TO VIEW IT.  ALTERNATELY, 'BLOAD LIFE' AND 'CALL 4096'.",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -2729,7 +2724,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES",
+      "PRODUCTIVITY",
       "GAMES",
       "DEMOS"
     ],
@@ -2743,7 +2738,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Text Editor: system utility program for Apple II",
     "graphics_mode": "TEXT.MODE"
@@ -3029,7 +3024,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Apple Identifier: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -3053,7 +3048,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Jumping Jacks: interactive game program for Apple II [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -3309,8 +3304,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
-      "DOCS"
+      "UTILITIES"
     ],
     "description": "Pascal Cards: Pascal cards",
     "graphics_mode": "TEXT.MODE"
@@ -3373,7 +3367,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
+      "GRAPHICS",
       "HI.RES"
     ],
     "description": "Character Designer: Nibble magazine Apple II BASIC program",
@@ -3398,7 +3392,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Print Scrn Cat: 'BRUN PRINT SCRN CAT' WILL INSTALL THE  FOLLOWING COMMANDS TO APPLESOFT: [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -3510,7 +3504,6 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
       "DEMOS",
       "HI.RES"
     ],
@@ -3524,7 +3517,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES"
+      "PRODUCTIVITY"
     ],
     "description": "Checkbook: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -3548,7 +3541,7 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "GAMES",
+      "DEMOS",
       "HI.RES"
     ],
     "description": "Quilt: Nibble magazine Apple II BASIC program",
@@ -3672,7 +3665,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Al: AFTER 'BRUN AL', THE '&' COMMAND WILL   DISPLAY THE STARTING ADDRESS AND LENGTH OF THE LAST PROGRAM BLOADED INTO MEMORY.BOTH DECIMAL AND HEXADECIMAL VALUES WILLBE DISPLAYED.",
     "graphics_mode": "TEXT.MODE"
@@ -3721,7 +3714,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "HI.RES",
+      "DEMOS"
     ],
     "description": "Hi-Res Reverse: TO REVERSE THE COLORS OF A HI-RES       DISPLAY, 'BLOAD HI-RES REVERSE' AND THENDO 'CALL 781' TO REVERSE PAGE 1 OR      'CALL 768' TO REVERSE PAGE 2.",
     "graphics_mode": "TEXT.MODE"
@@ -3745,7 +3739,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "UTILITIES"
+      "PRODUCTIVITY"
     ],
     "description": "Morse Code: 'BRUN MORSE CODE' AND TYPE IN A         CHARACTER.  THE MORSE CODE EQUIVALENT   FOR THAT CHARACTER WILL BE HEARD.",
     "graphics_mode": "TEXT.MODE"
@@ -3769,7 +3763,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "HI.RES",
+      "DEMOS"
     ],
     "description": "Fader: WHILE VIEWING HI-RES PAGE 1, BRUN FADER TO CAUSE THE CONTENTS OF HI-RES PAGE 2  TO GRADUALLY APPEAR.",
     "graphics_mode": "TEXT.MODE"
@@ -3793,7 +3788,8 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "LO.RES"
+      "LO.RES",
+      "GAMES"
     ],
     "description": "Pong: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "LO.RES"
@@ -3945,9 +3941,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES",
-      "DEMOS",
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Permutations Combinations: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4243,7 +4237,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Go Var: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4267,7 +4261,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Apple Identifier: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -4638,8 +4632,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES",
-      "HI.RES"
+      "UTILITIES"
     ],
     "description": "Quick Keys: AFTER 'BRUN QUICK KEYS', THE FOLLOWING  SHORTCUTS BECOME ACTIVE:",
     "graphics_mode": "HI.RES"
@@ -4791,7 +4784,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "UTILITIES",
+      "PRODUCTIVITY",
       "DEMOS"
     ],
     "description": "Roman Numeral Convert: system utility program for Apple II",
@@ -4854,8 +4847,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
       "DEMOS"
     ],
     "description": "Bars: Nibble magazine Apple II BASIC program",
@@ -4918,8 +4909,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
       "DEMOS"
     ],
     "description": "Loser Tune: Nibble magazine Apple II BASIC program",
@@ -4932,7 +4921,7 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES"
+      "PRODUCTIVITY"
     ],
     "description": "Easter: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5216,8 +5205,6 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "GAMES",
-      "DEMOS",
       "UTILITIES"
     ],
     "description": "Free Space: interactive game program for Apple II",
@@ -5540,7 +5527,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES"
+      "MATH"
     ],
     "description": "Roundit: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5601,9 +5588,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "UTILITIES",
-      "DOCS",
-      "SCIENCE"
+      "MATH"
     ],
     "description": "Combinations: COMBINATIONS: N THINGS TAKEN R AT A TIME",
     "graphics_mode": "TEXT.MODE"
@@ -5615,7 +5600,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Screen Fall: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -5810,8 +5795,6 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES",
-      "SIMULATION",
       "UTILITIES"
     ],
     "description": "Get Plus: Nibble magazine Apple II BASIC program",
@@ -5932,8 +5915,8 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES",
-      "DEMOS"
+      "DEMOS",
+      "ANIMATION"
     ],
     "description": "Nibble Express: TOOT TOOT [utilities program]",
     "graphics_mode": "TEXT.MODE"
@@ -5984,7 +5967,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES"
+      "PRODUCTIVITY"
     ],
     "description": "Procom: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6044,9 +6027,7 @@
     "year": 1989,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
-      "DEMOS"
+      "PRODUCTIVITY"
     ],
     "description": "Awp Reader: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6120,7 +6101,6 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES",
       "DEMOS"
     ],
     "description": "Underscore Cursor: Nibble magazine Apple II BASIC program",
@@ -6133,7 +6113,8 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS",
+      "HI.RES"
     ],
     "description": "Slogan: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6234,10 +6215,8 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
-      "SCIENCE",
-      "LO.RES"
+      "LO.RES",
+      "DEMOS"
     ],
     "description": "Scrn 80 Demo: double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
     "graphics_mode": "LO.RES"
@@ -6249,11 +6228,10 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
-      "SCIENCE"
+      "SCIENCE",
+      "MATH"
     ],
-    "description": "Space Weights: double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
+    "description": "Space Weights: Find your weight on the moon and planets",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -6263,11 +6241,9 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
-      "SCIENCE"
+      "DEMOS"
     ],
-    "description": "Framer: double lo-res SCRN function / find your weight on the moon and planets create a MouseText window with shadowing",
+    "description": "Framer: Create a MouseText window with shadowing",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -6627,8 +6603,6 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES",
-      "GRAPHICS",
       "DEMOS",
       "HI.RES"
     ],
@@ -6838,7 +6812,7 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Blocks Vname: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -6971,7 +6945,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES"
+      "DEMOS"
     ],
     "description": "Screen Fall: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7254,10 +7228,9 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES",
       "UTILITIES"
     ],
-    "description": "Ml String: that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
+    "description": "Ml String: convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -7269,7 +7242,7 @@
     "topics": [
       "DOCS"
     ],
-    "description": "Ml String Instructions: that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
+    "description": "Ml String Instructions: convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
     "graphics_mode": "TEXT.MODE"
   },
   {
@@ -7390,7 +7363,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES"
+      "HI.RES",
+      "DEMOS"
     ],
     "description": "Interference: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7416,7 +7390,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Button Usr: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7504,8 +7478,7 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES",
-      "MATH"
+      "UTILITIES"
     ],
     "description": "Iigs Transwarp Detector: No Transwarp",
     "graphics_mode": "TEXT.MODE"
@@ -7543,9 +7516,9 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES",
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION",
+      "DEMOS"
     ],
     "description": "Star.Travel: travel through space back out of a subdirectory change background, border, and text color on GS",
     "graphics_mode": "HI.RES"
@@ -7678,7 +7651,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "GAMES"
+      "UTILITIES"
     ],
     "description": "Input Line: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7702,8 +7675,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Binary Convert: fill your screen with rotating colors convert binary numbers into decimal",
     "graphics_mode": "TEXT.MODE"
@@ -7925,7 +7897,7 @@
     "year": 1992,
     "best": true,
     "topics": [
-      "UTILITIES",
+      "PRODUCTIVITY",
       "LO.RES"
     ],
     "description": "Meteorite Navigator: Nibble magazine Apple II BASIC program [utilities program]",

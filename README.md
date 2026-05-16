@@ -57,7 +57,9 @@ The canonical program list is `data/topic-assignments.json`. Each entry has:
 
 ### Topics
 
-`ANIMATION`, `AUDIO`, `BUSINESS`, `EDUCATION`, `GAMES`, `GRAPHICS`, `HI.RES`, `LO.RES`, `MATH`, `SCIENCE`, `TEXT`, `UTILITIES`
+`ANIMATION`, `AUDIO`, `BUSINESS`, `DEMOS`, `EDUCATION`, `GAMES`, `GRAPHICS`, `HI.RES`, `LO.RES`, `MATH`, `PRODUCTIVITY`, `SCIENCE`, `TEXT`, `UTILITIES`
+
+`PRODUCTIVITY` = serves a general non-computer real-world purpose (calendar, checkbook, document reader, navigation). `UTILITIES` = programming/systems tools (disk, memory, BASIC, DOS/ProDOS). These are built dynamically from the data — the topic menu reflects whatever categories are present.
 
 Special internal topic `DOCS` marks instruction BASIC files and standalone pic files linked to a parent program. DOCS BASIC files are excluded from the disk as executables; DOCS BIN files (pics) are included for BLOAD.
 
