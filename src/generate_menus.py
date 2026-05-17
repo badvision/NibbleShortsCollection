@@ -357,6 +357,7 @@ def extract_instr_text(bas_path):
             if m2:
                 text = m2.group(1)
                 text = text.replace(',', ';').replace('|', '-')
+                text = re.sub(r'  +', ' ', text)  # collapse multiple spaces
                 lines.append(text)
                 continue
             # Match bare PRINT (no argument) -> blank line
@@ -374,6 +375,7 @@ def extract_instr_text(bas_path):
                 sub = re.match(r'^PRINT\s+"(.*)"', remainder, re.IGNORECASE)
                 if sub:
                     text = sub.group(1).replace(',', ';').replace('|', '-')
+                    text = re.sub(r'  +', ' ', text)
                     lines.append(text)
                 elif re.match(r'^PRINT\s*$', remainder, re.IGNORECASE):
                     lines.append('')
