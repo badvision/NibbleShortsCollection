@@ -640,6 +640,17 @@ startup_lines = [
 write_bas(str(DIST_DIR / 'STARTUP.bas'), startup_lines)
 
 # ---------------------------------------------------------------------------
+# MENU.STUB.bas -- placed in each Y{year}/ subdirectory as "MENU"
+# Resets prefix to / then runs the top-level MENU program.
+# ---------------------------------------------------------------------------
+
+menu_stub_lines = [
+    (10, 'PRINT CHR$(4)"PREFIX /"'),
+    (20, 'PRINT CHR$(4)"RUN MENU"'),
+]
+write_bas(str(DIST_DIR / 'MENU.STUB.bas'), menu_stub_lines)
+
+# ---------------------------------------------------------------------------
 # MENU.bas
 # ---------------------------------------------------------------------------
 
