@@ -1,1 +1,1 @@
-USE THE 'I'; 'J'; 'K'; AND 'M' KEYSTO  MOVE.
+USE THE 'I'; 'J'; 'K'; AND 'M' KEYSTO MOVE.

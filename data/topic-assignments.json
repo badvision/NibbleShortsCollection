@@ -239,7 +239,8 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Fast Flash: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -350,8 +351,7 @@
     "year": 1984,
     "best": true,
     "topics": [
-      "HI.RES",
-      "LO.RES"
+      "HI.RES"
     ],
     "description": "Hi Res Inverter: graphics and visual effects program",
     "graphics_mode": "BOTH"
@@ -741,10 +741,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "HI.RES",
-      "DOCS",
-      "UTILITIES",
-      "GAMES"
+      "HI.RES"
     ],
     "description": "Slide Show: Fernando Madrid",
     "graphics_mode": "HI.RES"
@@ -768,11 +765,11 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "PRODUCTIVITY",
-      "LO.RES"
+      "TEXT",
+      "GAMES"
     ],
     "description": "Meteorite Navigator: Nibble magazine Apple II BASIC program [utilities program]",
-    "graphics_mode": "LO.RES"
+    "graphics_mode": "TEXT.MODE"
   },
   {
     "disk_key": "1985_PT1",
@@ -829,8 +826,6 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES",
       "HI.RES"
     ],
     "description": "Kaleidoscope: Center Text J. Morris Prosser",
@@ -1270,8 +1265,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "DOCS",
-      "UTILITIES",
       "LO.RES"
     ],
     "description": "Tinier Tic-Tac-Toe: Joystick Drawing Bernard Cena - Page 45 -",
@@ -1296,8 +1289,7 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "GAMES",
-      "UTILITIES"
+      "GAMES"
     ],
     "description": "Blackjack: a fully functioning Blackjack game",
     "graphics_mode": "TEXT.MODE"
@@ -1871,7 +1863,8 @@
     "year": 1985,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Hypnosis: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -2635,7 +2628,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "HI.RES",
       "LO.RES"
     ],
     "description": "Life 2: THIS VERSION OF THE GAME OF LIFE IS SEEDED BY AN R-SHAPED PENTOMINO PATTERN.'BRUN LIFE' TO VIEW IT.  ALTERNATELY, 'BLOAD LIFE' AND 'CALL 4096'.",
@@ -3201,9 +3193,8 @@
     "year": 1986,
     "best": true,
     "topics": [
-      "TEXT",
-      "UTILITIES",
-      "HI.RES"
+      "HI.RES",
+      "MATH"
     ],
     "description": "Cube Rotator: String Finder Ken Jenks",
     "graphics_mode": "HI.RES"
@@ -3253,8 +3244,7 @@
     "best": true,
     "topics": [
       "LO.RES",
-      "ANIMATION",
-      "UTILITIES"
+      "ANIMATION"
     ],
     "description": "Stars And Stripes: STARS AND STRIPES FOREVER [graphics program]",
     "graphics_mode": "LO.RES"
@@ -3425,7 +3415,6 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "UTILITIES",
       "MATH"
     ],
     "description": "Graphs: graphics and visual effects program [graphics program]",
@@ -3561,8 +3550,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "MATH",
-      "UTILITIES"
+      "MATH"
     ],
     "description": "Factors: math and calculation program",
     "graphics_mode": "TEXT.MODE"
@@ -3574,8 +3562,7 @@
     "year": 1987,
     "best": true,
     "topics": [
-      "HI.RES",
-      "UTILITIES"
+      "HI.RES"
     ],
     "description": "Diamond: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -3760,7 +3747,7 @@
     "best": true,
     "topics": [
       "GAMES",
-      "LO.RES"
+      "TEXT"
     ],
     "description": "Text Invaders: interactive game program for Apple II [utilities program]",
     "graphics_mode": "LO.RES"
@@ -4294,7 +4281,6 @@
     "best": true,
     "topics": [
       "HI.RES",
-      "UTILITIES",
       "MATH"
     ],
     "description": "Grapher: graphics and visual effects program [graphics program]",
@@ -4428,7 +4414,8 @@
     "year": 1988,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "GAMES"
     ],
     "description": "Meteoroids: Nibble magazine Apple II BASIC program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -6106,7 +6093,6 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "HI.RES",
       "LO.RES"
     ],
     "description": "Scrn 80: THE APPLESOFT SCRN() FUNCTION DOESN'T WORK CORRECTLY WITH DOUBLE LO-RES [graphics program]",
@@ -6218,7 +6204,8 @@
     "year": 1990,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Fireworks: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -7074,7 +7061,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "GAMES"
+      "GAMES",
+      "TEXT"
     ],
     "description": "Pig Latin Translator: Nibble magazine Apple II BASIC program",
     "graphics_mode": "TEXT.MODE"
@@ -7087,7 +7075,7 @@
     "best": true,
     "topics": [
       "GAMES",
-      "UTILITIES"
+      "TEXT"
     ],
     "description": "Oh Fudge: that game with 15 holes and 14 golf tees hex conversion program convert a short binary routine into a pair of Applesoft strings to be POKEd into memory",
     "graphics_mode": "TEXT.MODE"
@@ -7454,7 +7442,8 @@
     "year": 1991,
     "best": true,
     "topics": [
-      "HI.RES"
+      "HI.RES",
+      "ANIMATION"
     ],
     "description": "Fireworks Ii: graphics and visual effects program [graphics program]",
     "graphics_mode": "HI.RES"
@@ -7624,7 +7613,6 @@
     "best": true,
     "topics": [
       "GAMES",
-      "UTILITIES",
       "LO.RES"
     ],
     "description": "Snake: interactive game program for Apple II [graphics program]",
@@ -7774,19 +7762,6 @@
     ],
     "description": "Doscat Instructions: AFTER RUNNING 'DOS CATALOG', THE        FILENAMES IN THE DOS 3.3 CATALOG WILL   BE STORED IN THE Q$ ARRAY.  THIS CODE   CAN BE USED AS A SUBROUTINE IN A LARGER PROGRAM. [utilities program]",
     "graphics_mode": "TEXT.MODE"
-  },
-  {
-    "disk_key": "1992_PT1",
-    "original_name": "METEORITE NAVIGATOR",
-    "prodos_name": "METEORITE",
-    "year": 1992,
-    "best": true,
-    "topics": [
-      "PRODUCTIVITY",
-      "LO.RES"
-    ],
-    "description": "Meteorite Navigator: Nibble magazine Apple II BASIC program [utilities program]",
-    "graphics_mode": "LO.RES"
   },
   {
     "disk_key": "1992_PT1",
