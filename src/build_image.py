@@ -246,26 +246,37 @@ def add_menu_files(programs: list[dict]) -> int:
     added = 0
     errors = []
 
-    # Tokenize root menu BASIC programs with a single cp2 import bas call
+    # Tokenize root menu BASIC programs.
+    # cp2 import bas derives the ProDOS filename from the host filename,
+    # stripping the extension. Run from a staging dir with just bare filenames
+    # so they land at the root, not under a path like dist/STARTUP.
     print("\nImporting root menu BASIC programs…")
-    bas_files = []
+    menu_bas_stage = STAGE_DIR / "_menu_bas"
+    menu_bas_stage.mkdir(parents=True, exist_ok=True)
+    bas_names = []
     for name in ['STARTUP', 'MENU', 'BY.YEAR', 'BY.NAME', 'BY.TOPIC']:
         bas_path = DIST_DIR / f'{name}.bas'
         if not bas_path.exists():
             errors.append(f"MISSING menu file: {bas_path}")
             print(f"  MISSING: {bas_path}")
         else:
-            bas_files.append(str(bas_path))
-    if bas_files:
-        rc, _, err = run([CP2, "import", str(OUTPUT_IMAGE), "bas"] + bas_files)
+            (menu_bas_stage / f'{name}.bas').write_bytes(bas_path.read_bytes())
+            bas_names.append(f'{name}.bas')
+    if bas_names:
+        rc, _, err = run(
+            [CP2, "import", str(OUTPUT_IMAGE), "bas"] + bas_names,
+            cwd=menu_bas_stage,
+        )
         if rc != 0:
             errors.append(f"WRITE FAIL menu bas: {err.strip()[:120]}")
             print(f"  ERROR importing menu bas files: {err.strip()[:120]}")
         else:
-            print(f"  Imported: {', '.join(Path(p).stem for p in bas_files)}")
-            added += len(bas_files)
+            print(f"  Imported: {', '.join(Path(n).stem for n in bas_names)}")
+            added += len(bas_names)
 
-    # Tokenize MENU stub into each year subdirectory
+    # Tokenize MENU stub into each year subdirectory.
+    # Stage as Y{year}/MENU.bas and run cp2 import from the staging root so the
+    # ProDOS path becomes Y{year}/MENU.
     print("\nImporting MENU stub into year subdirectories…")
     stub_path = DIST_DIR / 'MENU.STUB.bas'
     if not stub_path.exists():
@@ -273,17 +284,19 @@ def add_menu_files(programs: list[dict]) -> int:
         print(f"  MISSING: {stub_path}")
     else:
         stub_years = sorted({p['year'] for p in programs if p.get('best', True)})
-        # Stage stub copies with correct destination paths, then import all at once
         stub_stage = STAGE_DIR / "_stubs"
         stub_stage.mkdir(parents=True, exist_ok=True)
         stub_src = stub_path.read_bytes()
+        stub_rel_paths = []
         for year in stub_years:
-            year_stub_dir = stub_stage / f"Y{year}"
-            year_stub_dir.mkdir(exist_ok=True)
-            (year_stub_dir / "MENU.bas").write_bytes(stub_src)
-        # Import each year's stub (cp2 import places file at Y{year}/MENU)
-        stub_bas_files = [str(stub_stage / f"Y{year}" / "MENU.bas") for year in stub_years]
-        rc, _, err = run([CP2, "import", str(OUTPUT_IMAGE), "bas"] + stub_bas_files)
+            year_dir = stub_stage / f"Y{year}"
+            year_dir.mkdir(exist_ok=True)
+            (year_dir / "MENU.bas").write_bytes(stub_src)
+            stub_rel_paths.append(f"Y{year}/MENU.bas")
+        rc, _, err = run(
+            [CP2, "import", str(OUTPUT_IMAGE), "bas"] + stub_rel_paths,
+            cwd=stub_stage,
+        )
         if rc != 0:
             errors.append(f"WRITE FAIL year MENU stubs: {err.strip()[:120]}")
             print(f"  ERROR: {err.strip()[:120]}")
