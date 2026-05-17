@@ -99,10 +99,14 @@ non_docs_all = {}
 for e in non_docs_entries:
     non_docs_all[e['original_name'].upper()] = e
 
-has_instructions = {}  # (disk_key, prodos_name) -> instr_prodos_name
-linkage = []
-unmatched_docs = []
+# has_instructions is built from docs-linkage.json (the authoritative source),
+# not from re-running the suffix-strip matcher. This ensures manual corrections
+# in docs-linkage.json (e.g. FIREWORKS.INSTR -> FIREWORKS.II) are respected.
+# It is populated after docs-linkage.json is loaded below.
+has_instructions = {}  # (disk_key, prodos_name) -> True; set after docs-linkage load
 
+# Still count DOCS entries for informational output
+unmatched_docs = []
 for doc in docs_entries:
     doc_name_upper = doc['original_name'].upper()
     bare = None
@@ -110,40 +114,12 @@ for doc in docs_entries:
         if doc_name_upper.endswith(suf):
             bare = doc_name_upper[:len(doc_name_upper) - len(suf)].strip()
             break
-
-    matched_parent = None
-    if bare:
-        disk_programs = non_docs_by_disk.get(doc['disk_key'], {})
-        if bare in disk_programs:
-            matched_parent = disk_programs[bare]
-        if not matched_parent:
-            for dk, progs in non_docs_by_disk.items():
-                if dk.startswith(str(doc['year'])):
-                    if bare in progs:
-                        matched_parent = progs[bare]
-                        break
-        if not matched_parent and bare in non_docs_all:
-            matched_parent = non_docs_all[bare]
-        if not matched_parent:
-            for prog_name, prog_entry in disk_programs.items():
-                if prog_name.startswith(bare) or bare.startswith(prog_name):
-                    matched_parent = prog_entry
-                    break
-
-    if matched_parent:
-        key = (matched_parent['disk_key'], matched_parent['prodos_name'])
-        if key not in has_instructions:
-            has_instructions[key] = doc['prodos_name']
-        linkage.append({'matched': True, 'docs': doc['original_name'],
-                        'parent': matched_parent['original_name']})
-    else:
+    # Only flag as unmatched if it's a BASIC instruction file (not a .PIC)
+    ftype, _ = file_type_lookup.get((doc['disk_key'], doc['original_name']), ('A', 0))
+    if ftype == 'A' and not bare:
         unmatched_docs.append(doc['original_name'])
-        linkage.append({'matched': False, 'docs': doc['original_name']})
 
-matched_count = sum(1 for l in linkage if l['matched'])
-print(f"DOCS linkage: {matched_count} matched, {len(unmatched_docs)} unmatched out of {len(docs_entries)} total")
-if unmatched_docs:
-    print("Unmatched DOCS:", unmatched_docs[:5])
+print(f"DOCS entries: {len(docs_entries)} total")
 
 # ---------------------------------------------------------------------------
 # Load dependency-map.json and build parent -> pic_count mapping
@@ -278,6 +254,25 @@ def txt_name_for(parent_prodos_name):
         base = base[:13]
     return base + '.T'
 
+
+# ---------------------------------------------------------------------------
+# Load docs-linkage.json early so has_instructions is populated before
+# the programs list is built (flags depend on it).
+# ---------------------------------------------------------------------------
+
+with open(DATA_DIR / 'docs-linkage.json') as f:
+    docs_linkage = json.load(f)
+
+for entry in docs_linkage:
+    if entry.get('matched'):
+        key = (entry['parent_disk_key'], entry['parent_prodos_name'])
+        docs_dk = entry.get('docs_disk_key', entry.get('parent_disk_key'))
+        docs_orig = entry.get('docs_original_name', '')
+        ftype, _ = file_type_lookup.get((docs_dk, docs_orig), ('A', 0))
+        if ftype == 'A':
+            has_instructions[key] = True
+
+print(f"  has_instructions entries from docs-linkage.json: {len(has_instructions)}")
 
 programs = []
 skipped_pics = []
@@ -421,10 +416,6 @@ def find_bas_file(disk_key, original_name):
         return folder + attempt2
     return None
 
-
-# Load docs-linkage to know which instruction files map to which parent
-with open(DATA_DIR / 'docs-linkage.json') as f:
-    docs_linkage = json.load(f)
 
 # Build lookup: (parent_disk_key, parent_prodos_name) -> docs entry
 parent_to_docs = {}
