@@ -1553,10 +1553,10 @@
     "docs_disk_key": "1991_PT2",
     "docs_prodos_name": "FIREWORKS.INSTR",
     "docs_original_name": "FIREWORKS.INSTR",
-    "parent_prodos_name": "FIREWORKS",
-    "parent_original_name": "FIREWORKS",
-    "parent_disk_key": "1990_PT1",
-    "parent_year": 1990,
+    "parent_prodos_name": "FIREWORKS.II",
+    "parent_original_name": "FIREWORKS.II",
+    "parent_disk_key": "1991_PT2",
+    "parent_year": 1991,
     "matched": true
   },
   {
