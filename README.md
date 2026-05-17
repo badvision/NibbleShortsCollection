@@ -1,6 +1,6 @@
 # Nibble Magazine Apple II Library
 
-447 BASIC and binary programs extracted from Nibble magazine disk images (1984–1992), packaged as a browseable ProDOS 800KB hard disk image with menus by year, name, and topic.
+446 BASIC and binary programs extracted from Nibble magazine disk images (1984–1992), packaged as a browseable ProDOS 800KB hard disk image with menus by year, name, and topic.
 
 ## Build
 
@@ -8,17 +8,16 @@
 make
 ```
 
-Output: `dist/NIBBLE.LIBRARY.po` (800KB ProDOS image, ~708KB used)
+Output: `dist/NIBBLE.LIBRARY.po` (800KB ProDOS image, ~720KB used)
 
 **Requirements:**
 - Python 3
-- Java 21+ (AppleCommander requires class file version 65.0)
 - `cp2` (CiderPress II) on PATH
 - `ProDOS_2.4.2.dsk` at `/Users/brobert/Desktop/Disks/ProDOS_2.4.2.dsk`
 
 The build runs in two phases:
 1. `generate_menus.py` — produces BASIC menu programs, data files, and instruction `.T` text files into `dist/`
-2. `build_image.py` — assembles the ProDOS disk image
+2. `build_image.py` — assembles the ProDOS disk image (~7 seconds)
 
 ## Using the Disk
 
@@ -30,6 +29,8 @@ Boot in any Apple II emulator or real hardware with a SmartPort-compatible hard 
 - **4) About** — usage notes
 
 When a program has an instruction file, the menu shows it before running. Programs with hi-res pictures display them after running (press any key to advance).
+
+Press `$` (Shift-4) for 40-column mode, `*` (Shift-8) for 80-column mode, from any browse screen.
 
 To return to the menu from any program: `RUN MENU`
 
@@ -52,14 +53,15 @@ The canonical program list is `data/topic-assignments.json`. Each entry has:
 
 **Key fields:**
 - `best: false` — excludes the entry from the disk image entirely
-- `topics[0]` — primary topic; `"DOCS"` marks instruction/pic-only files excluded as executables
+- `topics` — array of topics; a program appears in each topic's browse section. `topics[0]` is the primary topic.
+- `"DOCS"` as `topics[0]` — marks instruction/pic-only support files excluded as executables
 - `prodos_name` — ProDOS filename on disk (max 15 chars, no spaces)
 
 ### Topics
 
-`ANIMATION`, `AUDIO`, `BUSINESS`, `DEMOS`, `EDUCATION`, `GAMES`, `GRAPHICS`, `HI.RES`, `LO.RES`, `MATH`, `PRODUCTIVITY`, `SCIENCE`, `TEXT`, `UTILITIES`
+`ANIMATION`, `AUDIO`, `DEMOS`, `EDUCATION`, `GAMES`, `GRAPHICS`, `HI.RES`, `IIGS`, `LO.RES`, `MATH`, `PRODUCTIVITY`, `SCIENCE`, `TEXT`, `UTILITIES`
 
-`PRODUCTIVITY` = serves a general non-computer real-world purpose (calendar, checkbook, document reader, navigation). `UTILITIES` = programming/systems tools (disk, memory, BASIC, DOS/ProDOS). These are built dynamically from the data — the topic menu reflects whatever categories are present.
+`PRODUCTIVITY` = serves a general non-computer real-world purpose (calendar, checkbook, document reader, navigation). `UTILITIES` = programming/systems tools (disk, memory, BASIC, DOS/ProDOS). Topics are built dynamically from the data — the topic menu reflects whatever categories are present. Programs with multiple topics appear under each one.
 
 Special internal topic `DOCS` marks instruction BASIC files and standalone pic files linked to a parent program. DOCS BASIC files are excluded from the disk as executables; DOCS BIN files (pics) are included for BLOAD.
 
@@ -69,7 +71,9 @@ Special internal topic `DOCS` marks instruction BASIC files and standalone pic f
 2. `make` to rebuild
 
 To exclude a program entirely: set `"best": false`.
-To recategorize: change `topics[0]` to a different topic.
+To recategorize: change `topics[0]` (and add/remove entries in the array as needed).
+
+To fix a mislinked instruction file: edit `data/docs-linkage.json` directly — find the entry by `docs_original_name` and correct `parent_prodos_name`, `parent_disk_key`, and `parent_year`.
 
 ## Project Layout
 
@@ -90,7 +94,7 @@ src/
   build_image.py            Phase 2: assemble ProDOS disk image
 
 tools/
-  AppleCommander-ac.jar     BASIC tokenization and file import (requires Java 21+)
+  AppleCommander-ac.jar     Kept for reference; not used in build
 
 dist/                       Build output (not committed)
   NIBBLE.LIBRARY.po         The assembled disk image
@@ -113,6 +117,8 @@ YEAR_OFFSET,PRODOS_NAME,DISPLAY_NAME,FLAGS,PC\r
 - `FLAGS` — 0=BASIC, 1=BASIC+instructions, 2=binary, 3=binary+instructions, 4=standalone pic
 - `PC` — pic count (0–9); number of hi-res images linked to this program
 
+`NAME.DATA` and `YEAR.DATA` contain one record per program (446 records). `TOPIC.DATA` contains one record per (program, topic) pair — programs with multiple topics appear once per topic (645 records total).
+
 ## Instruction Files
 
 Programs with a companion instruction file in `docs-linkage.json` get their instructions extracted as a `.T` text file placed in the year directory on disk (e.g. `Y1985/MANDELBROT.T`). The menu BASIC reads and displays this before running the program.
@@ -124,7 +130,7 @@ Instruction `.T` filenames are derived at runtime: `LEFT$(PRODOS_NAME, 13) + ".T
 Programs with linked hi-res pictures have `PC > 0`. The menu BASIC:
 1. Switches to HGR2 (`HGR2`) — must come before BLOAD to avoid artifacts
 2. BLOADs the picture to `$4000`
-3. Waits for a keypress, then returns to text mode
+3. Waits for a keypress, then returns to the program detail screen
 
 Picture filenames derived at runtime:
 - PC=1: `LEFT$(PRODOS_NAME, 11) + ".PIC"`
@@ -143,16 +149,18 @@ NIBBLE.1AND2/
   BY.YEAR         BAS  — browse by year
   BY.NAME         BAS  — browse by name
   BY.TOPIC        BAS  — browse by topic
-  NAME.DATA       TXT  — L=55 records sorted by name
-  YEAR.DATA       TXT  — L=55 records sorted by year
-  TOPIC.DATA      TXT  — L=55 records sorted by topic
-  Y1984/               — 41 programs
-  Y1985/               — 121 programs
-  Y1986/               — 55 programs
-  Y1987/               — 48 programs
-  Y1988/               — 43 programs
-  Y1989/               — 43 programs
-  Y1990/               — 44 programs
-  Y1991/               — 38 programs
-  Y1992/               — 14 programs
+  NAME.DATA       TXT  — L=55 records sorted by name (446 records)
+  YEAR.DATA       TXT  — L=55 records sorted by year (446 records)
+  TOPIC.DATA      TXT  — L=55 records sorted by topic (645 records)
+  Y1984/               — 41 programs + instruction files + MENU stub
+  Y1985/               — 120 programs + instruction files + MENU stub
+  Y1986/               — 55 programs + instruction files + MENU stub
+  Y1987/               — 48 programs + instruction files + MENU stub
+  Y1988/               — 43 programs + instruction files + MENU stub
+  Y1989/               — 43 programs + instruction files + MENU stub
+  Y1990/               — 44 programs + instruction files + MENU stub
+  Y1991/               — 38 programs + instruction files + MENU stub
+  Y1992/               — 14 programs + instruction files + MENU stub
 ```
+
+Each year directory contains a `MENU` stub that resets the ProDOS prefix to `/` and chains to the root `MENU` program, so `RUN MENU` works correctly after any program exits.
