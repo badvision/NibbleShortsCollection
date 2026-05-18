@@ -8,6 +8,8 @@
 
 No installation needed — boots directly in the browser.
 
+[**⬇ Download disk image (.po)**](https://github.com/badvision/NibbleShortsCollection/releases/download/v1.0/Nibble.1.and.2.liner.collection.po)
+
 ## Build
 
 ```
