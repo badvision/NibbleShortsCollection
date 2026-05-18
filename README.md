@@ -1,6 +1,12 @@
-# Nibble Magazine Apple II Library
+# Nibble Magazine One and Two-liner Apple II Library
 
-446 BASIC and binary programs extracted from Nibble magazine disk images (1984–1992), packaged as a browseable ProDOS 800KB hard disk image with menus by year, name, and topic.
+446 BASIC and binary programs extracted from Nibble magazine "One and Two Minute Programs" disk images (1984–1992), packaged as a browseable ProDOS 800KB hard disk image with menus by year, name, and topic.
+
+## Try It Now — In Your Browser
+
+[**▶ Launch in Apple2ts**](https://apple2ts.com/#https://github.com/badvision/NibbleShortsCollection/releases/download/v1.0/Nibble.1.and.2.liner.collection.po)
+
+No installation needed — boots directly in the browser.
 
 ## Build
 
@@ -8,7 +14,7 @@
 make
 ```
 
-Output: `dist/NIBBLE.LIBRARY.po` (800KB ProDOS image, ~720KB used)
+Output: `dist/Nibble 1 and 2 liner collection.po` (800KB ProDOS image, ~720KB used)
 
 **Requirements:**
 - Python 3
@@ -97,7 +103,7 @@ tools/
   AppleCommander-ac.jar     Kept for reference; not used in build
 
 dist/                       Build output (not committed)
-  NIBBLE.LIBRARY.po         The assembled disk image
+  Nibble 1 and 2 liner collection.po   The assembled disk image
   *.bas                     Generated BASIC source listings
   *.DATA                    Fixed-record data files (L=55)
   instr-manifest.json       Maps parent programs to their .T instruction files
